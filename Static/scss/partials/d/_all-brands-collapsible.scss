@@ -1,0 +1,87 @@
+.all-brands-wrapper {
+  background-color: map-get($color-map, "white");
+  border: 1px solid map-get($color-map, "whisper");
+  border-radius: 4px;
+}
+
+.all-brands-container {
+  margin: 16px 20px 0;
+}
+
+.brands-list {
+  @include flexbox;
+  @include flex-wrap(wrap);
+  border: 1px solid map-get($color-map, "whisper");
+  max-height: 262px;
+  overflow: hidden;
+}
+
+.brand-item {
+  @include flex-grow(1);
+  min-height: 108px;
+  max-width: 19.79%;
+  border-right: 1px solid map-get($color-map, "whisper");
+  border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.brand-item:nth-child(5n) {
+  border-right: none;
+}
+
+.brand-item-link {
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include align-items(center);
+  height: 100%;
+  padding: 16px 20px;
+}
+
+.brand-item-image {
+  width: 102px;
+  height: 57px;
+}
+
+.brand-item-name {
+  color: map-get($color-map, "valhalla");
+  font-size: 13px;
+  letter-spacing: 0;
+  margin-top: 8px;
+}
+
+.more-brands-btn {
+  width: 100%;
+  color: map-get($color-map, "pacific-blue");
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0;
+  padding: 12px 0;
+  border: 1px solid map-get($color-map, "whisper");
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: map-get($color-map, "white");
+  position: relative;
+}
+
+.more-brands-btn::after {
+  @include vendor-prefix(transform, translateY(-50%));
+  content: "";
+  position: absolute;
+  top: 50%;
+  background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/0288d1/down-arrow-blue.svg") no-repeat;
+  width: 14px;
+  height: 8px;
+  margin-left: 4px;
+}
+
+.more-brands-btn.active::after {
+  @include vendor-prefix(transform, rotate(180deg) translateY(50%));
+}
+
+.brands-list.active {
+  max-height: fit-content;
+  overflow: hidden;
+  transition: max-height .5s linear;
+  border-bottom: 1px solid map-get($color-map, "whisper");
+}

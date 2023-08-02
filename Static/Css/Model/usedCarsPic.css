@@ -1,0 +1,149 @@
+.content_are .usedCars {
+    border: 1px solid #f0f0f0;
+    padding: 24px;
+    margin: 0px 0px 32px;
+    position: relative
+}
+
+.content_are .usedCars .title {
+    color: #272a41;
+    font-size: 21px;
+    font-family: 'Muli-Bold';
+    padding-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative
+}
+
+.content_are .usedCars .left-rightBlocks {
+    display: block
+}
+
+.content_are .usedCars .rightBlock,.content_are .usedCars .leftBlock {
+    width: 46%;
+    display: block
+}
+
+.content_are .usedCars .leftBlock,.content_are .usedCars .rightBlock {
+    color: #272a41;
+    font-size: 13px;
+    font-family: 'Muli-Regular';
+    width: 47.5%;
+    min-height: 67px;
+    height: 122px;
+    margin-right: 0px;
+    margin-bottom: 21px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #ebebf1;
+    padding-top: 18px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px -1px rgba(25, 0, 0, 0.15)
+}
+
+.content_are .usedCars .leftBlock,.content_are .usedCars .rightBlock {
+    margin-bottom: 0px
+}
+
+.content_are .usedCars .leftBlock:nth-child(2n+1) {
+    float: left;
+    margin-right: 50px
+}
+
+.content_are .usedCars .leftBlock:nth-child(2n) {
+    float: right
+}
+
+.content_are .usedCars .rightBlock {
+    margin-left: 42px
+}
+
+.content_are .usedCars .leftBlock .cityBlock,.content_are .usedCars .rightBlock .cityBlock {
+    text-align: center;
+    width: 20%;
+    height: 73.55px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ebebf1;
+    border-width: 0px 1px;
+    padding-top: 12px
+}
+
+.content_are .usedCars .leftBlock .cityBlock .cityImg,.content_are .usedCars .rightBlock .cityBlock .cityImg {
+    padding-bottom: 4px;
+    height: 38px
+}
+
+.content_are .usedCars .leftBlock .carPrice,.content_are .usedCars .rightBlock .carPrice {
+    width: 41%;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 9px;
+    padding-right: 3px;
+    padding-bottom: 20px;
+    border-right: 1px solid #ebebf1;
+    vertical-align: middle
+}
+
+.carPrice a:hover,.otherCarsinCity:hover {
+    color: #d02326 !important
+}
+
+.content_are .usedCars .leftBlock .carPrice .price,.content_are .usedCars .rightBlock .carPrice .price {
+    color: #1a1a1a;
+    font-size: 22px;
+    font-family: 'Muli-Regular';
+    padding: 0px 0px 12px
+}
+
+.content_are .usedCars .leftBlock .carPrice .txt,.content_are .usedCars .rightBlock .carPrice .txt {
+    color: #92939e;
+    font-size: 13px;
+    font-family: 'Muli-Regular';
+    padding-right: 5px
+}
+
+.content_are .usedCars .leftBlock .carPrice .city,.content_are .usedCars .rightBlock .carPrice .city {
+    color: #272a41;
+    font-size: 15px;
+    font-family: 'Muli-Regular'
+}
+
+.content_are .usedCars .leftBlock .goLink,.content_are .usedCars .rightBlock .goLink {
+    vertical-align: text-bottom;
+    padding-left: 0px
+}
+
+.content_are .usedCars .leftBlock .otherCarsinCity,.content_are .usedCars .rightBlock .otherCarsinCity,.content_are .usedCars .leftBlock .otherCarsinCity .otherCarsinCity,.content_are .usedCars .rightBlock .otherCarsinCity a {
+    color: #272a41;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 0px;
+    position: relative;
+    top: 7px;
+    overflow: hidden
+}
+
+.content_are .usedCars .leftBlock .otherCarsinCity {
+    width: 31%;
+    padding-left: 16px;
+    display: inline-block;
+    top: 10px;
+    box-sizing: border-box
+}
+
+.content_are .usedCars .viewAll,.content_are .otherCars .viewAll {
+    color: #d02326;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    position: absolute;
+    right: 0px;
+    right: 40px;
+    top: 40px
+}
+
+.content_are .usedCars .viewAll:hover,.content_are .otherCars .viewAll:hover {
+    color: #272a41
+}

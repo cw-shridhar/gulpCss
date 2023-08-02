@@ -1,0 +1,160 @@
+.version-selection {
+	&-popup {
+		width: 612px;
+		height: 522px;
+		border-radius: 6px;
+		@include vendor-prefix("transform", translate(-50%, -50%));
+		top: 50%;
+		left: 50%;
+		background-color: map-get($color-map, "white");
+		z-index: 100000;
+		position: fixed;
+	}
+
+	&-header {
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(space-between);
+		padding: 16px;
+		background-color: map-get($color-map, "white-smoke");
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+	}
+
+	&-header-txt {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: map-get($color-map, "valhalla");
+		margin-bottom: 0;
+	}
+
+	&-close-btn {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background-color: map-get($color-map, "white");
+		background-image: url("#{$img-cdn-path-2}images-mobiles/blk_clos.png");
+		background-size: 10px;
+		background-position: center;
+		background-repeat: no-repeat;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+		border-color: rgba(0, 0, 0, 0.1);
+	}
+
+	&-search-wrapper {
+		display: -webkit-box;
+		border-bottom: 1px solid map-get($color-map, "whisper");
+		margin-left: 64px;
+		margin-right: 64px;
+		margin-bottom: 20px;
+	}
+
+	&-search-icon {
+		width: 16px;
+		height: 16px;
+	}
+
+	&-filter-tabs {
+		@include flexbox;
+		overflow-x: scroll;
+
+		margin-left: 64px;
+		margin-right: 64px;
+		padding: 0;
+		padding-bottom: 5px;
+		scrollbar-width: thin;
+
+		&::-webkit-scrollbar {
+			height: 6px;
+			width: 6px;
+			background: map-get($color-map, "white-smoke");
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background: map-get($color-map, "gray76");
+		}
+	}
+
+	&-filter-tab {
+		margin-right: 8px;
+		padding: 6px 12px;
+		color: map-get($color-map, "comet");
+		background-color: map-get($color-map, "white");
+		font-size: 13px;
+		border: 1px solid map-get($color-map, "white-smoke-3");
+		border-radius: 4px;
+		white-space: nowrap;
+		text-transform: uppercase;
+	}
+
+	&-filter-tab.active {
+		color: map-get($color-map, "fire-red");
+		border: 1px solid map-get($color-map, "fire-red");
+	}
+
+	&-filter-tab.tab-divider {
+		margin-right: 25px;
+		position: relative;
+	}
+
+	&-filter-tab.tab-divider::after {
+		content: "";
+		width: 1px;
+		height: 100%;
+		background-color: map-get($color-map, "ghost");
+		position: absolute;
+		top: 0;
+		right: -13px;
+	}
+
+	&-car-list.version-list {
+		margin-top: 20px;
+		margin-left: 64px;
+		margin-right: 64px;
+		height: 60%;
+		@include hide-vertical-scroll;
+	}
+
+	&-car-list-item {
+		margin-top: 12px;
+		border-bottom: 1px solid map-get($color-map, "whisper");
+		cursor: pointer;
+	}
+
+	&-car-list-item:first-child {
+		margin-top: 0;
+	}
+
+	&-car-list-item .car-name {
+		font-size: 14px;
+		letter-spacing: 0;
+		color: map-get($color-map, "pacific-blue");
+		float: left;
+		margin: 0;
+	}
+
+	&-car-list-item .car-price {
+		font-family: $font-muli-semibold;
+		text-align: right;
+		line-height: 20px;
+		letter-spacing: 0;
+		color: map-get($color-map, "valhalla");
+		margin: 0;
+		line-height: normal;
+	}
+
+	&-car-list-item .car-specs {
+		margin-top: 4px;
+		font-size: 11px;
+		letter-spacing: 0;
+		color: map-get($color-map, "manatee");
+		margin-bottom: 12px;
+	}
+}
+
+.no-content-text {
+	font-size: 24px;
+	margin-top: 60px;
+	color: map-get($color-map, "comet");
+}

@@ -1,0 +1,1098 @@
+#pl-similar_cars {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px #666;
+    margin-bottom: 50px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    min-height: 150px;
+    max-height: 350px;
+}
+
+.PL-csellerPop .directionlft, .PL-csellerPop2 .directionlft {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs.png) no-repeat -144px -368px;
+    width: 14px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: -14px;
+}
+
+#pl-similar_cars.PL-csellerPop.open {
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: 174px;
+}
+
+.PL-csellerPop.open.responce {
+    width: 230px !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    box-shadow: rgb(102, 102, 102) 0px 0px 3px !important;
+    position: absolute !important;
+    bottom: 44px !important;
+    right: 15px;
+    z-index: 10 !important;
+    background: rgb(255, 254, 179) !important;
+    height: auto !important;
+    display: block !important;
+    min-height: auto !important;
+}
+
+.right-15 {
+    right: 15px !important;
+}
+
+.PL-csellerPop.open.responce #rhtarw {
+    position: absolute;
+    right: 35px;
+    bottom: -12px !important;
+    width: 14px;
+    height: 12px;
+    top: auto !important;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -16px -421px no-repeat scroll;
+}
+
+.PL-csellerPop.open.responce #dealerdts {
+    display: none;
+    padding-left: 0px !important;
+    height: 100%;
+}
+
+.carimgblk img {
+    box-shadow: none;
+}
+
+.PL-csellerPop.open.responce .closebtn {
+    cursor: pointer !important;
+    float: right !important;
+    font-size: 0px !important;
+    height: 24px !important;
+    padding: 0px !important;
+    position: absolute !important;
+    right: -16px !important;
+    top: -10px !important;
+    width: 36px !important;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -124px -420px no-repeat scroll !important;
+}
+
+.PL-csellerPop.open.responce #pl-lead-title {
+    color: rgb(211, 61, 58);
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 61, 58);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#pl-similar_cars.PL-csellerPop.open.responce {
+    bottom: 0px !important;
+    top: auto !important;
+}
+
+.PL-csellerPop .directionrht {
+    width: 18px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 227px;
+    left: -18px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -144px -368px no-repeat;
+}
+
+.PL-csellerPop .directionrht {
+    left: auto;
+    right: -17px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -36px -420px no-repeat scroll;
+}
+
+.descblk .pull-right.certiflogos {
+    width: 158px !important;
+    margin-right: -10px;
+    margin-top: auto;
+}
+
+#pl-similar_cars .closebtn {
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") no-repeat -131px -398px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+#pl-similar_cars .innercf div h3 {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    height: auto;
+    line-height: normal;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    text-align: left;
+}
+
+#pl-similar_cars input {
+    padding: 8px 10px;
+    text-transform: none;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    width: 176px;
+    border-radius: 4px;
+    font: normal normal 12px Arial, Helvetica, sans-serif !important;
+    color: #808080;
+}
+
+.btm_mr {
+    margin-bottom: 10px;
+}
+
+#pl-similar_cars h3 {
+    font-size: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#pl-similar_cars .directionrht:not([data-popup-type="similar"] #pl-similar_cars .directionrht) {
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") no-repeat -38px -420px;
+    width: 14px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 102px;
+    right: -14px;
+}
+
+#pl-similar_cars .commonbtnred {
+    cursor: pointer;
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #b81b1e);
+    background-image: -moz-linear-gradient(top, #ff0000, #b81b1e);
+    background-image: -ms-linear-gradient(top, #ff0000, #b81b1e);
+    background-image: -o-linear-gradient(top, #ff0000, #b81b1e);
+    background-image: linear-gradient(to bottom, #ff0000, #b81b1e);
+    box-shadow: 0px 2px 4px #000;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    font: normal bold 11px Arial, Helvetica, sans-serif !important;
+    border: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 8px #bbb;
+    padding: 7px 12px !important;
+    text-decoration: none;
+    width: 60px;
+    margin-left: 0px !important;
+    float: left;
+}
+
+#pl-similar_cars #pl-lead-form .commonbtnred {
+    padding: 7px 6px !important;
+}
+
+#pl-similar_cars .cityBandBlk {
+    color: #333;
+    background: #ebebeb;
+    padding: 4px 10px 8px;
+    font-size: 11px;
+    border-top: 1px #ccc solid;
+    margin: 36px -20px -20px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#pl-similar_cars .cityBandBlk .innerBlk {
+    text-align: left;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/Contact-Seller-Form_mp.png") left 6px/23px auto no-repeat;
+    padding-left: 32px;
+}
+
+#pl-similar_cars #city-search-popup {
+    color: #0054a6!important;
+    text-decoration: underline;
+    float: none!important;
+    padding: 0!important;
+    display: inline!important;
+    font-size: 11px!important;
+    line-height: normal;
+}
+
+#pl-similar_cars #dealerdts {
+    display: none;
+    padding-left: 0px;
+    height: 100%;
+    word-break: break-word;
+}
+
+#pl-similar_cars #PL-city-popup {
+    /*display:none;*/
+}
+
+#person-lead-panel {
+    display: none;
+    z-index: 3;
+}
+
+#person-lead-panel.open {
+    display: block;
+}
+
+#person-lead-panel #card-template {
+    display: none;
+}
+
+#pl_over_lay {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 99999994;
+}
+
+#pl_over_lay.open {
+    display: block;
+}
+
+/* sismlar popup css */
+
+#person-lead-panel .similarCarsBlk {
+    background-color: #fffeb1;
+    bottom: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: fixed !important;
+    top: 30px !important;
+    width: 1016px;
+    z-index: 99999999;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    background: #fffeb1;
+    left: 0px;
+    right: 0px;
+    border: none;
+    box-shadow: none;
+    height: calc(100% - 80px);
+}
+
+#person-lead-panel .similarCarsBlk .closebtn {
+    cursor: pointer;
+    float: right;
+    font-size: 0px;
+    height: 24px;
+    padding: 0px;
+    position: absolute;
+    right: -16px;
+    top: -10px;
+    width: 36px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -124px -420px no-repeat scroll;
+}
+
+#person-lead-panel #searchFilters .carlistblk .carimgblk {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 266px;
+}
+
+#person-lead-panel .carlistblk {
+    height: 100%;
+    margin-bottom: 9px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+#person-lead-panel .titleblk {
+    width: 394px;
+    /*width:358px;*/
+    height: 100%;
+    float: left;
+    padding: 0px;
+}
+
+#person-lead-panel #searchFilters .carlistblk .titleblk {
+    padding: 0px;
+}
+
+#person-lead-panel .descblk {
+    background: none;
+}
+
+#person-lead-panel .certiflogo_war {
+    margin-bottom: 1px;
+    width: 100px;
+    height: 53px;
+    display: block;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/certified_warranty.png") 0% 0% no-repeat;
+}
+
+#person-lead-panel .certifiedlogo {
+    background: rgba(0, 0, 0, 0) url("https://d5x4wettsjecf.cloudfront.net/images4/certified_logo.png") no-repeat scroll 0 -35px;
+    display: block;
+    height: 35px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+#person-lead-panel a {
+    color: rgb(51, 51, 51);
+    transition: color 300ms, background-color 300ms;
+    text-decoration: none;
+    outline: 0px;
+}
+
+#person-lead-panel #searchFilters .carlistblk .carlistcont .titlesect {
+    width: 373px;
+    height: auto;
+}
+
+#person-lead-panel .clr {
+    height: 0px !important;
+    line-height: 0 !important;
+    float: none !important;
+    clear: both !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+}
+
+#person-lead-panel .cardetail {
+    /*width: auto;*/
+    width: 340px;
+    height: auto;
+}
+
+#person-lead-panel .cardetail .listdes tr td.adjustleft {
+    padding-left: 5px;
+}
+
+#person-lead-panel .imgcount a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+#person-lead-panel .descblk span {
+    font-size: inherit;
+}
+
+#person-lead-panel .descblk span {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#person-lead-panel .newppvert span a {
+    font-size: 11px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 12px;
+}
+
+#person-lead-panel #con_sellerpop .resltyelwpop.opened {
+    right: 0px !important;
+    left: -34px !important;
+    bottom: 9px !important;
+}
+
+#person-lead-panel .widgetBox1 {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgb(114, 114, 114);
+    color: rgb(89, 89, 89);
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+#person-lead-panel .carlistblk .carimgblk {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    /*  width: 266px;*/
+    /*width:302px;height:170px;*/
+    width: 264px;
+    height: 198px;
+}
+
+#person-lead-panel .carlistblk .carlistcont {
+    padding: 8px 0 0 10px;
+    width: 382px;
+}
+
+/*#person-lead-panel .carlistblk .carimgblk{ height:200px;}*/
+
+/*#person-lead-panel .carlistblk .carimgblk img{ width:266px !important; height:200px !important;}*/
+
+#person-lead-panel .carlistblk .carimgblk img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#person-lead-panel .imgcount {
+    left: 186px;
+}
+
+#person-lead-panel .colm700 {
+    width: 690px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 0px !important;
+}
+
+#person-lead-panel .carlistblk .titleblk h2, .carlistblk .titleblk .h2heading {
+    /*width: 270px !important;*/
+    width: 277px !important;
+    height: 42px !important;
+    border: 0px;
+    overflow: hidden;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #454545;
+    font-size: 15px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#person-lead-panel .titleblk h2 a, .titleblk .h2heading a {
+    color: rgb(69, 69, 69);
+}
+
+#person-lead-panel .titleblk a:hover, .titleblk .price a:hover, .titleblk .h2heading a:hover {
+    color: rgb(197, 45, 47);
+}
+
+#person-lead-panel .titleblk .price {
+    font-size: 16px;
+    height: auto;
+    overflow: hidden;
+}
+
+#person-lead-panel .pull-left {
+    float: left;
+}
+
+#person-lead-panel #searchFilters .carlistblk .titleblk .price a {
+    font-size: 10px !important;
+    margin-left: 4px;
+}
+
+#person-lead-panel .carlistblk .listdes {
+    padding: 5px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+#person-lead-panel .carlistblk .listdes label {
+    font-size: 12px !important;
+}
+
+#person-lead-panel .cardetail .listdes tr td {
+    padding: 2px 5px 5px 6px;
+}
+
+#person-lead-panel .listdes tr td {
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#person-lead-panel .listdes tr td {
+    border: none;
+    font-size: 15px;
+    font-family: Arial !important;
+    color: #737373;
+    margin-top: 2px;
+    padding-top: 0px;
+    padding-left: 12px;
+}
+
+#person-lead-panel .carlistblk .listdes tr td label {
+    width: 192px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#person-lead-panel .cardetail .listdes tr td {
+    padding: 2px 5px 7px 6px;
+}
+
+#person-lead-panel .listdes tr td {
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#person-lead-panel .listdes tr td {
+    border: none;
+    font-size: 15px;
+    font-family: Arial !important;
+    color: #737373;
+    margin-top: 2px;
+    padding-top: 0px;
+    padding-left: 12px;
+}
+
+#person-lead-panel .dividerPipe {
+    font-size: 15px !important;
+    top: 1px;
+    padding: 0px !important;
+    position: relative;
+}
+
+#person-lead-panel .imgcount {
+    text-shadow: 0px 0px transparent !important;
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    border-radius: 12px;
+    margin: 0px;
+    text-align: left;
+}
+
+#person-lead-panel #searchFilters .carlistblk .descblk {
+    height: 41px !important;
+    background: none;
+}
+
+#person-lead-panel #searchFilters .carlistblk .carlistcont {
+    width: 370px;
+    padding: 12px 0px 0px 10px;
+}
+
+#person-lead-panel .pull-right.certiflogos {
+    margin-right: -9px;
+    padding-top: 4px;
+    width: 148px;
+}
+
+#person-lead-panel .pull-right {
+    float: right;
+}
+
+#person-lead-panel .certiflogos .flatRed {
+    height: 30px;
+    width: 158px !important;
+    font-size: 14px !important;
+}
+
+#person-lead-panel .flatRed {
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    box-shadow: rgb(181, 180, 180) 1px 3px 3px;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255) !important;
+    font-size: 26px !important;
+    text-align: center !important;
+    background-color: rgb(229, 30, 32);
+}
+
+#person-lead-panel .newppvert {
+    position: absolute;
+    width: auto;
+}
+
+#person-lead-panel .newppvert {
+    min-width: 150px;
+    float: right;
+    margin-left: -5px;
+    margin-top: 4px !important;
+}
+
+#person-lead-panel .newppvert strong {
+    font-size: 14px;
+    letter-spacing: -0.03em;
+}
+
+#person-lead-panel .newppvert strong {
+    color: rgb(211, 21, 0);
+    position: relative;
+    cursor: default;
+}
+
+#person-lead-panel .newppvert img {
+    float: left;
+    margin-top: -3px;
+    margin-right: 5px;
+    cursor: default;
+    margin-left: 0px !important;
+}
+
+#person-lead-panel .actv_popup {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#con_sellerpop .csellerPop {
+    right: 16px !important;
+}
+
+#person-lead-panel .carlistblk .csellerPop {
+    left: 304px;
+    bottom: 0px;
+    border: 1px solid rgb(221, 221, 221);
+    top: inherit !important;
+}
+
+#person-lead-panel #con_sellerpop .resltyelwpop {
+    right: 0px !important;
+    left: -34px !important;
+    bottom: 38px !important;
+}
+
+#person-lead-panel .selerdettit {
+    color: rgb(211, 61, 58);
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 61, 58);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+#person-lead-panel .resltyelwpop {
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+    position: absolute;
+    bottom: 44px;
+    right: 15px;
+    z-index: 10;
+    background: rgb(255, 254, 179);
+}
+
+#person-lead-panel .yeldownarrow {
+    position: absolute;
+    right: 35px;
+    bottom: -12px;
+    width: 14px;
+    height: 12px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -16px -421px no-repeat scroll;
+}
+
+#person-lead-panel .pull-right.certiflogos span {
+    font-size: 12px;
+}
+
+#person-lead-panel .titleblk a:hover, .titleblk .price a:hover, .titleblk .h2heading a:hover {
+    color: rgb(197, 45, 47);
+}
+
+#person-lead-panel a:hover {
+    color: rgb(212, 49, 51);
+    text-decoration: none;
+    outline: none;
+}
+
+#person-lead-panel .popclosebtn {
+    cursor: pointer;
+    float: right;
+    font-size: 0px;
+    height: 24px;
+    padding: 0px;
+    position: absolute;
+    right: -16px;
+    top: -10px;
+    width: 36px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -124px -420px no-repeat scroll;
+}
+
+#person-lead-panel .error-msg {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 20% 0;
+}
+
+#person-lead-panel .ver_15-outbox {}
+
+.ver_15-leftbx {}
+
+.ver_15-rightbx {}
+
+.ver_15-stictop {
+    position: relative;
+    top: 0px;
+    width: 692px;
+    background: #333333;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.ver_15-in {
+    margin-top: 0px;
+    height: 100% !important;
+    display: block;
+}
+
+.ver_15-detout {
+    overflow: hidden;
+    padding: 10px 0px 30px 0px;
+}
+
+.ver_15-ttl {
+    margin-bottom: 20px;
+}
+
+.ver_15-prs {}
+
+.ver_15-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    line-height: normal !important;
+}
+
+.ver_15-seldt {
+    font-size: 14px;
+}
+
+.ver_15-seldt br {
+    margin-bottom: 10px;
+}
+
+.ver_15-indbx #searchFilters .carlistblk .carimgblk img {
+    width: 264px;
+    height: auto;
+}
+
+.ver_15colm650 {
+    width: 100%;
+}
+
+.ver_15-indbx .ver_15colm650 .imgcount {
+    left: 195px !important;
+}
+
+.actv_popup {
+    position: inherit !important;
+}
+
+.actv_popup .yeldownarrow {
+    display: none;
+}
+
+.pull-right.certiflogos {
+    line-height: normal !important;
+}
+
+.actv_popup #con_sellerpop .resltyelwpop.opened, .actv_popup #con_sellerpop .resltyelwpop {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    top: 30px !important;
+    left: 0px !important;
+    right: 0px !important;
+    /* width: 100%; */
+    position: fixed !important;
+    width: 992px;
+    z-index: 99999999;
+    bottom: 30px !important;
+}
+
+.actv_popup .selerdettit {
+    display: none;
+}
+
+.actv_popup .ver_15-seldt .selerdettit {
+    display: block;
+}
+
+#person-lead-panel .widgetBox1.colm700 {
+    margin-right: 0px;
+}
+
+#person-lead-panel .widgetBox1.btmMrg {
+    margin-bottom: 9px !important;
+}
+
+#person-lead-panel .contact-seller-btn-class {
+    width: 100%;
+    margin-bottom: 6px;
+    background-color: #e51e20;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px #bba2a2;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#person-lead-panel .view-more-btn {
+    width: 100%;
+    margin-bottom: 6px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px #bba2a2;
+    color: #fff;
+    width: 200px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#person-lead-panel #full-loader {
+    position: absolute;
+    top: 46px;
+    overflow-y: scroll;
+    transition: 1s;
+    padding-right: 10px;
+    background: rgb(255, 254, 179);
+    display: block;
+    overflow: hidden;
+    opacity: 1;
+    width: 666px;
+}
+
+#person-lead-panel #full-loader.hide {
+    opacity: 0;
+}
+
+.certiflogos .flatRed:active {
+    border: none !important;
+}
+
+.contact-seller-btn-class.view-more-btn {
+    top: -4px !important;
+    background: none !important;
+    box-shadow: none;
+    padding: 0px !important;
+}
+
+.contact-seller-btn-class.view-more-btn:active {
+    border: 1px #ffffff solid;
+}
+
+.contact-seller-btn-class.view-more-btn img {
+    float: left;
+    margin-right: 1px;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+.contact-seller-btn-class.view-more-btn span {
+    padding-top: 0px;
+    margin-top: -5px;
+    padding-left: 0px;
+    font-size: 11px;
+    color: blue !important;
+    cursor: pointer;
+    float: left;
+    line-height: 15px;
+    text-decoration: underline;
+    text-transform: capitalize !important;
+}
+
+.contact-seller-btn-class.view-more-btn strong {
+    color: #d31500;
+    font-size: 14px!important;
+    margin: 0;
+    position: relative;
+    cursor: default;
+    float: left;
+    line-height: 24px;
+}
+
+.contact-seller-btn-class.view-more-btn .bgdown {
+    display: none;
+}
+
+#person-lead-panel .view-more-btn {
+    background: none !important;
+    box-shadow: none;
+}
+
+#person-lead-panel .view-more-btn strong {
+    color: rgb(211, 21, 0);
+    float: left;
+    position: relative;
+    cursor: default;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    line-height: 22px;
+}
+
+#person-lead-panel .view-more-btn img {
+    float: left;
+}
+
+#person-lead-panel .view-more-btn span {
+    font-size: 11px !important;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 12px;
+    text-transform: capitalize !important;
+    float: left;
+    margin-left: 40px;
+    margin-top: -18px;
+}
+
+#person-lead-panel [data-popup-type="similar"] {
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+    position: absolute;
+    bottom: 54px;
+    right: 15px;
+    z-index: 10;
+    background: rgb(255, 254, 179) !important;
+    display: none;
+}
+
+#person-lead-panel [data-popup-type="similar"] .directionrht {
+    position: absolute;
+    right: 35px;
+    bottom: -12px !important;
+    width: 14px;
+    height: 12px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs_new.png-version201609151743.png") -16px -421px no-repeat scroll;
+}
+
+.certiflogos .flatRed.view-more-btn {
+    width: 158px !important;
+}
+
+.clicksmbtnout .clicksmbtn {
+    display: none;
+}
+
+.clicksmbtnout .carlistblk {
+    border: none !important;
+}
+
+.lnaprl {
+    font-size: 12px;
+    font-weight: bold;
+    color: #D10;
+    font-family: arial;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+#pl-similar_cars {
+    z-index: 2 !important;
+    bottom: auto !important;
+}
+
+.opt_styles {
+    font-size: 9px;
+    text-decoration: underline;
+    color: #868686;
+    position: relative;
+    display: block;
+    text-align: right;
+    top: 5px;
+    z-index: 999;
+    padding-bottom: 10px;
+}
+
+.opt_styles a {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #0054a6;
+}
+
+.error_alert {
+    padding: 0px 0px;
+    border-radius: 3px;
+    z-index: -1;
+    transition: 0.5s;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    font-size: 9px;
+    margin-left: 0px;
+}
+
+.error_alert.open {
+    opacity: 1;
+    top: 44px;
+    color: red;
+    z-index: 999;
+    font-style: normal;
+    margin-top: 6px;
+}
+
+.border_style {
+    border-bottom-color: red !important;
+    border-bottom-width: 2px !important;
+}
+
+.disab {
+    background: #EBEBE4 !important;
+    color: #aaa !important;
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.similarcarsWarningTip {
+    color: #d10d10;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+    padding: 0px 12px 0px 0px !important;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 8px auto !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.buyerform-similarcars-disclaimer{
+  font-size: 10px;
+}
+
+.buyer-form-disclaimer{
+  font-size: 12px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}

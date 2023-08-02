@@ -1,0 +1,7 @@
+@import "../../../base/index";
+@import "../../../mixins/text-truncate";
+@import "../../../../Css/Make/m/NewsReviewsSection.scss";
+
+.text-truncate-2 {
+    @include text-truncate("", 2);
+}

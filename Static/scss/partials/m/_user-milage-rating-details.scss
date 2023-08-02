@@ -1,0 +1,98 @@
+
+
+.user-review__container {
+    padding: 24px 16px 20px;
+
+    .user-review__header {
+        @include flexbox;
+    }
+
+    .user-review__title {
+        @include text-truncate('',2);
+        padding-left: 8px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 19px;
+        padding-bottom: 8px;
+    }
+
+    .user-review__author-days {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+}
+
+
+.milage-details, .user-rating {
+    .milage-details__heading, .user-rating__heading {
+        font-size: 13px;
+        color: map-get($color-map, "valhalla" );
+        font-weight: $font-bold;
+    }
+}
+
+
+.milage-details__table, .user-rating__table {
+    margin: 8px 0 12px;
+    background-color: map-get($color-map, "white-smoke-2" );
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+
+    > li {
+        @include flexbox;
+        @include justify-content(center);
+        padding: 12px;
+        border-bottom: 1px solid map-get($color-map, "whisper" );
+
+        > span {
+            width: 50%;
+            font-size: 13px;
+            color: map-get($color-map, "comet" );
+        }
+
+        .milage-details__value,
+        .user-rating__value {
+            font-weight: $font-bold;
+            color: map-get($color-map, "valhalla" );
+        }
+    }
+}
+
+.user-review__footer {
+    @include flexbox;
+    @include justify-content(space-between);
+    
+
+    .like-dislike__wrapper {
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+    }
+
+    .review__question {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+
+    .like-icon {
+        @include like-icon;
+        margin-right: 8px;
+    }
+
+    .dislike-icon {
+        @include like-icon;
+        @include vendor-prefix('transform', rotate(180deg));
+        margin-right: 8px;
+    }
+    .like-dislike__seperator {
+        color: map-get($color-map, "whisper");
+        padding: 0 12px;
+    }
+    
+    .like-dislike-count {
+        font-size: 12px;
+        color: map-get($color-map, "comet");
+    }
+}
+
+@include rating-circle-list("horizontal")

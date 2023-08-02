@@ -1,0 +1,68 @@
+.rating-widget-summary {
+    background-color: map-get($color-map, "white-smoke-2");
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+}
+
+.rating-widget-figures {
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.rating-widget-text {
+    color: map-get($color-map, "valhalla");
+    font-family: $font-lato-regular;
+}
+
+.user-rating-parameter-heading {
+    font-size: 16px;
+    color: map-get($color-map, "greyish-green");
+}
+
+.rating-count {
+    color: map-get($color-map, "manatee");
+}
+
+.rating-percent {
+    color: map-get($color-map, "persian-green");
+}
+
+.rating-parameters-container {
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+}
+
+.rating-parameter {
+    display: flex;
+    align-items: center;
+}
+
+.parameter-names {
+    width: 90px;
+    text-align: right;
+    border-right: 1px solid map-get($color-map, "ghost");
+    font-family: $font-lato-regular;
+    color: map-get($color-map, "valhalla");
+}
+
+.rating-bar {
+    background-color: map-get($color-map, "white-smoke-3");
+    height: 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.param-value {
+    font-family: $font-lato-bold;
+    color: map-get($color-map, "valhalla");
+}
+
+.star-icon {
+    width: 16px;
+    height: 16px;
+    color: map-get($color-map, "persian-green");
+}
+
+.user-preference {
+    font-size: 15px;
+    color: map-get($color-map, "comet");
+}

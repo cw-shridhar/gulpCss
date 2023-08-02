@@ -1,0 +1,380 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+/*! CSS Used from: Embedded */
+
+h4 {
+  font-weight: normal;
+}
+
+input[type="submit"],
+a {
+  -webkit-appearance: none;
+}
+
+img {
+  border: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+}
+
+p {
+  color: rgb(64, 64, 64);
+  font-size: 14px;
+  margin: 0 0 10px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 !important;
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+}
+
+* {
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+input[type="checkbox"] {
+  border: none;
+  height: auto;
+  line-height: normal;
+  margin: 15px 0;
+  padding: 0;
+  vertical-align: middle;
+  width: auto !important;
+  margin-left: 22px;
+  margin-right: 12px;
+}
+
+* {
+  transition-duration: inherit;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+#filtrdiv {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  height: inherit;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999999;
+}
+
+.filtrcolm {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.btn-filter .filtoptdiv {
+  background: #ffffff;
+  padding: 0;
+  width: 100%;
+  bottom: 0;
+  display: block;
+  z-index: 10000;
+  overflow-y: scroll;
+  position: absolute;
+  top: 64px;
+}
+
+.btn-filter:hover .filtoptdiv {
+  left: 0 !important;
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.filter .filterHead {
+  width: auto;
+  background-color: #ffffff;
+  display: block;
+  padding: 20px 15px;
+  overflow: hidden;
+}
+
+.filter .filterHead span {
+  color: #2e2e2e;
+  font-size: 19px;
+  font-family: Muli-SemiBold;
+  float: left;
+}
+
+.filter-close-btn {
+  float: right;
+}
+
+.fxd_btn_float {
+  background: #fff;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  z-index: 11;
+}
+
+.float_btn {
+  display: block !important;
+  width: 100%;
+  font-weight: normal;
+  padding: 15px 9px 15px;
+  font-family: Muli-Semibold;
+  font-size: 15px;
+  color: #fff;
+  background: #d11200;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.flotsellbar_btm {
+  left: 0;
+  right: 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  color: #fff;
+  box-shadow: 0 0 26px -7px #000;
+}
+
+.fueltype-block,
+.pricerange_block,
+.brands-block,
+.transmission-block,
+.bodytype-block,
+.seatingcapacity-block,
+.additional-features-block {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.fueltype-block article,
+.pricerange_block article,
+.brands-block article,
+.transmission-block article,
+.bodytype-block article,
+.seatingcapacity-block article,
+.additional-features-block article {
+  padding: 16px 16px 0 16px;
+}
+
+.fueltype-block h4,
+.pricerange_block h4,
+.brands-block h4,
+.transmission-block h4,
+.bodytype-block h4,
+.seatingcapacity-block h4,
+.additional-features-block h4 {
+  color: #272a41;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.ul_list_items {
+  text-align: left;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+
+.ul_list_items li {
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #56586a;
+  border-radius: 4px;
+  border: 1px solid #56586a;
+  background: #ffffff;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+
+.ul_list_items li:hover {
+  border-color: #d02326;
+  color: #d02326;
+}
+
+.view_all_brands {
+  font-size: 15px;
+  color: #0288d1;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 16px;
+  display: inherit;
+}
+
+.bodytype-block .body-type {
+  text-align: left;
+  overflow: hidden;
+}
+
+.bodytype-block .body-type li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: left;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  margin-right: 8px;
+}
+
+.bodytype-block .body-type li span {
+  background: #ffffff;
+  list-style: none;
+  padding: 16px 0 8px 0;
+  border-radius: 3px;
+  width: 92px;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 12px;
+  border: 1px solid #92939e;
+}
+
+.bodytype-block .body-type li input[type="checkbox"] {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="checkbox"].chkclass:checked~span {
+  border: 1px solid #d02326 !important;
+  color: #d02326;
+  background: none !important;
+}
+
+.bodytype-block .body-type input[type="checkbox"]:checked~span {
+  border: 1px solid #e16363 !important;
+  background: none !important;
+}
+
+.bodytype-block .body-type input[type="checkbox"]:checked~.tick-icon {
+  display: block;
+}
+
+.bodytype-block .body-type li p {
+  text-align: center;
+  font-size: 13px;
+  color: #56586a;
+  margin: 0 0 0 0;
+  text-transform: capitalize;
+}
+
+.bodytype-block .body-type li .tick-icon {
+  background: url("#{$imgd-img-cdn-path}/0x0/ct/static/icons/tick-icon.png") no-repeat;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+a.clear-all {
+  float: left;
+  margin-left: 24px;
+  color: #0288d1;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.btn-filter .filtoptdiv {
+  padding-bottom: 74px;
+}
+
+.fxd_btn_float {
+  width: 92%;
+  left: 0;
+  right: 0;
+  padding-bottom: 13px;
+}
+
+.float_btn {
+  border: none;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.brands-block .min-cls {
+  height: 86px;
+  overflow: hidden;
+}
+
+.ul_list_items li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: left;
+  box-sizing: border-box;
+  border: none;
+}
+
+.ul_list_items li span {
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #56586a;
+  border-radius: 4px;
+  border: 1px solid #56586a;
+  background: #ffffff;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+
+.ul_list_items li input[type="checkbox"] {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+::placeholder {
+  color: #92939e;
+}
+
+:-ms-input-placeholder {
+  color: #92939e;
+}
+
+::-ms-input-placeholder {
+  color: #92939e;
+}

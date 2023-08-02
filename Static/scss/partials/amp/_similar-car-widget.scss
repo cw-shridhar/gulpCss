@@ -1,0 +1,160 @@
+.box1 {
+    padding: 20px;
+    display: block;
+  }
+  
+  .separator {
+    width: 100%;
+    height: 16px;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .slid_title {
+    display: block;
+  }
+  
+  .slid_title h2 {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0 15px 0;
+    color: #272a41;
+    font-size: 19px;
+    font-family: $font-lato-bold;
+  }
+  
+  .swiper-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition-property: transform;
+    box-sizing: content-box;
+    transition-duration: 0ms;
+    padding-left: 0;
+    transform: none;
+  }
+  
+  .swiper-scroll {
+    overflow: scroll;
+  }
+  
+  .swiper-slide {
+    max-width: 250px;
+    flex-shrink: 0;
+    width: 250px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 5px;
+    margin-right: 16px;
+  }
+  
+  .swiper-card {
+    transition-duration: inherit;
+    transition-timing-function: inherit;
+    transition-property: inherit;
+  }
+  
+  .siwper-inner {
+    min-height: 262px;
+    border: 1px solid #f5f5f5;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-right: 6px;
+    width: 270px;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .swip-img {
+    padding: 15px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+  }
+  
+  a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .swip-img a {
+    width: 220px;
+    height: 124px;
+    border: 0 solid rgb(234, 234, 234);
+    overflow: hidden;
+    display: block;
+  }
+  
+  .clear {
+    clear: both;
+    font-size: 0;
+  }
+  
+  .swip-img img {
+    width: 100%;
+    border: 0;
+  }
+  
+  .populr {
+    padding: 0 15px 20px;
+  }
+  
+  .car_price {
+    display: block;
+    line-height: normal;
+    text-align: left;
+    font-size: 19px;
+    color: #272a41;
+    font-family: $font-lato-regular;
+  }
+  
+  .ex_show {
+    font-size: 12px;
+    color: #b2b3ba;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    padding: 0;
+    font-family: $font-lato-regular;
+  }
+  
+  .rupee_font {
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .price_in_city_button {
+    display: block;
+    font-size: 15px;
+    color: rgb(208, 38, 35);
+    padding: 10px 0;
+    transition: all 0.3s ease 0s;
+    font-family: $font-lato-bold;
+    border: 1px solid rgb(208, 35, 38);
+    width: auto;
+    margin: 20px auto 0;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .populr ul li strong a {
+    font-size: 15px;
+    font-family: $font-lato-regular;
+    font-weight: normal;
+    min-height: auto;
+    background: none;
+    padding: 4px 0;
+    word-break: break-all;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .box1_amp {
+    padding: 20px;
+  }
+  

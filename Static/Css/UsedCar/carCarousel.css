@@ -1,0 +1,424 @@
+.jcarousel-container-horizontal {
+  width: 628px;
+}
+
+.jcarousel-clip {
+  overflow: hidden;
+}
+
+.jcarousel-clip-horizontal, .jcarousel-clip-vertical {
+  width: 628px;
+  height: auto;
+}
+
+.list_carousel_widget {
+  width: 628px;
+}
+
+.list_carousel_widget li {
+  display: block;
+  text-align: left;
+  width: 147px;
+  font-size: 14px;
+  margin: 0 11px 8px 0;
+}
+
+.list_carousel_widget li a span img {
+  line-height: 0;
+  width: 152px;
+}
+
+.list_carousel_widget li a {
+  display: block;
+  text-decoration: none;
+  color: #666;
+}
+
+.list_carousel_widget li a img {
+  height: 100px;
+}
+
+.list_carousel_widget li span.thumb-rec {
+  display: block;
+  margin: 8px 0 10px 0;
+  overflow: hidden;
+  width: 150px;
+  height: 100px;
+}
+
+.list_carousel_widget li p.carName {
+  width: 140px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#prev_next a.prev, #prev_next a.next {
+  width: 11px;
+  height: 19px;
+}
+
+#prev_next a.prev {
+  background-position: -21px -272px;
+  float: left;
+}
+
+#prev_next a.prev:hover {
+  background-position: -21px -301px;
+}
+
+#prev_next a.next {
+  background-position: 0 -272px;
+  float: right;
+}
+
+#prev_next a.next:hover {
+  background-position: 0px -301px;
+}
+
+/* more list css */
+
+.more-cars-list {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.more-cars-list ul {
+  margin: 0;
+}
+
+.more-cars-list li {
+  position: relative;
+  margin-bottom: 20px;
+  color: #446fc1;
+}
+
+.more-cars-list li span {
+  background: #ccc;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  top: 4px;
+}
+
+.more-cars-list li:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.more-cars-list li:hover span {
+  background: #f36d62;
+}
+
+.more-cars-list li a:visited {
+  color: #551A8B;
+}
+
+.recentlyadded-car-carousel .carDescWrapper {
+  padding: 15px;
+  background: #fff;
+}
+
+.recentlyadded-car-carousel .content-box-shadow {
+  background-color: unset;
+  border: 0px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+.content-box-shadow {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  -moz-box-shadow: 0 1px 2px #e5e5e5;
+  -webkit-box-shadow: 0 1px 2px #e5e5e5;
+  -o-box-shadow: 0 1px 2px #e5e5e5;
+  -ms-box-shadow: 0 1px 2px #e5e5e5;
+  box-shadow: 0 1px 2px #e5e5e5;
+}
+
+.content-inner-block-10 {
+  padding: 10px;
+}
+
+.grid-8 {
+  width: 65.66666667%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.rsz-lyt .ChevroletWrapper, .rsz-lyt .ChevroletWrapper .jcarousel, .rsz-lyt .jcarousel, .rsz-lyt .jcarousel-wrapper {
+  width: 100%!important;
+}
+.similar-car-carousel .jcarousel {
+  padding: 0;
+}
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0 50px;
+}
+.jcarousel>ul {
+  width: 20000em;
+  position: relative;
+}
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, label, legend, li, ol, p, pre, textarea, ul {
+  margin: 0;
+  padding: 0;
+}
+.ul-horz, ol, ul {
+  list-style: none;
+}
+
+.jcarousel-wrapper {
+  position: relative;
+  width: 976px;
+}
+
+.recentlyadded-car-carousel .carDescWrapper .carQuickDetails {
+  padding-left: 15px;
+  padding-top: 8px;
+  list-style-type: disc;
+}
+
+.recentlyadded-car-carousel .carDescWrapper .carQuickDetails li {
+  width: unset;
+  height: unset;
+  color: #6f6f6f;
+}
+
+.recentlyadded-car-carousel .carPrice {
+  font-weight: bold;
+  color: #484848;
+}
+
+.recentlyadded-car-carousel .carPrice span {
+  font-weight: normal;
+}
+
+.recentlyadded-car-carousel .carTitle a {
+  font-weight: normal;
+}
+
+.recentlyadded-car-carousel .jcarousel li {
+  height: 235px !important;
+}
+
+.recentlyadded-car-carousel .jcarousel-control-next, .jcarousel-control-prev, .jcarousel-control-next:hover, .jcarousel-control-prev:hover {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/icons_arrow_bold.svg) no-repeat center;
+  height: 35px;
+}
+
+.recentlyadded-car-carousel .jcarousel-control-right, .jcarousel-control-left {
+  border-radius: 50%;
+}
+
+.recentlyadded-car-carousel .jcarousel-control-prev {
+  background-position: 10px 9px !important;
+  transform: rotate(180deg);
+}
+
+.recentlyadded-car-carousel .jcarousel-control-next {
+  background-position: 10px 10px !important;
+}
+
+.recentlyadded-car-carousel .carQuickDetails li {
+  margin-right: 30px;
+}
+
+.recentlyadded-car-carousel .carQuickDetails li span {
+  margin-left: -5px !important;
+}
+
+.recentlyadded-car-carousel .viewAllCars span {
+  font-weight: bold;
+}
+
+.recentlyadded-car-carousel .viewAllCars {
+  padding-top: 17px;
+}
+/* similar car carousel */
+
+.similar-car-carousel .jcarousel-wrapper {
+    width: 536px;
+}
+
+.similar-car-carousel .jcarousel li {
+    width: 230px;
+    height: 230px;
+    cursor: default;
+}
+
+.imageWrapper {
+    background-color: #efefef;
+}
+
+.similar-car-carousel .imageWrapper {
+    width: 230px;
+    height: 130px;
+}
+
+.similar-car-carousel .jcarousel {
+    padding: 0;
+}
+
+.similar-car-carousel .jcarousel-control-left {
+    left: -22px;
+}
+
+.similar-car-carousel .jcarousel-control-right {
+    right: -22px;
+}
+
+.similar-car-carousel a {
+    text-decoration: none;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.margin-bottom10 {
+    margin-bottom: 10px;
+}
+
+.content-box-shadow {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    -moz-box-shadow: 0 1px 2px #e5e5e5;
+    -webkit-box-shadow: 0 1px 2px #e5e5e5;
+    -o-box-shadow: 0 1px 2px #e5e5e5;
+    -ms-box-shadow: 0 1px 2px #e5e5e5;
+    box-shadow: 0 1px 2px #e5e5e5;
+}
+
+.content-inner-block-10 {
+    padding: 10px;
+}
+
+.jcarousel-wrapper {
+    position: relative;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0 50px
+}
+
+.jcarousel>ul {
+    width: 20000em;
+    position: relative
+}
+
+.jcarousel>ul>li {
+    float: left;
+    width: 312px;
+    height: 330px;
+    margin-right: 20px;
+    background: #fff
+}
+
+.rsz-lyt .ChevroletWrapper .jcarousel-control-left, .rsz-lyt .jcarousel-control-left {
+    left: -9px;
+}
+
+.rsz-lyt .jcarousel-control-left {
+    left: -10px;
+}
+
+.rsz-lyt .jcarousel-control-prev.inactive {
+    background-position: -21px -16px;
+}
+
+.rsz-lyt .jcarousel-control-next, .rsz-lyt .jcarousel-control-prev {
+    background-size: 130px auto;
+    height: 34px;
+    padding: 0;
+    width: 20px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+.jcarousel-control-prev.inactive {
+    background-position: -33px -80px;
+    cursor: not-allowed;
+}
+
+.jcarousel-control-prev {
+    background-position: -33px -80px;
+}
+
+.jcarousel-control-next, .jcarousel-control-prev {
+    width: 35px;
+    height: 60px;
+    text-indent: -9999px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cwsprite {
+    background: url(https://imgd.aeplcdn.com/0x0/cw/static/sprites/cwsprite.png?201703071717247120) no-repeat;
+}
+
+.jcarousel-control-left {
+    left: -32px;
+}
+
+.jcarousel-control-left, .jcarousel-control-right {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+}
+
+.grid-8 {
+    width: 65.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rsz-lyt .jcarousel-control-next, .rsz-lyt .jcarousel-control-prev {
+  background-size: 130px auto;
+  height: 34px;
+  padding: 0;
+  width: 20px;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+.jcarousel-control-next:hover, .jcarousel-control-prev, .jcarousel-control-prev:hover, .recentlyadded-car-carousel .jcarousel-control-next {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/icons_arrow_bold.svg) center no-repeat;
+  height: 35px;
+}
+.jcarousel-control-next, .jcarousel-control-prev {
+  width: 35px;
+  height: 60px;
+  text-indent: -9999px;
+  padding: 5px;
+  cursor: pointer;
+}
+.jcarousel-control-prev.inactive {
+  background-position: -33px -80px;
+  cursor: not-allowed;
+}
+.jcarousel-control-next, .jcarousel-control-prev {
+  height: 35px;
+  padding: 0;
+  position: relative;
+}
+.ae-logo-border, .ae-sprite, .cw-circle-icon, .cw-sprite, .cwmsprite, .cwsprite {
+  display: inline-block;
+}

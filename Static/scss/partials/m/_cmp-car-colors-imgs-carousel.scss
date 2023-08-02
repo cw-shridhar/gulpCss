@@ -1,0 +1,242 @@
+.cmp-model-card-selection {
+    font-size: 13px;
+    text-align: center;
+    color: map-get($color-map, "valhalla");
+    padding: 12px;
+    margin-top: 12px;
+    border-top: 1px solid map-get($color-map, "gainsboro");
+
+    &__radio {
+        @include vendor-prefix(box-shadow, (0 0 0 1px map-get($color-map, "white-smoke-3")));
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        position: relative;
+        top: 1px;
+        margin-right: 6px;
+        background: map-get($color-map, "white");
+        border: 2px solid map-get($color-map, "white");
+        border-radius: 50%;
+    }
+}
+
+.cmp-model-card {
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 4px;
+    padding-bottom: 12px;
+
+    &::before {
+        @include vendor-prefix(transform, (translateX(-50%) rotate(45deg)));
+        display: none;
+        content: "";
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        background: map-get($color-map, "white");
+        border: solid 1px map-get($color-map, "whisper");
+        border-color: transparent map-get($color-map, "light-coral") map-get($color-map, "light-coral") transparent;
+        border-radius: 4px 0;
+    }
+
+    &--selected {
+        border-color: map-get($color-map, "light-coral");
+
+        .cmp-model-card-selection {
+            font-weight: bold;
+
+            &__radio {
+                @include vendor-prefix(box-shadow, (0 0 0 1px map-get($color-map, "fire-red")));
+                background: map-get($color-map, "fire-red");
+            }
+        }
+    }
+}
+
+.cmp-model-card-info {
+    @include flexbox;
+
+    &__img-wrapper {
+        position: relative;
+        padding-top: 62.5%;
+    }
+
+    &__img {
+        position: absolute;
+        inset: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    &__make-name,
+    &__car-price-info {
+        font-size: 12px;
+        color: map-get($color-map, "comet");
+        margin-bottom: 4px;
+    }
+
+    &__model-name {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 8px;
+    }
+
+    &__car-price {
+        font-size: 15px;
+        font-weight: bold;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 4px;
+    }
+}
+
+.cmp-model-card-links {
+    @include flexbox;
+    padding-right: 12px;
+    padding-left: 12px;
+
+    &__ref {
+        font-size: 13px;
+        color: map-get($color-map, "pacific-blue");
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    &__divider {
+        margin-right: 8px;
+        margin-left: 8px;
+        border-right: 1px solid map-get($color-map, "whisper");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cmp-model-img__carousel {
+        @include flexbox;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .cmp-model-card {
+        @include flex-shrink;
+        position: relative;
+        width: 288px;
+        margin-right: 12px;
+        margin-bottom: 16px;
+    
+        &:first-child {
+            margin-left: 16px;
+        }
+    }
+
+    .cmp-model-card-info {
+        padding-top: 12px;
+        padding-bottom: 8px;
+
+        &__img-wrapper {
+            width: 131px;
+        }
+
+        &__wrapper {
+            margin-left: 8px;
+        }
+    }
+
+    .cmp-model-card-selection {
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 801px) {
+    .cmp-mode-img-swiper {
+        position: relative;
+        width: 1115px;
+        margin: auto;
+    }
+
+    .cmp-model-card {
+        margin-bottom: 18px;
+
+        &--selected {
+            .cmp-model-card-selection {
+                font-family: $font-muli-semibold;
+            }
+        }
+    }
+
+    .cmp-model-card-info {
+        padding: 12px 12px 8px;
+
+        &__wrapper {
+            margin-left: 12px;
+        }
+
+        &__img-wrapper {
+            width: 160px;
+        }    
+    
+        &__model-name {
+            font-family: $font-muli-semibold;
+
+            .arrow_right {
+                padding: 3.25px;
+            }
+        }
+
+        &__car-price {
+            font-family: $font-muli-semibold;
+        }
+    }
+
+    .cmp-model-card-selection {
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    .cmp-model-img__nav {
+        color: map-get($color-map , "white-smoke-3");
+        background-color: map-get($color-map , "white" );
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+        border-radius: 50%;
+        top: calc(50% - 12px);
+        @include vendor-prefix(transform, translateY(-50%));
+        z-index: 1;
+        cursor: pointer;
+        @include vendor-prefix(box-shadow, (0 3px 5px 0 rgba(0, 0, 0, 0.21)));
+
+        *:focus {
+            outline: none;
+        }
+
+        &--prev {
+            left: -12px;
+        }
+
+        &--next {
+            right: -12px;
+        }
+
+        &-icon {
+            height: 16px;
+            width: 16px;
+
+            &--prev {
+                @include vendor-prefix(transform, rotate(180deg));
+            }
+        }
+
+        &.nav-active {
+            color: map-get($color-map , "floral");
+        }
+    }
+}

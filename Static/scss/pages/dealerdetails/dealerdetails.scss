@@ -1,0 +1,111 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../partials/d/make-city-selector";
+@import "../../partials/m/mmv-dropdown";
+@import "../../partials/m/dealer-card";
+@import "../../partials/d/price-in-other-cities";
+@import "../../common/mmv-popup";
+@import "../../partials/d/all-brands-collapsible";
+@import "../../partials/m/seo-table";
+
+.top-ad {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  min-height: 90px;
+}
+
+.content-area {
+  width: 1156px;
+  margin: auto;
+  overflow: visible;
+}
+
+.dealer-in-city-text {
+  font-size: 15px;
+  line-height: 23px;
+  color: map-get($color-map, "comet");
+}
+
+.left-side {
+  width: 66%;
+  float: left;
+  margin-right: 52px;
+}
+
+.right-side {
+  float: right;
+  width: 29%;
+}
+
+.dealer-card-container {
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(space-between);
+  margin-bottom: 12px;
+  border: 1px solid map-get($color-map, "whisper");
+  padding: 16px 12px;
+  width: 44%;
+  min-height: 140px;
+  margin-right: 12px;
+}
+
+.dealer-cards {
+  @include flexbox;
+  @include align-items(flex-end);
+  @include flex-wrap(wrap);
+  padding-top: 40px;
+}
+
+.dealer-mobile {
+  color: map-get($color-map, "valhalla");
+  margin-right: auto;
+}
+
+.no-result-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.make-city-container {
+  @include flex-wrap(wrap);
+  padding-bottom: 0;
+}
+
+.no-dealer-found {
+  font-weight: $font-bold;
+  font-size: 19px;
+  color: map-get($color-map, "valhalla");
+  text-align: center;
+}
+
+.no-dealers-available {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  color: map-get($color-map, "comet");
+}
+
+.change-city-button {
+  font-size: 15px;
+  border: 1px solid map-get($color-map, "fire-red");
+  font-weight: 700;
+  color: map-get($color-map, "fire-red");
+  padding: 11px 20px 10px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.call-dealer-btn {
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: solid 1px map-get($color-map, "fire-red");
+  background-color: map-get($color-map, "white");
+  padding: 11px 20px 10px;
+  color: map-get($color-map, "fire-red");
+}

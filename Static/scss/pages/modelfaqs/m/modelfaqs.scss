@@ -1,0 +1,15 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "./../_faqWidget.scss";
+@import "../../../partials/m/_similar-cars-carousel.scss";
+
+.ad-block {
+	background-color: map-get($color-map, "white");
+	@include flexbox;
+	@include justify-content(center);
+	min-height: 100px;
+}
+
+.heading-h1 {
+  font-size: 21px;
+}

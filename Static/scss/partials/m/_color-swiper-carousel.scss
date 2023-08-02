@@ -1,0 +1,114 @@
+.color-carousel {
+    border: 1px solid map-get($color-map, "gainsboro");
+}
+
+.colour-image-wrapper {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    position: relative;
+}
+
+.colour-image {
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    height: 100%;
+}
+
+.color-model-name {
+    position: absolute;
+    color: map-get($color-map, "comet");
+    padding: 4px 12px;
+    background-color: map-get($color-map, "white-smoke-2");
+    border-top-right-radius: 4px;
+    font-size: 10px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.color-name-text {
+    color: map-get($color-map, "comet");
+    padding-top: 8px;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.color-block-container {
+    position: relative;
+    margin-left: 12px;
+}
+
+.color-swiper-nav {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    height: 40px;
+    width: 20px;
+    opacity: .8;
+    background-color: map-get($color-map, "white");
+    border: 1px solid map-get($color-map, "whisper");
+    position: absolute;
+    top: 50%;
+    @include vendor-prefix(transform, translateY(-50%));
+    cursor: pointer;
+
+    &--prev {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        left: -1px;
+    }
+
+    &--next {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        right: -1px;
+    }
+
+    &-icon {
+        width: 6px;
+        height: 12px;
+
+        &--prev {
+            @include vendor-prefix(transform, rotate(180deg));
+        }
+    }
+}
+
+.swiper-container {
+    z-index: 0;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    z-index: 0;
+}
+
+.color-button {
+    height: 32px;
+    width: 32px;
+    border: 1px solid map-get($color-map, "ghost");
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.active-color .tick-container {
+    display: block;
+}
+
+.tick-container {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: none;
+}
+
+.color-block-wrapper {
+    margin: 8px 16px 0 0;
+    display: inline-block;
+    position: relative;
+}

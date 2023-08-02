@@ -1,0 +1,117 @@
+.car-card-2 {
+    width: 50%;
+    flex: 1;
+    position: relative;
+}
+
+.car-card-3 {
+    width: 33%;
+    flex: 1;
+    position: relative;
+}
+
+.car-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: map-get($color-map, "pacific-blue");
+    @include text-truncate;
+}
+
+.car-version-name {
+    color: map-get($color-map, "comet");
+    font-size: 13px;
+    margin: 0;
+    @include text-truncate;
+}
+
+.car-version-price {
+    font-size: 15px;
+    font-weight: bold;
+    color: map-get($color-map, "valhalla");
+}
+
+.car-version-price-label {
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+}
+
+.car-edit {
+    position: absolute;
+    right: 8px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.car-grid-versus {
+    position: absolute;
+    left: 47%;
+    z-index: 1;
+    top: 30%;
+}
+
+.car-grid-versus-0 {
+    position: absolute;
+    left: 31%;
+    z-index: 1;
+    top: 23%;
+}
+
+.car-grid-versus-1 {
+    position: absolute;
+    right: 31%;
+    z-index: 1;
+    top: 23%;
+}
+
+.get-offers-cta-button {
+    border: 1px solid map-get($color-map, "fire-red");
+    padding: 8px 12px;
+    color: map-get($color-map, "fire-red");
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.add-car-button {
+    height: 40px;
+    width: 100%;
+    border: 1px solid map-get($color-map, "fire-red");
+    color: map-get($color-map, "fire-red");
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+}
+
+/* sticky grid*/
+.car-stick-top {
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    background: map-get($color-map, "white");
+    box-shadow: 0 2px 4px 0 rgba(39, 42, 65, 0.15);
+    @include vendor-prefix(transition, (transform .2s linear));
+}
+
+.sticky-car-card-2 {
+    width: 50%;
+    flex: 1;
+}
+
+.sticky-car-card-3 {
+    width: 33%;
+    flex: 1;
+}
+
+.position-sticky-top {
+    position: fixed;
+    top: 0px;
+}
+
+.car-stick-top.inactive {
+    @include vendor-prefix(transform, (translateY(-100%)));
+}

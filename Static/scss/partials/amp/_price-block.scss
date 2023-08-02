@@ -1,0 +1,78 @@
+.detail-price-block {
+    background-color: map-get($color-map,"white-smoke-1");
+    border-radius: 4px;
+}
+
+.detail-price-tabs {
+    display: flex;
+    justify-content: space-around;
+    border: map-get($color-map, "ford-gray") solid 1px;
+    border-radius: 4px;
+    color: map-get($color-map, "comet");
+    background-color: map-get($color-map, "white");
+
+    .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin: 2px;
+        border-radius: 4px;
+        width: 100%;
+        color: map-get($color-map, "comet");
+        border: none;
+        background: none;
+    }
+
+    .tab-icon {
+        margin-left: 0;
+        fill: map-get($color-map, "comet");
+    }
+
+    .tab.active {
+        background-color: map-get($color-map , "comet");
+        color: map-get($color-map, "white");
+
+        .tab-icon {
+            fill: map-get($color-map, "white");
+        }
+    }
+}
+
+.emi-text {
+    color: map-get($color-map, "comet");
+
+    .emi-value {
+        font-size: 16px;
+        letter-spacing: 1.07px;
+        color: map-get($color-map, "valhalla");
+    }
+}
+
+.emi-toggle-btn {
+    font-weight: 700;
+    font-size: 13px;
+    color: map-get($color-map, "valhalla");
+    display: block;
+    text-align: center;
+    border-top: 1px solid map-get($color-map, "whisper-1");
+
+    .emi-toggle-btn-icon {
+		@include vendor-prefix(transform, rotate(180deg));
+        margin-left: 4px;
+        width: 12px;
+        top: 2px;
+	}
+}
+
+.emi-calc-wrapper .get-best-offers-btn {
+	float: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: map-get($color-map, "fire-red");
+    padding: 8px 20px;
+	border-radius: 4px;
+	border: solid 1px map-get($color-map, "fire-red");
+	background-color: map-get($color-map, "white");
+}

@@ -1,0 +1,61 @@
+
+
+.pic__conatiner {
+    padding: 24px 16px 20px;
+
+    .pic__heading {
+        font-family: $font-muli-semibold, sans-serif;
+        color: map-get($color-map, "valhalla" );
+        font-size: 19px;
+    }
+
+    .pic__table {
+        width: 100%;
+        margin-top: 16px;
+        background: map-get($color-map, "white" );
+        border-collapse: collapse;
+        border-radius: 4px;
+        border-style: hidden;
+        box-shadow : 0 0 1px 1px map-get($color-map, "whisper" );
+    }
+}
+
+.pic-table__content {
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+}
+.pic-table__name {
+    padding: 12px;
+
+    a {
+        color: map-get($color-map, "pacific-blue" );
+        font-size: 15px;
+    }
+}
+.pic-table__price {
+    padding: 12px;
+    color: map-get($color-map, "valhalla" );
+    font-size: 15px;
+    text-align: right;
+}
+
+.pic__location {
+    @include flexbox;
+    @include align-items(center);
+    padding: 12px 18px;
+    margin-top: 16px;
+    border: 1px solid map-get($color-map, "ghost" );
+    border-radius: 4px;
+
+    .location__icon {
+        @include location-icon;
+        display: inline-block;
+        width: 28px;
+        height: 22px;
+    }
+
+    .location__text {
+        color: map-get($color-map, "manatee" );
+        font-size: 14px; 
+        line-height: 20px;
+    }
+}

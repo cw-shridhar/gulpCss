@@ -1,0 +1,5016 @@
+#footer {
+    width: 100%;
+    left: 0px;
+    position: relative;
+    bottom: 0px;
+}
+
+.h1new {      		
+    font-size:15px;		
+    width: 100%;		
+    padding: 11px 14px;		
+    margin:0px;		
+    background: none !important;		
+    margin-left: 0px;		
+    background-color: #ffffff !important;		
+    display: block;		
+    text-align: left;		
+    line-height: 15px;		
+    box-sizing: border-box;		
+    letter-spacing: normal;		
+}	
+
+.headerblk .menubtnblk .menuicon {
+    background: rgba(0, 0, 0, 0) url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png") no-repeat scroll -236px -193px !important;
+    cursor: pointer;
+    height: 17px;
+    position: relative;
+    width: 23px;
+    z-index: 10;
+}
+
+.loaderbg {
+    position: fixed;
+    width: 100%;
+    height: 1000%;
+    background-color: black;
+    opacity: 0.60;
+    filter: alpha(opacity=60);
+    top: 0px;
+    left: 0px;
+    z-index: 9999999999;
+    background-position: initial initial;
+    background-repeat: initial initial
+}
+
+.loaderblk {
+    text-align: center;
+    position: fixed;
+    left: 43.5%;
+    top: 40%;
+    z-index: 9999999999;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images2/loading.gif-version201701021358.gif") no-repeat center #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #222222;
+    padding: 20px
+}
+
+.smartbanner_show #idbybody {
+    padding-top: 103px;
+}
+
+.smartbanner_show #idbybody {
+    padding-top: 190px;
+    margin-top: 86px;
+}
+
+.header {
+    position: relative!important;
+}
+
+/* .breadcrumbs ul li a{color:#dedede;}	  */
+@media only screen and (max-device-width: 320px) {
+    .h1new {
+        font-size:0.87em;
+    }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width:375px) {
+    .h1new {
+        font-size:0.9em;
+    }
+}
+
+body {
+    font-family: Arial !important;
+}
+
+.menuicon {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png) -238px -193px no-repeat;
+    border: none;
+    width: 23px;
+    height: 15px
+}
+
+.menuicon.btnopen {
+    margin-bottom: 0;
+    border-bottom: none
+}
+
+.subpagemenu {
+    width: 170px;
+    position: relative
+}
+
+.subpagemenu .menubtnblk {
+    right: auto;
+    text-align: left;
+    top: 13px;
+    left: 0;
+    z-index: 100000
+}
+
+.mainmenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 10px;
+    background: #fff;
+    z-index: 9999;
+}
+
+.menuicon {
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    left: 15px;
+    top: 15px
+}
+
+.newNav ul {
+    width: 260px;
+}
+
+.newNav ul li {
+    list-style: none;
+    float: left;
+    min-height: 73px;
+    padding: 0;
+    background: #fff;
+}
+
+.newNav ul li:nth-child(even) {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-left: -1px;
+    width: 130px
+}
+
+.newNav ul li:nth-child(odd) {
+    border-bottom: 1px solid #ccc;
+    width: 130px
+}
+
+.newNav ul li a {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 11px;
+    padding-bottom: 2px;
+    display: inline-block
+}
+
+.newNav ul li a img {
+    width: 50px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 0 auto
+}
+
+
+.newNav ul:nth-child(6) li a .total_counts {
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  font-size: 8px;
+  color: #fff;
+  background: #d11803;
+  border-radius: 20px;
+  min-width: 14px;
+  min-height: 14px;
+  display: block;
+  line-height: normal;
+  padding: 2px;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.newNav ul:nth-child(6) li:nth-child(odd) {
+  padding: 0px;
+  line-height: normal !important;
+}
+
+.newNav ul:nth-child(6) li:nth-child(odd) a {
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
+
+.newNav ul:nth-child(6) li:nth-child(odd) a b {
+  line-height: normal;
+  font-family: Arial !important;
+  font-size: 11px;
+}
+
+#cook_show,
+#com_sh_count {
+  font-family: "arial" !important;
+}
+
+.newNav ul:nth-child(6) li:nth-child(odd) a img {
+  width: 30px;
+}
+
+.user_count span, .mychat .total_counts {
+    font-family: Arial !important;
+}
+
+.newNav ul.listmenu li {
+    display: none;
+    list-style: none;
+    float: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-top: -1px
+}
+
+.newNav ul.listmenu li a {
+    cursor: pointer;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-weight: 700;
+    vertical-align: text-top
+}
+
+.newNav ul.listmenu li a img {
+    width: 26px;
+    float: left;
+    margin-right: 10px
+}
+
+.my_pgicn {
+    width: 34px !important;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.menuicon:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.newNav {
+    left: -261px;
+    position: absolute;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    z-index: 9999999999;
+}
+
+.transparentbg_new {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+.smartbanner_show .transparentbg_new {
+    top: 81px;
+}
+
+.rel {
+    position: relative !important;
+}
+
+.hide_total_count,#total_counts_menu.close {
+    /*visibility:hidden;*/
+    display: none;
+}
+
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-filter .filtoptdiv {
+    background: #efefef;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: block;
+    z-index: 10000 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efefef;
+}
+
+.tabs {
+    min-height: 0px;
+    clear: both;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.tabsleft {
+    overflow-x: hidden;
+}
+
+@media screen and (max-device-width: 320px) {
+    .tabsleft {
+        width:40.78%;
+        overflow-y: scroll;
+        height: 440px;
+        overflow-x: hidden;
+    }
+
+    .disappear {
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 360px) {
+    .tabsleft {
+        width:36%;
+        overflow-y: scroll;
+        height: 460px;
+        ;overflow-x: hidden;
+    }
+
+    .disappear {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 375px) {
+    .tabsleft {
+        height:505px;
+    }
+}
+
+.tab {
+    height: auto;
+    font: normal normal 12px Verdana;
+}
+
+.btn-filter {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tab label, .tablink {
+    box-sizing: border-box;
+    padding: 13px 7px 13px 18px;
+    margin-left: 0px;
+    position: relative;
+    font-size: 12px;
+    width: 131px;
+    display: block;
+    color: #d9d9d9;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.tabs .content {
+    height: 100%;
+    border-left: 1px solid #3b3b3b!important;
+    background-color: #2b2b2b;
+}
+
+body {
+    background-color: #3b3b3b;
+}
+
+.tab .content ul li label span {
+    -webkit-text-fill-color: #D9D9D9 !important;
+    -webkit-opacity: 1;
+    color: #D9D9D9 !important;
+}
+
+.content ul li label .radiobtn {
+    top: 15px;
+}
+
+.tab li {
+    list-style: none;
+    width: auto;
+    margin: 0px auto;
+}
+
+.tab li label {
+    width: 82.8%;
+    margin: 0px auto;
+    padding: 13px 10px 13px 0px;
+    color: #d9d9d9;
+    font-weight: normal;
+}
+
+.tab li label span {
+    display: table-cell;
+    width: 100%;
+}
+
+.tab li label span [type=radio] {
+    display: block;
+}
+
+input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: none;
+}
+
+.tab ul li ul {
+    overflow-x: hidden;
+    height: auto;
+    min-height: 45px;
+    margin: 0px;
+    background: #212121;
+    width: 100%;
+    display: block;
+    border-left: 0px;
+    box-shadow: 1px 1px 6px -2px #111 inset;
+}
+
+.tab ul li ul {
+    direction: rtl;
+}
+
+.tab ul li ul li {
+    width: 85%;
+    direction: ltr;
+}
+
+.tab ul li ul li label {
+    width: 90%;
+    color: #d9d9d9;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 11px;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    height: 108%;
+    overflow-y: scroll;
+    top: 0px;
+    left: 130px;
+    color: #d9d9d9;
+    right: 0;
+    bottom: 0;
+    padding: 0px;
+    border: 0px solid #ccc;
+    top: 0px;
+}
+
+.content ul {
+    background: #2b2b2b;
+    box-shadow: 1px -6px 6px -2px #111 inset;
+    height: 100%;
+}
+
+input[type=radio]:checked ~ label, .tablink {
+    border-bottom: 1px solid #232323;
+}
+
+input[type=radio]:checked ~ label, .tablink.activetab {
+    background: #292929;
+    color: #d9d9d9;
+    border-bottom: 1px solid #292929;
+    z-index: 2;
+}
+
+input[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+
+.tablink .count {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #0a0a0a;
+    border-radius: 12px;
+    margin-right: -5px;
+    margin-top: -3px;
+}
+
+.tablink.activetab .count {
+    background-color: #0a0a0a;
+}
+
+.tablink .count span {
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-color-index:0) {
+    _::-webkit-full-page-media, _:future, :root .tablink .count span {
+        top:-1px;
+    }
+}
+
+.navbtns {
+    background: #ddd;
+    padding: 5px 10px;
+    display: none !important
+}
+
+.tab .content .radiobtn, .tab .content .checkbtn {
+    display: block !important;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    width: 20px !important;
+}
+
+.radiobtn {
+    top: 6px;
+}
+
+.Clear {
+    clear: both;
+}
+
+.transparentbg {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    overflow: hidden;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100000000000;
+}
+
+.filter .filterHead {
+    width: 100%;
+    height: 57px;
+    background-color: #171717;
+    top: 0px;
+    position: fixed;
+}
+
+.filter .filterHead span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.btn-filter .filtoptdiv {
+    background: #3b3b3b;
+    overflow: hidden;
+}
+
+.navbtns {
+    display: none !important;
+}
+
+.floatingMenu {
+    display: table;
+    width: 100%;
+    bottom: 0px;
+    background-color: #ededed;
+    border-top: 1px solid #a9a9a9;
+    z-index: 10000000;
+}
+
+.floatingMenu .pull-left, .floatingMenu .pull-right {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.contentSelect {
+    top: 43px;
+    left: 100px;
+    color: #d9d9d9;
+    right: 0;
+    bottom: 0;
+    padding: 0px;
+    border: 0px solid #ccc;
+    top: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.contentSelect ul {
+    padding: 0px 20px;
+    height: 190px;
+}
+
+.contentSelect ul li {
+    list-style: none;
+    padding: 8px 0px;
+    font-size: 13px;
+    /*border-bottom:1px solid #222222;*/
+}
+
+.contentSelect ul li label {
+    display: block;
+}
+
+.contentSelect ul li label .radiobtn {
+    top: 15px;
+    margin-right: 20px;
+}
+
+.contentSelect ul li label .radiobtn input {
+    width: auto !important;
+}
+.heading_inner {
+    border-top: 2px solid #292929;
+    padding-top: 7px;
+    width: 100%;
+}
+
+.pad_tp {
+    padding-top: 6px;
+}
+
+.floatingMenu span {
+    padding: 14px 0;
+    font-size: 14px;
+}
+
+.floatingMenu a:first-child {
+    width: 130px !important;
+}
+
+@media only screen and (max-device-width: 320px) {
+    .content {
+        height:480px;
+        overflow-y: scroll;
+    }
+
+    .contentSelect ul li {
+        padding: 4px 0;
+    }
+
+    .contentSelect ul {
+        padding: 0px 20px;
+        height: 120px;
+    }
+}
+
+@media only screen and (min-device-width: 360px) {
+    .content {
+        height:640px;
+        overflow-y: scroll;
+    }
+}
+
+.btn-filter .filtoptdiv, .tab ul {
+    min-height: 100%;
+    height: auto;
+}
+
+.mainFloatMenu {
+    display: table;
+    width: 100%;
+    background: #333333 url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/listing-shadow-strip.png) repeat-x center 44px !important;
+    z-index: 10000000;
+    box-shadow: none;
+    border-bottom: 0px solid #686868;
+    height: 49px;
+}
+
+.mainFloatMenu .filtrcolm {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    border: 1px solid #171717;
+    border-width: 0px 1px 0px 0px;
+}
+
+.mainFloatMenu .filtrcolm a {
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 0px;
+    display: inline-block;
+}
+
+.mainFloatMenu:second-child {
+    background-color: #6b6b6b;
+}
+
+.mainFloatMenu .filtrcolm a span img {
+    margin-right: 2px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+#header.hide-for-some-time , #footer.hide-for-some-time {
+    visibility: hidden;
+}
+
+#nav_foot {
+    position: relative!important;
+    margin-top: 0px!important;
+    top: 0px!important;
+}
+
+.mainFloatMenu {
+    margin-top: 0px!important;
+}
+
+.b_topbrds,.buyUsedCarNew .container .resultblk .ui-bar-b .resLblk,.input--juro,.line {
+    overflow: hidden
+}
+
+.smartbanner_show {
+    margin-top: 0!important
+}
+
+.headerblk {
+    z-index: 999;
+    width: 100%!important;
+    box-sizing: border-box;
+    position: relative!important
+}
+
+.smartbanner_show .smartbanner {
+    position: fixed!important;
+    top: 0
+}
+
+#header {
+    box-shadow: 0 1px 6px #989898!important;
+    z-index: 999
+}
+
+.headerblk .innerlogo {
+    left: 0!important
+}
+
+
+.block_3 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 99;
+    top: 54px
+}
+
+.featured {
+    background-position: -86px top
+}
+
+.premium {
+    background-position: -10px top
+}
+
+.buyUsedCarNew .headerblk .innerlogo {
+    left: -12px!important
+}
+
+.buyUsedCarNew .logomini {
+    margin-top: 3px!important
+}
+
+#silifilm,.silifilm {
+    opacity: 1;
+    background: rgba(0,0,0,.5)
+}
+
+.heading2,ul.onroadPriceQuote li.heading2 {
+    color: #d11803;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0 0
+}
+
+.formblk input[placeholder],.rupee_font1,[placeholder] {
+    color: #000!important
+}
+
+#toast {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    background-color: #fff;
+    z-index: 9999999;
+    border-radius: 3px;
+    padding: 10px 30px;
+    box-shadow: 1px 3px 30px #000;
+    font-size: 12px;
+    transition: 1s
+}
+
+.input,.input__label {
+    display: inline-block
+}
+
+.popShare img {
+    visibility: hidden
+}
+
+.resultblk input:focus {
+    border-bottom: 2px solid #000!important
+}
+
+.resultblk input.success {
+    border-bottom: 2px solid green!important
+}
+
+.resultblk input.error {
+    border-bottom: 2px solid red!important
+}
+
+.resultblk input,.resultblk input[type=text],.resultblk input[type=number],.resultblk input[type=email] {
+    font-size: 14px!important;
+    text-indent: 0!important;
+    padding-bottom: 4px
+}
+
+.input,.input__label-content {
+    position: relative;
+    width: 100%
+}
+
+.input {
+    z-index: 1;
+    vertical-align: top;
+    height: 46px
+}
+
+input {
+    background: 0 0!important;
+    box-shadow: none;
+    border: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    font-weight: 400!important;
+    margin: 0!important;
+    padding-left: 0!important;
+    border-radius: 0!important
+}
+
+#otp_form_data.close,.csellerPop.close {
+    display: none
+}
+
+#con_sellerpop .csellerPop {
+    right: 16px!important
+}
+
+.csellerPop .closebtn {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/btn_close-grey-32x32.png-version201710161211.png) center center no-repeat;
+    background-size: 12px 12px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    padding: 0
+}
+
+.carlistblk .csellerPop .directionlft {
+    width: 18px;
+    right: -17px;
+    bottom: 22px!important;
+    height: 24px;
+    display: block;
+    position: absolute;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs.png-version201710161211.png) -36px -420px no-repeat
+}
+
+.descblk p {
+    color: #737373;
+    line-height: 13px;
+    font-size: 11px;
+    margin-bottom: 15px
+}
+
+input,select {
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    width: 200px;
+    border-radius: 4px;
+    font: normal normal 12px Arial,Helvetica,sans-serif!important;
+    color: grey;
+    padding: 10px
+}
+
+.csellerPop input {
+    width: 100px;
+    border-radius: 0;
+    padding: 8px 10px;
+    text-transform: none;
+    vertical-align: middle
+}
+
+.commonbtnred,.flatRed {
+    text-transform: uppercase
+}
+
+.clr {
+    height: 0!important;
+    line-height: 0!important;
+    float: none!important;
+    clear: both!important;
+    margin: 0!important;
+    padding: 0!important;
+    border: none!important
+}
+
+.callinfo,.flatRed {
+    float: none;
+    position: relative
+}
+
+.flatRed {
+    cursor: pointer;
+    background-color: #e51e20;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px #B5B4B4;
+    color: #fff!important;
+    text-align: center!important;
+    vertical-align: middle;
+    letter-spacing: normal;
+    top: 10px
+}
+
+.flatRed:active {
+    color: #666!important;
+    border: 1px solid #838383;
+    box-shadow: 0 0 8px #bbb inset;
+    background-color: #fff;
+    box-sizing: border-box
+}
+
+.csellerPop .flatRed {
+    border: 1px solid #e51e20;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 7px;
+    text-decoration: none
+}
+
+.csellerPop .flatRed:active {
+    border: 1px solid #838383
+}
+
+.csellerPop.afterForm .flatRed {
+    padding: 7px 15px
+}
+
+.sel_star {
+    width: 28px;
+    height: 28px;
+    float: right;
+    display: block;
+    right: 9px;
+    position: absolute;
+    border-radius: 50%;
+    top: 8px;
+    padding: 10px!important;
+    box-sizing: border-box;
+    z-index: 99
+}
+
+.sel_star a.active {
+    background-position: center bottom!important
+}
+
+#moveTotop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,.5);
+    text-indent: -9999px;
+    display: none;
+    z-index: 9999
+}
+
+#moveTotop span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #fff
+}
+
+.rupee_font,.rupee_font1 {
+    font-family: Sans-Serif!important;
+    letter-spacing: normal;
+    font-weight: 400!important;
+    display: inline!important;
+    margin: 0!important;
+    padding: 0
+}
+
+#moveTotop:hover {
+    background: rgba(0,0,0,.7);
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"
+}
+
+.rupee_font {
+    vertical-align: initial!important
+}
+
+.font_14 {
+    font-size: 14px!important
+}
+
+.font_16 {
+    font-size: 16px!important
+}
+
+.font_18 {
+    font-size: 18px!important
+}
+
+.font_20 {
+    font-size: 20px!important
+}
+
+.cr_prc {
+    letter-spacing: -1px;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 4px;
+    font-weight: 700
+}
+
+.b_topbrds {
+    padding: 10px 10px 0;
+    border-top: 1px solid #585858;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center
+}
+
+.line {
+    width: auto;
+    margin: 0 auto
+}
+
+.b_topbrds ul {
+    list-style: none;
+    padding: 12px 0
+}
+
+.b_topbrds ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 3%;
+    padding-bottom: 8px
+}
+
+.b_topbrds ul li a {
+    cursor: pointer;
+    padding: 0;
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    color: #bbb!important;
+    line-height: normal!important;
+    text-decoration: none!important;
+    font-family: arial!important
+}
+
+.b_topbrds ul li span {
+    display: inline-block;
+    height: 11px;
+    width: 1px;
+    background: #bbb;
+    margin-left: 10px;
+    position: relative;
+    top: 2px
+}
+
+.no_bar {
+    display: none!important
+}
+
+.output {
+    font-size: 14px;
+    color: #555;
+    padding: 0;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    z-index: 99999999999
+}
+
+.output div {
+    padding: 8px 0 8px 15px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    color: #888;
+    margin: 0 25px;
+    display: block;
+    cursor: pointer
+}
+
+.output div:hover {
+    background: #eee;
+    color: #000
+}
+
+.shadow {
+    width: 100%;
+    position: relative;
+    top: 2px;
+    left: 2px
+}
+
+.shadow div {
+    position: relative;
+    top: -1px;
+    left: -2px
+}
+
+.close-icon {
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 9999999;
+    background: 0 0;
+    border: 0;
+    float: right;
+    display: none;
+    padding: 0
+}
+
+.close-icon::-moz-focus-inner,.close-icon:focus,.go-icon::-moz-focus-inner,.go-icon:focus,.sux_b::-moz-focus-inner,.sux_b:focus {
+    outline: 0!important;
+    border: none!important
+}
+
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration {
+    display: none
+}
+
+.intro .close-icon {
+    width: 38px;
+    height: 46px;
+    background: #fff
+}
+
+.hl {
+    background-color: #c0f0f0
+}
+
+#header {
+    min-height: 51px
+}
+
+#strip_s {
+    top: 101px!important
+}
+
+#nav_foot,.mainFloatMenu {
+    top: 50px!important;
+    position: fixed!important
+}
+
+.header {
+    width: 100%!important;
+    z-index: 99999!important
+}
+
+#adjust_header {
+    height: 100px!important
+}
+
+#sub_btn_close {
+    display: none!important
+}
+
+#glass {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0 ,.6);
+    display: none;
+    z-index: 99
+}
+
+.smartbanner_show #glass {
+    top: 142px
+}
+
+.search_newbar.intro.small-box input[type=search] {
+    width: calc(100% - 122px)!important;
+    padding-left: 10px!important;
+    box-sizing: border-box
+}
+
+.search_newbar.intro.small-box .go-icon {
+    right: 118px
+}
+
+.search_newbar.intro.small-box .close-icon {
+    right: 85px;
+    top: 3px;
+    height: 45px;
+    width: 35px;
+    background: 0 0
+}
+
+@charset "utf-8";body {
+    -webkit-text-size-adjust: none
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font: normal normal 15px Verdana, Geneva, sans-serif;
+    color: #222;
+    line-height: 20px
+}
+
+input[type="submit"],input[type="button"],a {
+    -webkit-appearance: none;
+}
+
+form,ul,h1,h2,h3,h4,h5,p {
+    padding: 0px;
+    margin: 0px
+}
+
+input,textarea {
+    width: 98.2% !important
+}
+
+@media only screen and (max-device-width: 480px) {
+    input,textarea {
+        width:87.2% !important
+    }
+
+    .headleft {
+        width: 130px !important
+    }
+
+    .headright {
+        position: absolute !important;
+        right: 10px;
+        top: 3px
+    }
+}
+
+@media only screen and (max-device-width: 240px) {
+    .headleft {
+        margin-left:-48px !important
+    }
+}
+
+input:foucs {
+    -moz-box-shadow: 0 0 12px #be3838;
+    -webkit-box-shadow: 0 0 12px #be3838;
+    box-shadow: 0 0 12px #be3838
+}
+
+input[type=text],textarea,select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid #e76b6b
+}
+
+select,textarea {
+    background: #FFFFFF;
+    border: 1px solid #bbb;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin: 5px 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #555555;
+    line-height: 40px
+}
+
+select,input {
+    box-sizing: border-box;
+    position: relative;
+    text-indent: 1px;
+    text-overflow: "";
+    line-height: normal
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: normal;
+    background: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/select-icon.png") no-repeat scroll right center #FFFFFF
+}
+
+input[type=text]:focus,textarea:focus,select:focus {
+    box-shadow: 0 0 5px #be3838;
+    border: 1px solid #e76b6b
+}
+
+img {
+    border: 0px
+}
+
+br {
+    padding: 0px;
+    margin: 0px
+}
+
+a:focus {
+    outline: 0
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+a:hover {
+    outline: none
+}
+
+p {
+    color: #404040;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    text-align: justify;
+    line-height: 20px
+}
+
+h1 {
+    color: #000000;
+    float: left;
+    font-size: 15px;
+    padding: 12px 0 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 8px;
+    width: 178px;
+    line-height: normal
+}
+
+h2 {
+    color: #d11803;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: normal;
+    line-height: normal
+}
+
+.clear {
+    clear: both;
+    font-size: 0px
+}
+
+.outer {
+    overflow: hidden;
+    font-size: 0px
+}
+
+#topbar {
+    background: #333;
+    border-bottom: 1px solid #1b1b1b;
+    display: none
+}
+
+#wrapper {
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #CCC;
+    border: 0px solid #ddd;
+    text-align: left
+}
+
+#header {
+    background: #fff;
+    padding: 2px 10px;
+    overflow: inherit;
+    border-bottom: 0px solid #b1b1b1;
+    border-top: 3px solid #D21904;
+    min-height: 42px;
+    text-align: center;
+    position: relative
+}
+
+#header h1 b i,#header h1 strong i,#header h1 i {
+    font-style: inherit
+}
+
+#list li,.list li {
+    background: #ffffff;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNGU0ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+    background: -moz-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e4e4e4));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e4e4e4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e4e4e4', GradientType=0);
+    padding: 10px 15px;
+    list-style: none;
+    border-bottom: 1px solid #cdcdcd;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    line-height: 25px
+}
+
+#list li:first-child,.list li:first-child {
+    border-top: 1px solid #cdcdcd
+}
+
+#list li a,.list li a {
+    color: #000000;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.cont {
+    font-size: 14px
+}
+
+.cont h2 {
+    padding: 0px 0px 10px
+}
+
+.cont img {
+    margin: 0px 15px 10px 0px;
+    width: 284px;
+    height: 210px
+}
+
+.cont span,.cont22 span {
+    color: #777;
+    display: block
+}
+
+.cont p {
+    font-size: 14px;
+    margin: 5px 0px 0px;
+    line-height: 20px
+}
+
+.carprice-btns li {
+    padding: 0 !important
+}
+
+.carprice-btns li a {
+    font-size: 20px !important;
+    text-transform: uppercase;
+    color: #282828 !important;
+    width: 100%;
+    line-height: normal
+}
+
+.carprice-btns li a strong {
+    color: #cf1800 !important;
+    font-weight: normal
+}
+
+.carprice-btns li a img {
+    padding: 0px;
+    margin-right: 6px
+}
+
+.carprice-btns li a span {
+    padding: 0px;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: normal;
+    cursor: pointer
+}
+
+.carprice-btns li a span.titleblk {
+    padding-top: 20px
+}
+
+.carprice-btns li a span.titleblk1 {
+    padding-top: 12px
+}
+
+.carprice-btns li span.redline {
+    background: #d21904;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QyMTkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4ZTEzMDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+    background: -moz-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d21904), color-stop(100%, #8e1303));
+    background: -webkit-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -o-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -ms-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: linear-gradient(to bottom, #d21904 0%, #8e1303 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d21904', endColorstr='#8e1303', GradientType=0);
+    display: block;
+    float: left;
+    min-height: 62px;
+    width: 10px
+}
+
+
+
+input[type="checkbox"],input[type="radio"] {
+    border: medium none;
+    height: auto;
+    line-height: normal;
+    margin: 4px 0;
+    padding: 0;
+    width: auto
+}
+
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+ul.features li ul {
+    clear: both;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+ul.features li ul li {
+    margin: 9px 0 0
+}
+
+ul.features li {
+    color: #666666;
+    font: 14px/15px Verdana, arial;
+    margin: 0;
+    min-height: 20px;
+    padding: 10px 0px;
+    line-height: 20px
+}
+
+ul.features li ul li strong {
+    color: #828282
+}
+
+table tbody th,table tbody td {
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+    padding: 10px 5px 9px;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.redcolor {
+    color: #D11803
+}
+
+#footer {
+    overflow: hidden;
+}
+
+#footer,.formblk input.ui-btn.blackbutton {
+    background: rgb(60,60,60);
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNjM2MzYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTExMTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+    background: -moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(17,17,17,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(60,60,60,1)), color-stop(100%, rgba(17,17,17,1)));
+    background: -webkit-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(17,17,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(17,17,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(17,17,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(60,60,60,1) 0%, rgba(17,17,17,1) 100%);
+    padding: 5px 0px;
+    font-size: 11px;
+    text-align: center;
+    color: #ccc;
+    line-height: 16px
+}
+
+#footer a {
+    font: normal normal 11px Verdana, Geneva, sans-serif;
+    color: #fff;
+    text-decoration: underline
+}
+
+#footer a:hover {
+    text-decoration: none
+}
+
+#footer img {
+    font-size: 0px
+}
+
+.pictures {
+    margin: 0 auto;
+    width: 280px
+}
+
+.pictures img {
+    margin-right: 15px;
+    max-width: 131px
+}
+
+.pictures a {
+    float: left
+}
+
+.resultblk li {
+    padding: 0px 0px 15px !important
+}
+
+.resultblk li a {
+    padding: 15px 15px 0px !important;
+    float: none !important
+}
+
+.resultblk li .resultleft {
+    width: 105px;
+    float: left;
+    margin-right: 10px
+}
+
+.resultblk li .resultleft img {
+    border: 2px solid #d7d7d7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 4px
+}
+
+.resultblk li .resultright {
+    width: 170px;
+    float: left;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.resultblk li .resultright .rsltheading,.resultblk li .resultright .rsltheading h2,h3 {
+    color: #CF1800;
+    text-transform: inherit;
+    font-size: 14px !important;
+    font-weight: bold;
+    padding: 0px 0px 2px
+}
+
+.resultblk li .resultright .rsltheading:hover {
+    text-decoration: underline
+}
+
+.resultblk li .resultright span.price {
+    color: #CF1800 !important
+}
+
+ul.resultblk li .resultbtns {
+    overflow: hidden;
+    padding-left: 15px
+}
+
+ul.resultblk li .resultbtns a:last-child {
+    margin: 0px !important
+}
+
+.right-arrow {
+    background: transparent url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/arrow-right.png-version201710161211.png") no-repeat center right
+}
+
+.carprices,.carpictures,.findnewcars,.findusedcars,.sellmycar,.carnews,.comparecars,.carreviews,.car-q-a,.paynewcar,.payusedcar,.usedcarworth,.upcmngcar,.autoexpo {
+    background: transparent url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png-version201710161211.png") no-repeat scroll 0px 0px;
+    width: 80px;
+    height: 62px;
+    display: block;
+    float: left
+}
+
+.usedcars li a,.usedcars li span.usedcarlist {
+    font-size: 13px !important;
+    width: 100%;
+    color: #000;
+    display: block
+}
+
+.usedcars li a strong,.usedcars li span.usedcarlist strong {
+    font-size: 12px;
+    font-weight: bold !important
+}
+
+.usedcars li a img,.usedcars li span.usedcarlist img {
+    border: 1px solid #D7D7D7;
+    box-shadow: 0 0 4px #666666;
+    margin: 4px 12px 0 0
+}
+
+.usedcars li a span.listcont,.usedcars li span.usedcarlist span.listcont {
+    margin: 0 !important;
+    width: 200px !important
+}
+
+.usedcars li a span.listcont strong,.usedcars li span.usedcarlist span.listcont strong {
+    display: block;
+    float: none !important;
+    margin-top: 0 !important
+}
+
+.usedcars li a .arrowright,.usedcars li span.usedcarlist .arrowright {
+    background: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/arrow-right.png") no-repeat scroll right center transparent;
+    display: block;
+    float: left;
+    width: 285px
+}
+
+.phone {
+    background: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/phone-icon.png") no-repeat scroll left center / 16px auto transparent;
+    float: left;
+    height: 22px;
+    width: 20px
+}
+
+.email {
+    background: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/email-icon.png") no-repeat scroll left center / 20px auto transparent;
+    float: left;
+    height: 22px;
+    width: 20px
+}
+
+.certification {
+    padding: 0px
+}
+
+.certification h2 span {
+    float: left;
+    margin: 0px 5px 0 0
+}
+
+.certification h3 {
+    text-align: left;
+    padding: 2px 9px
+}
+
+.certification table td {
+    font-size: 13px;
+    padding: 7px 15px;
+    color: #3c3c3c
+}
+
+.certification table td p {
+    text-align: left
+}
+
+.certification table tr.subheading td,.certification table tr.subheading td h2 {
+    background: none repeat scroll 0px 0px #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold
+}
+
+.certification table tr.subheading td h2 {
+    border: none;
+    margin: 0px;
+    padding: 0px
+}
+
+.ui-widget-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+    margin: 10px 0;
+    width: 210px;
+    height: 10px;
+    position: relative;
+    float: left
+}
+
+.ui-widget-header {
+    background: none repeat scroll 0 0 #CA0017;
+    border: 0px solid #AAAAAA;
+    color: #222222;
+    font-weight: bold;
+    height: 10px
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+    background: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/jsliderarrow.png") no-repeat scroll 0 0 transparent;
+    color: #555555;
+    display: block;
+    font-weight: normal;
+    height: 30px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: -8px;
+    width: 14px
+}
+
+.headerblk {
+    padding: 0 10px
+}
+
+.menuicon {
+    background: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png-version201710161211.png") -239px -193px no-repeat;
+    border: none;
+    width: 17px;
+    height: 15px
+}
+
+.menuicon.btnopen {
+    margin-bottom: 0px;
+    border-bottom: none
+}
+
+.subpagemenu {
+    width: 170px;
+    position: relative
+}
+
+.subpagemenu .menubtnblk {
+    right: auto;
+    text-align: left;
+    top: 13px;
+    left: 0px;
+    z-index: 100000
+}
+
+.menubtnblk .carprice-btns li a span.titleblk {
+    padding: 0px 10px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px
+}
+
+.vehicle_phone {
+    text-decoration: underline;
+    font-size: 15px !important
+}
+
+#list li.autoexpotab,.list li.autoexpotab {
+    background: #d21904;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QyMTkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4ZTEzMDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+    background: -moz-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d21904), color-stop(100%, #8e1303));
+    background: -webkit-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -o-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: -ms-linear-gradient(top, #d21904 0%, #8e1303 100%);
+    background: linear-gradient(to bottom, #d21904 0%, #8e1303 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d21904', endColorstr='#8e1303', GradientType=0)
+}
+
+#list li.autoexpotab span.redline,.list li.autoexpotab span.redline {
+    background: #f4ca30;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0Y2EzMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWFjMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+    background: -moz-linear-gradient(top, #f4ca30 0%, #eaac00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4ca30), color-stop(100%,#eaac00));
+    background: -webkit-linear-gradient(top, #f4ca30 0%,#eaac00 100%);
+    background: -o-linear-gradient(top, #f4ca30 0%,#eaac00 100%);
+    background: -ms-linear-gradient(top, #f4ca30 0%,#eaac00 100%);
+    background: linear-gradient(to bottom, #f4ca30 0%,#eaac00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4ca30', endColorstr='#eaac00',GradientType=0 )
+}
+
+#list li.autoexpotab a span.titleblk,.list li.autoexpotab a span.titleblk {
+    padding-top: 10px;
+    color: #eee
+}
+
+.contact-sellerbtn {
+    border-radius: 4px;
+    font-size: 12px !important;
+    line-height: 15px;
+    text-transform: none !important
+}
+
+.selectbx option {
+    font-weight: bold
+}
+
+.formblk input.ui-btn.blackbutton {
+    border: 1px solid #000000 !important;
+    padding: 8px 0px !important
+}
+
+.formblk input.ui-btn.blackbutton:hover {
+    background: #111111;
+    background: -moz-linear-gradient(top, #111111 0%, #3c3c3c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111111), color-stop(100%,#3c3c3c));
+    background: -webkit-linear-gradient(top, #111111 0%,#3c3c3c 100%);
+    background: -o-linear-gradient(top, #111111 0%,#3c3c3c 100%);
+    background: -ms-linear-gradient(top, #111111 0%,#3c3c3c 100%);
+    background: linear-gradient(to bottom, #111111 0%,#3c3c3c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#3c3c3c',GradientType=0 )
+}
+
+#header h1 {
+    text-align: center;
+    margin: 0px auto!important;
+    width: 80% !important;
+    margin-left: 10% !important;
+    padding: 2px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    float: none
+}
+
+.graybg {
+    text-shadow: none;
+    padding: 0px 10px 0px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 6px
+}
+
+.graybg table tbody td {
+    border: none;
+    padding: 0px;
+    vertical-align: middle
+}
+
+.innerlogo {
+    text-align: center;
+    padding: 0px 45px
+}
+
+.logomini {
+    position: relative;
+    z-index: 100;
+    margin-top: 3px
+}
+
+.vehcldet .usedcars li a.vehicle_phone {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px !important;
+    padding: 0 !important
+}
+
+.vehcldet .vehicle_phone {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px !important;
+    padding: 0 !important
+}
+
+.mslider li > a:focus {
+    background: #fff
+}
+
+a:focus,a:active,button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,select::-moz-focus-inner,input[type="file"] > input[type="button"]::-moz-focus-inner {
+    outline: 0
+}
+
+.sellcar {
+    padding-top: 0px
+}
+
+.sellcar h2 {
+    padding-bottom: 0px
+}
+
+.sellcar h2 img {
+    margin-left: 10px
+}
+
+.sellcar .toptitle {
+    font-size: 20px;
+    float: left;
+    line-height: 45px;
+    padding-top: 5px
+}
+
+.sellcar a.ui-btn {
+    margin-top: 15px
+}
+
+.detailinfo {
+    background: #fff
+}
+
+.sellrinfobtn .divide {
+    border-right: 1px solid #fff;
+    float: left;
+    padding: 5px 10px 5px 8px;
+    margin-right: 4px
+}
+
+.detailinfo .price_range {
+    background: none
+}
+
+/*.detailinfo.certification h2{margin-bottom:10px;display:none}*/
+.detailinfo.certification .ui-bar-a {
+    display: block;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.detailinfo.certification .certExpandiv {
+    display: none
+}
+
+.detailinfo.certification .ui-bar-a span.titletxt {
+    color: #333;
+    text-shadow: none;
+    padding: 2px 9px;
+    font-size: 14px;
+    display: block
+}
+
+.silifilm,#silifilm {
+    position: fixed;
+    width: 100%;
+    height: 1000%;
+    background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=0.8);
+    top: 0px;
+    left: 0px;
+    z-index: 1000000;
+    background-position: initial initial;
+    background-repeat: initial initial
+}
+
+#galleryiframe {
+    left: 50%;
+    margin-left: -150px;
+    position: fixed;
+    text-align: center;
+    top: 150px;
+    z-index: 1000001
+}
+
+.cboxIframe {
+    height: 225px
+}
+
+.closebtn,.formclsbtn {
+    top: 0px;
+    right: 0px;
+    left: auto;
+    cursor: pointer;
+    background: #d5282a;
+    position: absolute;
+    width: 30px;
+    height: 30px
+}
+
+.closebtn span,.formclsbtn span {
+    margin: 0px auto 0px;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png-version201710161211.png") no-repeat -262px -155px;
+    width: 12px;
+    height: 12px;
+    display: block
+}
+
+.flotingfrm {
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    bottom: 0px;
+    padding: 2px 8px !important;
+    z-index: 100
+}
+
+.flotingfrm {
+    color: #fff
+}
+
+.flotingfrm td {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #fff
+}
+
+.h2newstit {
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 14px 0 0
+}
+
+.specsblk ul li h2 {
+    font-size: 15px
+}
+
+.qanwtitl,.qanwtitl a {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    float: none;
+    width: auto;
+    margin: 0px;
+}
+
+.postbyh2 {
+    color: #d11803;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: left;
+    width: auto;
+    float: none;
+    font-weight: normal;
+    width: auto
+}
+
+.uparrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    position: absolute;
+    top: -14px;
+    right: 10px
+}
+
+.listcont a strong h2 {
+    display: inline;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0
+}
+
+.noborder {
+    border: none !important
+}
+
+.nopading {
+    padding: 0px !important
+}
+
+.ftrBtmMargin {
+    margin-bottom: 16px
+}
+
+.seocontent {
+    color: #404040!important;
+    font-size: 14px;
+    line-height: normal;
+    padding: 12px;
+    text-align: left;
+    border: 2px solid red
+}
+
+.seocontent .seoc div,.seocontent .seoc p {
+    text-align: left;
+    line-height: normal
+}
+
+.smartbanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    height: 78px;
+    font-family: 'Helvetica Neue',sans-serif;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top,#f4f4f4 0,#cdcdcd 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f4f4f4),color-stop(100%,#cdcdcd));
+    background: -webkit-linear-gradient(top,#f4f4f4 0,#cdcdcd 100%);
+    background: -o-linear-gradient(top,#f4f4f4 0,#cdcdcd 100%);
+    background: -ms-linear-gradient(top,#f4f4f4 0,#cdcdcd 100%);
+    background: linear-gradient(to bottom,#f4f4f4 0,#cdcdcd 100%);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    z-index: 9998;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-text-size-adjust: none
+}
+
+.smartbanner__container {
+    margin: 0 auto
+}
+
+.smartbanner__close {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: block;
+    border: 2px solid #fff;
+    width: 14px;
+    height: 14px;
+    font-family: 'ArialRoundedMTBold',Arial;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    background: #070707;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 14px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+.smartbanner__close:active,.smartbanner__close:hover {
+    font-size: 13px;
+    color: #aaa
+}
+
+</style> * {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.user_count {
+    width: 30px;
+    height: 30px;
+    border: 0px solid red;
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    z-index: 999999;
+}
+
+.user_count a img {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    z-index: 99;
+}
+
+.user_count span, .mychat .total_counts {
+    position: absolute;
+    top: -2px;
+    right: -6px;
+    font-size: 8px;
+    color: #fff;
+    background: #d11803;
+    border-radius: 20px;
+    min-width: 14px;
+    min-height: 14px;
+    display: block;
+    line-height: normal;
+    padding: 2px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#total_counts.close {
+    display: none;
+}
+
+.FloatLeft,ul.socialIcon li {
+    float: left!important
+}
+
+#footer.hide-for-some-time,#header.hide-for-some-time,.popShare img {
+    visibility: hidden
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    letter-spacing: 0
+}
+
+#wrapper .ui-btn,.formblk input.ui-btn,.red_btn_new_v,.selectblk input.ui-btn,.ui-btn {
+    font: 700 14px Verdana!important;
+    padding: 9px 0 11px!important
+}
+
+.buyUsedCarNew #header .buyhead,.buyUsedCarNew #header h1 {
+    font-family: Arial!important
+}
+
+#wrapper,.buyUsedCarNew {
+    width: 100%;
+    background-color: #f0f0f0;
+    min-height: 100%;
+    height: auto
+}
+
+.nocityfound {
+    display: none;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 52px
+}
+
+ul.socialIcon li {
+    list-style-type: none;
+    width: 46%;
+    margin-bottom: 0!important
+}
+
+ul.socialIcon li:hover {
+    background: #eee
+}
+
+ul.socialIcon li a {
+    color: #0166ff;
+    padding: 10px 10px 10px 0;
+    line-height: 24px
+}
+
+.socialIcon {
+    right: 242px
+}
+
+.buyUsedCarNew #header .innerlogo,.buyUsedCarNew #header .innerlogo a {
+    float: left
+}
+
+.user_count {
+    top: 10px;
+    z-index: 99
+}
+
+.buyUsedCarNew .block_2 .headerblk .user_count a #total_counts,.user_count a {
+    height: auto;
+    width: auto
+}
+
+.user_count a span {
+    padding: 2px;
+    line-height: normal;
+    top: -2px!important;
+    right: -6px!important;
+    position: absolute!important
+}
+
+.buyUsedCarNew .swiper-wrapper {
+    background-color: #c2c2c2;
+    min-height: 240px
+}
+
+.buyUsedCarNew .footer,.buyUsedCarNew .ftrBtmMargin {
+    display: block!important
+}
+
+//.buyUsedCarNew .research-links {
+    display: block
+}
+
+.transparentbg_new {
+    top: -2px
+}
+
+.mainmenu .newNav ul li a b,.mainmenu .newNav ul.listmenu li a {
+    font-family: Arial!important;
+    line-height: 20px
+}
+
+.mainmenu .newNav ul.listmenu li a {
+    line-height: 30px;
+    padding-bottom: 4px
+}
+
+.buyUsedCarNew .menuicon {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons-sprites.png) -236px -193px no-repeat!important;
+    position: relative;
+    z-index: 10;
+    width: 22px;
+    height: 17px;
+    cursor: pointer;
+    border: 0 solid #D21904;
+    margin: 0;
+    box-shadow: none;
+    top: 13px;
+    left: 5px
+}
+
+.buyUsedCarNew .subpagemenu .menubtnblk {
+    top: 6px;
+    z-index: 9999
+}
+
+.buyUsedCarNew .ui-bar-a h2,.buyUsedCarNew .ui-bar-a h3 {
+    width: auto;
+    text-align: center;
+    font-size: 9px;
+    line-height: normal;
+    padding: 0;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block
+}
+
+.buyUsedCarNew .resultblk li a {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px 10px!important;
+    line-height: normal
+}
+
+.buyUsedCarNew #header {
+    padding: 2px 10px 0
+}
+
+.buyUsedCarNew #header h1 {
+    color: #747474!important;
+    font-size: 11px!important;
+    line-height: normal;
+    padding: 1px 0 3px;
+    text-align: left;
+    margin: 0!important;
+    float: left
+}
+
+.block_3 {
+    top: 52px
+}
+
+.user_count span {
+    min-width: 14px;
+    min-height: 14px;
+    line-height: normal;
+    padding: 2px;
+    box-sizing: border-box
+}
+
+.mcontainer1 {
+    margin-top: 10px
+}
+
+.headerblk .innerlogo {
+    position: relative;
+    z-index: 999
+}
+
+.buyUsedCarNew .resultblk li .resultRtblk {
+    margin-left: 8px;
+    width: 89%;
+    float: left
+}
+
+.buyUsedCarNew .resultblk li {
+    line-height: 21px!important;
+    list-style: none;
+    padding: 7px 0 2px!important;
+    background: #fff!important;
+    border-bottom: 1px solid #f8f8f8
+}
+
+.b_bazar a,.mainFloatMenu a,.new_v_subt {
+    text-transform: uppercase
+}
+
+.buyUsedCarNew .resultRtblk .details {
+    display: table;
+    font-size: 9px;
+    min-width: 150px;
+    border: 0;
+    margin-bottom: 5px
+}
+
+.buyUsedCarNew .resultRtblk .details span {
+    display: table-row;
+    line-height: 19px
+}
+
+.buyUsedCarNew .resultRtblk .price {
+    font-size: 12px;
+    color: #EA270C
+}
+
+.buyUsedCarNew .flotsellbar {
+    display: table;
+    width: 100%;
+    padding: 0!important
+}
+
+.buyUsedCarNew .flotingfrm {
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    color: #fff;
+    box-shadow: 0 1px 12px 0 #000
+}
+
+.buyUsedCarNew .flotsellbar a {
+    color: #fff;
+    display: table-cell;
+    width: 50%;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 12px 10px 10px;
+    background: #d11200
+}
+
+.buyUsedCarNew .flotsellbar a.sellrinfobtn {
+    background: #323237;
+    text-shadow: 0 1px 1px #526c00
+}
+
+.buyUsedCarNew .resultRtblk {
+    line-height: 20px
+}
+
+@media only screen and (max-device-width: 320px) {
+    .contentSelect ul li {
+        padding: 4px 0
+    }
+
+    .filter.citySelection {
+        top: 10px;
+        font-size: 12px
+    }
+
+    .contentSelect ul {
+        padding: 0 20px;
+        height: 120px
+    }
+}
+
+.cw {
+    display: inline
+}
+
+.searchinput {
+    padding: 3px;
+    background-color: #212121;
+    border: 1px solid #3C3C3C;
+    border-width: 1px 0;
+    box-sizing: border-box
+}
+
+.searchinput input[type=text]#citySearch {
+    color: #424242!important;
+    width: 100%!important;
+    border-radius: 3px!important;
+    padding-left: 18px!important;
+    box-sizing: border-box;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/search-32.png) calc(100% - 12px) center no-repeat #fff!important;
+    background-size: 17px 17px!important
+}
+
+.tab .content .searchinput {
+    position: fixed;
+    box-sizing: border-box;
+    width: calc(100% - 131px);
+    z-index: 999
+}
+
+.citySelect,.citySelectTxt,.notext {
+    position: relative
+}
+
+.tab .content #filt_ul_city {
+    margin-top: 40px
+}
+
+@media screen and (max-device-width: 320px) {
+    .cw {
+        display:none!important
+    }
+
+    .notext {
+        margin-top: 160px
+    }
+
+    .cityList {
+        overflow-y: scroll;
+        height: 82%
+    }
+}
+
+@media screen and (min-device-width: 360px) {
+    .notext {
+        margin-top: 40%;
+        margin-bottom: 0
+    }
+
+    .cityList {
+        overflow-y: scroll;
+        height: 88%
+    }
+}
+
+.notext {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 0!important
+}
+
+.newbtmMrg {
+    margin-bottom: 5px
+}
+
+.citySelect {
+    border: 0;
+    float: right;
+    height: 20px;
+    padding: 0;
+    width: 16px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/select-icon_1.png) 0 center no-repeat!important
+}
+
+.citySelect:focus {
+    box-shadow: none;
+    border: none
+}
+
+.mainFloatMenu {
+    background-color: #333;
+    z-index: 10!important
+}
+
+.mainFloatMenu a {
+    font-size: 12px;
+    color: #fff;
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 15px 0 14px;
+    border-width: 0;
+    box-sizing: border-box
+}
+
+.mainFloatMenu a span img {
+    margin-right: 2px;
+    margin-top: -2px;
+    vertical-align: middle
+}
+
+.filter .filterHead {
+    z-index: 1000000;
+    border-bottom: 1px solid #242424
+}
+
+.buyUsedCarNew #footer {
+    margin-bottom: 0!important;
+    width: 100%
+}
+
+.floatingMenu {
+    position: fixed
+}
+
+.floatingMenu span {
+    color: #222;
+    font-weight: 700;
+    display: table-cell;
+    width: auto;
+    text-align: center
+}
+
+.contentSort {
+    top: 0;
+    left: 0;
+    color: #d9d9d9;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    border: 0 solid #ccc;
+    position: relative;
+    z-index: 9999
+}
+
+#sortoptdisplay,.filter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.filter {
+    background: #2b2b2b;
+    padding: 0;
+    z-index: 999
+}
+
+#sortoptdisplay {
+    display: block;
+    background-color: #2b2b2b;
+    z-index: 100000
+}
+
+body.window-body,div.buyUsedCarNew.window-body,html.window-body {
+    overflow: hidden
+}
+
+.contentSort ul {
+    padding: 0 20px
+}
+
+.contentSort ul li {
+    list-style: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #222;
+    font-size: 12px
+}
+
+.contentSort ul li label {
+    display: block
+}
+
+.contentSort ul li label .radiobtn {
+    top: 15px;
+    margin-right: 20px;
+    display: inline!important;
+    position: static
+}
+
+.contentSort ul li label .radiobtn input {
+    width: auto!important
+}
+
+.filterHead {
+    box-shadow: 0 1px 5px #251E1E
+}
+
+#list li:first-child,.list li:first-child {
+    border: none!important
+}
+
+#contactseller,.filter.citySelection {
+    right: 22px;
+    height: auto;
+    position: fixed
+}
+
+.loaderbg,.loaderblk {
+    position: fixed;
+    z-index: 9999999999
+}
+
+.csellerPop form .errormessage {
+    font-size: 11px;
+    line-height: normal;
+    text-align: left
+}
+
+.loaderbg {
+    width: 100%;
+    height: 1000%;
+    background-color: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    top: 0;
+    left: 0;
+    background-position: initial initial;
+    background-repeat: initial initial
+}
+
+.loaderblk {
+    text-align: center;
+    left: 43.5%;
+    top: 40%;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images2/loading.gif) center no-repeat #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #222;
+    padding: 20px
+}
+
+.loaderblkBottom {
+    text-align: center;
+    height: 35px;
+    //position: fixed;
+    //left: 43.5%;
+    //top: 40%;
+    //z-index: 9999999999;
+    background-size: 35px;
+    border-radius: 5px;
+    //box-shadow: 0 0 10px #222;
+    padding: 10px
+}
+
+.transparentbg {
+    z-index: 999999999!important
+}
+
+.filter.citySelection .filterHead {
+    position: relative;
+    height: 44px
+}
+
+.filter.citySelection .filterHead span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 22px;
+    position: relative
+}
+
+.filter.citySelection .filterHead.slctCity {
+    position: relative;
+    height: 84px
+}
+
+.filter.citySelection .filterHead span.slctCity {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0;
+    position: relative;
+    display: block
+}
+
+.filter.citySelection .filterHead span.slctCity a {
+    display: inline-block;
+    padding: 14px 14px 14px 22px
+}
+
+.btn-filter .filtoptdiv {
+    z-index: 999999!important
+}
+
+.research-links {
+    padding: 5px 15px 8px!important
+}
+
+.contentSelect ul {
+    height: auto!important
+}
+
+.contentSelect ul li label .radiobtn {
+    top: 3px!important;
+    position: relative
+}
+
+.filter.citySelection {
+    overflow: hidden;
+    border: 1px solid #454647;
+    background-color: #2b2b2b;
+    left: 22px;
+    top: 22px;
+    bottom: 22px;
+    z-index: 1000000;
+    padding-bottom: 38px;
+    box-sizing: border-box
+}
+
+.filter.citySelection .heading {
+    background-color: #212121;
+    width: 100%;
+    color: #a8a8a8;
+    box-shadow: 0 1px 2px #1a1a1a;
+    font-weight: 700;
+    padding-bottom: 7px
+}
+
+.filter.citySelection .heading span {
+    margin-left: 22px;
+    font-size: 12px
+}
+
+#footer a {
+    font-family: Verdana!important
+}
+
+.headerblk .innerlogo {
+    padding: 0 45px!important
+}
+
+.featured {
+    background-position: -86px top
+}
+
+.buyUsedCarNew .headerblk .innerlogo {
+    left: -12px!important
+}
+
+.buyUsedCarNew .logomini {
+    margin-top: 7px!important
+}
+
+#silifilm,.silifilm {
+    opacity: 1;
+    background: rgba(0,0,0,.5)
+}
+
+#contactseller {
+    background: #fff;
+    box-shadow: 0 0 10px #222;
+    padding: 15px 20px;
+    text-align: center;
+    left: 22px;
+    top: 25%;
+    bottom: auto;
+    z-index: 10000000;
+    clear: both;
+    transition: .5s
+}
+
+#contactseller.move-top {
+    top: calc(25% - 45px);
+    top: -moz-calc(25% - 45px);
+    top: -webkit-calc(25% - 45px);
+    top: -o-calc(25% - 45px)
+}
+
+.formblk input.new_input_bor,.new_v_subt {
+    background: rgba(0,0,0,0)!important;
+    box-shadow: none!important
+}
+
+.heading2,ul.onroadPriceQuote li.heading2 {
+    color: #d11803;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0 0
+}
+
+.formblk input[placeholder],[placeholder] {
+    color: #000!important
+}
+
+.new_v_subt {
+    border: none!important;
+    border-radius: 0!important;
+    color: #d11803!important;
+    cursor: pointer;
+    float: right;
+    font-size: 12px!important;
+    font-weight: 700!important;
+    text-align: right;
+    margin-left: 25px
+}
+
+#toast {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    background-color: #fff;
+    z-index: 9999999;
+    border-radius: 3px;
+    padding: 10px 30px;
+    box-shadow: 1px 3px 30px #000;
+    font-size: 12px;
+    display: none;
+    transition: 1s
+}
+
+.input,.input__label {
+    display: inline-block
+}
+
+.input {
+    z-index: 1;
+    vertical-align: top;
+    height: 46px
+}
+
+input {
+    background: 0 0!important;
+    box-shadow: none;
+    border: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    font-weight: 400!important;
+    margin: 0!important;
+    padding-left: 0!important;
+    border-radius: 0!important
+}
+
+.csellerPop .closebtn {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/btn_close-grey-32x32.png) center center no-repeat;
+    background-size: 12px 12px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    padding: 0
+}
+
+.carlistblk .csellerPop .directionlft {
+    width: 18px;
+    right: -17px;
+    bottom: 22px!important;
+    height: 24px;
+    display: block;
+    position: absolute;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images4/sprites_imgs.png) -36px -420px no-repeat
+}
+
+.descblk p {
+    color: #737373;
+    line-height: 13px;
+    font-size: 11px;
+    margin-bottom: 15px
+}
+
+input,select {
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    width: 200px;
+    border-radius: 4px;
+    font: normal normal 12px Arial,Helvetica,sans-serif!important;
+    color: grey;
+    padding: 10px
+}
+
+.csellerPop input {
+    width: 100px;
+    border-radius: 0;
+    padding: 8px 10px;
+    text-transform: none;
+    vertical-align: middle
+}
+
+.commonbtn,.commonbtnred,.commonbtnwhite {
+    cursor: pointer;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images4/btnstrip.jpg) left top repeat-x #fff;
+    box-shadow: 0 2px 4px #000;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    font: normal 700 11px Arial,Helvetica,sans-serif!important;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    line-height: none;
+    text-decoration: none
+}
+
+.commonbtnred {
+    background-position: bottom right;
+    color: #fff;
+    padding: 7px 12px;
+    box-shadow: 0 1px 2px #999;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.clr {
+    height: 0!important;
+    line-height: 0!important;
+    float: none!important;
+    clear: both!important;
+    margin: 0!important;
+    padding: 0!important;
+    border: none!important
+}
+
+.callinfo,.flatRed {
+    float: none;
+    position: relative
+}
+
+.Clear,.tabs {
+    clear: both
+}
+
+.flatRed {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e51e20;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px #B5B4B4;
+    color: #fff!important;
+    text-align: center!important;
+    vertical-align: middle;
+    letter-spacing: normal;
+    top: 10px
+}
+
+.flatRed:active {
+    color: #666!important;
+    border: 1px solid #838383;
+    box-shadow: 0 0 8px #bbb inset;
+    background-color: #fff;
+    box-sizing: border-box
+}
+
+.csellerPop .flatRed {
+    border: 1px solid #e51e20;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 7px;
+    text-decoration: none
+}
+
+.csellerPop .flatRed:active {
+    border: 1px solid #838383
+}
+
+#strip_s,.skype_c2c_free_text_span {
+    display: none
+}
+
+.tab ul li ul,.tabsleft {
+    overflow-x: hidden
+}
+
+*,.tabs {
+    margin: 0
+}
+
+* {
+    -webkit-overflow-scrolling: touch;
+    padding: 0
+}
+
+.tabs {
+    min-height: 0
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto !important;
+}
+
+@media screen and (max-device-width: 320px) {
+    .tabsleft {
+        width:40.78%;
+        overflow-y: scroll;
+        height: 440px;
+        overflow-x: hidden
+    }
+
+    .disappear {
+        display: block
+    }
+
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-wrapper,.swiper-slide img {
+        height: 240px
+    }
+}
+
+@media screen and (min-device-width: 360px) {
+    .tabsleft {
+        width:36%;
+        overflow-y: scroll;
+        height: 460px;
+        overflow-x: hidden
+    }
+
+    .disappear {
+        display: none
+    }
+
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-wrapper,.swiper-slide img {
+        height: 270px
+    }
+}
+
+@media screen and (min-device-width: 375px) {
+    .tabsleft {
+        height:505px
+    }
+
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-wrapper,.swiper-slide img {
+        height: 280px
+    }
+}
+
+@media screen and (min-device-width: 400px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:300px
+    }
+}
+
+@media screen and (min-device-width: 414px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:310px
+    }
+}
+
+@media screen and (min-device-width: 540px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:405px
+    }
+}
+
+@media screen and (min-device-width: 600px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:450px
+    }
+}
+
+@media screen and (min-device-width: 720px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:540px
+    }
+}
+
+@media screen and (min-device-width: 768px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:576px
+    }
+}
+
+@media screen and (min-device-width: 800px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:600px
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:768px
+    }
+}
+
+@media screen and (min-device-width: 1280px) {
+    .buyUsedCarNew .swiper-container,.buyUsedCarNew .swiper-slide img,.buyUsedCarNew .swiper-wrapper {
+        height:960px
+    }
+}
+
+.tab {
+    height: auto;
+    font: normal normal 12px Verdana
+}
+
+.btn-filter {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.tab label,.tablink {
+    box-sizing: border-box;
+    padding: 13px 7px 13px 18px;
+    margin-left: 0;
+    position: relative;
+    font-size: 12px;
+    width: 131px;
+    display: block;
+    color: #d9d9d9;
+    font-weight: 400;
+    cursor: pointer
+}
+
+.tabs .content {
+    height: 100%;
+    border-left: 1px solid #3b3b3b!important;
+    background-color: #2b2b2b
+}
+
+.tab .content ul li label span {
+    -webkit-text-fill-color: #D9D9D9!important;
+    -webkit-opacity: 1;
+    color: #D9D9D9!important
+}
+
+.content ul li label .radiobtn {
+    top: 15px
+}
+
+.tab li {
+    list-style: none;
+    width: auto;
+    margin: 0 auto
+}
+
+.tab li label {
+    width: 82.8%;
+    margin: 0 auto;
+    padding: 13px 10px 13px 0;
+    color: #d9d9d9;
+    font-weight: 400
+}
+
+.tab li label span {
+    display: table-cell;
+    width: 100%
+}
+
+.tab li label span [type=radio],.tab ul li ul {
+    display: block
+}
+
+.tab ul li ul {
+    height: auto;
+    min-height: 45px;
+    margin: 0;
+    background: #212121;
+    width: 100%;
+    border-left: 0;
+    box-shadow: 1px 1px 6px -2px #111 inset;
+    direction: rtl
+}
+
+.tab ul li ul li {
+    width: 85%;
+    direction: ltr
+}
+
+.tab ul li ul li label {
+    width: 90%;
+    color: #d9d9d9;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 11px
+}
+
+.tab [type=radio] {
+    display: none
+}
+
+.content {
+    position: absolute;
+    height: 108%;
+    overflow-y: scroll;
+    left: 130px;
+    color: #d9d9d9;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    border: 0 solid #ccc;
+    top: 0
+}
+
+.content ul {
+    background: #2b2b2b;
+    box-shadow: 1px -6px 6px -2px #111 inset;
+    height: 100%
+}
+
+.tablink,input[type=radio]:checked~label {
+    border-bottom: 1px solid #232323
+}
+
+.tablink.activetab,input[type=radio]:checked~label {
+    background: #292929;
+    color: #d9d9d9;
+    border-bottom: 1px solid #292929;
+    z-index: 2
+}
+
+.tablink .count,.tablink.activetab .count {
+    background-color: #0a0a0a
+}
+
+input[type=radio]:checked~label~.content {
+    z-index: 1
+}
+
+.tablink .count {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: -5px;
+    margin-top: -3px
+}
+
+.tablink .count span {
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-color-index:0) {
+    :root .tablink .count span,_::-webkit-full-page-media,_:future {
+        top:-1px
+    }
+}
+
+.navbtns {
+    background: #ddd;
+    padding: 5px 10px;
+    display: none!important
+}
+
+.tab .content .checkbtn,.tab .content .radiobtn {
+    display: block!important;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    width: 20px!important
+}
+
+.radiobtn {
+    top: 6px
+}
+
+.transparentbg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(0,0,0,.5)
+}
+
+.filter .filterHead {
+    width: 100%;
+    height: 57px;
+    background-color: #171717;
+    top: 0;
+    position: fixed
+}
+
+.filter .filterHead span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0;
+    position: relative;
+    top: 0
+}
+
+.btn-filter .filtoptdiv {
+    background: #3b3b3b;
+    overflow: hidden
+}
+
+.floatingMenu {
+    display: table;
+    width: 100%;
+    bottom: 0;
+    background-color: #ededed;
+    border-top: 1px solid #a9a9a9;
+    z-index: 10000000
+}
+
+.floatingMenu .pull-left,.floatingMenu .pull-right {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    padding: 12px 0
+}
+
+.contentSelect {
+    left: 100px;
+    color: #d9d9d9;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    border: 0 solid #ccc;
+    top: 0;
+    background-color: rgba(0,0,0,0)
+}
+
+.contentSelect ul {
+    padding: 0 20px
+}
+
+.contentSelect ul li {
+    list-style: none;
+    padding: 8px 0;
+    font-size: 13px
+}
+
+.contentSelect ul li label {
+    display: block
+}
+
+.contentSelect ul li label .radiobtn {
+    margin-right: 20px
+}
+
+.contentSelect ul li label .radiobtn input {
+    width: auto!important
+}
+
+.heading_inner {
+    border-top: 2px solid #292929;
+    padding-top: 7px;
+    width: 100%
+}
+
+.pad_tp {
+    padding-top: 6px
+}
+
+.floatingMenu span {
+    padding: 14px 0;
+    font-size: 14px
+}
+
+.floatingMenu a:first-child {
+    width: 130px!important
+}
+
+@media only screen and (max-device-width: 320px) {
+    .content {
+        height:480px;
+        overflow-y: scroll
+    }
+
+    .contentSelect ul li {
+        padding: 4px 0
+    }
+
+    .contentSelect ul {
+        padding: 0 20px;
+        height: 120px
+    }
+}
+
+@media only screen and (min-device-width: 360px) {
+    .content {
+        height:640px;
+        overflow-y: scroll
+    }
+}
+
+.btn-filter .filtoptdiv,.tab ul {
+    min-height: 100%;
+    height: auto
+}
+
+.mainFloatMenu {
+    display: table;
+    width: 100%;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/listing-shadow-strip.png) center 44px repeat-x #333!important;
+    box-shadow: none;
+    border-bottom: 0 solid #686868;
+    height: 49px
+}
+
+.mainFloatMenu .filtrcolm {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    border: 1px solid #171717;
+    border-width: 0 1px 0 0
+}
+
+.mainFloatMenu .filtrcolm a {
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 0;
+    display: inline-block
+}
+
+.mainFloatMenu:second-child {
+    background-color: #6b6b6b
+}
+
+.mainFloatMenu .filtrcolm a span img {
+    margin-right: 2px;
+    margin-top: -2px;
+    vertical-align: middle
+}
+
+#nav_foot,.mainFloatMenu {
+    margin-top: 0!important
+}
+
+#nav_foot {
+    position: relative!important;
+    top: 0!important
+}
+
+#filt_ul_city .drop-down {
+    display: none!important
+}
+
+#filt_ul_city .drop-down.open {
+    display: block!important
+}
+
+.btn-filter .filtoptdiv {
+    position: relative
+}
+
+.detspginfo {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    padding: 0!important;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.detspginfo .info {
+    color: #5b5b5b;
+    font-size: 12px;
+    padding: 0;
+    line-height: 22px;
+    overflow: hidden;
+    display: block;
+    float: left
+}
+
+.detspginfo .info .pull-left {
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: block
+}
+
+.dividerPipe {
+    width: auto;
+    float: left
+}
+
+.detspginfo .info .pull-left .color,.detspginfo .info .pull-left .detstxt,.detspginfo .info .pull-left .dividerPipe,.detspginfo .info .pull-left .fuel,.detspginfo .info .pull-left .kms,.detspginfo .info .pull-left .owner,.detspginfo .info .pull-left .trans,.detspginfo .info .pull-left .year {
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+    font-family: arial!important;
+    font-size: 1.05em;
+    letter-spacing: .05em
+}
+
+.detspginfo .b1 .detstxt {
+    padding: 0 10px!important;
+    display: block!important;
+    overflow: hidden
+}
+
+.detspginfo .info .pull-left .year {
+    padding-left: 0
+}
+
+.detspginfo span {
+    vertical-align: top
+}
+
+.detspginfo span.cont {
+    display: table-cell;
+    font-size: 17px;
+    margin-top: 0;
+    padding-top: 0;
+    min-height: 46px;
+    overflow: hidden;
+    vertical-align: middle;
+    float: left
+}
+
+.detspginfo .b1 {
+    display: block;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 6px 0 0;
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: -3px
+}
+
+.detspginfo.subthumb span {
+    padding: 0 2px
+}
+
+.detspginfo.subthumb span img {
+    width: 100%!important
+}
+
+.cont {
+    font-size: 17px
+}
+
+.cont img {
+    margin: 0;
+    width: 8px!important;
+    height: 12px!important
+}
+
+.buyUsedCarNew .resultblk .detspginfo .logoPrice .certifWLogo {
+    padding: 0!important;
+    display: block!important
+}
+
+.detspginfo .b1 .price {
+    float: right;
+    text-align: right;
+    margin-top: 2px!important;
+    margin-right: 10px
+}
+
+.detspginfo .b1 .price strong {
+    font-size: 16px;
+    text-align: right;
+    position: relative;
+    top: -1px;
+    margin-right: 0
+}
+
+.detspginfo .b1 .price a {
+    padding: 0 0 0 2px!important;
+    color: #000
+}
+
+.detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+    float: right!important;
+    margin-bottom: 9px;
+    background-color: #e51e20;
+    box-sizing: border-box;
+    color: #fff!important;
+    display: block!important;
+    text-align: center!important
+}
+
+.hdg_lst {
+    margin-left: 10px
+}
+
+.ui-bar-b .detspginfo span.resultsChatbtn {
+    display: block!important
+}
+
+.detspginfo .kmaway,.detspginfo .location {
+    line-height: normal;
+    color: #929292;
+    font-size: 11px!important;
+    font-style: normal;
+    display: table-row;
+    float: none;
+    text-overflow: ellipsis;
+    font-family: arial!important;
+    letter-spacing: .03em;
+    overflow: hidden
+}
+
+.detspginfo .kmaway i,.detspginfo .location i {
+    display: table-cell
+}
+
+.detspginfo .location i {
+    vertical-align: bottom
+}
+
+.detspginfo .dividerPipe.newPipe {
+    font-size: 10px;
+    color: #737373;
+    padding: 0 6px;
+    margin-top: -1px
+}
+
+.cht_btn,.detspginfo span.resultsChatbtn {
+    color: green!important;
+    float: left!important
+}
+
+.detspginfo span.resultsChatbtn {
+    width: 36.5%!important;
+    background-color: #fff;
+    border: 1px solid green!important
+}
+
+.buyUsedCarNew .resultblk li {
+    padding-top: 0!important
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    background-color: #fff
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.ui-bar-b .swiper-container-horizontal>.swiper-pagination {
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0!important;
+    background-color: transparent!important;
+    position: absolute
+}
+
+.ui-bar-b .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #e51e20;
+    line-height: normal!important
+}
+
+.mychat {
+    width: 28px;
+    height: 28px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/mychat-icon.png) center center no-repeat;
+    background-size: 100% auto;
+    top: 10px;
+    position: absolute;
+    right: 54px;
+    z-index: 999
+}
+
+#overlay-glass-share {
+    position: fixed;
+    background-color: #000;
+    opacity: .4;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000000;
+    display: none
+}
+
+.share_linnk_icn.openshr {
+    z-index: 1000001
+}
+
+.a2a_s_email,.a2a_s_facebook,.a2a_s_google_plus,.a2a_s_sms,.a2a_s_twitter,.a2a_s_whatsapp {
+    background-repeat: no-repeat;
+    background-size: 20px auto!important;
+    border-radius: 0;
+    display: inline-block;
+    line-height: normal;
+    margin-right: 0;
+    margin-top: 3px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 20px;
+    height: 20px!important
+}
+
+.socialIcon {
+    width: 242px!important;
+    background: #fff;
+    padding: 5px 0;
+    position: relative;
+    top: 20px;
+    clear: both;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: none;
+    overflow: hidden;
+    float: left;
+    z-index: 9999999999;
+}
+
+.a2a_s_email,.a2a_s_google_plus,.a2a_s_sms,.a2a_s_twitter,.a2a_s_whatsapp {
+    background-image: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/socialicons1.png);
+    background-origin: padding-box
+}
+
+.a2a_svg,.span {
+    display: inline-block;
+    vertical-align: top
+}
+
+.socialIcon li a {
+    line-height: 25px!important
+}
+
+ul.socialIcon li {
+    border-bottom: none!important
+}
+
+.a2a_s_facebook {
+    background-image: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/socialicons1.png);
+    background-position: center top
+}
+
+.a2a_s_google_plus {
+    background-position: center -66px
+}
+
+.a2a_s_twitter {
+    background-position: center -44px
+}
+
+.a2a_s_whatsapp {
+    background-position: center -88px
+}
+
+.a2a_s_email {
+    background-position: center -22px
+}
+
+.a2a_s_sms {
+    background-position: center bottom
+}
+
+.a2a_svg {
+    background-size: 20px auto;
+    height: 20px;
+    line-height: 20px;
+    width: 20px
+}
+
+.span {
+    overflow: hidden
+}
+
+#sh_share_id.open {
+    display: block
+}
+
+.clsbtnd.clsbtncty {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: -40px;
+    padding-bottom: 50px
+}
+
+.nocityfound {
+    margin-bottom: 50px
+}
+
+img[data-src].swiper-lazy {
+    width: 40px!important;
+    height: 40px!important;
+    border-radius: 6px;
+    display: none
+}
+
+.footer_logos {
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    padding: 10px 0;
+    max-width: 360px
+}
+
+.footer_logos a {
+    display: inline-block
+}
+
+.footer_logos a img {
+    width: 85%
+}
+
+.footer_bikewale,.footer_carwale,.footer_ct {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 33.3%
+}
+
+.footerblk {
+    display: block!important;
+    height: auto!important
+}
+
+.footer_tbl {
+    width: 100%;
+    display: table;
+    border-top: 1px solid #585858;
+    padding-top: 10px
+}
+
+@media (max-width: 360px) {
+    .footer_bikewale,.footer_carwale,.footer_ct {
+        display:table-cell;
+        margin-bottom: 10px
+    }
+
+    .footer_logos a img {
+        width: 90px
+    }
+}
+
+.chtot,.cntclr {
+    display: inline-block!important
+}
+
+.swiper-wrapper .swiper-slide {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/loadersnake.gif) center center no-repeat #fff;
+    background-size: 40px
+}
+
+.cell .red,.cell span,.chtot a span,.cntclr a span {
+    font-family: arial!important
+}
+
+.chtot {
+    width: calc(33.333% - 6px)!important;
+    text-align: left;
+    float: left;
+    vertical-align: bottom
+}
+
+.cntclr {
+    width: calc(66.666% - 3px)!important;
+    float: right;
+    vertical-align: bottom!important
+}
+
+.chtot a.chat-lead-btn.resultsChatbtn.nojshide,.cntclrfull a.cntcSllrnewBtn.nojshide.contact-seller-btn {
+    width: 100%!important
+}
+
+.cell,.chtot span span,.cntclr a span {
+    display: inline-block
+}
+
+.detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+    height: 38px;
+    line-height: 38px!important;
+    box-shadow: 0 2px 2px #bba2a2
+}
+
+.chtot a span {
+    line-height: 34px!important
+}
+
+.cntclr a span {
+    line-height: 38px!important
+}
+
+.callseller {
+    width: 10px;
+    top: 1px;
+    position: relative;
+    padding: 0 2px 0 0
+}
+
+.detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+    font-size: 12px!important;
+    padding: 0!important
+}
+
+.chtot a span {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/chat_btn.png) left center no-repeat;
+    padding-left: 21px;
+    background-size: 15px
+}
+
+.cntclr a span {
+    padding-left: 13px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons/callSeller-white.png) 0 center no-repeat;
+    background-size: 10px auto
+}
+
+.cell .red {
+    color: #e51e20;
+    font-size: 9px!important;
+    text-decoration: underline;
+    padding-top: 7px!important
+}
+
+.cell span {
+    line-height: 9px!important;
+    text-align: left!important;
+    font-size: 8px!important
+}
+
+.cell {
+    padding: 0 2px 0 0!important;
+    width: auto;
+    margin: auto
+}
+
+.cell img {
+    width: 18px!important
+}
+
+.appointDate {
+    display: table;
+    padding: 1px 0 0;
+    width: calc(100%)
+}
+
+.buyUsedCarNew .resultblk li .appointDate a {
+    padding: 0!important
+}
+
+.cell ul {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/calendar_new.png) left center no-repeat;
+    background-size: 20px;
+    padding-left: 23px;
+    margin-top: 2px
+}
+
+.viwctlrdet {
+    margin: 3px 0;
+    padding: 0 10px
+}
+
+.cell ul li {
+    background: 0 0!important;
+    border-bottom: none!important
+}
+
+@media screen and (max-device-width: 360px) {
+    .buyUsedCarNew .resultblk li a.cntcSllrnewBtn {
+        padding:0!important
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .bookap,.cell {
+        vertical-align:middle
+    }
+
+    .cell .red,.cell span {
+        font-family: arial!important
+    }
+
+    .callseller {
+        width: 8px;
+        top: 1px;
+        position: relative;
+        padding: 0 2px 0 0
+    }
+
+    .detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+        font-size: 10px!important;
+        font-family: arial!important;
+        padding: 0!important
+    }
+
+    .buyUsedCarNew .resultblk li a.cntcSllrnewBtn {
+        padding: 0!important
+    }
+
+    .chtot a span {
+        background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/chat_btn.png) left center no-repeat;
+        padding-left: 18px;
+        background-size: 14px;
+        display: inline-block
+    }
+
+    .cell .red {
+        color: #e51e20;
+        font-size: 8px!important;
+        text-decoration: underline;
+        padding-top: 6px
+    }
+
+    .cell span {
+        font-size: 7px!important;
+        line-height: 9px
+    }
+
+    .cell {
+        display: table;
+        line-height: 14px;
+        padding: 1px 0 0!important;
+        width: auto;
+        margin: auto
+    }
+
+    .cell img {
+        width: 18px!important
+    }
+
+    .appointDate {
+        display: block;
+        padding: 0;
+        width: calc(100%)
+    }
+
+
+    .cell ul {
+        background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/calendar_new.png) left center no-repeat;
+        background-size: 16px;
+        padding-left: 18px;
+        margin-left: 2px
+    }
+}
+
+.lnaprl,.loaderblkpagebtm,.viwctlrdet {
+    text-align: center
+}
+
+.fl {
+    float: left
+}
+
+.fr,.popShare {
+    float: right
+}
+
+.resultblk li .emi_new_blk .chmrktprc a {
+    color: #444!important;
+    font-weight: 400!important;
+    margin-top: 2px!important;
+    margin-bottom: 3px!important
+}
+
+.lnaprl,.lnaprl span {
+    font-family: Arial!important
+}
+
+@media only screen and (max-device-width: 320px) {
+    .emi_new_blk_link {
+        width:168px
+    }
+
+    .resultblk li .emi_new_blk a {
+        font-size: 11px!important
+    }
+}
+
+.lnaprl {
+    background: #22b14c;
+    padding: 10px!important;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-top: 20px!important;
+    box-shadow: 0 0 10px #222
+}
+
+#contact-seller_related .lnaprl span {
+    font-family: arial!important
+}
+
+#contact-seller_related #PL_popup[data-total-rows="8"],#contact-seller_related #PL_popup[data-total-rows="9"],#contact-seller_related #PL_popup[data-total-rows="10"],#contact-seller_related #PL_popup[data-total-rows="1"],#contact-seller_related #PL_popup[data-total-rows="2"],#contact-seller_related #PL_popup[data-total-rows="3"],#contact-seller_related #PL_popup[data-total-rows="4"],#contact-seller_related #PL_popup[data-total-rows="5"],#contact-seller_related #PL_popup[data-total-rows="6"],#contact-seller_related #PL_popup[data-total-rows="7"] {
+    background: #fff!important
+}
+
+#contact-seller_related #PL_popup {
+    overflow: visible!important
+}
+
+body {
+    font: normal normal 15px Verdana!important
+}
+
+b,button,div,em,h1,h2,h3,h4,input,select,span,strong {
+    font-family: verdana!important
+}
+
+.headerblk {
+    z-index: 10.5;
+    position: relative!important;
+    width: 100%;
+    min-height: 51px!important;
+    box-sizing: border-box
+}
+
+.headerblk .innerlogo {
+    left: -12px;
+    right: auto;
+    top: 0!important
+}
+
+.featured,.premium,.priority {
+    width: 28px;
+    height: 42px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/m.ppf.png) -48px top no-repeat;
+    top: -2px;
+    left: 0;
+    position: absolute
+}
+
+.resultblk .ui-bar-b .swiper-container .sel_star a {
+    width: 22px!important;
+    height: 19px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images/star-rating.png) center top no-repeat;
+    background-size: 19px;
+    display: block;
+    border: 0 solid red;
+    top: -6px;
+    left: -10px;
+    padding: 10px 14px!important;
+    position: relative
+}
+
+.popShare {
+    width: 30px;
+    height: 20px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/share.png) center center no-repeat;
+    background-size: 18px 18px;
+    position: relative;
+    z-index: 10
+}
+
+.detspginfo .viwctlrdet .cntcSllrnewBtn {
+    margin-bottom: 9px
+}
+
+.buyUsedCarNew .resultblk li .viwctlrdet a.viewaimi {
+    font-size: 13px!important;
+    color: #448ce2!important;
+    font-weight: 700;
+    padding: 9px 15px 10px!important;
+    text-decoration: underline
+}
+
+.buyUsedCarNew .resultblk li a.cntcSllrnewBtn {
+    padding: 0!important;
+    font-weight: 700
+}
+
+.detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+    font-family: arial!important
+}
+
+.cell {
+    line-height: 15px
+}
+
+.buyUsedCarNew .resultblk .cell .red a {
+    color: #e51e20;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: arial!important;
+    text-decoration: underline;
+    padding: 4px 0 0!important
+}
+
+.cell span {
+    width: 100%;
+    display: block
+}
+
+@media screen and (max-device-width: 320px) {
+
+    .detspginfo a.cntcSllrnewBtn,.detspginfo span.resultsChatbtn {
+        font-size: 11px!important;
+        font-family: arial!important
+    }
+}
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    /*overflow:hidden;*/
+    z-index: 1
+}
+
+.swiper-container-no-flexbox .swiper-slide {
+    float: left
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.swiper-container-android .swiper-slide,.swiper-wrapper {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate(0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
+
+.swiper-container-multirow>.swiper-wrapper {
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.swiper-container-free-mode>.swiper-wrapper {
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto
+}
+
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.swiper-container .swiper-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000
+}
+
+.swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: 22%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 16px 34px;
+    -webkit-background-size: 16px 34px;
+    background-size: 16px 34px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none
+}
+
+.swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+    background-image: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/slide_left_aero_off.png-version201609301721.png");
+    left: 10px;
+    right: auto
+}
+
+.swiper-button-prev.swiper-button-black,.swiper-container-rtl .swiper-button-next.swiper-button-black {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-prev.swiper-button-white,.swiper-container-rtl .swiper-button-next.swiper-button-white {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+    background-image: url("http://d5x4wettsjecf.cloudfront.net/images-mobiles/slide_right_aero_off.png-version201609301721.png");
+    right: 10px;
+    left: auto
+}
+
+.swiper-button-next.swiper-button-black,.swiper-container-rtl .swiper-button-prev.swiper-button-black {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next.swiper-button-white,.swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    margin-bottom: 15px;
+}
+
+.swiper-pagination.swiper-pagination-hidden {
+    opacity: 0
+}
+
+.swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+    display: inline-block;
+    background: rgb(187, 189, 191);
+    opacity: 1
+}
+
+button.swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    appearance: none
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #C60808;
+    height: 5px;
+}
+
+.swiper-container-horizontal>.swiper-pagination {
+    bottom: 0px;
+    left: 0;
+    width: 100%
+}
+
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet {
+    margin: 0 5px
+}
+
+.swiper-container-3d {
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -o-perspective: 1200px;
+    perspective: 1200px
+}
+
+.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10
+}
+
+.swiper-container-3d .swiper-slide-shadow-left {
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: -webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-top {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom {
+    background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+
+.swiper-scrollbar {
+    border-radius: 10px;
+    position: relative;
+    -ms-touch-action: none;
+    background: rgba(0,0,0,.1)
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+    position: absolute;
+    left: 1%;
+    bottom: 3px;
+    z-index: 50;
+    height: 5px;
+    width: 98%
+}
+
+.swiper-scrollbar-drag {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+    left: 0;
+    top: 0
+}
+
+.swiper-lazy-preloader {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -21px;
+    margin-top: -21px;
+    z-index: 10;
+    -webkit-transform-origin: 50%;
+    -moz-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-animation: swiper-preloader-spin 1s steps(12,end) infinite;
+    -moz-animation: swiper-preloader-spin 1s steps(12,end) infinite;
+    animation: swiper-preloader-spin 1s steps(12,end) infinite
+}
+
+.swiper-lazy-preloader:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-position: 50%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+@-webkit-keyframes swiper-preloader-spin {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes swiper-preloader-spin {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.buyUsedCarNew #header .innerlogo {
+    left: 0px !important;
+    padding: 0;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+#idbybody {
+    padding-top: 101px !important;
+}
+
+.buyUsedCarNew .ui-bar-b {
+    background-color: #FFF !important;
+    background: none;
+    box-shadow: 0 1px 6px #989898;
+}
+
+.dtpicker-overlay {
+    z-index: 99999999;
+    display: none;
+    min-width: 300px;
+    background: rgba(0,0,0,.5);
+    font-size: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.dtpicker-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.dtpicker-overlay * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent
+}
+
+.dtpicker-bg {
+    width: 100%;
+    height: 100%;
+    font-family: Arial
+}
+
+.dtpicker-cont {
+    border: 1px solid #ECF0F1
+}
+
+.dtpicker-mobile .dtpicker-cont {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+    height: 400px
+}
+
+.dtpicker-content {
+    margin: 0 auto;
+    max-width: 500px;
+    background: #fff
+}
+
+.dtpicker-mobile .dtpicker-content {
+    width: 300px
+}
+
+.dtpicker-subcontent {
+    position: relative
+}
+
+.dtpicker-header {
+    padding: 15px 0 0 15px;
+    display: block
+}
+
+.dtpicker-header .dtpicker-title {
+    color: #000;
+    font-family: arial!important;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.dtpicker-header .dtpicker-close {
+    position: absolute;
+    top: -.7em;
+    right: .3em;
+    padding: .5em .5em 1em 1em;
+    color: #FF3B30;
+    font-size: 2em;
+    cursor: pointer;
+    display: none!important
+}
+
+.dtpicker-header .dtpicker-close:hover {
+    color: #FF3B30
+}
+
+.dtpicker-header .dtpicker-value {
+    padding: .8em .2em .2em;
+    color: #FF3B30;
+    text-align: center;
+    font-size: 1.4em;
+    display: none
+}
+
+.dtpicker-components {
+    overflow: hidden;
+    margin: 5px 0;
+    font-size: 18px;
+    position: relative;
+    left: 16px
+}
+
+.dtpicker-components * {
+    margin: 0;
+    padding: 0
+}
+
+.dtpicker-components .dtpicker-compOutline {
+    display: inline-block;
+    float: left
+}
+
+.dtpicker-components .dtpicker-comp {
+    margin: 10%;
+    text-align: center;
+    padding-top: 10px
+}
+
+.dtpicker-components .dtpicker-comp>* {
+    display: block;
+    height: 30px;
+    color: #2980B9;
+    text-align: center;
+    line-height: 30px
+}
+
+.dtpicker-components .dtpicker-compButtonEnable {
+    opacity: 1
+}
+
+.dtpicker-components .dtpicker-compButtonDisable {
+    opacity: .5
+}
+
+.dtpicker-components .dtpicker-compButton {
+    background: #FFF;
+    color: #8a8a8a;
+    cursor: pointer;
+    float: none;
+    text-align: center!important
+}
+
+.dtpicker-components .dtpicker-compValue {
+    margin: 10px 0!important;
+    width: 100%;
+    border: none;
+    background: #FFF;
+    border-top: 2px solid #4ebce9!important;
+    border-bottom: 2px solid #4ebce9!important;
+    height: 50px;
+    color: #000;
+    font-size: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+.dtpicker-overlay .dtpicker-compValue:focus {
+    outline: 0;
+    box-shadow: none;
+    border: 0
+}
+
+.dtpicker-buttonCont {
+    overflow: hidden;
+    border-top: 1px solid #bcbcbc
+}
+
+.dtpicker-buttonCont .dtpicker-button {
+    display: block;
+    padding: 10px!important;
+    width: 50%!important;
+    color: #000;
+    text-align: center!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-right: 1px solid #bcbcbc
+}
+
+.dtpicker-singleButton .dtpicker-button {
+    margin: .2em auto
+}
+
+.dtpicker-twoButtons .dtpicker-buttonSet {
+    float: right;
+    border-right: 0
+}
+
+.dtpicker-twoButtons .dtpicker-buttonClear {
+    float: left
+}
+
+@media only screen and (min-device-width: 1024) {
+    .dtpicker-mobile .dtpicker-cont {
+        margin-top:32%
+    }
+}
+
+.km-fuel-yr {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+}
+
+.km-fuel-yr .detail {
+    color: #56586a;
+    font-size: 13px;
+    min-width: 92px;
+    max-width: 120px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    margin: 12px 0 0;
+}
+
+.km-fuel-yr .fuel.detail {
+    min-width: 62px;
+    max-width: 72px;
+}
+
+.km-fuel-yr .yr.detail {
+    min-width: 44px;
+    max-width: 54px;
+}
+
+.km-fuel-yr .dot {
+    background-color: #b2b3ba;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+}
+
+.absure4s-card {
+    border-style: solid;
+    border-width: 4px !important;
+    border-color: #0e3a50 !important;
+}
+
+.image-not-approved-container {
+  background-color: #f5f5f5;
+  height: 270px;
+}
+
+.request-photo-button {
+  width: 126px;
+  height: 32px;
+  border-radius: 3px;
+  border-color: #92939e;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  color: #92939e;
+  margin: 8px auto 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+}
+
+.image-not-approved-container .image-not-approved-content {
+  height: 210px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.photo-request-error-toast {
+  width: 80%;
+  margin: 90px 28px 0 28px;
+  height: 36px;
+  background-color: #555555;
+  color: white;
+  padding: 0 12px;
+  line-height: 36px;
+  vertical-align: middle;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 3px;
+  font-size: 13px;
+}
+  
+.image-response-text {
+  text-align: center;
+  color: #6f6f6f;
+}
+  
+.image-not-approved-container .photo-upload-loader {
+  margin-bottom: 30px;
+  width: 16px;
+  height: 16px;
+  margin-left: 50%;}
+
+.original-price-text {
+  color: #666666;
+  font-weight: 500;
+  text-decoration: line-through;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.price__box {
+  border-right: solid #e8e8e8 1px;
+}
+
+.move-to-top {
+    margin-bottom: 90px;
+}

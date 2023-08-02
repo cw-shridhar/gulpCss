@@ -1,0 +1,139 @@
+.content_are .specifications {
+    border: 1px solid #f0f0f0;
+    padding: 24px;
+    margin: 0px 0px 24px
+}
+
+.content_are .specifications .title {
+    color: #272a41;
+    font-size: 22px;
+    font-family: 'Muli-SemiBold';
+    padding-left: 0px;
+    margin-top: 0px
+}
+
+.content_are .specifications .noteTxt {
+    color: #56586a;
+    font-size: 14px;
+    font-family: 'Muli-Regular';
+    padding-left: 0px;
+    margin: 16px 0px 40px
+}
+
+.content_are .specifications .block {
+    width: 100%;
+    height: auto;
+    border: 1px solid #fcfcfc;
+    background-color: #fcfcfc;
+    padding: 24px 24px 0px;
+    margin: 24px 0px;
+    position: relative;
+    box-sizing: border-box
+}
+
+.content_are .specifications .block.keyFeatures {
+    margin-bottom: 14px
+}
+
+.content_are .specifications .block .tagBanner {
+    top: -12px;
+    left: 0px;
+    position: absolute;
+    width: 254px;
+    height: 30px;
+    background-color: #ffefea;
+    border-radius: 2px 0px 0px 2px
+}
+
+.content_are .specifications .block .tagBanner:before {
+    content: "";
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 12px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    z-index: 1;
+}
+
+.content_are .specifications .block .tagBanner .txt {
+    color: #56586a;
+    font-size: 12px;
+    font-family: 'Muli-Regular';
+    text-transform: uppercase;
+    text-transform: uppercase;
+    top: 5px;
+    position: relative;
+    left: 16px
+}
+
+.content_are .specifications .block .row {
+    width: 100%;
+    display: table;
+    padding: 12px 0px
+}
+
+.content_are .specifications .block .col {
+    width: 33%;
+    display: table-cell;
+    vertical-align: top
+}
+
+.content_are .specifications .block .col * {
+    font-size: 13px;
+    font-family: 'Muli-Regular';
+    box-sizing: border-box;
+    display: inline-block
+}
+
+.content_are .specifications .block .col .text {
+    color: #92939e;
+    vertical-align: text-top;
+    width: 46%
+}
+
+.content_are .specifications .block .col .val {
+    color: #272a41;
+    vertical-align: text-top;
+    width: 52%
+}
+
+.content_are .specifications .block.keyFeatures .row .col .text {
+    width: 100%;
+    min-height: 20px;
+    padding-left: 0px
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle
+}
+
+.content_are .specifications .block.keyFeatures .col {
+    display: inline-block
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(2) .col .text,.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(3) .col .text,.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(4) .col .text,.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(5) .col .text {
+    background-size: 18px auto !important
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(1) .col:nth-child(2) .text {
+    background-position-x: 4px
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(2) .col:nth-child(3) .text {
+    background-size: 19px auto !important
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(4) .col:nth-child(2) .text {
+    background-size: 23px auto !important
+}
+
+.content_are .specifications .block.keyFeatures .rowCol .row:nth-child(5) .col .text {
+    background-size: auto 12px !important;
+    background-position: 0px 2px !important
+}

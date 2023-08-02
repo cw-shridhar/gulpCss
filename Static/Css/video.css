@@ -1,0 +1,94 @@
+.video-slug-block-wrap .wrapper {
+    line-height: normal;
+    padding: 16px;
+    box-sizing: border-box;
+    max-width: 384px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.video-slug-block-wrap .wrapper .video-slug-title {
+    color: #272a41;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 8px auto 12px;
+}
+
+.video-block {
+    width: 100%;
+    box-shadow: 0px 1px 4px 0px #35272a41;
+    border-radius: 3px;
+    padding: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.video-block .transparent-overlay {
+    top: 2px;
+    right: 2px;
+    bottom: auto;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    cursor: pointer;
+}
+
+.video-slug-block-wrap .wrapper .video-block .video {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block {
+    padding: 12px;
+}
+
+.video-slug-block-wrap .wrapper .video-block .car-title {
+    color: #484848;
+    font-size: 16px;
+}
+
+.video-slug-block-wrap .wrapper .video-block .date {
+    color: #aaa;
+    font-size: 13px;
+    margin: 4px auto 4px 0px;
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views {
+    margin: 16px auto 9px;
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .likes,
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .views {
+    width: 50%;
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views,
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .likes,
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .views,
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .likes .icon,
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .views .icon {
+    display: flex;
+    align-items: center;
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .icon {
+    margin: 0px
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .text {
+    margin: 0px
+}
+
+.video-slug-block-wrap .wrapper .video-block .content-block .likes-views .views {
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:320px) {
+    .video-slug-block-wrap .wrapper {
+        padding: 8px;
+    }
+    .video-block {
+        min-width: 300px;
+    }
+}

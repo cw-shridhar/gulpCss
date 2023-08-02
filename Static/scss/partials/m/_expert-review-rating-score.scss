@@ -1,0 +1,96 @@
+.expert-rating-container {
+    border: 1px solid map-get($color-map, "whisper");
+    background-color:map-get($color-map, "white-smoke-2");
+    margin: 16px;
+    padding: 0 12px;
+}
+
+.overall-rating-container {
+    padding-top: 16px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.rating-title {
+    font-size: 13px;
+    color:map-get($color-map, "comet");  
+}
+
+.overall-score-title {
+    font-weight: $font-bold;
+    margin-right: 8px;
+}
+
+.star-icon {
+    @include star-green;
+
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+}
+
+.overall-rating-value {
+    font-size: 15px;
+    font-weight: $font-bold;
+    color:map-get($color-map, "charcoal");
+}
+
+.total-rating-value {
+    font-size: 13px;
+    font-weight: $font-bold;
+    color:map-get($color-map, "dark-gray");
+}
+
+.page-rating-row-container {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(space-between);
+
+    &:last-child{
+        margin-bottom: 16px;
+    }
+}
+
+.page-rating-row {
+    @include flex(1);
+}
+
+.first-rating-column {
+    padding-top: 16px;
+}
+
+.second-rating-column {
+    padding-top: 16px;
+}
+
+.rating-value-text {
+    font-size: 13px;
+    font-family: $font-muli-semibold;
+    color:map-get($color-map, "comet");
+    float: right;
+    margin-top: 2px;
+}
+
+.rating-star-icon{
+    width: 12px;
+    height: 11px;
+}
+
+@media (min-width: 800px) {
+    .page-rating-row-container {
+        @include flex-direction(row);
+    }
+
+    .overall-rating-container {
+        padding-bottom: 16px;
+    }
+
+    .first-rating-column .rating-value-text {
+        padding-right: 20px;
+        border-right: 1px solid map-get($color-map, "whisper");
+    }
+
+    .second-rating-column {
+        padding-left: 20px;
+    }
+}

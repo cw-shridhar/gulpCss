@@ -1,0 +1,220 @@
+@import "../../../mixins/icons";
+
+.content_are {
+  width: 1156px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav_mini {
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+body {
+  background-color: #fff !important;
+  font-family: "Muli-Regular";
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+}
+
+.Page_heading {
+  display: block;
+}
+
+.Page_heading h1 {
+  color: #272a41;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.inside_wrapper {
+  border: 1px solid #f0f0f0;
+}
+
+.onroad_inner {
+  padding: 20px 24px 20px 24px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.float_l {
+  float: left;
+}
+
+.onroad_title {
+  color: #272a41;
+  font-size: 22px;
+  display: block;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.onroad_inner p {
+  color: #56586a;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+.float_r {
+  float: right;
+}
+
+.bestpric {
+  width: 140px;
+  display: block;
+  position: absolute;
+  right: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.select_car {
+  color: #272a41;
+  font-size: 17px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.float_l {
+  float: left;
+}
+
+.inside_wrapper .form-control {
+  width: 256px;
+  color: #56586a;
+  font-size: 15px !important;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0px;
+  vertical-align: middle;
+  margin-left: 0px;
+  display: inline-block;
+  padding-left: 0px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background: transparent
+    url("#{$img-cdn-path}0x0/cw/static/icons/svg/6f6f6f/arrow-down.svg") no-repeat 238px
+    10px;
+  background-size: 12px auto;
+  margin-right: 25px;
+  font-size: 14px !important;
+}
+
+.selectDDCust {
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.selectDDCust .defaultVal {
+  color: #92939e;
+}
+
+.priceform #exp_make_er,
+.priceform #exp_model_er {
+  position: absolute;
+}
+
+.priceform .er_msg {
+  display: block;
+  width: 100%;
+  color: #e16363;
+  overflow: hidden;
+  position: relative;
+}
+
+.priceform #exp_make_er .er_msg_ri,
+.priceform #exp_model_er .er_msg_ri {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.priceform .er_msg_ri {
+  float: left;
+  display: block;
+  padding: 0;
+  font-size: 12px;
+}
+
+.btn_red {
+  border: 1px solid #d02326;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+  transition: all 0.3s;
+  background: #d02326;
+  padding: 10px 42px 10px 42px;
+  width: 100%;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 15px !important;
+  cursor: pointer;
+  border-radius: 50px !important;
+}
+
+.btn_red:hover {
+  border: 1px solid #d02326;
+  background: #fff;
+  color: #d02326;
+}
+
+#blackOutWindow {
+  display: none;
+  background: #000;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  opacity: 0.8;
+}
+
+.separator {
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+
+.ver_onlakd1 {
+  padding-left: 15px;
+  font-family: "Muli-SemiBold" !important;
+}
+
+.hover_span:hover {
+  background: #d02326;
+  color: #fff;
+}
+
+.btn_text:hover {
+  background: #fff;
+  color: #d02326;
+}
+
+.usedcar_height_fix {
+  min-height: 250px !important;
+}

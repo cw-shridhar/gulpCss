@@ -1,0 +1,50 @@
+/* Widget specific classes */
+
+.tab_lnks {
+  overflow: hidden;
+  display: block;
+  padding: 12px;
+}
+
+.tab_lnks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab_lnks ul li {
+  width: auto;
+  border: 0 solid red;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 1px;
+}
+
+.tab_lnks ul li a {
+  font-size: 13px;
+  color: #272a41;
+  overflow: hidden;
+  display: table;
+  padding: 20px;
+  margin: 12px 0;
+  width: 88%;
+  min-height: 35px;
+}
+
+.tab_lnks ul li a:hover {
+  color: #d02326;
+}
+
+.tab_lnks ul li a img {
+  width: 25px;
+  display: table-cell;
+  margin-top: 6px;
+  padding-right: 13px;
+  vertical-align: middle;
+}
+
+.tab_lnks ul li a span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 15px;
+  width: 80%;
+}

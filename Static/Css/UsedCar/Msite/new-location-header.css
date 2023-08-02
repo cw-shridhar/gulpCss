@@ -1,0 +1,12 @@
+#idbybody {
+    padding-top: 0 !important;
+    background-color: white !important;
+}
+
+#header-search {
+    display: none;
+}
+
+.area-search {
+    display: none !important;
+}

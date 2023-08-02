@@ -1,0 +1,113 @@
+.faqSection .question {
+    color: #272a41;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.question-text {
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.faqSection .carDescWrapper {
+    cursor: pointer;
+    padding-left: 0px;
+    border-bottom: 0px;
+}
+
+.faqSection .answer {
+    cursor: pointer;
+    padding: 16px 16px;
+    border-top: 1px solid #e2e2e2;
+    color: #56586a;
+    background-color: #fbfbfb;
+}
+
+.faqSection .answerText {
+    color: #56586a;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.faqSection a {
+    color: #d02326;
+}
+
+.faqSection {
+    margin-top: 16px;
+    font-size: 15px;
+    color: #272a41;
+    line-height: 22px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    clear: both;
+}
+
+.faqSection .faqTitle {
+    padding: 37px 16px 24px 16px;
+    color: #272a41;
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.faqSection .question {
+    display: flex;
+    align-items: center;
+    padding: 20px 16px;
+    border-top: 1px solid #e2e2e2;
+    justify-content: space-between;
+}
+.faqSection .questionText{
+    vertical-align: middle;
+    margin-right: 16px;
+    float: left;
+}
+.faqSection .questionArrow{
+    float:right;
+}
+.faqSection .viewMore {
+    font-size: 15px;
+    color: #d02326;
+    cursor: pointer;
+    padding: 12px 40px;
+    border: 1px solid #d11900;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.faqSection .viewMoreWrapper {
+    cursor: pointer;
+    text-align: center;
+    padding: 32px 36px 32px 36px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.faqSection ul {
+    list-style-type: none;
+}
+
+.faqWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rotateFaqArrow90 {
+    float: right;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+
+.rotateFaqArrow {
+    -webkit-transform: rotateZ(270deg);
+    transform: rotateZ(270deg);
+}
+
+.viewMore svg {
+    margin-top: 30px;
+}
+.hide {
+    display: none;
+}

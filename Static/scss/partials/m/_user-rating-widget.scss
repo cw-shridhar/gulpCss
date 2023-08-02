@@ -1,0 +1,84 @@
+.rating-widget-container {
+    padding: 24px 16px 20px 16px;
+}
+
+.rating-widget-summary {
+    background-color: map-get($color-map, "white-smoke-2");
+    padding: 16px 12px 8px;
+    margin-bottom: 16px;
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+}
+
+.rating-widget-figures {
+    padding-bottom: 4px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.rating-widget-text {
+    font-size: 13px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-regular;
+    margin-bottom: 8px;
+}
+
+.user-rating-parameter-heading {
+    font-size: 16px;
+}
+
+.user-preference {
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+}
+
+.rating-count {
+    font-size: 15px;
+    color: map-get($color-map, "manatee");
+}
+
+.rating-percent {
+    font-size: 15px;
+    color: map-get($color-map, "persian-green");
+    margin-left: 4px;
+}
+
+.rating-parameters-container {
+    border: 1px solid map-get($color-map, "whisper");
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.rating-parameter {
+    @include flexbox;
+    align-items: center;
+}
+
+.parameter-names {
+    width: 90px;
+    text-align: right;
+    border-right: 1px solid map-get($color-map, "ghost");
+    padding: 12px 12px 12px 0;
+    font-family: $font-muli-regular;
+    font-size: 13px;
+}
+
+.rating-bar {
+    background-color: map-get($color-map, "white-smoke-3");
+    height: 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.param-value {
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: $font-muli-semibold;
+}
+
+.star-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    margin-right: 4px;
+    color: map-get($color-map, "persian-green");
+}

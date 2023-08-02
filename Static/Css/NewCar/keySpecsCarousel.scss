@@ -1,0 +1,89 @@
+.keyspecs {
+    margin-bottom: 24px;
+    padding: 0 27px 24px;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+
+.title_gap {
+    padding-bottom: 37px;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.keyspebdyTr {
+    max-width: 280px;
+    border-color: #efefef;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    background-color: #fff;
+    padding-left: 22px;
+    padding-bottom: 20px;
+    padding-right: 18px;
+    padding-top: 20px;
+    position: relative;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.keyspebdyTr:first-child {
+    border-left: 1px solid #efefef;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.keyspecs .keyspebdyTr {
+    border: none;
+}
+
+.keyspebdyTh {
+    color: #484848;
+    font-weight: 400;
+    margin-bottom: 8px;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    border: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.keyspebdyspn {
+    color: #92939e;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.keyspecs .keyspebdyTd {
+    font-family: 'Muli-Regular';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.keyspebdyTr:not(:last-child):after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    right: 0;
+    width: 1px;
+    height: 40px;
+    background-color: #e1e1e1;
+}
+
+.jcarousel {
+    box-shadow: 0 1px 5px -1px rgb(53 39 42 / 25%);
+}
+
+.jcarousel ul {
+    padding: 9px 0;
+}
+
+.keyspebdyTh img{
+    margin:0;
+    width: 16px;
+}

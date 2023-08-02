@@ -1,0 +1,8 @@
+.offer-box-color {
+    background-color: map-get($color-map, "faint-coral");
+}
+
+.best-deal-button {
+    border-radius: 3px;
+    border: 1px solid map-get($color-map, "fire-red");
+}

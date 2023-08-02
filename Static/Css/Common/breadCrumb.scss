@@ -1,0 +1,82 @@
+.breadcrumb {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.breadcrumb .breadspan {
+  margin: 0 2px;
+}
+
+.breadcrumb .active span {
+  color: #92939e;
+}
+
+.breadcrumbs {
+  position: relative;
+}
+
+.breadcrumb li a {
+  color: #404040;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.breadcrumb li a:hover {
+  color: #d02326;
+}
+
+.breadcrumb li a div {
+  float: left;
+  display: block;
+  font-size: 13px;
+  color: #272a41;
+}
+
+.breadcrumb li a div:hover {
+  color: #d02326;
+}
+
+.breadcrumb li:last-child a div {
+  color: #b2b3ba;
+  cursor: default;
+}
+
+.h1new,
+.breadcrumbs {
+  font-size: 15px;
+  width: 100%;
+  padding: 11px 14px;
+  margin: 0;
+  display: block;
+  text-align: left;
+  line-height: 15px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+.breadcrumbs {
+  color: #fff;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.breadcrumb > li:last-child > a > span {
+  display: none;
+}
+
+.breadcrumb > li:last-child > a > span {
+  color: #92939e;
+  text-decoration: none;
+  cursor: default;
+}
+
+.breadcrumbs li {
+  padding: 0 10px 0 0;
+}

@@ -1,0 +1,30 @@
+@import "../../../Css/CMS/contentListing.scss";
+@import "../../mixins/index";
+
+.top-ad {
+    @include flexbox;
+    @include justify-content(center);
+    min-width: 970px;
+    min-height: 90px;
+    margin: 16px auto;
+}
+
+.side-top-ad {
+    margin: 24px auto;
+    max-width: 300px;
+    min-width: 100px;
+    min-height: 250px;
+}
+
+.side-btm-ad {
+    margin: 24px auto;
+    max-width: 300px;
+    min-width: 100px;
+    min-height: 525px;
+    position: sticky;
+    top: 0;
+}
+
+.overall-specs-tabs-wrapper li {
+    padding: 12px 8px;
+}

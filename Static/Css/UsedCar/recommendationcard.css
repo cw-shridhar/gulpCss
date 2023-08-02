@@ -1,0 +1,197 @@
+.recommendation-card {
+    display: flex;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    flex-direction: column;
+    margin: 8px 0px;
+}
+
+.recommendation-card__details {
+    display: flex;
+    padding: 12px;
+}
+
+.recommendation-card__stock_details {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.recommendation-card__image {
+    border-radius: 3px;
+    width: 112px;
+    height: 84px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.recommendation-card__stock_details .recommendation-card__stock_name {
+    font-size: 13px;
+    font-family: Muli-Bold !important;
+    line-height: 20px;
+    color: #272a41;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 18px;
+}
+
+.recommendation-card__stock_price {
+    font-size: 16px;
+    font-family: Muli-Bold !important;
+    color: #272a41;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.recommendation-card__stock_subdetails {
+    font-size: 12px;
+    color: #56586a;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.recommendation-card__stock_fuel {
+    padding-right: 8px;
+}
+
+.recommendation-card__stock_km {
+    padding-right: 8px;
+}
+.font-muli-regular {
+    font-family: 'Muli-Regular' !important;
+}
+.recommendation-card__selection {
+    display: block;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: auto;
+    padding: 0px 12px 0px 4px;
+    border-radius: 2px;
+}
+
+.recommendation-card__selection input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #92939e;
+}
+.position-absolute {
+    position: absolute;
+}
+.recommendation-card__selection input:checked ~ .checkmark {
+    background-color: #f07e7c;
+    border: none;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.recommendation-card__selection input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+.recommendation-card__selection .checkmark:after {
+    left: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.recommendation-card__checkbox {
+    height: 16px !important;
+    width: 16px !important;
+    position: absolute;
+    right: 0;
+}
+
+.recommendation-card__seller-details {
+    background-color: #f5f5f5;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.recommendation-card__seller-name {
+    font-size: 13px;
+    color: #56586a;
+}
+
+.recommendation-card__seller-mobile {
+    font-size: 13px;
+    color: #0288d1;
+    font-weight: bold;
+}
+
+.recommendation-card__interested-button {
+    color: #d02326;
+    font-size: 15px;
+    font-family: Muli-semibold !important;
+    border-radius: 4px;
+    border: 1px solid #d02326;
+    margin: 0px 12px 12px;
+    height: 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-right-4 {
+    margin-right: 4px;
+}
+
+.seller-details-loader {
+    height: 40px;
+    background-color: #f5f5f5;
+    display: none;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.recommendation-card-select {
+    margin-right: 12px;
+    margin-bottom: 0;
+    right: 0;
+    height: 16px;
+}
+
+.margin-right-18 {
+    margin-right: 18px;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

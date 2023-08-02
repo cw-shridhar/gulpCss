@@ -1,0 +1,19 @@
+.box_upcoming {
+    padding: 20px;
+    overflow: hidden;
+    display: block;
+}
+.box_upcoming h1 {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+.upcars_blk {
+    display: block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.upcars_blk img {
+    width: 100%;
+}

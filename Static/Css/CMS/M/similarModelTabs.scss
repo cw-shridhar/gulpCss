@@ -1,0 +1,28 @@
+@import "../../../scss/base/index";
+@import "../../../scss/mixins/flexbox";
+@import "../../../scss/mixins/hide-scrollbar";
+
+.similar-tab-container {
+    @include flexbox;
+    @include hide-horizontal-scroll;
+    padding: 0 16px 8px 16px;
+    overflow-x: scroll;
+}
+
+.similar-model-tab {
+    padding: 8px 20px;
+    font-size: 13px;
+    font-family: $font-muli-regular;
+    border-radius: 4px;
+    margin-right: 8px;
+    @include flexbox;
+    @include align-items(center);
+    border: 1px solid map-get($color-map, "comet");
+    color: map-get($color-map, "comet");
+}
+
+.selected-tab {
+    border: 1px solid map-get($color-map, "fire-red");
+    color: map-get($color-map, "fire-red");
+}
+

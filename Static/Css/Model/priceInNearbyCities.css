@@ -1,0 +1,94 @@
+.btmMrg {
+    margin-bottom: 24px !important
+}
+
+.content_are.nearestCities {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    padding: 24px;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important
+}
+
+.content_are.nearestCities ul {
+    width: 100%;
+    display: table
+}
+
+.content_are.nearestCities .city_prc_blk {
+    width: 100%;
+    display: block;
+    position: relative
+}
+
+.padBottomNull {
+    padding-bottom: 0px !important
+}
+
+.content_are.nearestCities .block_heading {
+    color: #272a41;
+    font-size: 21px;
+    font-family: Muli-Bold;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 17px
+}
+
+.content_are.nearestCities .cityPriceClk {
+    width: 32.5%;
+    display: inline-block;
+    padding-bottom: 22px
+}
+
+.content_are.nearestCities .cityPriceClk .cityName,.content_are.nearestCities .cityPriceClk .cityName a {
+    width: 37%;
+    display: inline-block
+}
+
+.content_are.nearestCities .cityPriceClk .cityName a {
+    width: 78%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: 3px
+}
+
+.content_are.nearestCities .cityPriceClk .priceRange {
+    width: 50%;
+    margin-right: -25px
+}
+
+.content_are.nearestCities .cityPriceClk .cityName,.content_are.nearestCities .cityPriceClk .priceRange,.content_are.nearestCities .cityPriceClk .cityName a {
+    color: #272a41 !important;
+    font-size: 15px;
+    font-family: 'Muli-SemiBold';
+    display: inline-block
+}
+
+.content_are.nearestCities .cityPriceClk .priceRange {
+    color: #56586a !important
+}
+
+.content_are.nearestCities .cityPriceClk .icon-location {
+    height: 23.27px;
+    vertical-align: text-bottom;
+    margin-right: 0;
+    padding: 2px 4px;
+    top: 3px;
+    position: relative
+}
+
+.content_are.popularCities .cityPriceClk .cityName {
+    text-align: center;
+    vertical-align: middle
+}
+
+.content_are.popularCities .cityPriceClk .icon-location {
+    width: 40px
+}
+
+.content_are.popularCities .cityPriceClk .cityName a {
+    font-size: 14px
+}

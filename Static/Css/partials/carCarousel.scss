@@ -1,0 +1,98 @@
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.jcarousel > ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.jcarousel > ul > li {
+  float: left;
+}
+
+.jcarousel-wrapper {
+  position: relative;
+  padding: 0 10px;
+}
+
+.slug_wrapper {
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 38px 24px;
+  width: 100%;
+  margin: 24px auto 0;
+  background-color: #fff;
+}
+
+.img_wrapper {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.carousel_img_car {
+  width: 200px;
+}
+
+.carousel_info {
+  padding-left: 15px;
+  min-height: 40px;
+  margin: 15px auto 0 0;
+  width: 100%;
+}
+
+.card_wrapper {
+  margin-right: 20px;
+  border: 1px solid #f0f0f0;
+  width: 252px;
+  height: 192px;
+}
+
+.carousel_info > .similar-txt {
+  font-size: 15px;
+  color: #56586a;
+}
+
+.jcarousel-control-prev span {
+  left: -10px;
+}
+
+.jcarousel-control-next span {
+  right: -10px;
+}
+
+.jcarousel-control span {
+  position: absolute;
+  top: 40%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0 0 1px #fff;
+  font: 24px/27px Arial, sans-serif;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.jcarousel-control > span > img {
+  height: 80%;
+  width: 80%;
+  padding: 5px 1px 0 0;
+}
+
+.inpad_left .jcarousel-wrapper {
+  margin: 0 24px 20px;
+}

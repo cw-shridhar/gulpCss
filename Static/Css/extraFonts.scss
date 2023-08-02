@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Muli-Regular";
+  src: url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Regular.woff")
+      format("woff"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Regular.ttf")
+      format("truetype"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Regular.svg#Muli-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-SemiBold.woff")
+      format("woff"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-SemiBold.ttf")
+      format("truetype"),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-SemiBold.svg#Muli-SemiBold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli-Bold';
+  src: url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Bold.eot?#iefix") format('embedded-opentype'),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Bold.woff") format('woff'),
+    url("https://d2vm9gqgqf65ux.cloudfront.net/fonts/muli/Muli-Bold.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoWeb";
+  src: url("https://stc.aeplcdn.com/fonts/lato-regular-webfont.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli-Regular-Fallback';
+  src: local("Times New Roman");
+  size-adjust: 111%;
+}

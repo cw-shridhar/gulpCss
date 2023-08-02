@@ -1,0 +1,195 @@
+.latest-review {
+  width: 136px;
+  height: 24px;
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-SemiBold;
+  margin: 24px 208px 16px 16px;
+  font-weight: bold;
+}
+
+.review-block {
+  width: auto;
+  height: 242px;
+  margin: 16px;
+  border: 1px solid #e8e8e8;
+}
+
+.review-block-content {
+  width: auto;
+  height: 140px;
+  margin: -114px 16px 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+}
+
+.latest-car-review {
+  display: flex;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.latest-car-review-content {
+  width: auto;
+  height: auto;
+  flex: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0 12px;
+}
+
+.latest-car-review-image {
+  width: auto;
+  height: auto;
+  flex: 45%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 12px 0 0 12px;
+}
+
+.latest-car-review-image img {
+  width: 131px;
+  height: 74px;
+}
+
+.review-car-makename {
+  margin: 12px 0 0 12px;
+  font-size: 13px;
+  color: #56586a;
+  font-family: Muli-Regular;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.review-car-modelname {
+  margin: 4px 0 8px 12px;
+  max-width: 145px;
+  font-size: 16px;
+  color: #272a41;
+  font-family: Muli-Regular;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.review-car-price {
+  margin: 8px 0 0 12px;
+  font-family: Muli-Regular;
+  font-size: 16px;
+  color: #272a41;
+  font-weight: bold;
+}
+
+.review-rating {
+  flex: 50%;
+  display: flex;
+}
+
+.review-star-wrapper {
+  max-width: 38px;
+  height: 20px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.review-star-wrapper span {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Lato-Semibold";
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.star-icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  margin-right: 5px;
+}
+
+.review-number {
+  height: 16px;
+  width: 79px;
+  flex: 70%;
+  margin-left: 16px;
+  font-family: Muli-Regular;
+  color: #0288d1;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.latest-write-review {
+  flex: 50%;
+  font-family: Muli-Regular;
+  font-weight: bolder;
+  color: #0288d1;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.review-title {
+  font-family: Muli-Regular;
+  max-height: 19px;
+  color: #272a41;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-left: 8px;
+  max-width: 258px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.seperator-line {
+  line-height: 16px;
+  color: #e8e8e8;
+  margin-right: 16px;
+}
+
+.author-info {
+  font-size: 13px;
+  color: #56586a;
+  font-family: Muli-Regular;
+  margin: 9px 0 0 12px;
+}
+
+.review-detail {
+  height: 40px;
+  width: 304px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #272a41;
+  margin: 8px 12px 0 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-family: Muli-Regular;
+}
+
+.read-more {
+  width: 67px;
+  height: 16px;
+  margin: 4px 12px 0 249px;
+  color: #0288d1;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Muli-Regular;
+}
+
+.arrow_right {
+  border: solid #56586a;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3.5px;
+  margin: 1px 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

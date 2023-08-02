@@ -1,0 +1,139 @@
+.upcoming-section-desktop {
+  clear: both;
+}
+
+.upcoming-cars-inner-div {
+  padding: 0;
+  margin: 24px 0 32px;
+  position: relative;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.title_gap {
+  font-size: 22px;
+  line-height: 24px;
+  color: #262626;
+  font-family: Muli-SemiBold, sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  padding: 32px 24px 20px 24px;
+  margin: 0;
+}
+
+.up_slider {
+  width: 94%;
+  margin: 0 auto;
+  padding: 0 24px 24px 24px;
+}
+
+.vw_al {
+  color: #d02326;
+  font-size: 15px;
+  font-family: Muli-Regular, sans-serif;
+  float: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ver_srch {
+  position: relative;
+}
+
+.ver_img_sldr4 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ver_pp-bkh {
+  width: 252px;
+  padding: 14px;
+  box-sizing: border-box;
+  height: auto;
+  margin: 2px;
+  border: 1px solid #f0f0f0;
+  box-shadow:0 1px 2px 0 rgb(148 148 148 / 25%);
+}
+
+.ver_crimg {
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.ver_img_blk {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ver_rcar-det {
+  padding: 0;
+  margin: 15px auto 0px 0px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.upcoming_ver_cr-tit1 {
+  height: 40px;
+  padding-left: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 40px;
+  padding-bottom: 4px;
+}
+
+.upcoming_ver_cr-tit1 .var_upc_tit {
+  color: #56586a;
+  font-size: 15px;
+  font-family: Muli-Regular, sans-serif;
+  font-weight: normal;
+}
+
+.upcoming_ver_cr-tit1 a {
+  text-decoration: none;
+}
+
+.var_upc_tit {
+  display: block;
+  margin-bottom: 0;
+}
+
+.upcoming_make_blk .ver_img_sldr4 .upcoming_ver_onlakd1 {
+  min-height: auto;
+}
+
+.ver_img_sldr4 .upcoming_ver_onlakd1 {
+  padding-bottom: 4px;
+}
+
+.ver_img_sldr4 .upcoming_ver_onlakd1, .ver_img_sldr4 .upcoming_ver_onlakd1 span {
+  font-family: Muli-Regular, sans-serif;
+  font-weight: normal;
+  padding-left: 0;
+  line-height: 20px;
+  font-size: 19px;
+  color: #272A42;
+}
+
+.upcoming_ver_exShowroom{
+  color: #b2b3ba;
+  font-size: 12px;
+}
+
+.ver_img_sldr4 ul li {
+  padding-right: 9px;
+  width: auto;
+  float: left;
+  margin: 0;
+  list-style-type: none;
+}
+
+.rupee_font {
+  font-family: sans-serif;
+  letter-spacing: normal;
+  font-weight: normal;
+}

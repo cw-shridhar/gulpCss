@@ -1,0 +1,107 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+.share_linnk_icn {
+  position: absolute;
+  left: 0;
+  width: 48px;
+  height: 38px;
+  padding: 0;
+  z-index: 98;
+  display: block;
+  margin-top: 11px;
+}
+.share_linnk_icn.openshr {
+  z-index: 1000001;
+}
+
+.a2a_s_facebook,
+.a2a_s_google_plus,
+.a2a_s_twitter,
+.a2a_s_whatsapp,
+.a2a_s_email,
+.a2a_s_sms {
+  background-repeat: no-repeat;
+  background-size: 20px auto !important;
+  border-radius: 0;
+  display: inline-block;
+  line-height: normal;
+  margin-right: 0;
+  margin-top: 3px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 20px;
+  height: 20px !important;
+}
+.socialIcon {
+  width: 242px !important;
+  background: #fff;
+  padding: 5px 0 5px 0;
+  position: relative;
+  top: -4px;
+  left: 12px;
+  clear: both;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: none;
+  overflow: hidden;
+  float: left;
+}
+
+.socialIcon li a {
+  line-height: 25px !important;
+}
+ul.socialIcon li {
+  border-bottom: none !important;
+}
+.socialIcon {
+  z-index: 9999999999;
+}
+.a2a_s_facebook {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-position: center top;
+}
+.a2a_s_google_plus {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-origin: padding-box;
+  background-position: center -66px;
+}
+
+.a2a_s_twitter {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-origin: padding-box;
+  background-position: center -44px;
+}
+
+.a2a_s_whatsapp {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-origin: padding-box;
+  background-position: center -88px;
+}
+
+.a2a_s_email {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-origin: padding-box;
+  background-position: center -22px;
+}
+
+.a2a_s_sms {
+  background-image: url("#{$cloudfront-img-cdn-path}/images-mobiles/socialicons1.png");
+  background-origin: padding-box;
+  background-position: center bottom;
+}
+.a2a_svg {
+  background-size: 20px auto;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.span {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+#sh_share_id.open {
+  display: block;
+}

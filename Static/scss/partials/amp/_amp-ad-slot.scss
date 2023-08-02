@@ -1,0 +1,16 @@
+.ad_pad_noback {
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 100%;
+	display: block;
+	background-color: rgb(240, 240, 240);
+}
+
+.ad_pad_noback>amp-ad {
+	margin: 0 auto;
+	display: block;
+}
+
+amp-ad[type=doubleclick] {
+	direction: ltr;
+}

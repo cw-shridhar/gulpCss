@@ -1,0 +1,29 @@
+.dealership-logo-container {
+    width: 80px;
+    background-color: #fbfbfb;
+    position: absolute;
+    bottom: 3px;
+    right: -2px;
+  }
+  
+  .dealership-logo-container:before {
+    background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/used/dealer-logo-bg-curve.svg?=v3);
+    background-repeat: no-repeat;
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 98%;
+    background-position: 100% 0;
+  }
+  
+  .dealership-logo {
+    width: 70px;
+    height: 32px;
+    top: 4px;
+    position: relative;
+  }
+
+  .msite-dealership-logo-container {
+    bottom: -7px;
+  }

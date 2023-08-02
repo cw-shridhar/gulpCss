@@ -1,0 +1,43 @@
+.make-city-container {
+  @include flexbox;
+  @include align-items(flex-end);
+  background-color: map-get($color-map, "white");
+  border: 1px solid map-get($color-map, "whisper");
+  border-radius: 4px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.brand-select-container,
+.city-select-container {
+  @include flex-grow(1);
+}
+
+.city-select-container {
+  margin-left: 20px;
+}
+
+.selector-text {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: map-get($color-map, "manatee");
+}
+
+.selector-text-active {
+  color: map-get($color-map, "valhalla");
+  font-weight: bold;
+}
+
+.floating-selector-text {
+  font-size: 12px;
+  color: map-get($color-map, "manatee");
+}
+
+.find-dealer {
+  color: map-get($color-map, "white");
+  background-color: map-get($color-map, "fire-red");
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}

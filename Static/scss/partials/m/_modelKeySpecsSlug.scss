@@ -1,0 +1,73 @@
+.keySpecs {
+	padding: 16px;
+}
+
+.specsBlockTitle {
+  	font-size: 19px;
+	font-family: $font-muli-bold, $font-lato-bold;
+	color: map-get($color-map, "valhalla");
+	margin-bottom: 16px;
+	padding: 0;
+}
+
+.keySpecsTable {
+	padding: 0 16px;
+	margin: 0;
+	width: 100%;
+}
+
+.keySpecsBody {
+	padding: 0 12px;
+	background-color: map-get($color-map, "white-smoke-2");
+}
+
+.keySpecsRow {
+	display: flex;
+	align-items: center;
+
+	padding: 10px 0;
+	border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.keySpecsHeader {
+	display: flex;
+	align-items: center;
+
+	margin-left: 12px;
+	padding: 0;
+	border: 0;
+}
+
+.specTitle {
+	margin: 0;
+	width: 84px;
+	padding: 0;
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+	text-align: left;
+    margin-right: 8px;
+	font-weight: 400;
+}
+
+.specIcon {
+	margin-right: 12px;
+}
+
+.specData {
+	color: map-get($color-map, "valhalla");
+	font-size: 13px;
+	margin-left: 8px;
+    width: 65%;
+	border: 0;
+	padding: 0;
+}
+
+a.mileageLink {
+	color: map-get($color-map, "pacific-blue");
+	font-family: $font-muli-semibold;
+}
+
+.keySpecsContainer {
+    border: 1px solid map-get($color-map, "whisper");
+	border-radius: 4px;
+}

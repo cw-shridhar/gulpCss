@@ -1,0 +1,368 @@
+@media screen and (min-device-width: 360px) {
+  .gray-bg {
+    background: #ededed;
+    padding-top: 1px;
+  }
+}
+.popularCars-usedCars.usedCars-section .title-blk {
+  padding: 24px 16px 18px;
+  margin-left: 0;
+}
+.usedCars-section .title-blk {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-SemiBold;
+  padding: 24px 16px 12px;
+}
+.usedCars-section * {
+  margin: 0 auto;
+}
+.popularCars-block .price_subtext {
+  color: #56586a;
+  font-size: 14px;
+}
+h2 {
+  color: #d11803;
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 400;
+  line-height: normal;
+}
+.usedCars-section .popularCars-block.content-block,
+.usedCars-section .recentlyAddedCars-block.content-block {
+  padding: 0px;
+}
+.cars-wrapper-block {
+  padding: 0px;
+  overflow: hidden !important;
+  display: block !important;
+}
+.popularCars-block .carousal_carname {
+  font-size: 15px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.popularCars-block .carQuickDetails {
+  padding-left: 15px;
+  padding-top: 8px;
+  list-style-type: disc;
+}
+.popularCars-usedCars .view_all {
+  color: #d02326;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.popularCars-usedCars .header_div {
+  display: flex;
+}
+
+.popularCars-block .carQuickDetails li {
+  display: inline;
+  margin-right: 10px;
+  color: #56586a;
+}
+.popularCars-block .carQuickDetails li span {
+  font-size: 14px;
+  margin-left: -5px;
+}
+.cars-wrapper-block .carousal-container {
+  overflow: auto;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-device-width: 360px) {
+  .carousal-container {
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+    z-index: 1;
+  }
+}
+.usedCars-section
+  .popularCars-block.content-block
+  .cars-wrapper-block
+  .siwper-inner {
+  min-height: 250px;
+}
+/* .usedCars-section .popularCars-block.content-block .cars-wrapper-block .siwper-inner .swip-img {
+    padding: 10px;
+} */
+.swip-img {
+  padding: 15px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+.populr {
+  padding: 0px 15px 11px;
+}
+.populr ul {
+  list-style: none;
+}
+.populr ul li {
+  display: block;
+  line-height: normal;
+  text-align: left;
+}
+.slid_title h1 {
+  display: block;
+  font-size: 21px;
+  color: rgb(39, 42, 65);
+  font-family: Muli-Regular;
+  font-weight: normal;
+  padding-bottom: 2 px;
+}
+/*.other_brnds, .top_brnds{position:relative;top:50%;transform:translateY(-50%);}*/
+.tab_price tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+.budget tr {
+  border-top: 2px solid #f0f0f0;
+}
+.budget tr:last-child {
+  border-bottom: 0;
+}
+.budget tr td a {
+  font-size: 15px;
+  color: #56586a;
+  font-family: Muli-Regular;
+}
+.ex_rev {
+  font-size: 19px;
+  font-family: Muli-SemiBold;
+  color: #272a41;
+  padding: 25px 0px 0px 20px;
+  width: auto;
+  margin: 0px auto 0px 0px;
+}
+.ue_rev {
+  font-size: 19px;
+  font-family: Muli-SemiBold;
+  color: #272a41;
+  padding: 25px 0px 5px 0px;
+  float: left;
+}
+.blkTitle {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px 0px 0px 15px;
+  line-height: normal;
+}
+.budget tr td {
+  padding: 19px 0px;
+}
+.tab_price {
+  width: 92%;
+  margin: 0px auto;
+}
+.vivall {
+  padding: 25px 20px 0px 0px;
+  display: block;
+  width: auto;
+  margin: 0px 0px 0px auto;
+}
+.vivall a {
+  color: #d02326;
+  font-size: 15px;
+  font-family: Muli-Regular;
+}
+.priceRng {
+  color: #56586a;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 20px 0px 20px 15px;
+  line-height: normal;
+}
+.budget tr {
+}
+.box1 {
+  padding: 20px;
+  overflow: hidden !important;
+  display: block !important;
+}
+.big_date {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-Semibold;
+  padding-top: 25px;
+}
+.prc_laks,
+.prc_laks * {
+  font-size: 19px;
+  color: #272a41;
+}
+table tbody th,
+table tbody td {
+  border-top: 0px solid rgb(240, 240, 240);
+  vertical-align: top;
+  padding: 10px 5px 9px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.tab_price tr td img {
+  width: 35px;
+  height: 20px;
+  padding-right: 15px;
+  vertical-align: bottom;
+}
+.ar {
+  display: block;
+  float: right;
+  transform: rotate(90deg);
+  position: relative;
+  top: 6px;
+  width: 14px !important;
+}
+.clr {
+  clear: both;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.carousal-slide {
+  width: auto !important;
+  margin-left: 16px !important;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px -2px rgba(53, 39, 42, 0.55);
+  border-radius: 3px;
+  margin-top: 8px;
+}
+.carousal-slide-next {
+  margin-left: 16px;
+}
+.siwper-inner {
+  width: 256px;
+  max-width: 100%;
+  min-height: 306px;
+  display: inline-block;
+  position: relative;
+  border: none;
+  border-radius: 2px;
+}
+.swip-img {
+  padding: 15px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+.swip-img a {
+  width: 220px;
+  height: 124px;
+  border: 0px solid rgb(234, 234, 234);
+  overflow: hidden;
+  display: block;
+}
+.siwper-inner img {
+  width: 100%;
+}
+.carousal-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, 0px);
+}
+/*.swiper-slide{max-width:256px !important; margin-right:16px !important;}*/
+.populr {
+  padding: 0px 15px 11px;
+} /*padding:0px 15px 24px; */
+.populr ul li strong a {
+  color: #272a41;
+  background: none;
+  padding: 0px 0px;
+  word-break: break-all;
+  width: 100%;
+  min-height: 36px;
+  font-weight: normal;
+}
+.populr ul li strong a:hover {
+  color: rgb(208, 35, 38);
+}
+.populr ul {
+  list-style: none;
+}
+.populr ul li {
+  display: block;
+  line-height: normal;
+  text-align: left;
+}
+.populr ul li a {
+  display: block;
+  font-size: 15px;
+  color: rgb(208, 35, 38);
+  padding: 6px 0 8px 0;
+  transition: all 0.3s ease 0s;
+}
+.ex_show {
+  font-size: 12px;
+  color: rgb(178, 179, 186);
+  margin-top: 6px;
+}
+.get_pric {
+  border: 1px solid rgb(208, 35, 38);
+  width: auto;
+  margin: 20px auto 0px;
+  text-align: center;
+  border-radius: 50px;
+}
+.get_pric:hover {
+  background: rgb(208, 35, 38);
+  color: rgb(255, 255, 255);
+}
+.similr_crs {
+  text-align: center;
+  display: block;
+  width: 225px;
+  border: 1px solid #d02326;
+  border-radius: 100px;
+  margin-top: 20px;
+  font-family: Muli-SemiBold;
+}
+.similr_crs2 {
+  text-align: center;
+  display: block;
+  width: 225px;
+  border: 1px solid #d02326;
+  border-radius: 100px;
+  font-family: Muli-SemiBold;
+}
+.latest_gboBtn {
+  color: #d02326;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border: 1px solid #d02326;
+  border-radius: 100px;
+  font-family: Muli-SemiBold;
+  margin: 16px auto;
+  padding: 10px 0 !important;
+}
+
+.view_hide,
+.hid_brands {
+  overflow: hidden;
+  text-align: left;
+  padding: 20px 0px;
+}
+.view_hide a,
+.hid_brands a {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+  color: #d02326;
+}
+
+.usedCars-section {
+  overflow: auto;
+  margin-top: 16px;
+  background-color: white;
+}
+/*------ CSS for Swiper Slider - Ends Here --------*/

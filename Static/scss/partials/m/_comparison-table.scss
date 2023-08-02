@@ -1,0 +1,50 @@
+.comparison-table-heading {
+    letter-spacing: 0;
+}
+
+.comparison-table {
+    border-radius: 4px;
+    border: 1px solid map-get($color-map, "light-gray-1");
+    width: auto;
+}
+
+.comparison-table-heading-row, .comparison-field-heading{
+    background-color: map-get($color-map, "white-smoke-2");
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    text-align: left;
+}
+
+.comparison-header-value, .comparison-field-heading, .comparison-field-value {
+    border-right: 1px solid map-get($color-map, "light-gray-1");
+    border-bottom: 1px solid map-get($color-map, "light-gray-1");
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 20%;
+    font-weight: normal;
+}
+
+.comparison-field-heading {
+    position: sticky;
+    left: 0;
+}
+
+.comparison-row:last-child .comparison-field-heading {
+    font-weight: bold;
+}
+
+.comparison-field-value {
+    font-size: 13px;
+    color: map-get($color-map, "valhalla");
+
+    a {
+        color: map-get($color-map, "pacific-blue");
+        font-weight: bold;
+    }
+}
+
+.comparison-table-container {
+    @include hide-horizontal-scroll;
+
+    display: block;
+}

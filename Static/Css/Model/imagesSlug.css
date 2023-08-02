@@ -1,0 +1,150 @@
+.btmMrg {
+    margin-bottom: 24px !important;
+}
+
+.content_are.imgsblock {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    padding: 0px 0px 24px;
+    overflow: hidden;
+}
+
+.content_are.imgsblock .car_model_blk {
+    color: #272a41;
+    font-family: 'Muli-Bold';
+}
+
+.img_grid {
+    float: left;
+    width: auto;
+}
+
+ul.img_grid li {
+    float: left;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin: 6px 5px 0 0;
+}
+
+.content_are.imgsblock .img_grid li:nth-child(1) {
+    width: 544px;
+    margin: 0px 20px;
+}
+
+.img_grid li:nth-child(6n+1) {
+    width: 450px;
+    border: 1px solid #e8e8e8;
+    margin: 0 15px 0 0;
+}
+
+.img_grid li a img {
+    width: 100%;
+}
+
+ul.img_grid_more li {
+    float: left;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.content_are.imgsblock .img_grid_more {
+    width: auto;
+    float: none;
+    overflow: hidden;
+}
+
+.img_grid_more li:nth-child(6n+1) {
+    width: 210px;
+    height: 36%;
+    border: 1px solid #e8e8e8;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.img_grid_more li:nth-child(6n+2) {
+    width: 210px;
+    height: 36%;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.img_grid_more li:nth-child(6n+3) {
+    width: 210px;
+    height: 36%;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+}
+
+.img_grid_more li:nth-child(6n+4) {
+    width: 210px;
+    height: 36%;
+    border: 1px solid #ddd;
+}
+
+.content_are.imgsblock .img_grid_more li {
+    width: 260px;
+}
+
+.content_are.imgsblock .img_grid_more li:nth-child(2n), .content_are.imgsblock .img_grid_more li:nth-child(2n+1) {
+    margin-right: 20px;
+}
+
+.img_grid_more img {
+    width: 100%;
+}
+
+.img_grid_more .light {
+    background: #000;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    height: 100%;
+    opacity: .6;
+}
+
+.img_grid_more .more {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    margin-top: -10px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0;
+    font-size: 16px;
+}
+
+.img_grid a, .img_grid_more a {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .content_are {
+        width: 940px;
+    }
+
+    .content_are.imgsblock .img_grid li:nth-child(1) {
+        width: 680px;
+        height: 406px;
+        margin: 0px 20px;
+    }
+
+    .img_grid_more li {
+        width: 157px !important;
+        display: block;
+        overflow: hidden;
+        height: auto;
+        padding: 0px;
+        border: 1px solid #ddd;
+        margin-bottom: 10.2px;
+    }
+}
+

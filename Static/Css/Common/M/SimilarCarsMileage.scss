@@ -1,0 +1,188 @@
+.similar_cars_container {
+  padding: 24px 16px;
+}
+
+.similar_cars_container .similar_cars_title {
+  font-size: 19px;
+  font-family: Muli-Semibold, sans-serif;
+  margin-bottom: 16px;
+}
+
+.similar_cars_container .filter_buttons {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.similar_cars_container .fuel_type_filter {
+  border-radius: 16px;
+  padding: 8px 20px;
+  color: #56586a;
+  font-size: 13px;
+  font-family: Muli-Regular, sans-serif;
+  border: 1px solid #56586a;
+  margin-right: 8px;
+}
+
+.similar_cars_container .average_mileage_container {
+  background-color: #f5f5f5;
+  display: flex;
+  padding: 12px 50px 12px 12px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.similar_cars_container .category_average {
+  color: #56586a;
+  font-family: Muli-Regular, sans-serif;
+  font-size: 13px;
+  padding-bottom: 4px;
+  font-weight: normal;
+}
+
+.similar_cars_container .average_mileage {
+  color: #56586a;
+  font-size: 12px;
+  font-family: Muli-Regular, sans-serif;
+}
+
+.similar_cars_container .average_mileage>span {
+  font-size: 15px;
+  font-family: Muli-Semibold, sans-serif;
+  color: #272a41;
+}
+
+.similar_cars_container .card_container {
+  display: flex;
+  overflow: scroll;
+}
+
+.similar_cars_container .car_card {
+  min-width: 286px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin-right: 13px;
+  position: relative;
+}
+
+.similar_cars_container .highest_mileage_label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #ff864b;
+  color: white;
+  padding: 4px;
+  font-size: 10px;
+}
+
+.similar_cars_container .similar_car_data {
+  background-color: #e8e8e8;
+  padding-top: 16px;
+  padding-left: 12px;
+  min-height: 188px;
+}
+
+.similar_cars_container .model_name {
+  font-size: 16px;
+  font-family: Muli-Regular, sans-serif;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.similar_cars_container .price_block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.similar_cars_container .similar_car_price {
+  font-size: 16px;
+  font-family: Muli-SemiBold, sans-serif;
+  margin-right: 8px;
+}
+
+.similar_cars_container .onroad_price_text {
+  font-size: 12px;
+  font-family: Muli-Regular, sans-serif;
+  color: #56586a;
+}
+
+.similar_cars_container .specs_text {
+  font-size: 12px;
+  color: #56586a;
+  margin-bottom: 4px;
+}
+
+.similar_cars_container .mileage_block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.similar_cars_container .mileage_value {
+  margin-right: 8px;
+  font-size: 15px;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.similar_cars_container .mileage_text {
+  font-size: 12px;
+  font-family: Muli-Regular, sans-serif;
+  color: #56586a;
+}
+
+.similar_cars_container .mileage_page_link {
+  padding: 8px 20px;
+  color: #d02326;
+  font-size: 13px;
+  font-family: Muli-Semibold, sans-serif;
+  border: 1px solid #d02326;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 12px;
+  background-color: white;
+}
+
+.similar_cars_container .compare_url_container {
+  display: flex;
+  padding: 12px 0 12px 12px;
+  background-color: #e8e8e8;
+}
+
+.similar_cars_container .compare_url {
+  font-size: 13px;
+  font-family: Muli-Bold, sans-serif;
+  color: #0288d1;
+}
+
+.similar_cars_container .hrzntl_line {
+  color: #e8e8e8;
+}
+
+.cmpr_icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.average_mileage_cars_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.similar_cars_container .active {
+  border-color: #d02326;
+  color: #d02326;
+}
+
+.hide_card {
+  display: none;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.similar-cars-list::-webkit-scrollbar {
+  display: none;
+}

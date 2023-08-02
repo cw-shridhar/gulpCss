@@ -1,0 +1,21 @@
+@mixin hide-horizontal-scroll {
+	overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+}
+
+@mixin hide-vertical-scroll {
+	overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+}

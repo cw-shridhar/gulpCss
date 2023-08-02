@@ -1,0 +1,507 @@
+/* Filter Outline Icon*/
+/*whatsapp icon*/
+/* Filter Outline Icon*/
+/*whatsapp icon*/
+/* Filter Outline Icon*/
+/*whatsapp icon*/
+.input-box {
+  height: 60px;
+  text-align: left;
+  position: relative; }
+  .input-box input {
+    width: 100%;
+    display: block;
+    padding: 7px 0;
+    font-family: LatoWeb,sans-serif,Arial;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #565a5c; }
+    .input-box input:focus {
+      outline: none;
+      box-shadow: none; }
+  .input-box label {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 15px;
+    color: #82888b;
+    pointer-events: none;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    transition: 0.2s ease all; }
+  .input-box .easy-autocomplete-container ul {
+    border-top: 0;
+    top: 0; }
+
+/* focus, done */
+.input-box input:focus ~ label,
+.input-box.done label {
+  top: -12px;
+  font-size: 11px; }
+
+.input-box input:focus ~ .boundary:before,
+.input-box input:focus ~ .boundary:after {
+  width: 50%; }
+
+/* boundary */
+.boundary {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .boundary:before, .boundary:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d11901;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    transition: 0.2s ease all; }
+  .boundary:before {
+    left: 50%; }
+  .boundary:after {
+    right: 50%; }
+
+/* error text */
+.error-text {
+  font-size: 12px;
+  position: relative;
+  top: 4px;
+  left: 0;
+  color: #ef3f30; }
+
+/* invalid */
+.invalid .boundary:before, .invalid .boundary:after {
+  background-color: #ef3f30;
+  width: 50%; }
+
+.cw-tabs {
+  display: block; }
+
+.cw-tabs-flex {
+  display: table;
+  width: 100%; }
+
+.cw-tabs-flex ul {
+  margin-bottom: 45px;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  border-right: 1px solid #d11901;
+  font-size: 0;
+  display: table;
+  margin: 0 auto; }
+
+.cw-tabs-flex li {
+  border: 1px solid #d11901;
+  border-right: none;
+  display: table-cell;
+  min-width: 105px;
+  padding: 7px 10px;
+  text-align: center;
+  color: #d11901;
+  font-size: 14px;
+  cursor: pointer; }
+
+.cw-tabs-flex li:first-child {
+  border-radius: 5px 0 0 5px; }
+
+.cw-tabs-flex li:last-child {
+  border-radius: 0 5px 5px 0; }
+
+.cw-tabs-flex li.active {
+  color: #ffffff;
+  cursor: default;
+  background: #d11901; }
+
+.cw-tabs-inner-margin10 ul {
+  margin-bottom: 10px; }
+
+.cw-tabs-inner-margin15 ul {
+  margin-bottom: 15px; }
+
+.cw-tabs-inner-margin20 ul {
+  margin-bottom: 20px; }
+
+.cw-tabs-inner-margin25 ul {
+  margin-bottom: 25px; }
+
+.cw-tabs-inner-margin30 ul {
+  margin-bottom: 30px; }
+
+.cw-tabs-inner-margin35 ul {
+  margin-bottom: 35px; }
+
+.cw-tabs-inner-margin40 ul {
+  margin-bottom: 40px; }
+
+.font18 {
+  font-size: 18px; }
+
+.margin-bottom30 {
+  margin-bottom: 30px; }
+
+.margin-top70 {
+  margin-top: 70px; }
+
+.margin-bottom20 {
+  margin-bottom: 20px; }
+
+.margin-top20 {
+  margin-top: 20px; }
+
+.padding-left10 {
+  padding-left: 10px; }
+
+.padding-right10 {
+  padding-right: 10px; }
+
+.mylistingContainer .font-semibold {
+  font-weight: 600; }
+
+.mylistingContainer .cross-default-15x16 {
+  width: 25px;
+  height: 25px;
+  background: url("https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/6f6f6f/cross-v2.svg") no-repeat;
+  display: inline-block;
+  background-size: 18px;
+  background-position: center;
+  cursor: pointer; }
+
+.mylistingContainer input {
+  font-weight: normal; }
+
+.mylistingContainer img {
+  max-width: 100%; }
+
+.mylistingContainer .success-msg__block {
+  margin: 20px 0 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #efefef;
+  border-radius: 2px; }
+  .mylistingContainer .success-msg__block .success-msg__content {
+    float: left;
+    width: 90%; }
+    .mylistingContainer .success-msg__block .success-msg__content .success-msg__content__heading {
+      padding: 3px 0;
+      font-weight: bold;
+      font-size: 18px;
+      color: #d11901; }
+    .mylistingContainer .success-msg__block .success-msg__content .success-msg__content__para {
+      font-size: 13px;
+      color: #a8afb3; }
+  .mylistingContainer .success-msg__block .success-msg__btn-close {
+    float: right;
+    text-align: right; }
+
+.mylistingContainer .edit-flow__title {
+  font-size: 16px;
+  margin-top: 12px;
+  color: #484848;
+  font-weight: 600; }
+
+.mylistingContainer .sellcar-edit-list-container .sellcar-edit-list {
+  border: 1px solid #efefef;
+  margin-bottom: 10px;
+  background: #fff; }
+  .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .img-wrapper img {
+    margin: 0 auto;
+    display: block;
+    padding: 10px; }
+  .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper {
+    padding: 0 10px; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper h2 {
+      font-size: 16px;
+      font-weight: 700; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .edit-sell-detail-unit {
+      display: inline-block;
+      vertical-align: top;
+      width: 32%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .edit-sell-detail-unit .edit-detail-label {
+        font-size: 10px;
+        color: #a8afb3;
+        text-transform: uppercase; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .edit-sell-detail-unit .edit-detail-value {
+        margin-top: 3px;
+        font-size: 14px;
+        color: #484848; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .sellcar-ad-unit {
+      margin-bottom: 10px; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .sellcar-ad-unit .ad-status {
+        color: #d11901;
+        font-size: 14px;
+        margin-right: 5px;
+        font-weight: 700; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .sellcar-ad-unit .ad-expiry-date {
+        color: #6f6f6f;
+        font-size: 12px; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .buyer-detail-unit {
+      font-size: 14px;
+      color: #5b6b75;
+      margin-bottom: 10px;
+      width: 55%;
+      display: inline-block;
+      vertical-align: top; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .buyer-detail-unit a {
+        color: #3fbfff;
+        display: block; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .buyer-detail-unit .buyers-count {
+        margin-right: 5px; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .receipt-downlaod-unit {
+      font-size: 14px;
+      color: #5b6b75;
+      margin-bottom: 10px;
+      width: 40%;
+      display: inline-block; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .receipt-downlaod-unit .receipt-downlaod__title {
+        margin-right: 5px; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .receipt-downlaod-unit .download-icon {
+        background: url("https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/02d4bb/download-icon.svg");
+        display: inline-block;
+        height: 15px;
+        width: 15px; }
+      .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .content-detail-wrapper .receipt-downlaod-unit a {
+        color: #3fbfff;
+        display: inline-block; }
+  .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .sellcar-edit-card-links {
+    border-top: 1px solid #efefef;
+    padding: 12px 10px 12px; }
+    .mylistingContainer .sellcar-edit-list-container .sellcar-edit-list .sellcar-edit-card-links a {
+      display: inline-block;
+      vertical-align: top;
+      width: 48%;
+      color: #3fbfff;
+      font-size: 14px; }
+
+.mylistingContainer .image-pending {
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  right: 0%; }
+
+.mylistingContainer .img-wrapper {
+  position: relative; }
+
+.loader-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  overflow-y: hidden;
+  z-index: 10;
+  display: none; }
+
+.loader__spin {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 auto;
+  border: 3px solid #d11901;
+  border-top-color: transparent;
+  border-radius: 50%;
+  -moz-animation: spin 1.1s 20 linear;
+  -webkit-animation: spin 1.1s 20 linear;
+  -o-animation: spin 1.1s 20 linear;
+  -ms-animation: spin 1.1s 20 linear;
+  animation: spin 1.1s 20 linear; }
+
+.loader--fixed {
+  position: fixed;
+  top: 45%;
+  right: 0;
+  left: 0; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*
+    Tags css for My Listing page
+*/
+.tags-wrapper {
+  padding: 10px 0; }
+  .tags-wrapper .assisted-sales-tag {
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-align: center;
+    letter-spacing: 0.5px; }
+    .tags-wrapper .assisted-sales-tag.guarantee {
+      background: #d11901; }
+    .tags-wrapper .assisted-sales-tag.featured {
+      background: #3fbfff; }
+    .tags-wrapper .assisted-sales-tag.free {
+      background: #ef9423; }
+  .tags-wrapper .upgrade-link {
+    color: #3fbfff;
+    font-size: 15px;
+    vertical-align: middle; }
+
+.half-card {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.acknowledgement-msg-card {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow-y: hidden;
+  transition-property: all;
+  transition-duration: .5s;
+  transform: translate(0px, 0px); }
+
+.acknowledgement-msg-card.closed {
+  transform: translate(0px, 1000px); }
+
+.acknowledgement-msg-wrapper {
+  padding: 30px 0; }
+
+.congratulation-title {
+  font-size: 20px;
+  color: #d11901;
+  font-weight: 700; }
+
+.congratulation-subtitle {
+  font-size: 16px;
+  color: #565a5c;
+  padding-top: 10px; }
+
+.congratulation-msg-card__icon {
+  background: url("https://imgd.aeplcdn.com/0x0/cw/static/svg/nc-dealer-form/congratulations-icon.svg");
+  display: inline-block;
+  width: 90px;
+  height: 67px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -10px; }
+
+.additional-text {
+  font-size: 14px;
+  color: #565a5c;
+  padding-top: 10px; }
+
+.upgrade-option {
+  font-size: 14px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.upgrade-option a {
+  color: #d11901;
+  text-decoration: none; }
+
+.cross-btn {
+  height: 15px;
+  width: 15px;
+  background: url("https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/6f6f6f/cross-v2.svg") no-repeat;
+  display: inline-block;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer; }
+
+.seperator-line {
+  border-top: 2px dashed;
+  border-top-color: #efefef;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0; }
+
+.seperator-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6f6f6f;
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  background: white;
+  padding: 0; }
+
+.btn-teal {
+  width: 80%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'LatoWeb', sans-serif, Arial;
+  color: #d11901;
+  margin-top: 30px;
+  border: 1px solid #d11901;
+  border-radius: 4px;
+  background: #fff; }
+
+.sorry-title {
+  font-size: 20px;
+  color: #e53012;
+  font-weight: 700; }
+
+.sorry-subtitle {
+  font-size: 16px;
+  color: #565a5c;
+  padding-top: 10px; }
+
+.sorry-msg-card__icon {
+  background: url("https://imgd.aeplcdn.com/0x0/cw/static/svg/nc-dealer-form/sorry-icon.svg");
+  display: inline-block;
+  width: 90px;
+  height: 67px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -10px; }
+
+.additional-text__sorry {
+  font-size: 14px;
+  padding-top: 10px;
+  color: #82888b; }
+
+.ad-live-msg {
+  font-size: 16px;
+  color: #565a5c;
+  padding-top: 10px; }

@@ -1,0 +1,24 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+
+@import '../../../partials/m/latest-review-card';
+
+.latest-review__container {
+    padding: 24px 16px;
+}
+
+.review__header {
+    color: map-get($color-map, "valhalla" );
+	font-family: $font-muli-semibold;
+    font-size: 19px;
+    padding-bottom: 26px;
+}
+
+
+.breadcrumb__conatiner {
+    @include flexbox;
+    @include align-items(center);
+    padding-left: 16px;
+    background-color: map-get($color-map, "white-smoke-2" );
+    height: 48px;
+}

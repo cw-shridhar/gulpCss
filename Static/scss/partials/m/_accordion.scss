@@ -1,0 +1,38 @@
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+}
+
+.accordion-content {
+    transition: max-height 0.3s linear;
+    background-color: map-get($color-map, "white-smoke-2");
+    font-size: 13px;
+    font-weight: 700;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accordion-title.active .accordion-arrow {
+    transform: rotate(-180deg);
+}
+
+.outer-list-item {
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.list-item {
+    margin: 0 16px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    padding: 12px 0 12px 8px;
+}
+
+.list-item:last-child {
+    border-bottom: 0;
+}
+
+.link {
+    color: map-get($color-map, "pacific-blue");
+}

@@ -1,0 +1,22 @@
+@import "../../../base/index";
+@import "../../../mixins/icons";
+@import "../../../partials/m/mileagelandingquicklink";
+@import "../../../partials/d/mileage-car-list";
+@import "../../../partials/d/top-mileage-cars";
+
+.heading-h1 {
+  font-family: $font-muli-semibold;
+}
+
+.logo-img {
+  width: 70%;
+  height: 46px;
+}
+
+.one-liner-logo {
+  padding-top: 15px;
+}
+
+.carNews {
+  margin: 0 !important;
+}

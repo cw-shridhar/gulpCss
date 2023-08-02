@@ -1,0 +1,115 @@
+@import "../../base/index";
+@import "../../mixins/flexbox";
+
+.contactus__container {
+	padding: 10px;
+}
+
+.contactus__title{
+	font-size: 20px;
+	font-weight: $font-bold;
+	margin-bottom: 10px;
+}
+
+.contactus__sub-title {
+	font-weight: $font-bold;
+}
+
+.contactus__contact-info {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.contactus__info {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contactus__contact-label {
+	font-size: 14px;
+	font-weight: $font-bold;
+}
+
+.contactus-info__label {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.contactus__label--margintop5 {
+	margin-top: 5px;
+}
+
+.contactus-info__zone-wrapper {
+	@include flexbox;
+	@include flex-direction(column);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contactus-info__zone-block {
+	margin-top: 10px;
+}
+
+.contactus-info__zone-label {
+	font-size: 13px;
+}
+
+.contactus-zone__info {
+	font-weight: $font-bold;
+}
+
+.content-box-shadow {
+    border: 1px solid map-get($color-map, "gainsboro");
+    box-shadow: 0 1px 2px map-get($color-map, "gray90");
+}
+/* Desktop Css */
+
+@media only screen and (min-width: 768px) {
+	.contactus__container {
+		padding-top: 20px;
+	}
+
+	.contactus__title{
+		font-size: 30px;
+		font-weight: $font-semibold;
+	}
+
+	.contactus__sub-title {
+		font-weight: $font-semibold;
+	}
+
+	.contactus-info__label,
+	.contactus__contact-info {
+		font-size: 16px;
+	}
+
+	.contactus__contact-label {
+		font-size: 16px;
+		font-weight: $font-semibold;
+	}
+
+	.contactus__info {
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+
+	.contactus-info__zone-wrapper {
+		@include flex-direction;
+		@include justify-content(space-between);
+	}
+
+	.contactus-info__zone-label {
+		font-size: 14px;
+	}
+
+	.contactus-info__zone-block {
+		@include flex(1);
+	}
+
+	.contactus-zone__info {
+		font-weight: $font-semibold;
+	}
+}

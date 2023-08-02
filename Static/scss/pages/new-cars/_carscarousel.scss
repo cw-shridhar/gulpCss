@@ -1,0 +1,140 @@
+@import "../../base/index";
+@import "../../mixins/index";
+
+.car-carousel-heading {
+	font-size: 22px;
+	line-height: 24px;
+	color: map-get($color-map, "valhalla");
+	font-family: $font-muli-semibold;
+}
+
+.car-carousel-view-all {
+	float: right;
+	font-size: 15px;
+	color: map-get($color-map, "fire-red");
+}
+
+.car-carousel-tabs {
+	@include flexbox;
+	border-bottom: 1px solid map-get($color-map, "light-coral");
+}
+
+.car-carousel-tab {
+	padding-left: 40px;
+	padding-right: 40px;
+	cursor: pointer;
+	position: relative;
+
+	.car-carousel-tab-text {
+		color: map-get($color-map, "dim-gray");
+		font-size: 18px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	&::after {
+		@include vendor-prefix("transition", (width .2s linear, left .2s linear));
+		content: "";
+		width: 0;
+		height: 2px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+	}
+}
+
+.car-carousel-tab.active-tab::after {
+	width: 100%;
+	left: 0;
+	background-color: map-get($color-map, "fire-red-3");
+}
+
+.car-carousel-tab.active-tab .car-carousel-tab-text {
+	color: map-get($color-map, "valhalla");
+	font-family: $font-muli-semibold;
+}
+
+.car-carousel-list {
+	@include hide-horizontal-scroll;
+	@include vendor-prefix("transition", margin-left .2s linear);
+	@include flexbox;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow-x: scroll;
+}
+
+.car-carousel-card {
+	width: 220px;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px -2px rgba(53, 39, 42, 0.25);
+	padding: 16px;
+	margin-right: 16px;
+	border: 1px solid map-get($color-map, "light-gray-1");
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	.car-img {
+		width: 220px;
+		height: 124px;
+		margin: 0 auto 15px;
+	}
+
+	.car-name {
+		color: map-get($color-map, "valhalla");
+		font-size: 15px;
+		word-break: break-all;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		min-height: 44px;
+	}
+
+	.car-price {
+		font-size: 19px;
+		color: map-get($color-map, "valhalla");
+	}
+
+	.car-launch-date {
+		font-size: 19px;
+		color: map-get($color-map, "valhalla");
+		font-family: $font-muli-semibold;
+		margin-top: 25px;
+	}
+
+	.car-price-label,
+	.car-launch-date-label {
+		font-size: 12px;
+		color: map-get($color-map, "white-smoke-3");
+		margin-top: 6px;
+	}
+
+	.road-price-btn {
+		font-size: 15px;
+		color: map-get($color-map, "fire-red");
+		padding-top: 8px;
+		padding-bottom: 16px;
+		background: transparent;
+		border: none;
+	}
+}
+
+.carousel-offers-btn {
+	@include vendor-prefix("transition", (background .2s linear, color .2s linear));
+	display: block;
+	font-size: 15px;
+	color: map-get($color-map, "fire-red");
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: 1px solid map-get($color-map, "fire-red");
+	width: 188px;
+	border-radius: 100px;
+	margin: 0 auto;
+	background: transparent;
+
+	&:hover {
+		background: map-get($color-map, "fire-red");
+		color: map-get($color-map, "white");
+	}
+}

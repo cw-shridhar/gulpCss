@@ -1,0 +1,22 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../common/mmv-popup";
+@import "../../../common/m/version-selection-popup";
+@import "../../../partials/m/emi-calculator";
+@import "../../modelemi/emiGraph";
+@import "../../../partials/m/similar-cars-carousel";
+
+@include loader-gif();
+
+.ad-slot {
+    min-height: 130px;
+}
+
+.select-your-car {
+    padding: 10px 0;
+}
+
+.emi-text .emi-value,
+.emi-text .rupee {
+    font-size: 21px;
+}

@@ -1,0 +1,19 @@
+@mixin text-truncate($width: '', $line-clamp: '') {
+	@if $width != '' {
+		width: #{$width};
+	}
+
+	@if $line-clamp != '' {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: #{$line-clamp};
+		white-space: normal;
+	}
+	@else {
+		white-space: nowrap;
+	}
+
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

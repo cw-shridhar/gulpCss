@@ -1,0 +1,104 @@
+@import "../../base/index";
+@import "../../../mixins/arrow";
+@import "../../mixins/flexbox";
+
+.model-card-container {
+  margin: 16px 16px 20px;
+  border-radius: 4px;
+  border: 1px solid map-get($color-map, "whisper");
+}
+
+.model-card__col {
+  @include flexbox;
+}
+
+.model-card__image-wrapper {
+  margin: 31px 12px 30px;
+}
+
+.model-card__image {
+  width: 131px;
+  height: 74px;
+}
+
+.model-card__info-tab {
+  @include flexbox;
+  @include flex-direction(column);
+  @include flex-grow(1);
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.model-card__model-link{
+  margin-bottom: 8px;
+}
+
+.model-card__make-name {
+  display: block;
+  margin-bottom: 4px;
+  color: map-get($color-map, "comet");
+  font-size: 13px;
+}
+
+.model-card__model-name{
+  color: map-get($color-map, "valhalla");
+  font-weight: $font-bold;
+  font-size: 16px;
+}
+
+.model-card__price-wrapper {
+  @include flexbox;
+  @include flex-direction(column);
+}
+
+.model-card__price {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: $font-bold;
+  color : map-get($color-map, "valhalla");
+}
+
+.model-card__price-label {
+  margin-bottom: 8px;
+  color: map-get($color-map, "comet");
+  font-size: 12px;
+}
+
+.model-card__offers-button {
+  text-align: start;
+  font-weight: 700;
+  color: map-get($color-map, "pacific-blue");
+  font-size: 13px;
+}
+
+.model-card__links-container {
+  padding-left: 12px;
+  border-top: 1px solid map-get($color-map, "whisper");
+}
+
+.model-card__link-wrapper {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.model-card__link-wrapper:not(:first-child) {
+  margin-left: 16px;
+}
+
+.model-card__link {
+  @include flexbox;
+  @include justify-content(center);
+}
+
+.model-card__link-text {
+  color: map-get($color-map, "valhalla");
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.arrow_right {
+  @include border-arrow(8,"comet",1,"right");
+  margin: 1px 0;
+}

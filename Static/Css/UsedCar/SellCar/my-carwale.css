@@ -1,0 +1,176 @@
+.pkgHdr {
+    background-color: rgb(240, 64, 49);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+    line-height: 22px;
+}
+
+ul.listings {
+    list-style: none;
+}
+
+ul.listings li {
+    float: left;
+    min-height: 150px;
+}
+
+.view-link {
+    cursor: pointer;
+    color: #034FB6;
+}
+
+.modal-box {
+    width: 345px;
+    min-height: 170px;
+    padding: 10px;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 11;
+    display: block;
+    position: absolute;
+}
+
+#modalBg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    z-index: 10;
+    display: block;
+    position: fixed;
+    left: 0;
+}
+
+.premium__popup {
+    padding: 30px 8px;
+}
+
+.modal-box .cross-default-15x16 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.cross-default-15x16 {
+    width: 25px;
+    height: 25px;
+    background: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/565a5c/cross-15x16.png) center no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.modal__header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.modal__description {
+    margin-top: 15px;
+}
+
+.bdr {border:1px #D5D5D5 solid;}
+.bdr td{border-right:1px #D5D5D5 solid;}
+.bdr td{border-bottom:1px #D5D5D5 solid;}
+
+.features td{padding:3px;}
+.features th{text-align:left;}
+.features label{padding-left:3px;}
+
+.ul-normal li{height:25px;}
+.colors{width:220px; display:none; position:absolute; background-color:#fff; height:300px; overflow:auto; z-index:1001; border:1px solid #A6C9E2; padding:5px 0 5px 2px;}
+.colors .color-bg{display:inline-block;float:left;  width:30px; height:20px; border:1px solid #B4B4B4;}
+#color-name{float:right; width:160px; padding:3px 3px;}
+.colors .color-selected{background-color:#409FFF; color:#fff; cursor:pointer;}
+.comboColors{width:222px; border:1px solid #A6C9E2; margin-bottom:1px;}
+.colorPreview{width:30px; height:20px; border:1px solid #B4B4B4; display:none; float:left; margin:2px 5px 0 2px;}
+.bgSelect{font-weight:bold;}
+.bgUnSelect{font-weight:normal;}
+.error { color:#f04130;}
+select {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 5px 13px;
+}
+.tbl-std th {
+    color: #858585;
+    font-weight: normal;
+    padding: 4px 0;
+    text-align: left;
+}
+.tbl-std td {
+    padding: 4px 0;
+}
+.hr-dotted {
+    border-bottom: 1px dashed #dfdfdf;
+    margin-top: 15px;
+    padding: 0;
+}
+h3.hd3 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+.text-grey {
+    color: #999999;
+    font-size: 11px;
+}
+input[type="text"] { border-radius:5px;}
+textarea, input[type="text"] {
+    border: 1px solid #c9c9c9;
+    color: #858585;
+    font-family: "Open Sans",sans-serif,Arial;
+    font-size: 12px;
+    padding: 5px;
+}
+ input[type='radio'].nocursor { cursor: not-allowed;  }
+ .registration-wrapper {
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .registration-input-wrapper {
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .registration-input-wrapper:not(:last-child) {
+     margin-right: 10px;
+     width: 50px;
+ }
+  .registration-input-wrapper:last-child {
+      width: 70px
+  }
+  .cumpulsory {
+      color: red;
+  }
+  table th, table td{
+    border-top-style: none !important;
+  }
+  table{
+      width:50% !important;
+  }
+  select, input{
+      width:auto ;
+  }
+
+  .spncomment-error{
+    display: inline-block;
+  }
+  
+  
+
+
+.alert{background:url(https://imgd.aeplcdn.com/0x0/cw/design15/bg_alert.gif?v1=04032016) repeat-x; padding:7px; border:1px solid #F7EC64;}
+.mid-box {margin-top:10px;}
+.mid-box-image{margin-top:20px!important;}
+.img-preview{margin:10px 5px 0 0; background-color:#f7f7f7; border:1px solid #EBEBEB; padding:5px;}
+.icons-sell{background:url(https://imgd.aeplcdn.com/0x0/cw/static/used/sellcar/iconsheet.gif) no-repeat; display:inline-block;}	
+.delete-photo{background-position:-60px -9px; width:20px; height:20px;}
+.hide{display:none;}
+.show{display:block;}

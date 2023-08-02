@@ -1,0 +1,116 @@
+.absureSlug__container {
+  margin: 20px 16px;
+  border-left: 4px #0e3a50 solid;
+  border-radius: 6px;
+}
+
+.absureSlug__parent {
+  border: #0e3a50 solid;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.absure__offers--div {
+  background-color: #ecf9f8;
+  margin-bottom: 12px;
+}
+
+.absure__offers--div ul {
+  list-style: none;
+}
+
+.absureSlug__title {
+  font-size: 16px;
+  font-family: Muli-Bold;
+  color: #272a41;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 12px 0 8px 12px;
+}
+
+.absure__offer {
+  padding: 12px;
+  align-items: center;
+  font-size: 13px;
+  color: #56586a;
+  background-color: white;
+}
+
+.absureoffer__border {
+  border: 1px solid #efefef;
+}
+
+.absureOffers--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.absure__offerText {
+  margin-bottom: 5px;
+  margin-left: 8px;
+  font-size: 15px;
+  font-family: Muli-Bold;
+  font-weight: bold;
+  color: #0e3a50;
+}
+
+.absure__offerDescription {
+  font-size: 13px;
+  font-family: Muli-Regular;
+  color: #0e3a50;
+}
+
+.absure__offersList {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-flow: row;
+  border: 1px white solid;
+  grid-gap: 1px;
+  background-color: #e8e8e8;
+}
+
+.absure4s-slug__cta-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.absure4s-slug__cta-button {
+  font-size: 15px;
+  font-family: Muli-Bold;
+  background-color: #d02326;
+  color: #fff;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+  margin: 4px 16px 16px;
+  border: #d02326;
+}
+
+.absure__logo {
+  width: 121px;
+  height: 29px;
+  background-color: #0e3a50;
+  padding: 2px 4px;
+  border-radius: 2px 2px 0 0;
+}
+
+.absure__logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -1px;
+}
+
+.right-angle-triangle {
+  border-right: 45px transparent solid;
+  border-bottom: 33px #0e3a50 solid;
+  margin-left: -1px;
+}

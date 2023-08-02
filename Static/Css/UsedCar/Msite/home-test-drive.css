@@ -1,0 +1,35 @@
+.home-test-drive-slug__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+    margin: 20px 16px;
+    border: #e5e5e5 solid 1px;
+    border-radius: 4px;
+}
+
+.home-test-drive-slug__title {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home-test-drive-slug__body .home-test-drive-slug__subtitle {
+    color: #0288d1;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.home-test-drive-slug__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

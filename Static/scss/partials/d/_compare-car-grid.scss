@@ -1,0 +1,67 @@
+.compare-car-grid-container {
+    border-radius: 6px;
+    border: solid 1px map-get($color-map, "whisper");
+}
+
+.checkbox-section {
+    width: 185px;
+
+    .checkbox {
+        height: 16px;
+        width: 16px;
+    }
+
+    .checkbox-label {
+        color: map-get($color-map, "valhalla");
+        font-size: 12px;
+    }
+}
+
+.car-card-3 {
+    flex: 1;
+    
+    &:last-child {
+        margin-top: 20px;
+    }
+}
+
+.car-edit {
+    transform: translate(4px, -6px);
+}
+
+.car-name {
+    color: map-get($color-map, "pacific-blue");
+    @include text-truncate;
+}
+
+.car-version-name {
+    @include text-truncate;
+}
+
+.get-offers-cta-button {
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+}
+
+.compare-car-grid-versus {
+    margin-left: auto;
+    transform: translate(22px, 63px);
+}
+
+.add-car {
+    font-size: 11px;
+}
+
+.get-offers-cta-button:hover {
+    background-color: map-get($color-map, "fire-red");
+    color: map-get($color-map, "white");
+}
+
+.car-stick-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-bottom: solid 1px map-get($color-map, "whisper");
+    z-index: 2;
+}

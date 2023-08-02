@@ -1,0 +1,87 @@
+.principal-heading {
+    &::before {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: map-get($color-map, "floral");
+        position: absolute;
+        left: 0;
+        content: '';
+        top: 6px;
+    }
+}
+
+.interest-heading {
+    &::before {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: map-get($color-map, "comet");
+        position: absolute;
+        left: 0;
+        content: '';
+        top: 6px;
+    }
+}
+
+.emi-graph {
+    position: relative;
+    height: 330px;
+
+    text{
+        opacity: 0;
+    }
+}
+
+.emi-graph svg {
+    height: 330px;
+}
+
+.google-visualization-tooltip-item-list {
+    border-radius: 3px;
+    background-color: map-get($color-map, "comet");
+    position: relative;
+    font-size: 12px;
+    padding: 4px 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+
+.google-visualization-tooltip-item {
+    margin: 0 !important;
+    padding: 0 12px !important;
+}
+
+.google-visualization-tooltip-item span {
+    color: map-get($color-map, "white") !important;
+    font-size: 13px !important;
+}
+
+.principle .google-visualization-tooltip-item-list {
+    background-color: map-get($color-map, "floral");
+}
+
+.google-visualization-tooltip.principle {
+    left: 111.4825px !important;
+    top: 133.442px !important;
+}
+
+.google-visualization-tooltip.interest {
+    left: 114.4825px !important;
+    top: 133.442px !important;
+}
+
+@media only screen and (min-width: 800px) {
+    .emi-graph {
+        top: -38px;
+        height: 276px;
+    }
+
+    .emi-graph svg {
+        height: 276px;
+    }
+
+    .emi-graph-table {
+        margin-top: -38px;
+    }
+}

@@ -1,0 +1,28 @@
+.buyer-process__toast-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.buyer-process__error-toast {
+  padding: 8px 12px;
+  border-radius: 4px;
+  -webkit-transition: 6s;
+  -moz-transition: 6s;
+  -o-transition: 6s;
+  transition: 6s;
+  opacity: 0.9;
+  font-size: 13px;
+  text-align: left;
+  color: #fff;
+  background-color: #272a41;
+  z-index: 10009;
+}
+
+.hide {
+  display: none;
+}

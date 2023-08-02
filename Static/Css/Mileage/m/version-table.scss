@@ -1,0 +1,106 @@
+.vrsn-table-hdr-hdng {
+  font-size: 13px;
+  font-family: "Muli-Bold", sans-serif;
+  font-weight: bold;
+  padding-right: 8px;
+  color: #92939e;
+  text-align: left;
+}
+
+.specs-summary-container {
+  font-size: 13px;
+  color: #56586a;
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 2px;
+  padding: 8px 16px 12px;
+}
+
+.vrsn-info-block .body-txt .version-table-values {
+  font-size: 15px;
+}
+
+.specs-summary-container .specs-summary-text {
+  padding: 8px;
+}
+
+.view-more-btn {
+  color: #d02326;
+  padding: 10px;
+  border: 1px solid #d02326;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.view-more-versions {
+  font-size: 15px;
+  color: #d02326;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Muli-SemiBold", sans-serif;
+}
+
+.js-no-version {
+  padding: 16px 16px 0;
+}
+
+.filter-list .filter-list-divider {
+  border: none;
+  border-left: 1px solid #d2d2d5;
+  margin: 0 14px 0 6px;
+  background: no-repeat;
+  border-radius: 0;
+  padding: 0;
+}
+
+.filter-list-divider:last-child {
+  border-left: none;
+}
+
+.vrsn-info-block .hrzntl-line {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.filter-content-block table tr.body-txt td a {
+  font-family: Muli-Regular, sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  font-size: 15px;
+}
+
+.filter-title span {
+  margin-left: 5px;
+}
+
+.filter-list-block::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-content-block {
+  margin-top: 8px;
+}
+
+.filter-content-block .vrsn-info-block {
+  border-bottom: 0;
+}
+
+.filter-content-block .padding-top-content-row {
+  padding-top: 0;
+}
+
+.filter-content-block .padding-bottom-heading-row {
+  padding-bottom: 0;
+}
+
+.versionname-col-width {
+  width: 50%;
+}
+
+.araimileage-col-width {
+  width: 25%;
+}
+
+.userreported-col-width {
+  width: 25%;
+}

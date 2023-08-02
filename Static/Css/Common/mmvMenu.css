@@ -1,0 +1,151 @@
+.MMtabs {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 2px 4px 0px #26000000;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.MMtabs .h_2 {
+  font-size: 100%;
+  margin-bottom: 0;
+}
+
+.MMtabs ul {
+  display: table;
+  width: 100%;
+}
+
+.MMtabs ul li {
+  height: auto;
+  position: relative;
+  font-size: 12px;
+}
+
+.MMtabs ul li a {
+  background: #fff;
+  border-right: none;
+  color: #56586a;
+  display: block;
+  padding: 12px 16px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: Muli-Regular;
+}
+
+.MMtabs ul li ul {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 1px 2px 4px #ccc;
+  display: none;
+  padding-top: 0px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 235px;
+  z-index: 10;
+}
+
+.MMtabs ul li ul li,
+.MMtabs ul li:hover ul {
+  display: block;
+}
+
+.MMtabs ul li a:active,
+.MMtabs ul li a:hover,
+.MMtabs ul li.active a {
+  background: #fff;
+  color: #272a41;
+  font-family: Muli-SemiBold;
+}
+
+.MMtabs ul {
+  border-bottom: 1px solid #f07e7c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.MMtabs ul li ul {
+  border: 1px solid #ccc;
+  border-width: 1px 0px;
+}
+
+.MMinfolftBar .MMtitle .htag::after,
+.model_top_blk .MMtabs ul li a:hover span,
+.model_top_blk .MMtabs ul li a:hover::after,
+.model_top_blk .MMtabs ul li.active a .highlight,
+.MMinfolftBar .MMtitle .htag::after,
+.model_top_blk .MMtabs ul li a:hover span,
+.model_top_blk .MMtabs ul li a:hover::after,
+.model_top_blk .MMtabs ul li.active a span {
+  background: none;
+  background-color: #f07e7c;
+  border-color: none;
+  border-width: 0;
+  bottom: 0px;
+  height: 5px;
+  left: 0;
+  margin-left: 0;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+
+.MMtabs ul li ul li a::after {
+  border: none !important;
+}
+
+.MMtabs ul li ul li a {
+  text-align: left !important;
+  border-bottom: 1px solid #ddd;
+  color: #666 !important;
+  padding: 11px 10px;
+  text-transform: none;
+  background: 0 0 !important;
+  box-shadow: none !important;
+}
+
+.MMtabs ul li ul li a:active,
+.MMtabs ul li ul li a:hover {
+  color: #e70000 !important;
+  background: 0 0;
+  box-shadow: 0 0 6px #ccc inset;
+}
+
+.MMtabs ul li ul li a.current {
+  color: #e70000 !important;
+}
+
+#menunew3 {
+  display: none;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+}
+.onfloating2 ul li a:hover span,
+.onfloating2 ul li a:hover::after,
+.onfloating2 ul li.active a .highlight,
+.onfloating2 ul li a:hover span,
+.onfloating2 ul li a:hover::after,
+.onfloating2 ul li.active a span {
+  background: none;
+  background-color: #f07e7c;
+  border-color: none;
+  border-width: 0;
+  bottom: 0px;
+  height: 4px;
+  left: 0;
+  margin-left: 0;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  z-index: 11;
+}
+.onfloating2 {
+    box-shadow: 0 0 10px #999;
+    top: 0;
+    width: 100%;
+    z-index: 1111;
+    left: 0;
+}

@@ -1,0 +1,14 @@
+@import "../../../../Css/CMS/M/contentListing.scss";
+@import "../../../base/index";
+
+.pill-shape .nav-link {
+	color: map-get($color-map, "comet");
+}
+
+.pill-shape.active .nav-link {
+	color: map-get($color-map, "fire-red");
+}
+
+.article_img_wrapper {
+	min-height: 195px;
+}

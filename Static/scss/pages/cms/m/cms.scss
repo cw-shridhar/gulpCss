@@ -1,0 +1,47 @@
+@import "../../../mixins/index";
+@import "../../../base/index";
+
+.specs-tabs-wrapper {
+    border-bottom: 1px solid map-get($color-map, "light-coral");
+
+    .active {
+        border-bottom: 5px solid map-get($color-map, "light-coral");
+    }
+}
+
+.pill-shape {
+    white-space: nowrap;
+    border: 1px solid map-get($color-map, "white-smoke-3");
+    border-radius: 20px;
+
+    &.active {
+        border: 1px solid map-get($color-map, "fire-red");
+    }
+}
+
+.ad-top {
+    min-height: 160px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-drop-down {
+    outline: 1px solid map-get($color-map, "dark-gray");
+}
+
+.search-drop-down-item {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid map-get($color-map, "dark-gray");
+    color: map-get($color-map, "valhalla");
+
+    &:last-child {
+        border-bottom: none;
+    }
+}

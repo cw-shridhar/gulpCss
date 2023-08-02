@@ -1,0 +1,115 @@
+/* Common classes : TODO : Move to common css */
+
+body {
+  background-color: #fff;
+}
+
+a {
+  transition: color 300ms, background-color 300ms;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1008px) and (max-width: 1580px) {
+  .content_are {
+    width: 1156px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .news_left {
+    width: 764px;
+    float: left;
+    padding-right: 52px;
+  }
+
+  .news_right {
+    width: 340px;
+    float: left;
+  }
+}
+
+.car_head {
+  color: #272a41;
+  text-align: left;
+  padding: 20px 15px;
+  width: 100%;
+  border-bottom: 1px solid #f07e7c;
+  box-sizing: border-box;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.broadcast {
+  max-width: 970px;
+  height: 90px;
+  margin: 0 auto;
+  border: 0 solid #ddd;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.ad {
+  display: block;
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+}
+
+.inpad_right {
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.separator {
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+
+.inpad {
+  border: 1px solid #f0f0f0;
+  padding: 20px;
+}
+
+.contTitle {
+  color: #272a41;
+  font-size: 22px;
+  font-family: "Muli-SemiBold";
+  margin: 10px 0 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,
+table td {
+  border-top: 1px solid rgb(221, 221, 221);
+  padding: 6px;
+  line-height: normal;
+}
+
+.make_txt a:hover {
+  color: #f07e7c !important;
+}
+
+ul.three_lnks li a:hover {
+  color: #f07e7c;
+}
+
+.Page_heading {
+  display: block;
+}
+
+.Page_heading h1 {
+  color: #272a41;
+  font-size: 25px;
+  margin: 0;
+  padding: 0 0 20px;
+}

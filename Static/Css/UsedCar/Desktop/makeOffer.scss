@@ -1,0 +1,131 @@
+@import 'variables';
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.wrapper-negotiate {
+	width: 376px;
+	height: 503px;
+	padding: 24px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: map-get($color-map, "white");
+	box-sizing: border-box;
+	* {
+		color: map-get($color-map, "valhalla");
+		font-family: $arial;
+		outline: none;
+	}
+	header {
+		padding-bottom: 8px;
+		display: flex;
+		.title {
+			display: block;
+			font-weight: bold;
+			font-size: 18px;
+			flex-grow: 2;
+		}
+	}
+	.close-negotiate-popup {
+		left: auto;
+		right: -44px;
+		top: -8px;
+		cursor: pointer;
+		padding: 10px;
+		position: absolute;
+	}
+	.makeModelDetails {
+		color: map-get($color-map, "valhalla");
+		font-size: 11.7px;
+		font-weight: normal;
+	}
+	.offers-block {
+		background-color: map-get($color-map, "white-smoke-1");
+		border: 1px solid map-get($color-map, "whisper-1");
+		border-radius: 3px;
+		margin-top: 24px;
+		.offer {
+			height: 50px;
+			display: flex;
+			align-items: center;
+			border-bottom: 1px solid map-get($color-map, "whisper-1");
+			padding: 20px 12px;
+			box-sizing: border-box;
+			.label {
+				color: map-get($color-map, "comet");
+				font-size: 15px;
+				width: 60%;
+			}
+			.value {
+				font-size: 15px;
+				font-weight: bold;
+				width: 40%;
+			}
+		}
+	}
+	.submit-btn {
+		color: map-get($color-map, "white");
+		font-size: 15px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 4px;
+		width: auto;
+		height: 50px;
+		background-color:map-get($color-map, "free-speech-red-2");
+		vertical-align: middle;
+		display: flex;
+		margin: auto;
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+		top: auto;
+		position: absolute;
+		cursor: pointer;
+		transition: all;
+		&:hover {
+			background-color: map-get($color-map, "free-speech-red-2");
+		}
+	}
+	.offerQuestion {
+		color: map-get($color-map, "comet");
+		font-size: 12px;
+		text-transform: uppercase;
+		margin-top: 42px;
+		margin-bottom: 6px;
+	}
+	.offerDropdown {
+		color: map-get($color-map, "manatee");
+		font-size: 15px !important;
+		padding: 10px 10px 10px 0;
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid map-get($color-map, "comet");
+		border-radius: 0;
+		appearance: auto;
+		option {
+			color: map-get($color-map, "valhalla");
+			font-size: 15px;
+		}
+	}
+}
+.transparent-layer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: map-get($color-map, "comet-84");
+	z-index: 999999;
+}
+header .close-negotiate-popup {
+	display: block;
+}

@@ -1,0 +1,335 @@
+@import "../../../base/index";
+@import "../../../partials/amp/carcarousel";
+
+
+.article-body {
+	padding: 10px 10px 0;
+	background: map-get($color-map, "white");
+	min-height: 68px;
+	word-wrap: break-word
+}
+
+.articleImgWrap {
+	font-size: 0
+}
+
+.adblock {
+	margin: 10px auto
+}
+
+.adblock-content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.adblock-content [placeholder] {
+	background-color: map-get($color-map, "gainsboro-1");
+}
+
+#top_banner_ad {
+	width: 320px;
+}
+
+#bottom_banner_ad {
+	width: 300px;
+}
+
+.author-info {
+	display: flex;
+}
+
+.info-img amp-img {
+	border: 1px solid map-get($color-map, "light-gray-2");
+	border-radius: 50%;
+}
+
+.article-amp-news-body {
+	font-family: $font-latoweb;
+	line-height: 1.4
+}
+
+.article-amp-news-body p {
+	color: map-get($color-map, "valhalla");
+	font-size: 16px;
+	text-align: unset;
+	line-height: 24px;
+	margin: 16px 0 0;
+}
+
+.article-amp-news-body h1 {
+	font-size: 21px;
+	color: map-get($color-map, "valhalla");
+	line-height: 1.5em;
+	width: 100%;
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
+.article-amp-news-body tbody tr td {
+	border: 1px solid  map-get($color-map, "black");
+	white-space: nowrap;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.article-amp-news-body table {
+	font-size: 17px;
+	width: 100%;
+	overflow-x: auto;
+	display: block;
+	border-collapse: collapse;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.article-body ul {
+
+	padding-left: 40px;
+
+	li {
+	      list-style: disc
+	}
+}
+
+.article-body amp-img {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.article-body h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.amp-news-details-tag {
+	font-family: $font-muli-regular;
+	font-size: 13px;
+	color: map-get($color-map , "dark-gray");
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+
+.amp-news-details-tag .article-tag {
+	display: inline;
+	margin: 0 5px;
+	position: relative;
+}
+
+.amp-news-details-tag .article-tag::after {
+	content: '';
+	width: 1px;
+	height: 10px;
+	background: map-get($color-map, "light-gray-1");
+	display: inline-block;
+	position: absolute;
+	right: -7px;
+	top: 3px;
+}
+
+.amp-news-details-tag .article-tag:last-child::after {
+	content: none;
+}
+
+.amp-news-details-tag .article-tag:first-child {
+	margin-left: -0.25px
+}
+
+.amp-news-details-tag ul {
+	padding-left: 0;
+}
+
+.info-txt {
+	padding-left: 12px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 4px;
+}
+
+.info-txt-a {
+	font-size: 15px;
+	font-weight: 600;
+	color: map-get($color-map, "comet");
+}
+
+.info-txt-time {
+	font-size: 13px;
+	color: map-get($color-map, "manatee");
+}
+
+.info-text-name {
+	font-size: 15px;
+	padding: 0 0 4px;
+}
+
+.btm_nav {
+	height: 90px;
+	margin-bottom: -2px;
+	display: flex;
+	padding: 0 16px;
+	border-top: 1px solid map-get($color-map, "whisper");
+}
+
+.btm_nav a {
+	width: 50%;
+}
+
+.nxt_pre_btn {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nxt_pre_btn p {
+	overflow: hidden;
+	height: 45%;
+	font-size: 14px;
+	line-height: 20px;
+	color: map-get($color-map, "charcoal");
+}
+
+.btn_name {
+	display: block;
+	color: map-get($color-map, "pacific-blue");
+	width: 100%;
+	font-size: 13px;
+	margin: 12px 0 5px;
+}
+
+.arrow_nav {
+	border: solid map-get($color-map, "pacific-blue");
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3.5px;
+}
+
+
+.pg_break {
+	background: map-get($color-map, "white-smoke");
+	height: 16px;
+	border: none;
+	margin: 0;
+}
+
+.model_info {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid map-get($color-map, "whisper");
+	margin-top: 6px;
+	cursor: pointer;
+	align-items: center;
+}
+
+.model_price_tab {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	color: map-get($color-map, "valhalla");
+	padding: 10px 0;
+}
+
+.model_price {
+	color: map-get($color-map, "valhalla");
+	font-size: 16px;
+}
+
+.make_name {
+	display: block;
+	color: map-get($color-map, "comet");
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+
+.model_name {
+	display: block;
+	font-size: 16px;
+	color: map-get($color-map, "valhalla");
+	margin-bottom: 8px;
+}
+
+.model_onwards {
+	color: map-get($color-map, "manatee");
+	font-size: 12px;
+}
+
+.model_links {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	font-weight: bold;
+	justify-content: space-around;
+	margin: 8px 0;
+}
+
+.model_links>span>a {
+	text-decoration: none;
+	color: map-get($color-map, "pacific-blue");
+}
+
+.model_links span {
+	display: block;
+}
+
+.model_links>span>a:hover {
+	cursor: pointer;
+}
+
+.make_logo {
+	max-width: 91px;
+	max-height: 50px;
+	padding: 10px;
+}
+
+.make_logo img {
+	width: 100%;
+}
+
+.make_info {
+	border: 1px solid map-get($color-map, "whisper");
+	border-top: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.arrow_right {
+	border: solid map-get($color-map, "comet");
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3.5px;
+	margin-bottom: 1px;
+	transform: rotate(-45deg);
+}
+
+.model_img {
+	max-height: 74px;
+	max-width: 131px;
+	margin: 12px;
+}
+
+.model_img img {
+	width: 100%;
+}
+
+.modelWidgetWrapper {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.nws_ttl h2 {
+	color: map-get($color-map, "white");
+	font-weight: 700;
+	font-size: 14px;
+	box-sizing: border-box
+}
+
+.nws_ttl {
+	background: map-get($color-map, "white");
+	width: 100%;
+	padding: 10px 0 10px 15px;
+}
+
+.nws_ttl h2 {
+	color: map-get($color-map, "valhalla");
+	font-size: 19px;
+}

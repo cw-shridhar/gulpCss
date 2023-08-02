@@ -1,0 +1,544 @@
+body {
+    font-family: 'Arial';
+}
+
+.disdot {
+    padding-left: 25px;
+}
+
+.disdot li {
+    list-style: disc !important;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+}
+
+.detailinfo.certification .ui-bar-a {
+    display: block;
+    background: #e8e8e8;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid #c5c5c5 !important;
+    border-top: 1px solid #ddd;
+}
+
+.detailinfo.certification .ui-bar-a span.titletxt span.icon8 {
+    width: 33px;
+    height: 24px;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/icons/vdpicons-2xNew.png) -3px 99.5% no-repeat;
+    background-size: 60px 135px;
+    margin: -3px 20px 0px 12px;
+}
+
+.shadow {
+    box-shadow: 0px 8px 9px -8px #A6A6A6 inset;
+}
+
+.certificationProgress {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.circleGraph {
+    width: 92%;
+    height: 112px;
+    margin: 12px auto;
+}
+
+.circleGraph:nth-child(2) {
+    display: none;
+}
+
+.circle {
+    width: 88px;
+    height: 96px;
+    margin-right: 28px;
+    margin-right: 28px;
+    background-size: 266px auto;
+    display: inline-block;
+}
+
+.circle.two,
+.circle.five {
+    background-position: -88px center;
+}
+
+.circle.three,
+.circle.six {
+    background-position: -176px center;
+}
+
+.circleGraph .circle {
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal
+}
+
+.circleGraph .circle p {
+    color: #888888;
+    font-size: 10px;
+    text-align: center;
+    top: 45%;
+    position: relative;
+}
+
+.circleGraph .circle p:nth-child(2) {
+    position: relative;
+    display: block;
+    top: 74%;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.circleGraph .circle:last-child {
+    margin-right: 0px;
+}
+
+.certificationProgress #showMore {
+    text-align: center;
+    line-height: 34px;
+    display: block;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.overallRating {
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: table;
+    z-index: 99;
+    position: relative;
+}
+
+.overallRatingBGGreen {
+    background-color: #3db879;
+    box-shadow: 0px 0px 2px 0px #28925c inset;
+    border-bottom: 1px solid #257b4d;
+}
+
+.overallRatingBGYellow {
+    background-color: #f9a24b;
+    box-shadow: 0px 0px 2px 0px #cc935c inset;
+    border-bottom: 1px solid #9a652f;
+}
+
+.overallRatingBGRed {
+    background-color: #ea1f21;
+    box-shadow: 0px 0px 2px 0px #a24242 inset;
+    border: 1px solid #891112;
+}
+
+.overallRating .heading,
+.overallRating .rate,
+.overallRating .ratingMsg {
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.overallRating .heading {
+    color: #000;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 40%;
+    padding: 3px 0px 0px;
+}
+
+.overallRating .rate {
+    color: #fff;
+    font-size: 28px;
+    min-width: 70px;
+    padding: 3px 3px 0px 4px;
+}
+
+.overallRating .ratingMsg {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    width: 40%;
+    padding: 4px 0px 0px;
+}
+
+.overallRating .ratingMsg span {
+    font-size: 0.9em;
+    display: block;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 0.04em;
+}
+
+.overallRating .ratingMsg span:nth-child(2) {
+    letter-spacing: 0.05em;
+}
+
+.tabTitletxt {
+    width: 130px;
+    display: inline-block;
+}
+
+#certTitleTab10 .tabTitletxt {
+    width: 134px;
+}
+
+.detailinfo.certification .ui-bar-a span.titletxt {
+    color: #3c3c3b;
+}
+
+.v_tab_pan .certification_wrapper .titletxt .rating {
+    color: #27af34;
+    font-size: 17px;
+    line-height: 12px;
+    vertical-align: middle;
+}
+
+.detailinfo.certification .ui-bar-a.active {
+    /*margin-top:-46px;padding-top:53px;*/
+    z-index: 1;
+}
+
+#footer,
+.formblk input.ui-btn.blackbutton {
+    margin-bottom: 54px !important;
+}
+
+.certify_terms {
+    color: #000;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.certify_terms span {
+    font-size: 12px;
+    color: #000;
+    margin-top: 10px;
+    display: block;
+    font-style: italic;
+}
+
+.certification_wrapper .certify_cont_blk {
+    color: #000;
+    text-transform: uppercase;
+    display: table;
+    min-height: 30px;
+    padding: 0px
+}
+
+.title-container {
+    margin: 24px 16px 0;
+}
+
+.heading-container {
+  height: 28px;
+}
+
+.certification-heading {
+  display: inline-block;
+  font-size: 19px;
+  color: #272a41;
+  font-weight: 400;
+  height: 24px;
+  width: 176px;
+  padding: 0;
+}
+
+.heading-logo {
+  width: 80px;
+  float: right;
+}
+
+.sub-heading {
+  line-height: 20px;
+  font-size: 13px;
+  color: #56586a;
+  width: 328px;
+}
+
+.certification_wrapper #certExpandiv8 .certify_cont_blk .detailstxt {
+    display: none;
+}
+
+.certification_wrapper #certExpandiv10 .certify_cont_blk {
+    min-height: 36px;
+}
+
+
+/*		.certification_wrapper #certExpandiv10 .certify_cont_blk .certify_hd, 
+		.certification_wrapper #certExpandiv11 .certify_cont_blk .certify_hd{padding: 7px 0px 0px 10px;}
+		.certification_wrapper #certExpandiv10 .certify_cont_blk .certify_hd, 
+		.certification_wrapper #certExpandiv10 .certify_icon, 
+		.certification_wrapper #certExpandiv11 .certify_cont_blk .certify_hd, 
+		.certification_wrapper #certExpandiv11 .certify_icon{vertical-align: middle;}*/
+
+.certification_wrapper #certExpandiv10 .certify_icon {
+    color: #808080;
+    padding: 9px 0px 5px;
+    text-align: right;
+}
+
+.certification_wrapper .certify_hd {
+    color: #000;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    padding: 11px 0 3px 10px;
+}
+
+.certification_wrapper .certify_icon {
+    width: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    vertical-align: top;
+    display: table-cell;
+    float: none;
+    text-align: left !important;
+    padding-left: 7px !important;
+    padding: 8px 0px 5px;
+}
+
+.certification_wrapper #certExpandiv7 .certify_icon {
+    font-size: 10px;
+    color: #808080;
+}
+
+.certification_wrapper .certify_icon .iconsblk {
+    display: none;
+}
+
+
+/*        .certification_wrapper .certify_content:first-child{padding-top:2px;}*/
+
+.dot {
+    width: 7px;
+    height: 7px;
+    text-align: right;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 3px;
+    vertical-align: middle;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+}
+
+.greenC {
+    background-color: #009488;
+}
+
+.redC {
+    background-color: #00afa0;
+}
+
+.yellowC {
+    background-color: #6f6f6f;
+}
+
+.percentageBar {
+    width: 90px;
+    background-color: #ccc;
+    display: inline-block;
+    height: 7px;
+    border-radius: 10px;
+    margin-right: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.percentage {
+    width: 100%;
+    height: 8px;
+}
+
+.percentage.greenC {
+    width: 75%;
+}
+
+.percentage.redC {
+    width: 25%;
+}
+
+.percentage.yellowC {
+    width: 50%;
+}
+
+.percentageDiv {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background-color: #4a4a4a;
+    top: 0px;
+    bottom: 0px;
+    left: auto;
+}
+
+.percentageDiv:first-child {
+    left: 20%;
+}
+
+.percentageDiv:nth-child(2) {
+    left: 40%;
+}
+
+.percentageDiv:nth-child(3) {
+    left: 60%;
+}
+
+.percentageDiv:nth-child(4) {
+    left: 80%;
+}
+
+.certification_wrapper .certify_icon .feature {
+    text-align: left;
+    font-size: 1.09em;
+    padding: 0px 12px 0px 7px;
+    color: #808080;
+    float: left;
+    margin: 0px;
+    line-height: 16px;
+    text-transform: none;
+    font-weight: normal;
+    display: block;
+    width: 96%;
+    /*text-align:right;*/
+    box-sizing: border-box;
+}
+
+.certification_wrapper .certify_icon .feature .icon {
+    width: 9px;
+    height: 9px;
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    background: transparent url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/certification_mbl_icons_all.png) no-repeat -20px center;
+    background-size: auto 100%;
+    display: inline-block!important;
+    margin-top: 3px!important;
+    float: left;
+}
+
+.certification_wrapper #certExpandiv5 .certify_icon,
+.certification_wrapper #certExpandiv4 .certify_icon {
+    font-size: 10px;
+    /*padding: 2px 0px 4px 0px;*/
+}
+
+
+/* .certification_wrapper #certExpandiv4 .certify_icon{padding-top:8px;}*/
+
+.certification_wrapper #certExpandiv6 .certify_cont_blk:nth-child(2) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv6 .certify_cont_blk:nth-child(3) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv3 .certify_cont_blk:nth-child(2) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv3 .certify_cont_blk:nth-child(3) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv4 .certify_cont_blk:nth-child(2) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv4 .certify_cont_blk:nth-child(6) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv5 .certify_cont_blk:nth-child(6) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv5 .certify_cont_blk:nth-child(4) .certify_icon .feature .icon,
+.certification_wrapper #certExpandiv5 .certify_cont_blk:nth-child(2) .certify_icon .feature .icon {
+    background-position: 0px center;
+}
+
+.details_back li strong,
+.details_front li strong {
+    color: #313137;
+}
+
+.details_back li,
+.details_front li {
+    text-transform: none;
+}
+
+.certification_wrapper .certify_hd .subH {
+    text-transform: none;
+    font-size: 11px;
+}
+
+.certify_cont_blk .details {
+    width: 260px;
+}
+
+.details_back li,
+.details_front li {
+    font-size: 0.9em;
+}
+
+.certification_wrapper #certExpandiv11 .certify_icon .dot {
+    margin-left: 4px;
+}
+
+@media only screen and (min-device-width:320px) {
+    .circle {
+        margin-right: 10px;
+        width: 88px;
+        height: 86px;
+    }
+    .detailinfo.certification .ui-bar-a span.titletxt {
+        padding-right: 0px;
+    }
+    .circleGraph {
+        width: 293px;
+    }
+}
+
+@media only screen and (min-device-width:360px) {
+    .circle {
+        margin-right: 13px;
+        width: 98px;
+        height: 96px;
+    }
+    .circleGraph {
+        width: 330px;
+    }
+}
+
+.fairColor {
+    color: #ea1f21!important;
+}
+
+.goodColor {
+    color: #f9a24b!important;
+}
+
+.excellentColor {
+    color: #3db879!important;
+}
+
+.icontext {
+    float: left;
+    width: calc(90% - 10px);
+}
+
+
+
+/*Tick Icon*/
+.tick-icon {
+    background: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/02d4bb/tick-thin.svg) no-repeat;
+    width: 12px;
+    height: 12px;
+    vertical-align: top;
+    display: inline-block;
+    top: 3px;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+    float: left !important;
+    padding-right: 2px;
+}

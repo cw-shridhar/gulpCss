@@ -1,0 +1,113 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/latest-review-card";
+@import "../../../partials/m/user-milage-rating-details";
+
+.promotional-content {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+	margin: 16px;
+    background: #fff;
+}
+.separator{
+    background-color: #e8e8e8; 
+    width: 100%; 
+    height: 16px;
+}
+.contest-slug__container{
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+	margin: 24px 16px;
+    background: #fff;
+}
+.heading {
+    padding: 0 16px 16px;
+}
+
+.heading__content {
+    font-size: 21px;
+    color:  map-get($color-map, "valhalla" );
+    font-weight: $font-normal;
+}
+
+.make-overall__tabs-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.overall-specs__tabs-container {
+    overflow-x: scroll;
+    z-index: 6;
+    background-color: map-get($color-map, "white" );
+    border-top: 1px solid  map-get($color-map, "whisper" );
+    box-shadow: 0px 2px 4px  map-get($color-map, "whisper" );
+
+}
+
+.overall-specs__tabs-container::-webkit-scrollbar,
+.overall-specs__tabs-container::-webkit-scrollbar-thumb,
+.overall-specs__tabs-container::-webkit-scrollbar-track {
+    display: none;
+}
+
+.overall-specs__tabs-wrapper {
+    li {
+        font-size: 13px;
+        padding: 16px;
+        display: table-cell;
+        text-align: center;
+        white-space: nowrap;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        a{
+            color: map-get($color-map, "comet" );
+        }
+    }
+
+    li.active {
+        padding-bottom: 12px;
+        border-bottom: 4px solid map-get($color-map, "light-coral" );
+
+        a {
+            color: map-get($color-map, "valhalla" );
+            font-family: $font-muli-semibold;
+        }
+    }
+}
+
+.car-details__container {
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .march-offers {
+        padding-top: 8px;
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.user-review__footer{
+    .like-icon-highlight{
+        @include like-active-icon;
+        margin-right: 8px;
+    }
+    .dislike-icon-highlight {
+        @include like-active-icon;
+        @include vendor-prefix('transform', rotate(180deg));
+        margin-right: 8px;
+    }
+    .like-dislike__wrapper {
+        .like-dislike-count-highlight{
+            font-size:12px;
+            color: map-get($color-map,"persian-green");
+        }
+    }
+}

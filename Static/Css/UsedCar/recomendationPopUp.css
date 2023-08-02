@@ -1,0 +1,198 @@
+.recommendation_popup_background {
+  opacity: 1;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+  display: none;
+  overflow: scroll;
+}
+
+.recommendation_popup {
+  padding-top: 24px;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(39, 42, 65);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close_recommendation_popup {
+  background-image: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/close_blk.svg");
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buyer-process__title {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-SemiBold !important;
+  display: block;
+  width:75%;
+}
+
+.recommendation-title {
+  font-size: 18px;
+  font-family: "Muli-Bold" !important;
+  color: #272a41;
+}
+
+.seller-details-slug {
+  flex-direction: column;
+  background-color: #f5f5f5;
+  margin: 16px 0;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.recommendation-inner-container {
+  padding: 0 16px;
+  padding-bottom: 90px;
+}
+
+.sub-seller-detail-container {
+  margin-bottom: 12px;
+}
+
+.seller-slug-element {
+  font-size: 13px;
+  color: #272a41;
+}
+
+.seller-slug-value-container {
+  margin-left: 8px;
+}
+
+#seller-shop-name {
+  font-weight: bold;
+  padding-bottom: 2px;
+  color: #272a41;
+  font-family: Muli-Bold !important;
+}
+
+#seller-contact-name {
+  color: #56586a;
+  font-family: Muli-Regular !important;
+}
+
+.subtitle-seller-slug {
+  font-size: 12px;
+  color: #aaaaaa;
+  font-family: Muli-Regular !important;
+}
+
+#seller-mobile {
+  color: #0288d1;
+  font-weight: bold;
+  font-family: Muli-Bold !important;
+}
+
+.recommendation_popup_background p {
+  margin: 0;
+  line-height: 15px;
+}
+
+.recommendation-title-wrapper {
+  padding-top: 4px;
+  justify-content: space-between;
+}
+
+.recommendation-selection {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.recommendation-select-text {
+  font-size: 13px;
+  color: #56586a;
+  padding-right: 8px;
+  font-family: "Muli-Regular" !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.recommendation-submit-button-wrapper {
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10001;
+  box-sizing: border-box;
+  padding: 2px;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 50%);
+  display: none;
+  background-color: white;
+}
+
+.recommendation-submit-button {
+  background-color: #d02326;
+  color: white;
+  font-size: 15px;
+  font-family: "Muli-Bold" !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.recommendation-end-button {
+  background-color: white;
+  color: #d02326;
+  font-size: 15px;
+  font-family: "Muli-Bold" !important;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.dispplay-flex {
+  display: flex;
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+
+.mb-11 {
+  margin-bottom: 11px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.whatsapp-lead-text-wrapper {
+  background: #f5f5f5;
+  font-family: Muli-Regular !important;
+  width: 100%;
+  position: fixed;
+  bottom: 50px;
+  z-index: 100001;
+  font-size: 12px;
+  display: none;
+}
+
+.whatsapp-lead-text {
+  color: #56586a;
+  padding: 8px 16px;
+}

@@ -1,0 +1,107 @@
+.calculator_container {
+  padding: 24px 16px 20px;
+}
+
+.calculator {
+  padding: 16px 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+
+.calculator_container h2 {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-SemiBold, sans-serif;
+  margin-bottom: 4px;
+}
+
+.calculator_container > p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  color: #56586a;
+}
+
+.calculator_container .title {
+  color: #56586a;
+  line-height: 20px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.calculator_container span {
+  font-size: 18px;
+  color: #272a41;
+  margin-right: 4px;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.calculator_container .price {
+  color: #56586a;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.calculator_container .select_version_text {
+  color: #92939e;
+  font-size: 12px;
+}
+
+.calculator_container input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin-bottom: 8px;
+  margin-top: 54px;
+  width: 100%;
+  color: #272a41;
+}
+
+.calculator_container .note {
+  font-size: 11px;
+  color: #56586a;
+  margin-top: 27px;
+}
+
+.calculator_container option {
+  font-size: 15px;
+  font-family: Muli-Regular, sans-serif;
+}
+
+.calculator_container select {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: 100%;
+  font-size: 15px;
+  font-family: Muli-Regular, sans-serif;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.calculator_container .floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 57px;
+  color: #92939e;
+  font-size: 12px;
+  transition: 0.2s ease all;
+}
+
+.calculator_container input:focus ~ .floating-label,
+.calculator_container input:valid ~ .floating-label {
+  top: 40px;
+  font-size: 10px;
+}
+
+.calculator_container input::-webkit-outer-spin-button,
+.calculator_container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+.calculator_container input[type=number] {
+  -moz-appearance: textfield;
+}

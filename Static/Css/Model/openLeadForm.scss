@@ -1,0 +1,352 @@
+@import "../../scss/mixins/icons";
+@import "../../scss/base/typography";
+
+.content_are .contcDlrForm.sigle_dlr {
+    width: 100%;
+    min-height: 135px;
+    padding: 20px 0px 10px 86px;
+    display: table;
+    height: 167px;
+    box-sizing: border-box;
+}
+.fad_box .contcDlrForm {
+    height: auto;
+    padding: 24px 12.5%;
+}
+.content_are .contcDlrForm {
+    min-height: 70px;
+    border: 1px solid #fedcba;
+    border-radius: 5px;
+    margin: 24px 0px;
+    background-color: #fff;
+    padding: 24px 0px 0px 133px;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.contcDlrForm {
+    padding-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+.mid_cont {
+    display: table-cell;
+    vertical-align: middle;
+}
+.default_city_blk {
+    width: 40%;
+}
+.w2 {
+    width: 27%;
+}
+.fad_table_cell {
+    display: block;
+    float: left;
+}
+.contcDlrForm .select_border {
+    vertical-align: middle;
+    display: inline-block;
+}
+.contcDlrForm .select_border {
+    width: 300px !important;
+    margin-top: 0px !important;
+    height: auto;
+    font-size: 14px;
+    color: rgb(130, 136, 139);
+    padding-top: 0px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(151, 151, 151);
+    position: relative;
+}
+.select_border {
+    height: 35px;
+    font-size: 14px;
+    color: rgb(130, 136, 139);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(130, 136, 139);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.contcDlrForm .dealerGraphicImg.leftPic {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+.contcDlrForm .dealerGraphicImg.rightPic {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+.fad_sub_ttl {
+    font-size: 14px;
+    text-align: left;
+    color: #82888B;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+.fad_min_ttl {
+    color: #1a1a1a !important;
+    margin: 0px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contcDlrForm .select_txt {
+    font-size: 14px;
+    margin: 0px auto;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.select_txt {
+    font-size: 14px;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.content_are .contcDlrForm .select_txt .div_inner {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto !important;
+}
+.div_inner {
+    width: 175px;
+    margin: 0px auto !important;
+    transition: all 0.5s linear;
+    display: table;
+}
+.content_are .contcDlrForm .select_txt .div_inner .loc_icn {
+    width: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none !important;
+}
+.content_are .contcDlrForm .select_txt .div_inner .fad_slct_blk {
+    color: #272a41;
+    font-size: 15px;
+    font-family: Muli-Regular;
+    font-weight: normal;
+}
+.content_are .contcDlrForm .select_txt .div_inner .loc_icn, .content_are .contcDlrForm .select_txt .div_inner .fad_slct_blk {
+    display: inline-block;
+    vertical-align: middle;
+}
+.no_city_blk {
+    color: #92939e !important;
+}
+.contcDlrForm .select_txt img {
+    margin-bottom: 0px;
+}
+.select_txt img {
+    margin-bottom: -2px;
+    width: 12px;
+    max-width: 12px;
+}
+.sep_section {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-left: 12.5%;
+    background: #fbfbfb;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+}
+.contcDlrForm .formLabel {
+    color: #92939e;
+    font-size: 13px;
+    font-family: 'Muli-Regular';
+    margin-right: 26px;
+    display: inline-block;
+}
+.dealerBlock {
+    padding-top: 40px;
+    display: block;
+}
+.contcDlrForm .dealerBlock .dealerName {
+    color: #56586a;
+    font-size: 19px;
+    font-family: 'Muli-SemiBold';
+    margin-top: 37px;
+}
+.contcDlrForm .contcDlrFor {
+    color: #92939e;
+    font-size: 13px;
+    font-family: 'Muli-Regular';
+    margin-top: 30px;
+}
+.contcDlrDetails {
+    margin-top: 12px;
+    padding-bottom: 45px;
+}
+.contcDlrDetails .blk:nth-child(1) {
+    background: #fff url("#{$img-cdn-path}/0x0/ct/static/icons/svg/272a41/test-drive.svg") no-repeat left center;
+}
+.contcDlrDetails .blk {
+    color: #565a5c;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 2px 0px 2px 32px;
+    height: auto;
+    margin-right: 44px;
+    display: inline-block;
+}
+.contcDlrDetails .blk:nth-child(2) {
+  background:
+    #fff url("#{$img-cdn-path}/0x0/cw/static/icons/svg/offers-icon.svg")
+    no-repeat left center;
+}
+.contcDlrDetails .blk:nth-child(3) {
+    background: #fff url("#{$img-cdn-path}/0x0/ct/static/icons/svg/272a41/emi.svg") no-repeat left center;
+    background-size: auto 20px;
+    padding-left: 32px;
+}
+.contcDlrDetails .blk:nth-child(4) {
+    background: #fff url("#{$img-cdn-path}/0x0/ct/static/icons/svg/272a41/insurance.svg") no-repeat left center;
+}
+.content_are .contcDlrForm .tbl_grd {
+    display: block;
+    width: 92%;
+}
+.content_are .contcDlrForm .tbl_grd .sngl_input {
+    margin: 0px 0px 27px 0px;
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+}
+.fad_box .sngl_input {
+    width: 245px;
+    position: relative;
+    margin-top: 46px;
+    margin-right: 29.5px;
+    display: inline-block;
+}
+.fad_box .sngl_input .inpbox {
+    color: #56586a;
+    width: 100% !important;
+    font-size: 15px !important;
+    padding: 15px 0 8px 0 !important;
+    font-family: Muli-Regular;
+    box-shadow: none;
+    outline: none;
+}
+.effect-17:focus ~ label, .has-content.effect-17 ~ label {
+    top: -16px !important;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.fad_box .sngl_input label {
+    color: #82888b;
+    padding: 15px 0px 0px 0;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    pointer-events: none;
+    font-size: 14px;
+}
+.er_msg {
+    display: block;
+    width: 100%;
+    color: #e16363;
+    overflow: hidden;
+    position: absolute !important;
+}
+#exp_lead_name_er .er_msg_ri, #exp_lead_mob_er .er_msg_ri, #exp_lead_email_er .er_msg_ri, exp_lead_dealer_er .er_msg_ri, #exp_lead_auth_er .er_msg_ri {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.er_msg_ri {
+    float: left;
+    display: block;
+    padding: 4px 0px 0 0px;
+    font-size: 12px;
+}
+.best-deal-btn-wrapper {
+    width: 228px;
+    height: auto;
+    position: relative;
+    margin-left: 17px;
+    box-shadow: none;
+    display: inline-block;
+}
+.best-deal-btn {
+    color: #d02326;
+    margin-bottom: 35px;
+    font-weight: normal;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #fff;
+    border: 1px solid #d02326;
+    font-family: Muli-SemiBold;
+    vertical-align: middle;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.contcDlrForm .dealerIn_wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 68px;
+    margin: 0px auto;
+    padding: 15px 0px 0px 11.5%;
+    background-color: #fbfbfb;
+    border-radius: 5px 5px 0px 0px;
+    box-sizing: border-box;
+}
+.contcDlrForm .dealerIn_wrapper .formLabel {
+    margin-right: 8px;
+}
+.fad_box.new_pad .contcDlrForm .errorIconBG {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #ffe8cc;
+    padding: 6px 5.5px 6px 6.2px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    box-sizing: border-box;
+    line-height: normal;
+}
+.fad_box.new_pad .contcDlrForm .errorIcon {
+    width: 21px;
+    height: auto;
+}
+.fad_box.new_pad .contcDlrForm .errorText {
+    color: #272a41;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    line-height: normal;
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
+    display: inline-block;
+}
+.fad_box.new_pad .contcDlrForm.err_blk {
+    padding: 20px 0px 10px 86px;
+}
+.fad_box.new_pad .contcDlrForm .errorContent {
+    margin: 54px 0px 0px;
+    padding-left: 44px;
+    position: relative;
+}

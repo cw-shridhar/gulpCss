@@ -1,0 +1,201 @@
+.inpad_left .ver_gray-bg {
+  background: #f4f4f4;
+  padding-top: 30px;
+  padding-bottom: 0;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.find-the-cars-block .tabs {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: none;
+}
+
+.find-the-cars-block ul {
+  padding: 0;
+}
+
+.find-the-cars-block ul.ver_popuc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px #dfdfdf solid;
+  border-top: 1px #dfdfdf solid;
+}
+
+.find-the-cars-block ul.ver_popuc li {
+  display: inline-block;
+}
+
+.find-the-cars-block ul.ver_popuc li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #6f6f6f;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 60px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.find-the-cars-block ul.ver_popuc li a.active {
+  color: #000000;
+}
+
+.find-the-cars-block ul.ver_popuc li a.ver_reviewBtn1 {
+  padding: 0 79px;
+}
+
+.find-the-cars-block ul.ver_popuc li a.ver_reviewBtn1 {
+  padding: 0 24px;
+}
+
+.find-the-cars-block .ver_reviewBtn1 .ver_bor_r {
+  width: 0;
+  background: #ed1c24;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transition: all 200ms linear;
+}
+
+.find-the-cars-block .ver_reviewBtn1.active .ver_bor_r {
+  width: 100%;
+  left: 0;
+}
+
+.find-the-cars-block ul.ver_popuc li h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.find-the-cars-block .tab-contnet {
+  padding: 20px 13px;
+}
+
+.find-the-cars-block .h2 {
+  padding: 0 10px 0 24px;
+  font-size: 22px;
+  line-height: 24px;
+  color: #262626;
+  font-family: "Muli-SemiBold";
+  font-weight: normal;
+  margin-top: 0;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.find-the-cars-block .tab-content {
+  padding: 20px 15px 10px 15px;
+  background: #f5f5f5;
+}
+
+.find-the-cars-block .price-range {
+  padding: 0 0 !important;
+  text-align: left;
+}
+
+.find-the-cars-block .price-range li {
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #56586a;
+  border-radius: 20px;
+  border: 1px solid #56586a;
+  background: #fff;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
+
+.find-the-cars-block .price-range li a {
+  text-decoration: none;
+  color: #56586a;
+  font-family: "Muli-Regular";
+}
+
+.find-the-cars-block .price-range li:hover,
+.find-the-cars-block .price-range li.active {
+  border: 1px solid #d02326;
+  color: #d02326;
+}
+
+.find-the-cars-block .price-range li.active a,
+.find-the-cars-block .price-range li:hover a {
+  color: #d02326;
+}
+
+.find-the-cars-block .fuel-type {
+  text-align: left;
+}
+
+.find-the-cars-block .fuel-type li {
+  background: #fff;
+  list-style: none;
+  padding: 16px 0;
+  border-radius: 3px;
+  width: 156px;
+  height: 79px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.find-the-cars-block .fuel-type li:nth-child(3) img,
+.find-the-cars-block .fuel-type li:nth-child(4) img {
+  width: 40px;
+}
+
+.find-the-cars-block .fuel-type li p {
+  text-align: center;
+  font-size: 15px;
+  color: #56586a;
+  margin: 13px 0 0 0;
+  text-transform: capitalize;
+}
+
+.find-the-cars-block .body-type {
+  text-align: left;
+}
+
+.find-the-cars-block .body-type li {
+  background: #fff;
+  list-style: none;
+  padding: 16px 0;
+  border-radius: 3px;
+  width: 169px;
+  height: 79px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.find-the-cars-block .body-type li span {
+  display: block;
+  height: 35px;
+  margin-top: 15px;
+}
+
+.find-the-cars-block .body-type li p {
+  text-align: center;
+  font-size: 15px;
+  color: #56586a;
+  margin: 13px 0 0 0;
+  text-transform: capitalize;
+}
+
+.find-the-cars-block .transmission li span {
+  display: block;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.find-the-cars-block .seating-capactiy li a {
+  text-transform: uppercase;
+}

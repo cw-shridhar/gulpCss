@@ -1,0 +1,15 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/cmp-car-colors-imgs-carousel";
+@import "../../../partials/m/compare-cars-images";
+@import "../../../partials/m/_model-card";
+
+
+.images-ad {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    min-height: 150px;
+  }

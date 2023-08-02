@@ -1,0 +1,20 @@
+// Core variables and mixins
+@import "../../../ui/style/scss/partials/utils";
+@import "../../../ui/style/scss/partials/mixins";
+@import "../../../ui/style/scss/partials/typography";
+@import "../../../ui/style/scss/partials/variables";
+
+// Reset and dependencies
+@import "../../../ui/style/scss/normalize";
+
+// Core CSS
+@import "../../../ui/style/scss/base";
+
+.popup-container {
+  position: relative;
+  display: none;
+}
+
+.pwa-root {
+  font-family: $base-font-family;
+}

@@ -1,0 +1,17 @@
+@import "../../../Css/CMS/M/similarModelTabs.scss";
+@import "compare-cars-images";
+
+
+.images-block {
+    margin-top: -3px;
+}
+
+.cmp-cars-images-section {
+    border-top: 1px solid map-get($color-map, "gainsboro");
+}
+
+.cmp-car-images-acc-btn .cmp-car-acc-arrow-icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+}

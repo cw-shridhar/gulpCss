@@ -1,0 +1,92 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+@import "../../../scss/base/typography";
+
+/*FAQ styles */
+* {
+    transition-duration: inherit;
+}
+.separator{height: 16px; background-color: rgb(240, 240, 240);}
+.updates_header { display: table; width: 100%; padding-bottom: 10px;}
+.updates_list h2 { display: table-cell; padding: 20px 20px 10px 20px; font-size: 19px; color: #272a41; font-family: $font-muli-bold; vertical-align: middle; width: 70%;}
+.mobile-faq .turn{ padding-right: 48px;  background-position:95% 27px; background-color:0; border:0; width: 100%; margin: 0;}
+.mobile-faq .turn.current { border-bottom: 1px solid #e2e2e2; }
+.mobile-faq .accordion{ padding: 20px 16px; text-align: left;}
+.panel {
+    padding: 0 18px;
+    background-color: #f5f5f5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+}
+
+.mobile-faq .turn.current + .panel {
+    width: auto;
+    background: #f5f5f5;
+}
+
+.mobile-faq .panel{
+    width: auto;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+    text-align: left;
+    margin: 0 auto;
+}
+.mobile-faq .panel p {
+    padding: 16px 0 0;
+    color: #272a41;
+    margin-bottom: 15px;
+    line-height: 23px;
+    width: auto;
+    font-size: 15px;
+    text-align: left;
+}
+.mobile-faq .viewLL{ border: 1px solid #d11900; border-radius: 30px;  padding: 12px 78px;  float: none; display: inline-block; font-size: 15px; color: #d02326;}
+.mobile-faq .faq-button{ border-top: 1px solid #e2e2e2;  padding: 20px 0;  text-align: center;;}
+.mobile-faq .viewLL:hover{ background: #d02326; color: #ffffff;}
+.mobile-faq a{color: #D11803;}
+.mobile-faq .accordion {display: block; font-size: 17px; color: #272a41; font-family: 'Muli-SemiBold'; text-transform: inherit; border-top: 1px solid #f0f0f0}
+#showtab>div:last-child .accordion {border-bottom: 1px solid #f0f0f0}
+.mobile-faq .turn {background: url(#{$cloudfront-img-cdn-path}/images-mobiles/downarrow.svg) no-repeat 95% 27px; background-size: 12px; transition: inherit;}
+.mobile-faq .accordion:after{color:#777;font-weight:bold;float:right;margin-left:5px;}
+
+.mobile-faq .current {background: url(#{$cloudfront-img-cdn-path}/images-mobiles/uparrow.svg) no-repeat 95% 27px; background-size: 12px; transition: inherit;}
+
+/* Accordian tabs related css starts here*/
+.accordion{
+    background-color:#fff;
+    cursor:pointer;
+    padding:18px;
+    width:100%;
+    border:none;
+    text-align:left;
+    outline:none;
+    transition:0.4s;
+    border-top: 1px solid #f0f0f0;  
+    display: block;
+    font-size: 15px;
+    color: #56586a;
+    font-family: 'Muli-SemiBold';
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;   
+}
+
+ @media (max-width:411px){ 
+    .mobile-faq .turn{ padding-right: 48px;  background-position:95% 27px; }
+ }
+@media (max-width:320px){ 
+    .mobile-faq .turn{padding-right: 48px; background-position:95% 27px; }
+    .mobile-faq .viewLL{ padding: 12px 50px;} 
+}
+
+.font-size-faq-question {
+    font-size: 16px;
+    padding-right: 4%;
+    font-family: $font-muli-bold;
+}
+
+.mobile-faq .panel ul li {
+    color: #272a41;
+    line-height: 23px;
+    font-size: 15px;
+}

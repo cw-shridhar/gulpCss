@@ -1,0 +1,56 @@
+.user-review-carousel {
+    background-color: #fff;
+}
+.carousel__viewport {
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    list-style: none;
+}
+
+.carousel__slide {
+    position: relative;
+    list-style: none;
+}
+
+.card_wrapper {
+    width: 290px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.similar-car-img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.similar-car-detail {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.card-btn__container {
+    color: #d02326;
+    padding: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+    border: 1px solid #d02326;
+}
+.card-btn {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    color: #d02326;
+}
+
+.tooltip {
+    display: inline-block;
+    background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/pq-new/info-icon.svg?v1);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}

@@ -1,0 +1,71 @@
+.expert-rating-container {
+    border: 1px solid map-get($color-map, "whisper");
+    background-color:map-get($color-map, "white-smoke-2");
+    margin: 16px;
+    padding: 0 12px;
+}
+
+.overall-rating-container {
+    padding-top: 16px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.rating-title {
+    font-size: 13px;
+    color:map-get($color-map, "comet");  
+}
+
+.overall-score-title {
+    font-weight: $font-bold;
+    margin-right: 8px;
+}
+
+.star-icon {
+    @include star-green;
+
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+}
+
+.overall-rating-value {
+    font-size: 15px;
+    font-weight: $font-bold;
+    color:map-get($color-map, "charcoal");
+}
+
+.total-rating-value {
+    font-size: 13px;
+    font-weight: $font-bold;
+    color:map-get($color-map, "dark-gray-1");
+}
+
+.page-rating-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    &:first-child {
+        margin-top: 16px;
+    }
+}
+
+.rating-value-container {
+    display: flex;
+    align-items: center;
+}
+
+.rating-value-text {
+    font-size: 13px;
+    font-family: $font-lato-bold;
+    color:map-get($color-map, "comet");
+}
+
+.rating-star-icon{
+    @include star-green;
+    
+    width: 12px;
+    height: 11px;
+    margin-right: 4px;   
+}

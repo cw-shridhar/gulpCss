@@ -1,0 +1,102 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../utils/carousel";
+@import "../../partials/d/version-comparison-widget";
+@import "../../partials/m/two-car-comparison";
+@import "../../partials/m/three-car-comparison";
+@import "../../partials/m/version-comparison-widget";
+@import "../../partials/m/color-swiper-carousel";
+@import "../../partials/d/image-compare-block";
+@import "../../partials/d/colour-compare-block";
+@import "../../partials/d/compare-car-grid";
+@import "../../../scss/common/version-selection-popup";
+@import "../../../scss/common/mmv-popup";
+@import "../../partials/m/expert-review-block";
+@import "../../../Css/swiper.scss";
+@import "../modelfaqs/faqWidget";
+
+@include loader-gif(50%, 48%);
+
+.accordion-title {
+    background-position: 98%;
+    @include down-arrow;
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+}
+
+.accordion-title.active {
+    background-position: 98%;
+    @include up-arrow;
+}
+
+.accordion-content {
+    @include vendor-prefix(transition, (max-height 0.3s linear));
+    overflow: hidden;
+    max-height: 0;
+}
+
+.accordion-value {
+    border-top: none;
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+
+    ul {
+        list-style: disc;
+        margin-left: 12px;
+    }
+
+    li {
+        padding-bottom: 16px;
+    }
+}
+
+.offer-cta-button {
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+}
+
+.width-169 {
+    width: 169px;
+}
+
+.border-bottom-gainsboro {
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+}
+
+.expert-reviews-content {
+    max-height: none;
+}
+
+.overall-rating {
+    @include align-items(flex-end);
+}
+
+.accordion-value-container:last-child {
+    border-right: none;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.border-bottom-0 {
+    border-bottom: 0;
+}
+
+.spec-feature-suggestions {
+    border: 1px solid map-get($color-map, "gray-2");
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    max-height: 275px;
+}
+
+.ad-container {
+    min-height: 90px;
+}
+
+.rotate-down {
+    @include vendor-prefix('transform', scaleY(-1));
+}
+
+.faq-table {
+    margin: 0 0 12px;
+}

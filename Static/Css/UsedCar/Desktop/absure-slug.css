@@ -1,0 +1,78 @@
+.absure-slug-container {
+  width: 570px;
+}
+
+.absure-slug {
+  background-color: #fbfbfb;
+  border: 4px solid #0e3a50;
+  padding: 12px;
+}
+
+.absure-logo {
+  height: 29px;
+  width: 121px;
+  margin-bottom: 5px;
+  opacity: 1;
+}
+
+.absure-slug__subtext {
+  color: #0e3a50;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.absure-slug__offers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ui-card {
+  background-color: #fff;
+  padding: 12px 0 12px 12px;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+  width: 251px;
+  margin-bottom: 8px;
+}
+
+.ui-card:nth-child(odd) {
+  margin-right: 8px;
+}
+
+.absure-offer__heading {
+  display: flex;
+}
+
+.absure-offer__text {
+  margin-left: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0e3a50;
+}
+
+.absure-offer__description {
+  font-size: 13px;
+  color: #0e3a50;
+  margin-top: 4px;
+}
+
+.btn-abusre-get-benefits {
+  margin-top: 8px;
+  padding: 8px 25px;
+  background: #f04031;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.offer-logo {
+  height: 20px;
+  width: 20px;
+}

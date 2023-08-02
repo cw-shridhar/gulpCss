@@ -1,0 +1,122 @@
+.detail-price-block {
+    background-color: map-get($color-map,"white-smoke-2");
+    padding: 12px 12px 0;
+    border-radius: 4px;
+}
+
+.detail-price-tabs {
+    @include flexbox;
+    @include flex-direction(row);
+    @include justify-content(space-around);
+    border: map-get($color-map, "ford-gray") solid 1px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+    background-color: map-get($color-map, "white");
+    margin-bottom: 16px;
+
+    .tab {
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin: 2px;
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    .tab-icon {
+        margin-left: 0;
+        margin-right: 8px;
+        fill: map-get($color-map, "comet");
+    }
+
+    .tab.active {
+        background-color: map-get($color-map , "comet");
+        color: map-get($color-map, "white");
+
+        .tab-icon {
+            fill: map-get($color-map, "white");
+        }
+    }
+}
+
+.version-price-breakup {
+    width: 100%;
+    color: map-get($color-map, "valhalla");
+    font-size: 13px;
+}
+
+.border-top {
+    border-top: 1px solid map-get($color-map, "whisper");
+}
+
+td.pricebreakup-lastcomponent {
+    padding-bottom: 13px;
+}
+
+.pricebreakup-rupee-symbol {
+    letter-spacing: .87px;
+}
+
+.priceblock-exshowroom-tooltip{
+    right: -122px;
+}
+
+.priceblock-exshowroom-tooltip .tool-tip::after {
+    right: 122px;
+}
+
+.priceblock-rto-tooltip{
+    right: -107px;
+}
+
+.priceblock-rto-tooltip .tool-tip::after {
+    right: 107px;
+}
+
+.priceblock-insurance-tooltip{
+    right: -172px;
+}
+
+.priceblock-insurance-tooltip .tool-tip-text{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.priceblock-insurance-tooltip .tool-tip::after {
+    right: 172px;
+}
+
+.priceblock-onroadprice-tooltip{
+    right: -128px;
+}
+
+.priceblock-onroadprice-tooltip .tool-tip::after {
+    right: 128px;
+}
+
+@media only screen and (min-width: 800px) {
+    .detail-price-block {
+        padding: 12px 20px 0;
+    }
+
+    .detail-price-tabs {
+        .tab {
+            background-color: map-get($color-map, "white");
+            border: none;
+        }
+    }
+
+    .pricebreakup-component, .pricebreakup-lastcomponent {
+        border-top: none;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .version-price-breakup .border-top {
+        padding-top: 0;
+    }
+}

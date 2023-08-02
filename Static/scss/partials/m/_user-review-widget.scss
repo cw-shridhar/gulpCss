@@ -1,0 +1,158 @@
+.more-review__container {
+    padding: 24px 16px 20px;
+
+    .review__header {
+        font-family: $font-muli-bold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 19px;
+        padding-bottom: 2px;
+    }
+
+    .user-review__content {
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid map-get($color-map, "whisper" );
+    }
+
+    .user-review__title-container {
+        @include flexbox;
+        padding-bottom: 10px;
+        a {
+            margin: 0;
+        }
+    }    
+    
+    .user-review__title {
+        padding-left: 8px;
+        font-family: $font-muli-regular;
+        color: map-get($color-map, "valhalla" );
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    .user-review__author-days {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .user-review__description {
+        padding-top: 10px;
+        font-size: 13px;
+        color: map-get($color-map, "valhalla" );
+        line-height: 20px;
+        margin-bottom: 12px;
+        div {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        b {
+            display: block;
+            padding-top: 8px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        b:first-child {
+            padding-top: 0px;
+        }
+    }
+
+    .text-truncate {
+        @include text-truncate('',2);
+        margin-bottom: 0px;
+        height: 48px;
+    }
+
+    .expand-collapse {
+        @include flexbox;
+        @include justify-content(flex-end);
+        padding-top: 2px;
+    }
+
+    .expand-review {
+        font-size: 15px;
+        color: map-get($color-map, "pacific-blue" );
+        cursor: pointer;
+        margin:0;
+        margin-top: 5px;
+        font-family: $font-muli-semibold;
+    }   
+
+}
+
+.view-more-reviews {
+    @include flexbox;
+    @include justify-content(center);
+    margin-top: 16px;
+
+    .all-user-reviews-link {
+        color: map-get($color-map, "pacific-blue" );
+        text-decoration: none;
+        font-weight: $font-bold;
+        font-size: 15px;
+    }
+
+    .arrow-down {
+        @include border-arrow(8, "pacific-blue", 1,"down");
+        margin: 3px;
+    }
+}
+
+.user-rating__overall {
+    @include flexbox;
+    @include align-items(center);
+    padding: 12px;
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .user-rating__review-count {
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+        padding-left: 16px;
+    }
+
+    .user-rating__value {
+        @include inline-flex;
+        @include align-items(center);
+    }
+}
+
+.rating-circle-list {
+    padding: 12px 15px;
+}
+
+.user-review__footer {
+    .like-dislike__wrapper {
+        .like-icon-highlight {
+            @include like-active-icon;
+            margin-right: 8px;
+        }
+
+        .dislike-icon-highlight {
+            @include like-active-icon;
+            @include vendor-prefix('transform', rotate(180deg));
+            margin-right: 8px;
+        }
+
+        .like-dislike-count-highlight{
+            font-size:12px;
+            color: map-get($color-map,"persian-green");
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+@for $i from 1 through 5 {
+    @include  rating-badge($i);
+}

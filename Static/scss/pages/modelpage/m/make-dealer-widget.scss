@@ -1,0 +1,28 @@
+@import "../../../base/index";
+@import "../../../mixins/flexbox";
+@import "../../../mixins/hide-scrollbar";
+
+.dealer-list {
+    @include flexbox;
+    @include hide-horizontal-scroll;
+    margin-left: 4px;
+}
+
+.dealer-container {
+    padding: 8px 12px 16px;
+    border-radius: 4px;
+    border: solid 1px map-get($color-map, "whisper");
+    margin-left: 12px;
+}
+
+.dealer-count-text {
+    color: map-get($color-map, "valhalla");
+    font-size: 13px;
+    font-weight: $font-semibold;
+    margin-top: 8px;
+}
+
+.city-image {
+    width: 100px;
+    max-width: none;
+}

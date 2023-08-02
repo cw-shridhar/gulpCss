@@ -1,0 +1,69 @@
+.search-container {
+	@include vendor-prefix(transform, (translateY(-100%)));
+	@include vendor-prefix(transition, (transform .2s linear));
+	background-color: map-get($color-map, "white");
+	position: fixed;
+	top: 0;
+	padding: 24px 16px 16px;
+	z-index: 1000;
+	width: 100%;
+}
+
+.search-container.active {
+	@include vendor-prefix(transform, (translateY(0)));
+}
+
+.search-container-overlay {
+	@include vendor-prefix(transform, (translateX(-100%)));
+	@include vendor-prefix(transition, (transform .2s linear));
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+}
+
+.search-container-overlay.active {
+	@include vendor-prefix(transform, (translateX(0)));
+}
+
+.search-wrapper {
+	@include flexbox;
+	border-bottom: 1px solid map-get($color-map, "comet");
+}
+
+.search-spec-feature {
+	font-size: 15px;
+	color: map-get($color-map, "valhalla");
+	width: 100%;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.spec-feature-suggestions {
+	border: 1px solid map-get($color-map, "gray-2");
+	border-top: none;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	max-height: 275px;
+	overflow-y: scroll;
+}
+
+.spec-feature-suggestion-item {
+	padding: 16px 16px 16px 12px;
+	font-size: 15px;
+	color: map-get($color-map, "dark-gray");
+	border-bottom: 1px solid map-get($color-map, "white-smoke-5");
+	cursor: pointer;
+}
+
+.spec-feature-suggestion-item:last-child {
+	border-bottom: none;
+}
+
+.spec-feature-suggestion-item.not-found,
+.spec-feature-suggestion-item .highlight {
+	color: map-get($color-map, "charcoal");
+}

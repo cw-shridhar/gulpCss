@@ -1,0 +1,22 @@
+*{-webkit-tap-highlight-color: rgba(255, 255, 255, 0);  -webkit-tap-highlight-color: transparent; }
+.user_count {width:30px; height:30px; border:0px solid red; position:absolute; right:14px; top:10px; z-index:999999;}
+.user_count a img { width: 28px; height: 28px; position:relative; z-index:99;}
+.user_count span, .mychat .total_counts {
+        position: absolute;
+        top: -2px;
+        right: -6px;
+        font-size: 8px;
+        color: #fff;
+        background: #d11803;
+        border-radius: 20px;
+        min-width: 14px;
+        min-height: 14px;
+        display: block;
+        line-height: normal;
+        padding:2px;
+        box-sizing:border-box;
+        z-index: 999;
+}
+#total_counts.close{
+        display:none;
+}

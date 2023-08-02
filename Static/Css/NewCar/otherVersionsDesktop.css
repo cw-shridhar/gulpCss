@@ -1,0 +1,64 @@
+.inpad_right {
+  padding: 0;
+  margin: 24px 0;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.inpad_right .car_head {
+  color: #272a41;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Muli-SemiBold, sans-serif;
+  line-height: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #f07e7c;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.inpad_right .car_head h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.table_outer_div_other {
+  padding: 15px 10px 15px 15px;
+}
+
+.inpad_right table.rdreviewList1 {
+  list-style: none;
+  padding: 15px 10px 15px 15px;
+}
+
+.inpad_right table.rdreviewList1 tr {
+  color: #272a41;
+  padding: 6px 0;
+  width: auto;
+}
+
+.inpad_right table.rdreviewList1 tr a {
+  color: #272a41;
+  font-size: 15px;
+  vertical-align: middle;
+  width: 48%;
+}
+
+table.rdreviewList1 tr td .var_right {
+  font-size: 15px;
+  text-align: right;
+}
+
+table.rdreviewList1 tr td {
+  border: none;
+}
+
+.inpad_right table {
+  margin-bottom: 0;
+}
+
+.inpad_right table.rdreviewList1 tr a:hover {
+  color: red;
+}

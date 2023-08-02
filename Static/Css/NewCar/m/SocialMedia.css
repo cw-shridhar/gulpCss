@@ -1,0 +1,93 @@
+.share_icon {
+  right: -10px;
+  float: right;
+  position: relative;
+}
+
+.share_icon .shareAnchor {
+  display: block;
+}
+
+.share_icon .shareAnchor img {
+  padding: 7px 10px;
+}
+
+.socialIconsList {
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  left: -1px;
+  box-shadow: 0 0 5px -2px #888;
+}
+
+.socialIconsList,
+.socialIconsList a {
+  display: block;
+}
+
+.share_icon .socialIconsList {
+  display: none;
+}
+
+.socialIconsList .social-share-icon {
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin: 9px 7px;
+}
+
+.socialIconsList > .social-share-icon:nth-child(1) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/facebook.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:nth-child(2) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/twitter.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:nth-child(3) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/email.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:nth-child(4) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/whatsapp.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:nth-child(5) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/chat.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:hover {
+  width: 27px;
+  height: 27px;
+  border: 0 solid;
+  display: block;
+}
+
+.socialIconsList > .social-share-icon:hover:nth-child(1) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/facebook_color.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:hover:nth-child(2) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/twitter_color.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:hover:nth-child(3) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/email_color.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:hover:nth-child(4) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/whatsapp_color.svg?v=5") 0 0 no-repeat;
+}
+
+.socialIconsList > .social-share-icon:hover:nth-child(5) {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/chat_color.svg?v=5") 0 0 no-repeat;
+}
+
+#socialIconsListid {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  left: -1px;
+  box-shadow: rgb(136, 136, 136) 0 0 5px -2px;
+  display: none;
+}

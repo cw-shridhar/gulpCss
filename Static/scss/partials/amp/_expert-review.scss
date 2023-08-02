@@ -1,0 +1,125 @@
+.expert-review-tabs-container {
+    display: flex;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    width: 100%;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.expert-review-tabs-container [role=tab].tab-name {
+    font-size: 13px;
+    font-family: $font-lato-bold;
+    color: map-get($color-map, "valhalla");
+    line-height: 20px;
+    padding: 10px 16px;
+    min-width: fit-content;
+    margin: 0;
+}
+
+.expert-review-tabs-container [role=tab][selected].tab-name {
+    border-bottom: 4px solid map-get($color-map, "light-coral");
+}
+
+// Pros and cons section
+.pros-cons {
+	&-container {
+		display: flex;
+		overflow-x: scroll;
+		margin-top: 13px;
+	}
+
+	&-card {
+		min-width: 228px;
+		border: 1px solid map-get($color-map, "whisper");
+		background-color: map-get($color-map, "white-smoke-2");
+		margin-right: 12px;
+	}
+
+	&-card:last-child {
+		margin-right: 0;
+	}
+
+	&-title {
+		display: flex;
+		font-family: $font-lato-bold;
+		font-size: 16px;
+		fill: map-get($color-map, "valhalla");
+	}
+
+	&-icon {
+		width: 20px;
+		height: 20px;
+		fill: map-get($color-map, "persian-green");
+	}
+	
+	&-icon.cons {
+		transform: scaleY(-1);
+		fill: map-get($color-map, "coral");
+	}
+	
+	&-container li {
+		font-family: $font-lato-regular;
+		font-size: 15px;
+		color: map-get($color-map, "comet");
+		position: relative;
+		padding-left: 12px;
+		margin-bottom: 12px;
+	}
+
+	&-container li:last-child {
+		margin-bottom: 0;
+	}
+
+	&-container li::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 4px;
+		height: 4px;
+		border-radius: 4px;
+		transform: translateY(8px);
+		background-color: map-get($color-map, "manatee");
+	}
+}
+.expert-review-accordion-title {
+    font-size: 16px;
+    font-family: $font-lato-bold;
+    color: map-get($color-map, "valhalla");
+    padding: 16px 0 16px 16px;
+    background-color: map-get($color-map, "white");
+    border: none;
+    border-top: 1px solid map-get($color-map, "whisper");
+
+    &::after{
+        content: '';
+        background: url('#{$img-cdn-path}0x0/cw/static/icons/svg/6f6f6f/arrow-down.svg') no-repeat 95% 4px;
+        width: 16px;
+        height: 16px;
+        margin-right: -16px;
+        position: absolute;
+        right: 34px;
+    }
+}
+section[expanded] .expert-review-accordion-title::after {
+    background: url('#{$img-cdn-path}0x0/ct/static/icons/svg/57596b/up-arrow.svg') no-repeat 95% 4px;
+}
+
+.expert-review-accordion-content {
+    padding: 16px;
+    background-color: map-get($color-map, "white-smoke-2");
+
+    p {
+        font-size: 15px;
+        line-height: 23px;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 16px;
+		text-align: left;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}

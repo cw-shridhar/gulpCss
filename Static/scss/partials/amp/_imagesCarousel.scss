@@ -1,0 +1,20 @@
+.imgs-blackout-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+
+.view-all-model-imgs-link {
+    padding: 8px 20px;
+    color: map-get($color-map, "white");
+    border: 1px solid map-get($color-map, "white");
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+}

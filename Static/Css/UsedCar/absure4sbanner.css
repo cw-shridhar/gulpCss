@@ -1,0 +1,96 @@
+.absure4s-banner {
+  display: flex;
+  align-items: center;
+}
+
+.absure4s-banner__container {
+  background-color: #0e3a50;
+  padding: 16px 0 16px 16px;
+  color: #fff !important;
+  margin-bottom: 12px;
+}
+
+.absure4s-promise-title__container img {
+  width: 20px;
+  height: 20px;
+}
+
+.absure4s-logo {
+  min-width: 100px;
+  margin-right: 8px;
+}
+
+.absure4s-banner__title {
+  margin-top: 12px;
+}
+
+.absure4s-banner__subtext {
+  margin: 8px 12px;
+  color: #56586a;
+  font-size: 13px;
+  text-align: unset;
+}
+
+.absure4s-offer__list {
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.absure4s-offer__list::-webkit-scrollbar {
+  display: none; /* chrome, Safari & Opera  */
+}
+
+.absure4s-offer__list-item {
+  min-width: 221px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+  background-color: #0e3a50;
+  border-radius: 3px;
+  margin-left: 12px;
+}
+
+.absure4s-offer__list-item:last-child {
+  margin-right: 12px;
+}
+
+.absure4s-offer-details {
+  padding: 12px;
+}
+
+.absure4s-banner__cta-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.absure4s-banner__cta-link-block {
+  text-align: center;
+  padding-right: 12px;
+  margin-top: 12px;
+}
+
+.absure4s-promise-title__container {
+  display: flex;
+}
+
+.absure4s-offer-details p,
+.absure4s-offer-details span {
+  color: #fff;
+}
+
+.absure4s-offer-details span {
+  font-size: 15px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.absure4s-offer-details p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+  text-align: left;
+}

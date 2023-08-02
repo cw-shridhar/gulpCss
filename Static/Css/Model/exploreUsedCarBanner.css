@@ -1,0 +1,82 @@
+.usedCars-card {
+  border-radius: 5px;
+  height: 88px;
+  background: rgb(241, 128, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 128, 126, 1) 0%,
+    rgba(250, 185, 164, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.usedCars-card *:hover {
+  color: white;
+}
+
+.usedCars-card .graphic {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  margin: auto;
+}
+.usedcar-title-hd {
+  font-size: 21px;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.usedCars-card * {
+  color: #ffffff;
+  font-family: "Muli-Regular";
+  font-weight: normal;
+  box-sizing: border-box;
+}
+.usedcar-title-txt {
+  font-size: 16px;
+  margin: 0;
+  width: 66%;
+  padding-bottom: 10px;
+  line-height: 18px;
+}
+
+.usedCars-card .btn {
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 204px;
+    height: 34px;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 14.4%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.usedCars-card .btn:hover {
+    border-color:#fff;
+    background: #fff;
+    color: #F2817F !important;
+}
+
+
+.usedCars-card .btn:hover a {
+    color: #F2817F !important;
+}

@@ -1,0 +1,124 @@
+.write-review {
+  width: 120px;
+  height: 24px;
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-SemiBold;
+  margin: 24px 224px 4px 16px;
+  font-weight: bold;
+}
+
+.write-review-text {
+  width: 328px;
+  height: 16px;
+  font-size: 13px;
+  color: #56586a;
+  font-family: Muli-SemiBold;
+  margin: 4px 16px;
+}
+
+.select-car-block{
+  height: 123px;
+}
+
+.select-your-car-text{
+  margin: 35px 0 0 16px;
+  color: #92939e;
+  font-size: 15px;
+  font-family: Muli-Regular;
+  width: 219px;
+  height: 19px;
+}
+
+.select-your-car-text span{
+  margin-left: 30px;
+}
+
+.arrow_right {
+  border: solid #56586a;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3.5px;
+  margin: 1px 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.line-seperator{
+  background-color: #92939e;
+  width: 328px;
+  height: 1px;
+  margin: 8px 16px 0 16px;
+}
+
+.content_search_block {
+  width: auto;
+  position: relative;
+  margin: 16px;
+}
+
+.content_srch_innr a {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 4px;
+  top: 12px;
+}
+
+.content_srch_innr a img {
+  padding: 0px 5px 1px 5px;
+  border-radius: 4px;
+}
+
+.content_srch_innr {
+  position: relative;
+}
+
+.content_search_bar {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  border: 1px solid #d1d2d6;
+  border-radius: 4px;
+  padding: 12px 0 14px 36px;
+  font-family: Muli-Regular;
+  font-size: 15px;
+  color: #92939e;
+}
+
+.content_srch_innr a img {
+  width: 24px;
+}
+
+#drop_down {
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  width: 100%;
+}
+#drop_down ul {
+  background: white;
+  width: 99%;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #aaaaaa;
+  padding: 0;
+}
+#drop_down ul li {
+  padding: 16px 0;
+  margin: 0 16px;
+  text-align: left;
+  border-bottom-style: solid;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #aaaaaa;
+  font-size: 15px;
+}
+#drop_down ul li:last-child {
+  border-style: none;
+}
+#drop_down a {
+  text-decoration: none;
+  color: #272a41;
+}

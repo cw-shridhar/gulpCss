@@ -1,0 +1,68 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/mmv-dropdown";
+@import "../../../partials/m/make-city-selector";
+@import "../../../partials/m/dealer-card";
+@import "../../../partials/m/price-in-other-cities";
+@import "../../../common/mmv-popup";
+@import "../../../partials/m/all-brands-colllapsible";
+@import "../../../partials/m/seo-table";
+
+.top-ad {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  min-height: 120px;
+}
+
+.no-dealer-found {
+  font-weight: $font-bold;
+  font-size: 19px;
+  color: map-get($color-map, "valhalla");
+  text-align: center;
+}
+
+.no-dealers-available {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  color: map-get($color-map, "comet");
+}
+
+.no-result-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.change-city-button {
+  font-size: 15px;
+  border: 1px solid map-get($color-map, "fire-red");
+  font-weight: 700;
+  color: map-get($color-map, "fire-red");
+  padding: 11px 20px 10px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mobile-dealer-btn {
+  background-color: map-get($color-map, "fire-red");
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: map-get($color-map, "white");
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.call-dealer-btn {
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: solid 1px map-get($color-map, "fire-red");
+  background-color: map-get($color-map, "white");
+  padding: 11px 20px 10px;
+  color: map-get($color-map, "fire-red");
+}

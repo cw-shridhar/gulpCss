@@ -1,0 +1,17 @@
+@import "../../base/index";
+@import "../../partials/m/three-car-comparison";
+@import "../../pages/new-cars/carscarousel";
+@import "../../utils/carousel";
+@import "../../partials/m/two-car-comparison";
+
+.jcarousel-control-prev {
+	left: -12px;
+}
+
+.jcarousel-control-next {
+	right: -12px
+}
+
+.overflow-unset {
+	overflow: unset;
+}

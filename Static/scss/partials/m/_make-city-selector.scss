@@ -1,0 +1,18 @@
+.selector-text {
+  font-size: 15px;
+  color: map-get($color-map, "manatee");
+}
+
+.city-select-container {
+  margin-top: 32px;
+}
+
+.selector-text-active {
+  color: map-get($color-map, "valhalla");
+  font-weight: $font-bold;
+}
+
+.floating-selector-text {
+  font-size: 12px;
+  color: map-get($color-map, "manatee");
+}

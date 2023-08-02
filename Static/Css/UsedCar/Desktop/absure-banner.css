@@ -1,0 +1,202 @@
+
+.hide.absure-banner-section {
+  display: none;
+}
+
+.absure-banner-section {
+  width: auto;
+  margin-bottom: 8px;
+  padding: 16px;
+  border-radius: 3px;
+  background-color: #0e3a50;
+}
+
+.absure-banner-logo-features {
+  display: flex;
+}
+
+.absure-feature-list__item-logo-offers {
+  display: inline-flex;
+}
+
+.absure-subtext {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #484848;
+}
+
+.absure-banner-logo {
+  width: 120px;
+  height: 63px;
+  margin: 9px 12px 12px 0;
+}
+
+.absure-feature-list {
+  padding-bottom: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.jcarousel .absure-feature-list .absure-feature-list__item {
+  width: 206px;
+  height: auto;
+  margin: 0 12px 0 0;
+  padding: 11px;
+  border-radius: 3px;
+  border: solid 1px #efefef;
+  color: #fff;
+  background-color: #0e3a50;
+}
+
+.absure-feature-list__item:last-child {
+  margin-right: 10px;
+}
+
+.absure-feature-list__item .absure-feature-text {
+  margin: 0 116px 4px 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.absure-feature-list__item .absure-feature-description {
+  margin: 4px 2px 0 0;
+  font-size: 13px;
+  color: #fff;
+}
+
+.absure-view-all__link {
+  height: 20px;
+  width: fit-content;
+  margin: 16px 0 0 0;
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  font-weight: bold;
+}
+
+.absure-view-all__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.absure-city-list__item {
+  margin: 16px 12px 0 0;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 16px;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.absure-city__link {
+  text-align: center;
+}
+
+.absure-city__link:hover {
+  text-decoration: none;
+}
+
+.absure_more_cities {
+  color: #fff;
+  text-align: center;
+  margin: 23px 0 7px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.absure-banner-city-list {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.absure-feature-item-container {
+  width: 20px;
+  height: 20px;
+}
+
+.absure-banner-section .jcarousel-wrapper {
+  position: relative;
+  width: 80%;
+  height: 84px;
+}
+
+.absure-banner-section .jcarousel {
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  padding: 0;
+}
+
+.absure-banner-section .jcarousel-control-left {
+  left: 0;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  position: absolute;
+  top: 24px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.absure-banner-section .jcarousel-control-right {
+  right: 0;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  position: absolute;
+  top: 24px;
+  z-index: 1;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.absure-banner-section .jcarousel-control-prev,
+.absure-banner-section .jcarousel-control-next {
+  display: inline-block;
+  height: 32px;
+  padding: 0;
+  position: relative;
+  width: 32px;
+  cursor: pointer;
+  background: url(https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/icons_arrow_bold.svg) center no-repeat;
+}
+
+.absure-banner-section .jcarousel-control-prev {
+  transform: rotate(180deg);
+  height: 32px;
+  padding: 0;
+  position: relative;
+}
+
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+}
+
+.jcarousel li {
+  float: left;
+  width: 312px;
+  height: 330px;
+  margin-right: 20px;
+  background: #fff;
+}
+
+.absure-dealer-logo__img {
+  max-height: 30px;
+  max-width: 100px;
+  margin-top: 4px;
+}
+
+.non-absure-dealer-logo__img {
+  max-height: 34px;
+  max-width: 70px;
+}

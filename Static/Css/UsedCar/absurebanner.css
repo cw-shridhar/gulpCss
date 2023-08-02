@@ -1,0 +1,81 @@
+.absure-banner {
+  margin-left: 16px;
+  margin-right: 16px;
+  border: 1px solid #f07e7c;
+  border-radius: 3px;
+}
+
+.absure-banner__container {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+
+.absure-logo {
+  background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/logos/absure/absure-logo.svg);
+  width: 100px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  margin-left: 12px;
+}
+
+.absure-banner__title {
+  margin-top: 12px;
+}
+
+.absure-banner__subtext {
+  margin: 8px 12px;
+  color: #56586a;
+  font-size: 13px;
+  text-align: unset;
+}
+
+.absure-offer__list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 12px;
+  overflow-x: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.absure-offer__list::-webkit-scrollbar {
+  display: none; /* chrome, Safari & Opera  */
+}
+
+.absure-offer__list-item {
+  min-width: 240px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  margin-left: 12px;
+}
+
+.absure-offer__list-item:last-child {
+  margin-right: 12px;
+}
+
+.absure-offer-details {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.absure-banner__cta-link {
+  color: #d02326;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.absure-banner__cta-link-block {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.hide {
+  display: none;
+}

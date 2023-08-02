@@ -1,0 +1,160 @@
+.similar-cars-container {
+    padding: 24px 16px 16px;
+}
+
+.similar-cars-list {
+    @include flexbox;
+    @include hide-horizontal-scroll;
+}
+
+.similar-car-card-container {
+    border-radius: 4px;
+    border: solid 1px map-get($color-map, "whisper");
+    margin-right: 12px;
+    min-width: 286px;
+    height: fit-content;
+}
+
+.similar-car-image {
+    max-width: 100%;
+    min-height: 160px;
+}
+
+.similar-car-info-container {
+    background-color: map-get($color-map, "whisper");
+    padding: 16px 12px 0;
+}
+
+.similar-car-name {
+    font-size: 16px;
+    color: map-get($color-map, "valhalla");
+}
+
+.similar-car-price {
+    font-size: 16px;
+    color: map-get($color-map, "valhalla");
+    line-height: 20px;
+    font-family: $font-muli-semibold;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.similar-car-price-label {
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+    margin-bottom: 12px;
+}
+
+.similar-car-cta-button {
+    padding: 8px 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+    background-color: map-get($color-map , "white");
+}
+
+.cta-text {
+    color: map-get($color-map, "fire-red");
+    font-size: 13px;
+    font-family: $font-muli-semibold;
+    background: none;
+    border: none;
+}
+
+.similar-cars-compare {
+    @include flexbox;
+    padding: 12px 0 12px 12px;
+    border-top: 1px solid map-get($color-map, "manatee");
+    background-color: map-get($color-map, "whisper");
+}
+
+.compare-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.compare-text {
+    font-size: 13px;
+    font-family: $font-muli-semibold;
+    color: map-get($color-map, "pacific-blue");
+}
+
+@media (min-width: 800px) {
+    .similar-cars-container {
+        max-width: 730px;
+        border: 1px solid map-get($color-map, "whisper");
+    }
+
+    .similar-cars-list {
+        position: relative;
+        overflow: unset;
+    }
+
+    .similar-car-card-container {
+        min-width: 354px;
+    }
+
+    .similar-price-block {
+        @include flexbox;
+        @include align-items(center);
+        margin-bottom: 12px;
+    }
+
+    .similar-car-price {
+        margin-right: 8px;
+        margin-bottom: 0;
+    }
+
+    .similar-car-price-label {
+        margin-bottom: 0;
+        align-self: flex-end;
+    }
+    
+    .jcarousel-wrapper {
+        position: relative;
+    }
+    
+    .jcarousel {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .prev-arrow-button,
+    .next-arrow-button {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 2px map-get($color-map, "manatee");
+        -moz-box-shadow: 0 0 2px map-get($color-map, "manatee");
+        box-shadow: 0 0 2px map-get($color-map, "manatee");
+        background: map-get($color-map, "white");
+        z-index: 1;
+    }
+    
+    .jcarousel-control-prev .prev-arrow-button {
+        left: -10px;
+    }
+    
+    .jcarousel-control-next .next-arrow-button {
+        right: -10px;
+    }
+    
+    .jcarousel-control > span > img {
+        height: 80%;
+        width: 80%;
+        padding-top: 5px;
+        padding-right: 1px;
+    }
+
+    .arrow-btn {
+        background: transparent;
+        border: none;
+    }
+}

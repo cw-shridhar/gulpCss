@@ -1,0 +1,137 @@
+.white_bg {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.not_found {
+  display: block;
+  padding-top: 80px;
+  overflow: hidden;
+  padding-bottom: 36px;
+  box-sizing: border-box;
+}
+
+.top_blk {
+  margin: 0 auto;
+  width: auto;
+  display: block;
+  overflow: hidden;
+  border: 0 solid rebeccapurple;
+  text-align: center;
+}
+
+.container.onroadprice .slid_title,
+.container.onroadprice .onrd {
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.ops {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-SemiBold;
+}
+
+.nav_txt {
+  font-size: 13px;
+  color: #92939e;
+  font-family: Muli-Regular;
+  display: block;
+  width: 58%;
+  padding: 13px 0 30px 0;
+  margin: 0 auto;
+}
+
+.container.onroadprice .onrd .tab_price {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.tab_price tr {
+  border-top: 2px solid #efefef;
+  /* display: block; */
+}
+
+.tab_price td {
+  /* padding: 18px 0; */
+  padding: 19px 0;
+  position: relative;
+  border-top: 1px solid #e8e8e8;
+}
+
+body {
+  font-family: "Muli-Regular" !important;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.tab_price tr td .in_city {
+  font-size: 15px;
+  width: 92%;
+  margin: 0 auto 0 0;
+  display: inline-block;
+}
+
+.tab_price tr td .in_city .car_in_city {
+  font-size: 15px;
+  width: 80%;
+  display: inline-block;
+  color: #272a41;
+}
+
+.container.onroadprice .onrd .tab_price .ar {
+  height: 7px !important;
+  width: auto !important;
+  padding: 5px !important;
+  /* position: absolute; */
+  top: 28.5%;
+  right: -3%;
+}
+
+.tab_price tr td img {
+  width: 35px;
+  height: 20px;
+  padding-right: 15px;
+  vertical-align: middle;
+  vertical-align: text-bottom;
+  display: inline-block;
+}
+
+.ar {
+  display: block;
+  float: right;
+  transform: rotate(90deg);
+  position: relative;
+  top: 6px;
+  width: 10px !important;
+}
+
+.tab_price tr td a {
+  font-size: 15px;
+  color: #56586a;
+  font-family: Muli-Regular;
+}
+
+.noback {
+  text-align: center;
+  z-index: 99999;
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}

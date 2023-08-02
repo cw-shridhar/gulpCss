@@ -1,0 +1,103 @@
+.vd_blk {
+	width: 128px;
+	height: 72px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.cell,
+.h1new {
+	text-align: left;
+}
+
+.cr_info,
+.gtonrPric,
+.pull-left,
+.vd_blk {
+	float: left;
+}
+
+.upcomingCarsList li {
+	overflow: hidden;
+	padding: 15px 12px;
+	border-bottom: 1px solid #e2e2e2;
+	line-height: normal;
+}
+
+.upcomingCarsList li a {
+	display: block;
+}
+
+a {
+	color: #000;
+}
+
+.vd_blk amp-img {
+	border: 1px solid #e5e5e5;
+	width: 100px;
+	height: 75px;
+}
+
+.lft_pd {
+	padding-left: 9px;
+	width: 300px;
+	max-width: 100%;
+	min-width: 182px;
+}
+
+.cell h3 {
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+	color: #565a5c;
+	font-size: 14px;
+	display: block;
+	position: relative;
+	top: -2px;
+	line-height: normal;
+}
+
+.fnt_sml {
+	font-size: 12px;
+	font-weight: 400;
+	color: #82888b;
+	width: 100%;
+	padding-top: 4px;
+	line-height: 17px;
+	display: inline-block;
+}
+
+.pull-right {
+	float: right;
+}
+
+.news-hdng-title {
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+	color: #565a5c;
+	font-size: 14px;
+	display: block;
+	position: relative;
+	top: -2px;
+	line-height: normal;
+	font-weight: bold;
+}
+
+.mr_blk {
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.rd_more {
+	color: #c00;
+	display: block;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: top;
+}

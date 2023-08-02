@@ -1,0 +1,106 @@
+.heading_popularcars {
+  font-size: 13px;
+  font-weight: $font-bold;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: auto;
+  padding: 10px 14px;
+  line-height: normal;
+  background-color: map-get($color-map, "blackish-gray");
+  box-sizing: border-box;
+  overflow: hidden;
+  color: map-get($color-map, "white");
+
+  h2 {
+    font-size: 13px;
+    color: map-get($color-map, "white");
+    font-weight: $font-bold;
+  }
+
+  a {
+    color: map-get($color-map, "white");
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+.hidn_similar {
+  overflow: hidden;
+  box-shadow: map-get($color-map, "nickel") 0 1px 2px 0;
+  left: 15px;
+  position: relative;
+  padding: 15px 15px 0 15px;
+  top: 2px;
+  width: 240px;
+  min-height: 310px;
+}
+
+.slid_block {
+  clear: both;
+  padding-top: 28px;
+
+  ul li {
+    text-align: left;
+    line-height: 21px;
+    font-size: 14px;
+    color: map-get($color-map, "gray");
+    padding-left: 0;
+
+    strong a {
+      font-size: 18px;
+      color: map-get($color-map, "gray");
+      background: none;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      word-break: break-word;
+      width: 90%;
+      min-height: 36px;
+      white-space: initial;
+    }
+  }
+
+  ul li:last-child {
+    border-top: 1px solid map-get($color-map, "light-gray");
+    position: relative;
+    left: -15px;
+    width: 112%;
+
+    a {
+      background: none;
+      padding-left: 15px;
+    }
+  }
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.othrCarsSec {
+  .slid_block ul li:last-child {
+    border-top: none;
+    position: relative;
+    left: auto;
+    width: auto;
+  }
+}
+
+.separator {
+  width: 100%;
+  height: 16px;
+  background-color: map-get($color-map, "white-smoke");
+}
+
+.similar_title {
+  padding: 15px 15px 0 15px;
+}
+
+.similar_title h2 {
+  color: map-get($color-map, "valhalla");
+  font-size: 19px;
+  font-weight: $font-bold;
+}

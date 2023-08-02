@@ -1,0 +1,122 @@
+@import "../../base/index";
+@import "../../mixins/flexbox";
+
+.model-card-container {
+  padding-top: 20px;
+  border: 1px solid map-get($color-map, "whisper");
+  border-radius: 4px;
+}
+
+.model-card__col {
+  @include flexbox;
+  padding-bottom: 12px;
+  padding-left: 20px;
+}
+
+.model-card__image {
+  width: 160px;
+  height: 89px;
+}
+
+.model-card__info-tab {
+  margin-left: 16px;
+
+  @include flexbox;
+  @include flex-direction(column);
+}
+
+.model-card__model-link {
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.model-card__make-name {
+  font-weight: $font-bold;
+  font-size: 16px;
+  color: map-get($color-map, "valhalla");
+}
+
+.model-card__model-name {
+  font-weight: $font-bold;
+  font-size: 16px;
+  color: map-get($color-map, "valhalla");
+}
+
+.model-card__model-link:hover {
+  .model-card__make-name {
+    color: map-get($color-map, "fire-red");
+  }
+
+  .model-card__model-name {
+    color: map-get($color-map, "fire-red");
+  }
+}
+
+.arrow_right {
+  border: solid map-get($color-map, "comet");
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.model-card__price {
+  font-weight: $font-bold;
+  font-size: 18px;
+  color: map-get($color-map, "valhalla");
+  margin-right: 8px;
+}
+
+.model-card__price-label {
+  font-family: "Muli-Regular", sans-serif;
+  color: map-get($color-map, "comet");
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.model-card__offers-button {
+  text-align: start;
+  font-weight: 700;
+  color: map-get($color-map, "pacific-blue");
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  margin-top: 8px;
+  padding-left: 0;
+}
+
+.model-card__offers-button:hover {
+  color: map-get($color-map, "blue");
+}
+
+.model-card__links-container {
+  padding-left: 12px;
+  border-top: 1px solid map-get($color-map, "gainsboro");
+}
+
+.model-card__link-wrapper {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+
+.model-card__link-wrapper:not(:first-child) {
+  margin-left: 24px;
+}
+
+.model-card__link {
+  @include flexbox;
+  @include justify-content(center);
+}
+
+.model-card__link-text {
+  margin-left: 8px;
+  font-size: 12px;
+  color: map-get($color-map, "valhalla");
+}
+
+.model-card__link-text:hover {
+  color: map-get($color-map, "fire-red");
+}

@@ -1,0 +1,231 @@
+@import "../../../ui/style/scss/partials/_variables.scss";
+
+.imag_blk {
+  background: #f6f6f6;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-right: 145px;
+  padding-left: 145px;
+  margin-top: 20px;
+}
+
+.model_bottom .imag_blk {
+  margin-bottom: 24px !important;
+  padding-bottom: 0;
+  min-height: 475px;
+}
+
+.connected-carousels .carousel-navigation li.inactive img {
+  opacity: .7;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+  opacity: 1;
+}
+
+.carousel_img_wrapper {
+  margin: auto;
+  width: 862px;
+}
+
+/** Stage container **/
+
+.connected-carousels .stage {
+  background-color: white;
+  position: relative;
+}
+
+.connected-carousels .photo-credits {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .85);
+  opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+  color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+  position: relative;
+  margin: 0 -145px;
+  padding: 0 211px;
+  background-color: #f0f0f0;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.connected-carousels .carousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0;
+}
+
+.connected-carousels .carousel li {
+  float: left;
+}
+
+.carousel-stage ul li img {
+  width: 867px;
+  height: auto;
+}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage {
+  min-height: 380px;
+  z-index: 3;
+}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation li {
+  cursor: pointer;
+}
+
+.connected-carousels .carousel-navigation li img {
+  display: block;
+  padding: 15px;
+  width: 115px;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 410px;
+  color: #fff;
+}
+
+.connected-carousels .prev-stage {
+  left: 0;
+}
+
+.connected-carousels .next-stage {
+  right: 0;
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+  position: absolute;
+  bottom: -165px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0 0 1px #fff;
+  font: 24px/27px Arial, sans-serif;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999;
+  opacity: .8;
+  z-index: 6;
+}
+
+.connected-carousels .prev-stage span {
+  left: 0;
+}
+
+.connected-carousels .next-stage span {
+  right: 0;
+}
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation,
+.connected-carousels .next-navigation {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #4e443c;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font: 16px/29px Arial, sans-serif;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999;
+}
+
+.connected-carousels .prev-navigation {
+  left: -15px;
+  top: 22px;
+  text-indent: 6px;
+}
+
+.connected-carousels .next-navigation {
+  right: -15px;
+  top: 22px;
+  text-indent: 20px;
+}
+
+.connected-carousels .prev-navigation.inactive,
+.connected-carousels .next-navigation.inactive {
+  opacity: .5;
+  cursor: default;
+}
+
+.count-wrapper {
+  position: absolute;
+  top: 86%;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/Images_count.svg) 4px 3px / 16px no-repeat rgb(166, 167, 177);
+  padding: 3px 10px 3px 25px;
+  z-index: 6;
+}
+
+.count-wrapper p {
+  margin: 0;
+}
+
+@media (max-width: 1100px) {
+  .carousel_img_wrapper {
+    width: 700px;
+  }
+  .carousel-stage ul li img {
+    width: 707px;
+  }
+  .connected-carousels .prev-stage span,
+  .connected-carousels .next-stage span {
+    bottom: -70px;
+  }
+}
+
+.gallery-title {
+  font-size: 25px;
+  font-family: Muli-Bold, sans-serif;
+  font-weight: bold;
+  color: #272a41;
+}
+
+.image-description {
+  font-size: 15px;
+  color:#56586a;
+  line-height: 1.53;
+  margin-bottom: 16px;
+}

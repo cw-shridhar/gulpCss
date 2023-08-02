@@ -1,0 +1,77 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../utils/carousel";
+@import "./carscarousel";
+@import "../home/searchbybrand.scss";
+@import "../../partials/browsecars/browsecars.scss";
+@import "./quickresearch";
+
+body {
+	background-color: map-get($color-map, "white");
+}
+
+.breadcrumbs {
+	margin-bottom: 0 !important;
+}
+
+.ad-block {
+	@include flexbox;
+	@include justify-content(center);
+	@include align-items(center);
+	min-height: 90px;
+	background-color: map-get($color-map, "white");
+}
+
+.page-header {
+	color: map-get($color-map, "valhalla");
+	font-size: 25px;
+	font-family: $font-muli-regular;
+}
+
+.search-brand-container {
+	border: 1px solid map-get($color-map, "white-smoke");
+
+	.ver_white-out {
+		background: map-get($color-map, "white");
+	}
+
+	.ver_main {
+		padding: 24px;
+		margin: 0 auto;
+		clear: both;
+	}
+
+	.ver_ttl {
+		padding: 0 10px;
+		border-left: 5px solid map-get($color-map, "fire-red-2");
+		font-size: 22px;
+		line-height: 24px;
+		color: map-get($color-map, "blackish-gray");
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+}
+
+.browse-cars-wrapper {
+	background-color: none;
+}
+
+.popuplar-comparison-container {
+	.contTitle {
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: map-get($color-map, "valhalla");
+		font-family: $font-muli-semibold;
+	}
+
+	.pcblk {
+		min-height: 180px;
+	}
+}
+
+.content_are {
+	width: 1156px;
+	margin: auto;
+	overflow: hidden;
+}

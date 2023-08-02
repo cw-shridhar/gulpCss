@@ -1,0 +1,38 @@
+.dynamic_ads {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.broadcast {
+  max-width: 970px;
+  height: 90px;
+  margin: 0 auto;
+  border: 0px solid #ddd;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.ad-block__container {
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	min-height: 280px;
+	display: flex;
+	justify-content: center;
+}
+
+.ad-block {
+	text-align: center;
+	min-height: 250px;
+	display: flex;
+	align-items: center;
+}
+
+.ad-block__container .adsbygoogle {
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.ad-block__container .adsbygoogle div#div-gpt-ad-1557819829596-2 {
+	z-index: 1;
+}

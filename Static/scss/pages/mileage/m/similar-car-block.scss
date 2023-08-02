@@ -1,0 +1,77 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+
+.similar_cars_container {
+    padding: 24px 16px 0;
+}
+
+.similar_cars_title {
+    color: map-get($color-map, "valhalla");
+    margin-bottom: 16px;
+    font-size: 19px;
+    font-family: Muli-Semibold, sans-serif;
+}
+
+.filter_buttons {
+    @include flexbox;
+    margin-bottom: 12px;
+}
+
+.fuel_type_filter {
+    border-radius: 16px;
+    padding: 8px 20px;
+    margin-right: 8px;
+    color: map-get($color-map, "comet");
+    font-size: 13px;
+    font-family: Muli-Regular, sans-serif;
+    border: 1px solid map-get($color-map, "comet");
+}
+
+.average_mileage_container {
+    @include flexbox;
+    @include justify-content(space-around);
+    @include align-items(center);
+    padding: 12px 50px 12px 12px;
+    margin-bottom: 13px;
+    background-color: map-get($color-map, "white-smoke-2");
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+.category_average {
+    padding-bottom: 4px;
+    color: map-get($color-map, "comet");
+    font-family: Muli-Regular, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.average_mileage {
+    color: map-get($color-map, "comet");
+    font-size: 12px;
+    font-family: Muli-Regular, sans-serif;
+}
+
+.average_mileage > .average_mileage_value {
+    color: map-get($color-map, "valhalla");
+    font-size: 15px;
+    font-family: Muli-Semibold, sans-serif;
+}
+
+.card_container {
+    @include flexbox;
+    overflow: scroll;
+}
+
+.car_card {
+    min-width: 286px;
+    height: fit-content;
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 4px;
+    margin-right: 13px;
+    position: relative;
+}
+
+.similar_model_card_list::-webkit-scrollbar {
+    display: none;
+}

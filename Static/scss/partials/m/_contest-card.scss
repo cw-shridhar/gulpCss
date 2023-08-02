@@ -1,0 +1,23 @@
+.contest-heading{
+    color: #272a41;
+    padding-bottom: 8px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.contest-item li{
+    display: list-item;    
+    color: #56586a;
+    font-size: 13px;
+    padding: 8px 0px;
+}
+.contest-item{
+    list-style-type: disc;
+    padding-left: 16px;    
+}
+.contest-item-truncate{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 88px;
+}

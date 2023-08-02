@@ -1,0 +1,69 @@
+$img-cdn-path: 'https://imgd.aeplcdn.com/';
+$img-cdn-path-2: 'https://d5x4wettsjecf.cloudfront.net/';
+
+@mixin star-white {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/fff/star-fill.svg?v=2021");
+    background-repeat: no-repeat;
+}
+
+@mixin search-icon {
+    background-image: url("#{$img-cdn-path-2}images4/search.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin like-icon {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/userreview/like-dislike.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+@mixin like-active-icon{
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/userreview/like-dislike-active.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+@mixin location-icon {
+    background-image: url("#{$img-cdn-path-2}images-mobiles/location.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin tooltip-icon {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/6f6f6f/info-icon.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin star-green {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/00afa0/star.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin star-grey {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/484848/star.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin no-results {
+    background-image: url("#{$img-cdn-path}0x0/cw/static/icons/svg/no-result.svg");
+    background-repeat: no-repeat;
+}
+
+@mixin up-arrow {
+    background-image: url("#{$img-cdn-path-2}images-mobiles/uparrow.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+@mixin down-arrow {
+    background-image: url("#{$img-cdn-path-2}images-mobiles/downarrow.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+@mixin plus-icon {
+  background: rgba(0, 0, 0, 0) url("#{$img-cdn-path-2}images4/sprites_imgs_new.png")   no-repeat scroll -59px -424px;
+}
+
+@mixin minus-icon {
+  background: rgba(0, 0, 0, 0) url("#{$img-cdn-path-2}images4/sprites_imgs_new.png")   no-repeat scroll -78px -424px;
+}

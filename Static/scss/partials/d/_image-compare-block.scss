@@ -1,0 +1,10 @@
+.image-tag {
+    position: absolute;
+    bottom: 13px;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    color: map-get($color-map, "comet");
+    font-size: 10px;
+    padding: 4px 12px;
+    border-radius: 2px;
+}

@@ -1,0 +1,27 @@
+.model-rating-container {
+	@include flexbox;
+
+	.model-overview-rating-badge {
+		margin-right: 16px;
+	}
+
+	.model-rating-count,
+	.model-post-review {
+		font-family: $font-muli-regular;
+		font-size: 15px;
+		color: map-get($color-map, "pacific-blue");
+	}
+
+	.model-rating-count {
+		border-right: 1px solid map-get($color-map, "whisper");
+	}
+}
+
+.model-post-review-banner {
+	width: 100%;
+	background-color: map-get($color-map, "white-smoke-2");
+	font-family: $font-muli-regular;
+	font-size: 12px;
+	color: map-get($color-map, "valhalla");
+	display: block;
+}

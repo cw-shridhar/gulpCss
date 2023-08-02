@@ -1,0 +1,259 @@
+.get-best-offers-btn {
+	padding: 8px 20px;
+	border-radius: 4px;
+	border: solid 1px map-get($color-map, "fire-red");
+	background-color: map-get($color-map, "white");
+	float: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: map-get($color-map, "fire-red");
+}
+
+.emi-text {
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+
+    .rupee,
+    .emi-value {
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 1.07px;
+        color: map-get($color-map, "valhalla");
+    }
+}
+
+.js-emi-calc-container {
+	@include vendor-prefix(transition, (height .6s linear, padding-top .6s linear, padding-bottom .6s linear));
+	border-top: 1px solid map-get($color-map, "whisper");
+	border-bottom: 1px solid map-get($color-map, "whisper");
+	padding-top: 16px;
+	padding-bottom: 30px;
+	margin-top: 12px;
+	overflow: hidden;
+	height: 252px;
+}
+
+.js-emi-calc-container.collapsed {
+	height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.emi-calc-block:nth-child(2),
+.emi-calc-block:nth-child(3) {
+	margin-top: 32px;
+}
+
+.emi-calc-heading {
+	font-family: $font-muli-regular;
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+}
+
+.range-value {
+	border: none;
+	background: none;
+	overflow: auto;
+
+	&:focus-visible {
+		outline: none;
+		border: none;
+	}
+}
+
+.downpayment-wrapper,
+.interest-rate-wrapper {
+	@include flexbox;
+	@include align-items(center);
+
+	margin-bottom: 0;
+    float: right;
+    width: 120px;
+    font-size: 15px;
+	font-family: $font-muli-regular;
+	font-weight: bold;
+	color: map-get($color-map, "valhalla");
+	border-bottom: 1px solid map-get($color-map, "manatee");
+	padding-bottom: 4px;
+}
+
+.interestrate_value {
+	width: 100%;
+}
+
+.loantenure-wrapper {
+	@include flexbox;
+	float: right;
+
+	.loantenure_value {
+		font-size: 15px;
+		font-family: $font-muli-regular;
+		font-weight: bold;
+		color: map-get($color-map, "valhalla");
+		width: 55px;
+		border-bottom: 1px solid map-get($color-map, "manatee");
+		padding-bottom: 4px;
+		margin-right: 8px
+	}
+}
+
+.loantenure-types {
+	@include flexbox;
+	background-color: map-get($color-map, "white");
+	border: 1px solid map-get($color-map, "ford-gray");
+	border-radius: 4px;
+	padding: 2px;
+}
+
+.loantenure-btn {
+	@include vendor-prefix(transition, (color .15s linear, background-color .15s linear));
+	font-family: $font-muli-regular;
+	font-size: 12px;
+	color: map-get($color-map, "comet");
+	width: 27px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: map-get($color-map, "white");
+	line-height: 0;
+
+	&.active {
+		color: map-get($color-map, "white");
+		background-color: map-get($color-map, "comet");
+	}
+}
+
+.emi-calc-slider {
+	@include vendor-prefix(transition, none);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	width: 100%;
+	height: 4px;
+	margin-top: 26px;
+	outline: none;
+	background-color: map-get($color-map, 'gray-2');
+	background-image: linear-gradient(map-get($color-map, 'floral'), map-get($color-map, 'floral'));
+	background-size: 0 100%;
+	background-repeat: no-repeat;
+	position: relative;
+
+	&::after {
+		@include vendor-prefix(transform, translateY(-2px));
+		content: "";
+		background-color: map-get($color-map, "manatee");
+		width: 2px;
+		height: 8px;
+		position: absolute;
+		right: 0;
+	}
+
+	&::before {
+		@include vendor-prefix(transform, translateY(-2px));
+		content: "";
+		background-color: map-get($color-map, "manatee");
+		width: 2px;
+		height: 8px;
+		position: absolute;
+		left: 0;
+	}
+}
+
+.emi-calc-slider.loantenture_range {
+	background-size: 28.5% 100%;
+}
+
+.emi-calc-slider.interestrate_range {
+	background-size: 30% 100%;
+}
+
+.emi-calc-slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 24px;
+	width: 24px;
+	background-color: map-get($color-map, "white");
+	border: 1px solid map-get($color-map, "floral");
+	border-radius: 50%;
+}
+
+.emi-calc-slider::-moz-range-thumb {
+	-webkit-appearance: none;
+	height: 24px;
+	width: 24px;
+	background-color: map-get($color-map, "white");
+	border: 1px solid map-get($color-map, "floral");
+	border-radius: 50%;
+}
+
+.emi-calc-slider::-ms-thumb {
+	-webkit-appearance: none;
+	height: 24px;
+	width: 24px;
+	background-color: map-get($color-map, "white");
+	border: 1px solid map-get($color-map, "floral");
+	border-radius: 50%;
+}
+
+.js-emi-toggle-btn {
+    font-family: $font-muli-regular;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: 0;
+	color: map-get($color-map, "valhalla");
+	padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+
+	.emi-toggle-btn-icon {
+		@include vendor-prefix(transition, transform .6s linear);
+		margin-left: 4px;
+		width: 12px;
+	}
+
+	&.collapsed .emi-toggle-btn-icon {
+		@include vendor-prefix(transform, rotate(180deg));
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.get-best-offers-btn {
+		font-size: 15px;
+	}
+
+	.emi-text {
+		font-size: 15px;
+
+		.emi-value {
+			font-size: 18px;
+		}
+	}
+
+	.js-emi-calc-container {
+		padding-bottom: 0;
+	}
+
+	.js-emi-toggle-btn {
+		@include flexbox;
+		@include align-items(center);
+
+		border: none;
+		background: none;
+		font-size: 15px;
+	}
+
+	.range-value {
+		font-size: 15px !important;
+		font-weight: $font-bold !important;
+		color: map-get($color-map, "valhalla");
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.emi-calc-slider {
+		padding: 0;
+	}
+
+	.loantenure-btn {
+		border: none;
+		background: none;
+	}
+}

@@ -1,0 +1,27 @@
+@import "../../../base/index";
+@import "../../../common/m/version-selection-popup";
+@import "../../../partials/m/version-city-selection";
+@import "../../../partials/m/emi-calculator";
+@import "../../../mixins/index";
+@import "../../../partials/m/similar-cars-carousel";
+@import "../../../partials/m/model-card";
+@import "../../modelfaqs/faqWidget";
+@import "../emiGraph";
+@include loader-gif();
+
+.ad-slot {
+    min-height: 120px;
+}
+
+.version-city-container {
+    padding-left: 16px;
+}
+
+.emi-text .emi-value,
+.emi-text .rupee {
+    font-size: 21px;
+}
+
+.faq-table {
+    margin : 0;
+}

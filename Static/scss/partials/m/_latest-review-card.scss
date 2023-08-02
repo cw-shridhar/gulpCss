@@ -1,0 +1,132 @@
+.review__card {
+    @include flexbox;
+    @include flex-direction(column);
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px map-get($color-map, "whisper");
+}
+
+.review-card__head {
+    @include flexbox;
+    padding: 12px;
+
+    .card-head__left-col {
+        width: 131px;
+        @include flexbox;
+        @include align-items(center);
+        margin-right: 12px;
+    }
+
+    .card-head__image {
+        max-width: 131px;
+    }
+
+    .card-head__right-col {
+        width: 50%;
+    }
+
+    .card-head__make-name {
+        font-size: 13px;
+        color: map-get($color-map, "comet");
+        padding-bottom: 4px;
+    }
+
+    .card-head__model-name {
+        font-size: 16px;
+        padding-bottom: 8px;
+        font-weight: $font-bold;
+        color:  map-get($color-map, "valhalla" );
+    }
+    
+    .card-head__price {
+        padding-top: 8px;
+    }
+
+    .card-head__car-price {
+        font-size: 16px;
+        font-weight: $font-bold;
+        color: map-get($color-map, "valhalla" );
+    }
+
+    .card-head__car-price-detail {
+        font-size: 12px;
+        font-weight: $font-light;
+        color: map-get($color-map, "manatee" );
+    }
+}
+
+.review-card__info {
+	padding: 0 12px 12px;
+
+    .card-info__review-count {
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+    }
+    
+    .card-info__write-review {
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+    }
+
+    .card-info__seperator {
+        color :map-get($color-map, "whisper" );
+        padding: 0 16px;
+    }
+}
+
+.review-card__body {
+	background-color: map-get($color-map, "white-smoke-2" );
+	padding: 12px;
+	border-top: 1px solid map-get($color-map, "whisper" );
+  
+    .card-review__title-container {
+        @include flexbox;
+        padding-bottom: 8px;
+    }
+
+    .card-review__title {
+        @include text-truncate('',1);
+        padding-left: 8px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 15px;
+    }
+
+    .card-review__author-days {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+
+    .card-review__description {
+        @include text-truncate('',2);
+        padding-top: 8px;
+        font-size: 13px;
+        color: map-get($color-map, "valhalla" );
+        line-height: 20px;
+        height: 44px;
+        div {
+            font-size: 13px;
+            color: map-get($color-map, "valhalla" );
+            line-height: 20px;
+        }
+    }   
+
+    .read-more__container {
+        @include flexbox;
+        @include justify-content(flex-end);
+    }
+}
+
+.arrow_right {
+    @include border-arrow(8,"comet",1,"right");
+    margin: 1px 0;
+}
+
+
+
+@for $i from 1 through 5 {
+    @include  rating-badge($i);
+}

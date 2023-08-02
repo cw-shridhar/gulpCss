@@ -1,0 +1,112 @@
+@import "../../../scss/mixins/icons";
+
+.on-road-price {
+	padding-top: 16px
+}
+
+.on-road-price .car-details {
+	margin: 20px 0 10px;
+	display: flex;
+	padding: 0 16px
+}
+
+.on-road-price .car-title {
+	font-size: 13px;
+	color: #56586a;
+	display: block;
+	margin-bottom: 5px
+}
+
+.on-road-price .car-price,
+.on-road-price .car-version {
+	font-size: 16px;
+	color: #272a41;
+	font-weight: 700;
+	margin-bottom: 5px
+}
+
+.on-road-price .car-version {
+	display: block;
+	position: relative
+}
+
+.on-road-price .car-version a {
+  display: inline-block;
+  background:
+    url("#{$img-cdn-path}0x0/cw/static/icons/svg/565a5c/arrow-right.svg")
+    100% center no-repeat;
+  background-size: 10px;
+  padding-right: 32px;
+}
+
+.on-road-price .car-price {
+	display: block
+}
+
+.description {
+	margin-top: 0;
+	padding: 0 16px;
+	color: #56586a
+}
+
+.min_cls {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	transition: height .3s linear
+}
+
+.rupee_font {
+	font-family: Sans-Serif!important;
+	letter-spacing: normal;
+	font-weight: 400!important;
+	display: inline!important;
+	margin: 0!important;
+	padding: 0
+}
+
+.description .rupee_font {
+	color: #56586a;
+}
+
+.min_read {
+	position: relative;
+	margin-top: 0;
+	background: #fff;
+	padding-left: 5px;
+	margin-right: 0
+}
+
+.max_read {
+	float: none;
+	display: inline-block;
+	margin-top: 10px
+}
+
+.des_read_more {
+	cursor: pointer;
+	color: #0288d1;
+	text-align: right;
+	font-weight: 700;
+	padding-top: 2px
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000
+}
+
+img {
+	max-width: 100%;
+	border: 0
+}
+
+.price-disclaimer {
+	font-size: 13px;
+	color: #56586a;
+	width: auto;
+	height: 32px;
+	padding: 0px 45px 40px 16px;
+}

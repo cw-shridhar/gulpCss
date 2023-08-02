@@ -1,0 +1,185 @@
+@import "../../base/index";
+@import "../../mixins/index";
+
+.mileage_table_container {
+    border: 1px solid map-get($color-map, "whisper");
+    margin-bottom: 24px;
+}
+
+.mileage_table_container .js_accordion_container {
+    margin-bottom: 0;
+}
+
+.mileage_table_title {
+    font-size: 21px;
+    font-family: Muli-SemiBold, sans-serif;
+    color: map-get($color-map, "valhalla");
+    padding-top: 24px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.header_block {
+    border: none;
+    vertical-align: top;
+    text-align: left;
+}
+
+.header_block:first-child {
+    width: 346px;
+    padding-left: 20px;
+}
+
+.header_block:not(:first-child) {
+    width: 160px;
+}
+
+.header_block_text {
+    font-family: Muli-Regular, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: map-get($color-map, "manatee");
+}
+
+.mileage_accordion .mileage_accordion_title {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.mileage_accordion .version_name {
+    padding-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    font-family: Muli-Regular, sans-serif;
+    font-size: 16px;
+    color: map-get($color-map, "valhalla");
+}
+
+.reviews_table_header .header_text {
+    font-family: Muli-Regular, sans-serif;
+    vertical-align: top;
+    text-align: left;
+    border: none;
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mileage_panel_body {
+    padding: 0;
+    background-color: map-get($color-map, "white-smoke-2");
+    border-top: none;
+}
+
+.maintenance_cost_text {
+    background-color: map-get($color-map, "white");
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-family: Muli-Regular, sans-serif;
+    font-size: 13px;
+    color: map-get($color-map, "manatee");
+}
+
+.maintenance_cost_value {
+    margin-left: 8px;
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+}
+
+.review_value {
+    .city_name {
+        font-family: Muli-Regular, sans-serif;
+        margin-top: 4px;
+        font-size: 12px;
+        color: map-get($color-map, "comet");
+    }
+}
+
+.reviews_table {
+    margin-bottom: 0;
+
+    .header_text:first-child {
+        padding-left: 20px;
+        width: 346px;
+    }
+
+    .header_text:not(:first-child) {
+        width: 160px;
+    }
+
+    .review_value {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        vertical-align: top;
+        text-align: left;
+        font-family: Muli-Regular, sans-serif;
+        font-size: 13px;
+        color: map-get($color-map, "valhalla");
+    }
+
+    .review_value:first-child {
+        padding-left: 20px;
+
+        @include flexbox;
+        @include flex-direction(column);
+    }
+}
+
+.turn {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/downarrow.svg) 90% 19px/14px no-repeat;
+}
+
+.current {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/uparrow.svg) 90% 19px/14px no-repeat;
+}
+
+.load_more_button {
+    border: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.button_text {
+    font-size: 13px;
+    font-family: Muli-Regular, sans-serif;
+    color: map-get($color-map, "comet");
+    background-color: map-get($color-map, "white");
+    border: 1px solid map-get($color-map, "white-smoke-3");
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+
+.content_loader_container {
+    padding: 8px 16px 16px;
+    border-top: 1px solid map-get($color-map, "whisper");
+}
+
+.content_loader {
+    height: 35px;
+    border-radius: 4px;
+
+    @include flexbox;
+    @include justify-content(center);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.content_data {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, map-get($color-map, "whisper") 20%, map-get($color-map, "white-smoke-2") 50%, map-get($color-map, "whisper") 80%);
+
+    @include vendor-prefix(animation, (moving-gradient 1s linear infinite forwards));
+}
+
+@include keyframes(moving-gradient) {
+    0% {
+        @include vendor-prefix(background-position, (-250px 0));
+    }
+
+    100% {
+        @include vendor-prefix(background-position, (250px 0));
+    }
+}

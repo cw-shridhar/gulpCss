@@ -1,0 +1,447 @@
+@import "../../../mixins/icons";
+@import "../../../base/typography";
+
+#main_container {
+  .slider_mob {
+    width: 100%;
+    position: relative;
+    height: 345px;
+  }
+
+  .research-links .usedcar {
+    display: block;
+    float: left;
+    width: 158px;
+    height: 112px;
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 0 0 4px 0 #bfbbbb;
+    background: #fff url("#{$img-cdn-path}/0x0/ct/static/icons/svg/used-car-icon.svg")
+      60px 20px no-repeat;
+    background-size: 24%;
+    margin-left: 5px;
+  }
+  .research-links a strong {
+    color: #272a41;
+    font-family: Muli-Regular;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 80px;
+    display: block;
+    background: transparent
+      url(#{$img-cdn-path}/0x0/cw/static/icons/svg/565a5c/arrow-right.svg) no-repeat
+      calc(100% - 40px) 84px;
+    padding-left: 40px;
+    background-size: 8px;
+  }
+
+  .research-links strong {
+    color: #272a41;
+    font-family: Muli-Regular;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 80px;
+    display: block;
+    background: transparent
+      url(#{$img-cdn-path}/0x0/cw/static/icons/svg/565a5c/arrow-right.svg) no-repeat
+      calc(100% - 40px) 84px;
+    padding-left: 40px;
+    background-size: 8px;
+  }
+
+  .research-links .newcar {
+    display: block;
+    float: right;
+    width: 159px;
+    height: 112px;
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 0 0 4px 0 #bfbbbb;
+    margin-right: 6px;
+    background: #fff url("#{$img-cdn-path}/0x0/ct/static/icons/svg/new-car-icon.svg")
+      60px 20px no-repeat;
+    background-size: 24%;
+  }
+
+  .shape_crs {
+    background: #f0f0f0;
+    -webkit-transform: skew(0deg, -14deg);
+    transform: skew(0deg, -14deg);
+    padding: 180px 0 110px 0;
+    position: absolute;
+    top: 340px;
+    width: calc(100% - 0px);
+  }
+
+  .sell_yucar {
+    padding: 23px 15px 0 15px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+  }
+  .card_block {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 330px;
+    border: 0px solid red;
+    box-shadow: 0 0 4px 0 #bfbbbb;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+  }
+  .cardblock_heading {
+    font-size: 19px;
+    font-family: Muli-Regular;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .card_block ul {
+  }
+  .card_block ul li {
+    list-style: none;
+    color: #272a41;
+    padding: 13px 0 0px 13px;
+    font-size: 13px;
+  }
+  .card_block .notify_text {
+    color: #92939e;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+  }
+  .card_block ui li p {
+  }
+  .card_block span img {
+    width: 15px;
+  }
+  .card_block span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .card_block ul li p {
+    color: #272a41;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    line-height: normal;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 17px;
+  }
+  .sel_btn {
+    display: block;
+    overflow: hidden;
+    padding-top: 28px;
+  }
+  .btn_sel {
+    color: #fff;
+    font-size: 15px;
+    font-family: Muli-Semibold;
+    width: auto;
+    height: 44px;
+    border: 1px solid #d02326;
+    border-radius: 22px;
+    display: block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0px auto;
+    float: none;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 11px;
+    text-shadow: none;
+    background: #d02326;
+  }
+}
+
+.refine_sort_bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #56586a;
+  transition: opacity 500ms;
+  display: none;
+  z-index: 999999;
+  opacity: 0.9;
+}
+
+.slider_mob {
+  width: 100%;
+  position: relative;
+  height: 345px;
+}
+
+#slider_mob .slider_mob_con .h1_head {
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 27px;
+  text-align: left;
+  padding: 22px 0 0 30px;
+}
+
+#slider_mob .slider_mob_con .h1_head > span {
+  font-size: 17px;
+  display: block;
+  overflow: hidden;
+}
+
+.sortPopup {
+  height: 322px;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  z-index: 9999999;
+  display: none;
+
+  .shd {
+    box-shadow: #e1e1e1 0 3px 3px;
+    display: block;
+    overflow: hidden;
+  }
+
+  .tablink {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #f3f3f3;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: none;
+  }
+
+  .current {
+    border-bottom: 3px solid #f07e7c;
+  }
+
+  .contentBlock {
+    padding: 20px 20px 0 20px;
+  }
+
+  .clsBtn {
+    position: absolute;
+    top: -32px;
+    right: 10px;
+  }
+  .contentBlock ul {
+    list-style: none;
+  }
+
+  .contentBlock ul li {
+    color: #56586a;
+    padding: 15px 0px 14px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .contentBlock ul li a {
+    color: rgb(0, 0, 0);
+    background: transparent
+      url(#{$img-cdn-path}/0x0/cw/static/icons/svg/565a5c/arrow-right.svg) no-repeat
+      right center;
+    width: 100%;
+    border: 0px solid;
+    display: block;
+  }
+}
+.separator {
+  width: 100%;
+  height: 20px;
+  background: #f0f0f0;
+}
+
+/** ad starts here **/
+
+.top_gap_cls {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.top_ad {
+  padding-top: 16px !important;
+  background-color: #f0f0f0;
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+}
+.top_ad .top_gap_cls {
+  padding: 0 !important;
+}
+
+.adbanner1 {
+  background: #f0f0f0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+.ad_wrapper {
+  background-color: #f0f0f0;
+}
+
+/** ad ends here **/
+
+/** carousel starts **/
+
+.popular_header .pop_title {
+  display: table-cell;
+  padding: 25px 10px 12px 17px !important;
+  font-size: 19px !important;
+  color: #272a41;
+  font-family: "Muli-Semibold" !important;
+  vertical-align: middle;
+  width: 77%;
+}
+
+.popular_header .viewLL {
+  display: table-cell;
+  color: #d02326;
+  font-size: 15px;
+  padding: 22px 17px 8px 8px;
+  vertical-align: middle;
+  text-align: right;
+  font-family: "Muli-Regular";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+.populr ul li span {
+  font-weight: normal !important;
+}
+
+.populr ul li strong a {
+  color: #272a41 !important;
+}
+
+.get_pric {
+  display: none !important;
+}
+
+.minhTDv_upcmng {
+  display: none !important;
+}
+
+.populr {
+  padding-bottom: 16px !important;
+}
+
+.rupee_font {
+  font-size: 19px !important;
+}
+
+.big_date {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-Semibold;
+  padding-top: 16px;
+}
+/** carousel ends **/
+
+/** all brands block starts **/
+
+.ex_rev {
+  font-size: 19px;
+  font-family: Muli-SemiBold;
+  color: #272a41;
+  padding: 25px 0px 0px 18px;
+  width: 70%;
+}
+
+.clr {
+  clear: both;
+}
+
+.other_brands_blk {
+  margin: 17px 14px 0 !important;
+}
+
+.view_hide,
+.hid_brands {
+  overflow: hidden;
+  text-align: left;
+  padding: 17px 0px 20px;
+}
+
+.view_hide span,
+.hid_brands span {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+  color: #d02326;
+}
+/** all brands block ends **/
+
+/** news block starts **/
+
+.news_blks ul li:first-child {
+  padding: 20px 18px 15px 18px;
+}
+
+.vivall {
+  padding: 29px 19px 0px 0px;
+  display: block;
+}
+
+.pull-right {
+  float: right;
+}
+
+.vivall a {
+  color: #d02326;
+  font-size: 15px;
+  font-family: Muli-Regular;
+}
+
+.car_name {
+  font-size: 15px;
+  font-family: Muli-semibold;
+  color: #272a41;
+  min-height: 62px;
+  display: block;
+}
+
+/** news block ends **/
+
+.viewallfontsize {
+  font-size: 15px !important;
+}
+
+.clear {
+  clear: both;
+  font-size: 0px;
+}
+
+.slider_mob1 {
+  background: url("#{$img-cdn-path}/0x0/ct/static/icons/moible-buy-used-car-banner.jpg")
+    right no-repeat;
+  background-size: cover;
+  height: 345px;
+}
+
+.swiper_container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.font-30 {
+  font-size: 30px;
+}

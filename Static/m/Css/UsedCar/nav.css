@@ -1,0 +1,307 @@
+.home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/m/cwmsprite.png?201703091415368953");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  .home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon, .advantage-icon, .autoexpo-icon, .wallet-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    top: 5px;
+    position: relative; }
+  
+  .ae-new-label-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/ae-sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  /* Filter Outline Icon*/
+  /*whatsapp icon*/
+  .fa-angle-down, .fa-phone {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'CWFontAwesome' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  
+  .home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/m/cwmsprite.png?201703091415368953");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  .home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon, .advantage-icon, .autoexpo-icon, .wallet-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    top: 5px;
+    position: relative; }
+  
+  .ae-new-label-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/ae-sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  /* Filter Outline Icon*/
+  /*whatsapp icon*/
+  .home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/m/cwmsprite.png?201703091415368953");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  .home-icon, .newCars-icon, .usedCars-icon, .sellCars-icon, .reviews-icon, .specials-icon, .insurance-icon, .electriccar-icon, .nav-loan-icon, .advantage-icon, .autoexpo-icon, .wallet-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    top: 5px;
+    position: relative; }
+  
+  .ae-new-label-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/sprites/ae-sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  
+  /* Filter Outline Icon*/
+  /*whatsapp icon*/
+  .home-icon {
+    background-position: 0 -58px; }
+  
+  .newCars-icon {
+    background-position: 0 -93px;
+    top: 9px; }
+  
+  .usedCars-icon {
+    background-position: 0 -127px;
+    top: 7px; }
+  
+  .sellCars-icon {
+    background-position: 3px -312px; }
+  
+  .reviews-icon {
+    background-position: 0 -184px; }
+  
+  .specials-icon {
+    background-position: -158px -557px; }
+  
+  .insurance-icon {
+    background-position: 0 -212px; }
+  
+  .electriccar-icon {
+    background-position: -183px -211px;
+    width: 27px; }
+  
+  .nav-loan-icon {
+    background-position: -177px -61px; }
+  
+  .ae-new-label-icon {
+    position: relative;
+    background-position: -156px 1px;
+    height: 24px;
+    top: -10px;
+    left: 5px;
+    width: 39px; }
+  
+  .opacity60 {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6; }
+  
+  .fa-angle-down:before {
+    content: "\f107"; }
+  
+  .fa-phone:before {
+    content: "\f095"; }
+  
+  .margin-left10 {
+    margin-left: 10px; }
+  
+  .margin-left25 {
+    margin-left: 25px; }
+  
+  .margin-left40 {
+    margin-left: 40px; }
+  
+  .text-grey {
+    color: #666; }
+  
+  .font12 {
+    font-size: 12px; }
+  
+  .advantage-icon {
+    display: inline-block;
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/logos/msite-nav-advantage-crest.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 26px;
+    background-position: center; }
+  
+  .autoexpo-icon {
+    display: inline-block;
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/es/autoexpo/2019/auto-expo-logo.png");
+    background-repeat: no-repeat;
+    background-size: 28px 15px;
+    background-position: center; }
+  
+  #nav {
+    background: #fff;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -260px;
+    overflow-y: scroll;
+    z-index: 10; }
+  
+  .navUL {
+    padding-top: 20px; }
+    .navUL li {
+      display: block;
+      position: relative; }
+      .navUL li .contact__toll-free-number {
+        color: #1a1a1a;
+        font-size: 14px;
+        padding-top: 6px;
+        padding-left: 15px; }
+      .navUL li a,
+      .navUL li .lang-change-popup-link {
+        color: #1a1a1a;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+        height: 48px;
+        padding-top: 6px;
+        padding-left: 15px; }
+        .navUL li a:hover, .navUL li a.active,
+        .navUL li .lang-change-popup-link:hover,
+        .navUL li .lang-change-popup-link.active {
+          font-weight: 600; }
+        .navUL li a.open,
+        .navUL li .lang-change-popup-link.open {
+          font-weight: bold; }
+        .navUL li a span.nav-drop,
+        .navUL li .lang-change-popup-link span.nav-drop {
+          position: absolute;
+          right: 10px;
+          top: 15px;
+          font-size: 20px;
+          color: #565a5c;
+          -moz-transition: transform .3s;
+          -webkit-transition: transform .3s;
+          -o-transition: transform .3s;
+          -ms-transition: transform .3s;
+          transition: transform .3s; }
+        .navUL li a:hover span.nav-drop,
+        .navUL li .lang-change-popup-link:hover span.nav-drop {
+          color: #1a1a1a; }
+        .navUL li a.sept-nav-list,
+        .navUL li .lang-change-popup-link.sept-nav-list {
+          padding: 15px 0 0 55px;
+          color: #82888b;
+          height: 36px; }
+        .navUL li a.sponsored-ad-text,
+        .navUL li .lang-change-popup-link.sponsored-ad-text {
+          padding-top: 13px; }
+          .navUL li a.sponsored-ad-text span,
+          .navUL li .lang-change-popup-link.sponsored-ad-text span {
+            font-size: 11px;
+            color: #0288d1;
+            position: absolute;
+            bottom: 10px; }
+        .navUL li a.open span.nav-drop.fa-angle-down,
+        .navUL li .lang-change-popup-link.open span.nav-drop.fa-angle-down {
+          -moz-transform: rotateZ(180deg);
+          -webkit-transform: rotateZ(180deg);
+          -o-transform: rotateZ(180deg);
+          -ms-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+          -moz-transition: transform .3s;
+          -webkit-transition: transform .3s;
+          -o-transition: transform .3s;
+          -ms-transition: transform .3s;
+          transition: transform .3s; }
+      .navUL li .nestedUL li a:hover,
+      .navUL li .nestedUL li a.open {
+        border-left: 4px solid red;
+        font-weight: bold;
+        background: #fff; }
+      .navUL li ul {
+        display: none;
+        border-top: 1px solid #ebecec;
+        border-bottom: 1px solid #ebecec;
+        background: #f6f7f7; }
+        .navUL li ul a {
+          padding: 13px 0 0 51px;
+          border-left: 4px solid transparent; }
+          .navUL li ul a:hover, .navUL li ul a.active {
+            background: #fff;
+            border-left: 4px solid #ef3f30; }
+    .navUL .app-download-menu {
+      padding-left: 15px;
+      padding-bottom: 15px;
+      padding-top: 10px;
+      margin-top: 10px;
+      border-top: 1px solid #ccc;
+      background: #f5f5f5; }
+      .navUL .app-download-menu a {
+        display: inline-block;
+        vertical-align: top;
+        height: auto;
+        padding: 0 6px 0 0; }
+    .navUL .adv-menu-link a {
+      padding-top: 5px; }
+  
+  .ad-text-icon {
+    margin-right: 6px;
+    font-size: 9px;
+    padding: 3px 3px 1px 2px;
+    background: #b9c1c4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 2px;
+    color: #fff;
+    top: -1px;
+    position: relative; }
+  
+  .lock-body-scroll {
+    position: fixed; }
+  
+  .new-yellow-tag {
+    color: #fff;
+    background-color: #ef9526;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px; }
+  
+  .new-red-tag {
+    color: #fff;
+    background-color: #ef9526;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    background-color: #e53012; }
+  
+  .wallet-icon {
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/icons/d5d5d5/wallet.svg");
+    background-repeat: no-repeat;
+    display: inline-block; }
+  

@@ -1,0 +1,722 @@
+@import "../base/index";
+@import "../mixins/index";
+
+/* stylelint-disable */
+@for $i from 0 through 8 {
+  $val: 4px * $i;
+
+  .p-#{$i} {
+    padding: $val;
+  }
+
+  .pt-#{$i} {
+    padding-top: $val;
+  }
+
+  .pr-#{$i} {
+    padding-right: $val;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $val;
+  }
+
+  .pl-#{$i} {
+    padding-left: $val;
+  }
+}
+
+@for $i from 0 through 9 {
+  $val: 4px * $i;
+
+  .m-#{$i} {
+    margin: $val;
+  }
+
+  .mt-#{$i} {
+    margin-top: $val;
+  }
+
+  .mr-#{$i} {
+    margin-right: $val;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $val;
+  }
+
+  .ml-#{$i} {
+    margin-left: $val;
+  }
+}
+
+@for $i from 10 through 22 {
+  $val: 1px * $i;
+
+  .font-#{$i} {
+    font-size: $val;
+  }
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+/* stylelint-enable */
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.width-65 {
+  width: 65%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-33 {
+  width: 33%;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-27 {
+    width: 27.33%;    
+}
+
+.display-flex {
+  @include flexbox;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-table-cell {
+  display: table-cell;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.nav_mini {
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.footer_navi {
+  background: map-get($color-map, "white-smoke");
+  padding: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.content-container {
+  background-color: map-get($color-map, "white");
+  border: 1px solid map-get($color-map, "white-smoke");
+  padding: 24px;
+
+}
+
+.seperator,
+.separator {
+  width: 100%;
+  height: 16px;
+  background-color: map-get($color-map, "white-smoke");
+}
+
+.font-regular {
+  font-family: $font-muli-regular;
+}
+
+.heading-h1 {
+  font-family: $font-muli-bold;
+  color: map-get($color-map, "valhalla");
+}
+
+.heading-h2 {
+  color: map-get($color-map, "valhalla");
+  font-size: 19px;
+  font-family: $font-muli-bold;
+}
+
+.heading-h2-desktop {
+  color: map-get($color-map, "valhalla");
+  font-size: 21px;
+  font-family: $font-muli-bold;
+}
+
+.font-bold {
+  font-weight: $font-bold;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.no-content-text {
+  @include flexbox;
+  @include justify-content(center);
+
+  font-size: 19px;
+  font-family: $font-muli-semibold;
+  color: map-get($color-map, "valhalla");
+  padding-bottom: 10px;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.border-separator {
+  border-top: 16px solid map-get($color-map, "white-smoke");
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.bottom-separator {
+  border-bottom: 16px solid map-get($color-map, "white-smoke");
+}
+
+.top-separator {
+  border-top: 16px solid map-get($color-map, "white-smoke");
+}
+
+.description {
+  font-size: 13px;
+  line-height: 20px;
+  color: map-get($color-map, "comet");
+}
+
+.border-bottom {
+  border-bottom: 1px solid map-get($color-map, "manatee");
+}
+
+.border-top {
+  border-top: 1px solid map-get($color-map, "whisper");
+}
+
+.border-bottom-whisper {
+  border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.border-bottom-white-smoke {
+  border-bottom: 1px solid map-get($color-map, "white-smoke");
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.rotate-upside-down {
+  @include vendor-prefix('transform', rotate(-180deg));
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.bg-white {
+  background: map-get($color-map, "white");
+}
+
+.background-none {
+    background: none;
+}
+
+.common-container {
+  border: 1px solid map-get($color-map, "whisper");
+  border-radius: 4px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.border-right {
+  border-right: 1px solid map-get($color-map, "whisper");
+}
+
+.border-left-whisper {
+  border-left: 1px solid map-get($color-map, "whisper");
+}
+
+.border-left-none {
+  border-left: none;
+}
+
+.border-top-none {
+  border-top: none;
+}
+
+.border-bottom-none {
+  border-bottom: none;
+}
+
+.height-0 {
+  height: 0;
+}
+
+.font-valhalla {
+    color: map-get($color-map, "valhalla");
+}
+
+.font-manatee {
+  color: map-get($color-map,"manatee");
+}
+
+.color-comet {
+    color: map-get($color-map,"comet");
+}
+
+.color-fire-red {
+    color: map-get($color-map, "fire-red");
+}
+
+.color-pacific-blue {
+    color: map-get($color-map, "pacific-blue");
+}
+
+.color-charcoal {
+    color: map-get($color-map, "charcoal");
+}
+
+.color-dark-gray {
+    color: map-get($color-map, "dark-gray");
+}
+
+.color-white {
+    color: map-get($color-map, "white");
+}
+
+.color-dim-gray {
+    color: map-get($color-map, "dim-gray");
+}
+
+.font-semibold {
+    font-family: $font-muli-semibold;
+}
+
+.font-muli-bold {
+  font-family: $font-muli-bold;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.hide-horizontal-scroll {
+    @include hide-horizontal-scroll;
+}
+
+.hide-vertical-scroll {
+    @include hide-vertical-scroll;
+}
+
+.flex-direction-column {
+    @include flex-direction(column);
+}
+
+.line-height-27 {
+    line-height: 27px;
+}
+
+.line-height-20 {
+    line-height: 20px;
+}
+
+.line-height-23 {
+  line-height: 23px;
+}
+
+.border-none {
+    border: none;
+}
+
+.outline-0 {
+    outline: 0;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.list-style-disc {
+    list-style: disc;
+}
+
+.list-style-decimal {
+    list-style: decimal;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+// emi block styling
+#cust_emi_popup *, #cust_emi_popup ::after, #cust_emi_popup :before {
+    box-sizing: content-box;
+}
+
+.box-sizing-border-box {
+  box-sizing: border-box;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.black-out-window {
+  background: map-get($color-map, "black");
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  opacity: 0.5;
+}
+
+.table-layout-fixed {
+  table-layout: fixed;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.flex-grow-1 {
+  @include flex-grow(1);
+}
+
+.flex-shrink-1 {
+  @include flex-shrink(1);
+}
+
+.seotext_read_less {
+  @include text-truncate("", 2);
+  height: 40px;
+}
+
+.seotext_read_more {
+  color: map-get($color-map, "valhalla");
+  font-size: 13px;
+  font-weight: $font-bold;
+  text-align: right;
+  border: none;
+  background: map-get($color-map, "white");
+  right: 0;
+  margin-left: auto;
+  padding-right: 16px;
+  display: block;
+}
+
+.seotext_read_more.active {
+  position: static;
+  display: block;
+  margin-left: auto;
+}
+
+.left-content-block {
+  width: 764px;
+  margin-right: 52px;
+  float: left;
+}
+
+.right-content-block {
+  width: 340px;
+  float: left;
+}
+
+.color-floral {
+    color: map-get($color-map, "floral");
+}
+
+.flex-wrap-wrap {
+    @include flex-wrap(wrap);
+}
+
+.color-white-smoke-3 {
+    color: map-get($color-map, "white-smoke-3");
+}
+
+.background-color-white-smoke {
+    background-color: map-get($color-map, "white-smoke");
+}
+
+.background-color-white-smoke-2 {
+    background-color: map-get($color-map, "white-smoke-2");
+}
+
+.background-color-fire-red {
+    background-color: map-get($color-map, "fire-red");
+}
+
+.background-black-0\.7 {
+  background-color: rgba(map-get($color-map, "black"), 0.7);
+}
+
+.background-white {
+  background-color: map-get($color-map, "white");
+}
+
+.background-color-mabel {
+  background-color: map-get($color-map, "mabel");
+}
+
+.background-color-light-brown {
+  background-color: map-get($color-map, "light-brown");
+}
+
+.border-fire-red {
+    border: 1px solid map-get($color-map, "fire-red");
+}
+
+.border-whisper {
+    border: 1px solid map-get($color-map, "whisper");
+}
+
+.border-white-smoke-5 {
+  border: 1px solid map-get($color-map, "white-smoke-5");
+}
+
+.border-white-smoke {
+  border: 1px solid map-get($color-map, "white-smoke");
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.border-radius-3 {
+    border-radius: 3px;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-100 {
+  top: 100%;
+}
+
+.opacity-70 {
+  opacity: 70%;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.width-fit-content {
+  width: fit-content;
+}
+
+.truncate-2 {
+  @include text-truncate("", 2);
+}
+
+.left-0 {
+  left: 0;
+}
+
+.disabled-link {
+  pointer-events: none;
+  cursor: text;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.border-bottom-light-coral {
+  border-bottom: 1px solid map-get($color-map, "light-coral");
+}
+
+.border-bottom-ghost {
+  border-bottom: 1px solid map-get($color-map, "ghost");
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
+
+.float-left {
+  float: left;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.jcarousel-control-next.inactive {
+  display: none;
+}
+
+.jcarousel-control-prev.inactive {
+  display: none;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.box-sizing-content-box {
+  box-sizing: content-box;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.left-100 {
+  left: 100%
+}
+
+.translateX--50 {
+  @include vendor-prefix('transform', translateX(-50%));
+}
+
+.background-color-orange {
+  background-color: map-get($color-map, "orange");
+}
+
+input[type=checkbox]:checked  + .cross-sell-checkbox {
+  background: map-get($color-map, "floral");
+}
+
+.border-top-gainsboro {
+  border-top: 1px solid #e2e2e2;
+}
+
+.background-light-coral {
+  background-color: map-get($color-map, "light-coral");
+}

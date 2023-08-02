@@ -1,0 +1,128 @@
+@import "../base/_index.scss";
+@import "../mixins/flexbox";
+
+.location-popup-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    inset: 0;
+    background: map-get($color-map, "white");
+    display: none;
+    overflow-y: scroll;
+}
+
+.location-popup-header {
+    padding: 16px 12px;
+    @include flexbox;
+    align-items: center;
+    justify-content: space-between;
+    background-color: map-get($color-map, "white-smoke");
+    font-size: 19px;
+    font-weight: 700;
+    color: map-get($color-map, "valhalla");
+}
+
+.location-popup-header-text {
+    margin: 0;
+    font-size: 19px;
+}
+
+.location-search {
+    padding: 22px 0 12px;
+    border-bottom: 1px solid map-get($color-map, "manatee");
+    @include flexbox;
+    align-items: center;
+}
+
+.detect-location {
+    background-color: map-get($color-map, "white-smoke-2");
+    padding: 8px;
+    @include flexbox;
+    margin: 12px 0 20px;
+    color: map-get($color-map, "pacific-blue");
+}
+
+.detect-location-text {
+    font-family: $font-muli-semibold;
+    margin: 0;
+    color: map-get($color-map, "pacific-blue");
+}
+
+.popup-close-button {
+    width: 32px;
+    height: 32px;
+    padding-top:  3px;
+    padding-left: 11px;
+    background-color: map-get($color-map, "white");
+    border-radius: 50%;
+    margin: 0;
+}
+
+.popular-cities-heading {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: map-get($color-map, "valhalla");
+}
+
+.popular-cities-row {
+    @include flexbox;
+    margin-bottom: 20px;
+}
+
+.popular-city-name {
+    font-size: 12px;
+    font-family: $font-muli-regular;
+    margin-top: 4px;
+    text-align: center;
+    color: map-get($color-map, "valhalla");
+}
+
+.other-cities-heading {
+    font-size: 15px;
+    font-weight: 700;
+    display: none;
+}
+
+.other-city {
+    padding: 12px 0;
+    font-family: $font-muli-regular;
+    font-size: 13px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    list-style: none;
+}
+
+.selected-location {
+    padding: 4px 8px;
+    background-color: map-get($color-map, "white-smoke");
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+    display: none;
+    align-items: center;
+    margin-right: 4px;
+    margin-left: 0;
+    margin-bottom: 0px;
+}
+
+.confirm-location {
+    width: 147px;
+    text-align: center;
+    padding: 8px 0;
+    border: 1px solid map-get($color-map, "fire-red");
+    color: map-get($color-map, "fire-red");
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 24px auto;
+    display: none;
+}
+
+.area-search {
+    display: none;
+}
+
+.city-search, .area-search {
+    border: 0;
+    outline: none;
+}

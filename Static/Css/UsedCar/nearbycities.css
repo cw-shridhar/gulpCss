@@ -1,0 +1,24 @@
+.nearbyCities-section{
+    padding-top: 24px;
+    margin-top: 16px;
+    background-color: white;
+}
+.nearbyCities-section .nearbyCityTitle{
+    padding-left: 16px;
+    font-size: 19px;
+    color: #272a41;
+}
+.nearbyCities-section .nearbyCityList{
+    padding-top: 4px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    list-style-type: none;
+    margin-top: 24px;
+    background-color: #fcfcfc;
+}
+.nearbyCities-section li{
+    margin-top: 16px;
+}
+.nearbyCities-section a{
+    color: #d02326;
+}

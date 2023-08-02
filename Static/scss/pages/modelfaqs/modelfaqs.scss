@@ -1,0 +1,22 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "./_faqWidget.scss";
+@import "../../partials/m/_similar-cars-carousel.scss";
+
+.content_are {
+	width: 1156px;
+	margin: 0 auto;
+	overflow: visible;
+}
+
+.heading-h1 {
+    padding-left: 0;
+}
+
+.ad-block {
+	&-top {
+		@include flexbox;
+		@include justify-content(center);
+		min-height: 90px;
+	}
+}

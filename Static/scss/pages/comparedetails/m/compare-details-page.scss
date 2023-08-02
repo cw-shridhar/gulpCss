@@ -1,0 +1,188 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../utils/accordion";
+@import "../../../partials/m/version-comparison-widget";
+@import "../../../partials/m/compare-car-grid";
+@import "../../../common/mmv-popup";
+@import "../../../common/m/version-selection-popup";
+@import "../../../partials/m/mModelImageSwiper";
+@import "../../../partials/m/image-comparison";
+@import "../../../partials/m/color-swiper-carousel";
+@import "../../../partials/m/expert-review-block";
+@import "../../../partials/m/compare-search";
+@import "../../../partials/m/two-car-comparison";
+@import "../../../partials/m/three-car-comparison";
+@import "../../../partials/m/emi-popup";
+@import "../../../partials/m/_model-card";
+@import "../../modelfaqs/faqWidget";
+@include loader-gif();
+
+.version-selection-header-txt {
+    margin: 0;
+}
+
+.version-selection-filter-tab {
+    margin-left: 0;
+}
+
+.accordion-title {
+    font-size: 15px;
+    padding-left: 16px;
+    font-weight: 700;
+    padding-right: 35px;
+    font-family: $font-muli-regular;
+}
+
+.accordion-title:first-child {
+    border-top: 0
+}
+
+.accordion-content {
+    padding: 0;
+}
+
+.accordion-content>*:first-child {
+    margin-top: 0;
+}
+
+.accordion-content>* {
+    margin-bottom: 0;
+}
+
+.accordion-content p {
+    line-height: normal;
+}
+
+.accordion-content p.font-18 {
+    font-size: 18px;
+}
+
+.accordion-sub-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: map-get($color-map, "comet");
+    padding: 12px 16px 8px;
+    background-color: map-get($color-map, "white-smoke");
+}
+
+.city-name-text {
+    color: map-get($color-map, "pacific-blue");
+    margin-right: 4px;
+}
+
+.accordion-data-container {
+    @include flexbox;
+    background-color: map-get($color-map, "white-smoke-2");
+}
+
+.accordion-value-container {
+    flex: 1;
+    border-top: 1px solid map-get($color-map, "gainsboro");
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+    border-right: 1px solid map-get($color-map, "whisper");
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    ul {
+        list-style: disc;
+        margin-left: 12px;
+    }
+
+    li {
+        padding-bottom: 16px;
+    }
+}
+
+.accordion-value-container:last-child {
+    border-right: none;
+}
+
+.link-text {
+    font-size: 13px;
+    color: map-get($color-map, "pacific-blue");
+    font-weight: bold;
+    display: block;
+}
+
+.emi-value {
+    display: inline-block;
+}
+
+.static-text {
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    margin-top: 8px;
+}
+
+.offer-details-container {
+    @include flexbox;
+    @include flex-direction(column);
+    list-style: disc;
+    margin-left: 16px;
+}
+
+.offer-value {
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+    margin: initial;
+}
+
+.offer-cta-button {
+    font-size: 13px;
+    font-weight: bold;
+    color: map-get($color-map, "fire-red");
+    padding: 8px 20px;
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+.color-block {
+    width: 80px;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid map-get($color-map, "whisper");
+    margin: 0;
+}
+
+.overall-rating {
+    @include align-items(flex-end);
+}
+
+.overall-rating.wrap {
+    @include flex-wrap(wrap);
+}
+
+.selected {
+    color: map-get($color-map,"fire-red");
+}
+
+.bottom-floating-bar {
+    @include vendor-prefix(transition, (transform .2s linear));
+    color: map-get($color-map,"comet");
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: map-get($color-map,"white");
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.bottom-floating-bar.inactive {
+    @include vendor-prefix(transform, (translateY(100%)));
+}
+
+.breadcrumbs li {
+    margin: 0;
+}
+
+.ad-container {
+    min-height: 125px;
+	padding: 2px 0;
+}
+
+.rotate-down {
+    @include vendor-prefix('transform', scaleY(-1));
+}
+
+.faq-table {
+    margin: 0;
+}

@@ -1,0 +1,42 @@
+#wrapper, .buyUsedCarNew {
+    width: 100%;
+    background-color: #fff;
+    min-height: 100%;
+    height: auto;
+}
+#wrapper {
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #CCC;
+    border: 0px solid #ddd;
+    text-align: left;
+}
+b, button, div, em, h1, h2, h3, h4, input, select, span, strong {
+    font-family: verdana!important;
+}
+.h1new, .breadcrumbs {
+    font-size: 15px;
+    width: 100%;
+    padding: 11px 14px;
+    margin: 0px;
+    background: none !important;
+    margin-left: 0px;
+    background-color: #ffffff !important;
+    display: block;
+    text-align: left;
+    line-height: 15px;
+    box-sizing: border-box;
+    letter-spacing: normal;
+}
+h1 {
+    color: #000000;
+    float: left;
+    font-size: 15px;
+    padding: 12px 0 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 8px;
+    width: 178px;
+    line-height: normal;
+}

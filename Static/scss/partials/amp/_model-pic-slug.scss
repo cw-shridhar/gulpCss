@@ -1,0 +1,49 @@
+.pic-container {
+	background-color: white;
+}
+
+.pic-heading {
+	font-size: 16px;
+	color: rgb(76, 76, 76);
+	font-weight: bold;
+	padding: 15px 10px 10px;
+	margin: 0px;
+	display: block;
+	box-sizing: border-box;
+	line-height: normal;
+}
+
+.pic-table-container {
+	padding: 0 16px;
+}
+
+.pic-table {
+	width: 100%;
+}
+
+.pic-table tr {
+	border-bottom: 1px solid #efefef;
+}
+
+.pic-table td {
+	border-top: 1px solid rgb(221, 221, 221);
+	padding: 10px;
+	position: relative;
+}
+
+.pic-table td a {
+	font-size: 14px;
+	color: #56586a;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.pic-table .align-right {
+	text-align: right;
+}
+
+.pic-table .align-right span {
+	font-size: 14px;
+	color: rgb(76, 76, 76);
+	font-weight: bold;
+}

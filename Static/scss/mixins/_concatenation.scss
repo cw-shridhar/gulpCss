@@ -1,0 +1,10 @@
+﻿@function concat($name, $prefix: '') {
+		@return $prefix + '-' + $name;
+}
+
+/* concat
+ * A function to concate a string.
+ * parameters:
+ * $name: current string
+ * $prefix: a string to add before the current string.
+ */

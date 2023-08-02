@@ -1,0 +1,250 @@
+/** by city **/
+
+li:hover .ver_city_link_tencity,
+li:hover .ver_city_nm {
+  color: #d11800;
+}
+
+.var_view {
+  font-size: 12px;
+  float: right;
+  padding-top: 1px;
+}
+
+ul.ver_popuc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px #dfdfdf solid;
+
+  li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      font-size: 18px;
+      color: #6f6f6f;
+      line-height: 50px;
+      cursor: pointer;
+      padding: 0 60px;
+      height: 50px;
+      text-align: center;
+      position: relative;
+    }
+
+    a.ver_reviewBtn1_used {
+      padding: 0 79px;
+    }
+  }
+}
+
+.ver_reviewBtn1_used.active .ver_bor_r {
+  width: 100%;
+  left: 0;
+}
+
+.ver_reviewBtn1_used .ver_bor_r {
+  width: 0;
+  background: #ed1c24;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transition: all 200ms linear;
+}
+
+.city ul {
+  list-style: none;
+  margin-top: 20px;
+  overflow: hidden;
+
+  li {
+    float: left;
+    padding: 40px 24px;
+    box-sizing: border-box;
+    width: 307px;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+  }
+}
+
+.tencity ul li {
+  width: 181px;
+}
+
+.ver_city_link_tencity {
+  font-size: 12px;
+  color: #2d2d2d;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.ver_city_nm {
+  color: #2d2d2d;
+  font-size: 22px;
+  padding-top: 13px;
+  padding-bottom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+
+.marg_r_non {
+  margin-right: 0 !important;
+}
+
+.bycity_wrapper {
+  position: relative;
+}
+/** by price **/
+
+.ver_pup-blk-out .ver_pup-blk-1:hover a .ver_wtin-prc,
+.ver_pup-blk-out .ver_pup-blk-2:hover a .ver_wtin-prc,
+.ver_pup-blk-out .ver_pup-blk-1:hover a .ver_wtin-prc span,
+.ver_pup-blk-out .ver_pup-blk-2:hover a .ver_wtin-prc span {
+  color: #ec0000;
+}
+
+.ver_pup-blk-out {
+  display: table;
+  margin-top: 18px;
+}
+
+.ver_pup-blk-1,
+.ver_pup-blk-2 {
+  float: left;
+  width: 280px;
+  box-sizing: border-box;
+  border: 1px #e1e1e1 solid;
+  background: #fff;
+  padding: 0;
+  text-align: center;
+}
+
+.ver_pup-blk-1 a,
+.ver_pup-blk-2 a {
+  display: block;
+  margin: 50px 0;
+}
+
+.ver_wtin-prc {
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  height: 34px;
+
+  span {
+    font-size: 26px;
+    font-weight: normal;
+  }
+}
+
+.ver_pup-blk-out:first-child .ver_pup-blk-1:first-child a .ver_wtin-prc,
+.ver_pup-blk-out:first-child .ver_pup-blk-1:first-child:hover a .ver_wtin-prc {
+  background: none;
+  padding-left: 0;
+}
+
+.ver_pup-blk-out .ver_pup-blk-1 a .ver_wtin-prc,
+.ver_pup-blk-out .ver_pup-blk-2 a .ver_wtin-prc,
+.ver_pup-blk-out .ver_pup-blk-1 a .ver_wtin-prc span,
+.ver_pup-blk-out .ver_pup-blk-2 a .ver_wtin-prc span {
+  color: #000;
+}
+
+.ver_pup-blk-2 {
+  margin: 0 50px;
+}
+
+.ver_pup-blk-out .ver_pup-blk-1 a .ver_wtin-prc,
+.ver_pup-blk-out .ver_pup-blk-2 a .ver_wtin-prc {
+  padding-left: 15px;
+}
+
+/** by model **/
+
+.ver_pup-blk-3,
+.ver_pup-blk-4 {
+  height: auto !important;
+}
+
+.ver_pup-blk-3,
+.ver_pup-blk-4 {
+  float: left;
+  width: 302px;
+  box-sizing: border-box;
+  height: 348px;
+  border: 1px #e1e1e1 solid;
+  background: #ffffff;
+}
+
+.ver_crimg1 {
+  margin-bottom: 15px;
+}
+
+.ver_cr-tit {
+  font-size: 20px;
+  color: #1d1d1d;
+  padding-left: 20px;
+}
+
+.ver_cr-cty {
+  padding: 10px 10px 20px 10px;
+
+  a {
+    border-bottom: 1px #cc0000 solid;
+    text-decoration: none !important;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #cc0000;
+  }
+}
+
+.ver_pup-blk-4 {
+  margin: 0 16px;
+}
+
+.car_img {
+  width: 300px;
+}
+
+/** by luxury **/
+
+.ver_city_link:hover,
+.city.tencity ul li:hover a .ver_city_link_tencity,
+.city.tencity ul li:hover a .ver_city_nm,
+.city ul li:hover .ver_city_link {
+  color: #d11800;
+}
+
+.city_link_pos {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.ver_city_img {
+  width: 100%;
+  padding-top: 10px;
+  height: 90px;
+  box-sizing: border-box;
+  opacity: 0.6;
+}
+
+.ver_city_link {
+  font-size: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}

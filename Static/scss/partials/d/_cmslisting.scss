@@ -1,0 +1,81 @@
+.news_cars_list ul li {
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    overflow: hidden;
+    padding: 20px 24px;
+}
+
+.news_cars_list ul li .left_block {
+    float: left;
+}
+
+.news_cars_list ul li .left_block img {
+    width: 240px;
+    height: 135px;
+}
+
+.news_cars_list ul li .right_block {
+    width: 61%;
+    padding-left: 32px;
+    float: left;
+}
+
+.title_link a {
+    color: map-get($color-map, "valhalla");
+    font-size: 19px;
+    font-family: $font-muli-semibold;
+    padding-bottom: 22px;
+    display: block;
+}
+
+ul.cus_review {
+    margin: 0;
+    padding: 0;
+    display: table;
+    cursor: pointer;
+}
+
+.cus_review li a {
+    color: map-get($color-map, "valhalla");
+    font-size: 12px;
+}
+
+ul.cus_review li {
+    display: table-cell;
+    border: 0;
+    vertical-align: middle;
+    padding-right: 10px !important;
+    padding: 0;
+}
+
+.avtar {
+    border: 1px solid map-get($color-map, "white-smoke");
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    float: left;
+    overflow: hidden;
+}
+
+.avtar img {
+    transform: scale(1.3);
+    position: relative;
+    top: 5px;
+    left: 1px;
+    width: 100%;
+}
+
+.right_block p {
+    margin: 0;
+    padding: 10px 0;
+    color: map-get($color-map, "comet");
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.r_more {
+    color: map-get($color-map, "floral");
+    font-size: 15px;
+    font-family: $font-muli-regular;
+    padding-bottom: 26px;
+    display: block;
+}

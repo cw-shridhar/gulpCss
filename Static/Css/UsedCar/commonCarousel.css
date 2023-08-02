@@ -1,0 +1,36 @@
+.km-fuel-yr {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .km-fuel-yr .detail {
+    color: #56586a;
+    font-size: 13px;
+    min-width: 92px;
+    max-width: 120px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    margin: 12px 0 0;
+  }
+  
+  .km-fuel-yr .fuel.detail {
+    min-width: 62px;
+    max-width: 72px;
+  }
+  
+  .km-fuel-yr .yr.detail {
+    min-width: 44px;
+    max-width: 54px;
+  }
+  
+  .km-fuel-yr .dot {
+    background-color: #b2b3ba;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+  }
+  

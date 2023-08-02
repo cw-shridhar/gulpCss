@@ -1,0 +1,380 @@
+@mixin rate-count($count, $font-size: null, $font-weight: null) {
+	@if map-has-key($rating-colors, $count) {
+		.rate-count-#{$count} {
+			font-size: $font-size;
+			font-weight: $font-weight;
+			display: inline-block;
+		}
+	}
+	@else {
+		@warn "Unfortunately, no value could be retrieved from '#{$count}'. Please make sure it is defined in $rating-colors mixin.";
+	}
+}
+
+@mixin rating-face-list() {
+	.rating-face-list {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 5px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		> label {
+			display: block;
+			border: 1px solid color('gainsboro');
+			cursor: pointer;
+			font-size: 13px;
+			border-radius: 1px;
+			height: 80px;
+			width: 130px;
+			position: relative;
+			color: color('light-grey');
+			padding: 50px 5px 5px;
+
+			&[data-value = '1'] {
+				@include smile-1-inactive-34x34-icon;
+				background-size: 10px;
+			}
+
+			&[data-value = '2'] {
+				@include smile-2-inactive-34x34-icon;
+				background-size: 10px;
+			}
+
+			&[data-value = '3'] {
+				@include smile-3-inactive-34x34-icon;
+				background-size: 10px;
+			}
+
+			&[data-value = '4'] {
+				@include smile-4-inactive-34x34-icon;
+				background-size: 10px;
+			}
+
+			&[data-value = '5'] {
+				@include smile-5-inactive-34x34-icon;
+				background-size: 10px;
+			}
+		}
+
+		& > input {
+			display: none;
+
+			&:checked,
+			&:hover {
+				~ label {
+					color: color('tuna');
+
+					&[data-value = '1'] {
+						@include smile-1-34x34-icon;
+						border-color: color('cinnabar-3');
+						background-size: 10px;
+					}
+
+					&[data-value = '2'] {
+						@include smile-2-34x34-icon;
+						border-color: #{map-get($rating-colors, 2)};
+						background-size: 10px;
+					}
+
+					&[data-value = '3'] {
+						@include smile-3-34x34-icon;
+						border-color: #{map-get($rating-colors, 3)};
+						background-size: 10px;
+					}
+
+					&[data-value = '4'] {
+						@include smile-4-34x34-icon;
+						border-color: #{map-get($rating-colors, 4)};
+						background-size: 10px;
+					}
+
+					&[data-value = '5'] {
+						@include smile-5-34x34-icon;
+						border-color: #{map-get($rating-colors, 5)};
+						background-size: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@mixin rating-badge($count) {
+	@if map-has-key($rating-colors, $count) {
+		.rating-badge {
+			min-width: 38px;
+			height: 20px;
+			@include inline-flex;
+			@include justify-content(space-evenly);
+			@include align-items(center);
+			font-size: 10px;
+			color: map-get($color-map, "white" );
+			border-radius: 2px;
+			padding-right: 8px;
+			padding-left: 4px;
+			margin: 0;
+		}
+
+		.rating-badge[data-rate-bg="#{$count}"] {
+			background-color: map-get($rating-colors, $count);
+		}
+			
+		.rating-badge__star {
+			@include star-white;
+			background-size: contain;
+			width: 14px;
+			height: 14px;
+			display: inline-block;
+			padding: 0 9px;
+		}
+	}
+
+	@else {
+		@warn "Unfortunately, no value could be retrieved from '#{$count}'. Please make sure it is defined in $rating-colors mixin.";
+	}
+}
+
+@mixin rating-background($count) {
+		@if map-has-key($rating-colors, $count) {
+			.bg-rate-#{$count} {
+				background-color: map-get($rating-colors, $count);
+			}
+		}
+		
+	@else {
+		@warn "Unfortunately, no value could be retrieved from '#{$count}'. Please make sure it is defined in $rating-colors mixin.";
+	}
+}
+
+@mixin rate-star-icon($count, $dimension: big, $custom-dimension: .6, $font-size: 14px, $font-weight: $font-semibold) {
+	.rate-count-#{$count} {
+		.star-icon {
+				@include star-green;
+				display: inline-block;
+				vertical-align: middle;
+
+				@if $dimension == 'big' {
+					@include vendor-prefix(transform, scale(.8));
+					width: 25px;
+					height: 25px;
+				}
+				@else if $dimension == 'normal' {
+					width: 23px;
+					height: 22px;
+				}
+				@else if $dimension == 'custom' {
+					@include vendor-prefix(transform, scale($custom-dimension));
+					width: 23px;
+					height: 22px;
+				}
+			}
+
+		.rate-count-value {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: $font-size;
+			font-weight: $font-weight;
+			color: map-get($color-map, "charcoal" );
+		}
+	}
+}
+
+@mixin rating-circle() {
+	$circle-dimension: 40px;
+	$rating-progress-width: 2px;
+
+	.rating-circle {
+		width: $circle-dimension;
+		height: $circle-dimension;
+		position: relative;
+		border-radius: 50%;
+		background-color: map-get($color-map, "whisper" );
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: 4px;
+	}
+
+	.circle-label {
+		width: $circle-dimension - ($rating-progress-width * 2);
+		height: $circle-dimension - ($rating-progress-width * 2);
+		font-size: 14px;
+		font-weight: $font-semibold;
+		color: map-get($color-map, "valhalla" );
+		position: absolute;
+		top: $rating-progress-width;
+		left: $rating-progress-width;
+		line-height: $circle-dimension - ($rating-progress-width * 2);
+		border-radius: 50%;
+		background: map-get($color-map, "white" );
+		text-align: center;
+		z-index: 1;
+	}
+
+	.rating-progress {
+		@include vendor-prefix('clip', rect(0, $circle-dimension, $circle-dimension, $circle-dimension/2));
+		width: $circle-dimension;
+		height: $circle-dimension + 3;
+		display: block;
+		position: absolute;
+	}
+
+	.rating-progress:before,
+	.rating-progress:after {
+		@include vendor-prefix('clip', rect(0, $circle-dimension/2, $circle-dimension, 0));
+		content: '';
+		width: $circle-dimension;
+		height: $circle-dimension;
+		display: block;
+		position: absolute;
+		border-width: $rating-progress-width;
+		border-style: solid;
+		border-radius: 50%;
+	}
+
+	.circle-rate-3,
+	.circle-rate-4,
+	.circle-rate-5 {
+		.rating-progress {
+			@include vendor-prefix('clip', rect(auto, auto, auto, auto));
+
+			&:after {
+				@include vendor-prefix('transform', rotate(180deg));
+			}	
+		}
+	}
+
+	.circle-rate-1 {
+		.rating-progress {
+			&:before {
+				@include vendor-prefix('transform', rotate(62deg));
+				border-color: map-get($rating-colors, 1);
+			}
+		}
+	}
+
+	.circle-rate-2 {
+		.rating-progress {
+			&:before {
+				@include vendor-prefix('transform', rotate(144deg));
+				border-color: map-get($rating-colors, 2);
+			}
+		}
+	}
+
+	.circle-rate-3 {
+		.rating-progress {
+			&:before {
+				@include vendor-prefix('transform', rotate(216deg));
+			}
+		}
+	}
+
+	.circle-rate-4 {
+		.rating-progress {
+			&:before {
+				@include vendor-prefix('transform', rotate(288deg));
+			}
+		}
+	}
+
+	.circle-rate-3 {
+		.rating-progress {
+			&:before,
+			&:after {
+				border-color: map-get($rating-colors, 3);
+			}
+		}
+	}
+
+	.circle-rate-4 {
+		.rating-progress {
+			&:before,
+			&:after {
+				border-color: map-get($rating-colors, 4);
+			}
+		}
+	}
+
+	.circle-rate-5 {
+		.rating-progress {
+			&:before,
+			&:after {
+				border-color: map-get($rating-colors, 5);
+			}
+		}
+	}
+}
+
+@mixin rating-circle-list($label-alignment) {
+	@include rating-circle();
+	$alignment: inline-block;
+
+	@if $label-alignment == 'vertical-label' {
+		$alignment: block;
+	}
+
+	.rating-overflow-container {
+		width: 100%;
+		display: block;
+		overflow-x: auto;
+		overflow-y: hidden;
+
+		&::-webkit-scrollbar {
+			width: 0;
+			height: 0;
+			display: none;
+		}
+	}
+
+	.rating-circle-list-title {
+		font-size: 14px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.rating-circle-list {
+		@include flexbox;
+		@include justify-content(space-evenly);
+		width: 100%;
+
+		li {
+			text-align: center;
+			width: auto;
+			@include inline-flex;
+			@include flex-direction(column);
+			@include align-items(center);
+		}
+
+		.list-item-label {
+			font-size: 13px;
+			color: map-get($color-map, "comet" );
+			display: $alignment;
+			vertical-align: middle;
+		}
+
+		.list-item-sublabel {
+			font-size: 12px;
+			color: map-get($color-map, "comet" );
+		}
+	}
+
+	.rating-overflow-container {
+		.rating-circle-list {
+			table-layout: fixed;
+
+			li {
+				width: 105px;
+				padding-right: 5px;
+				padding-left: 5px;
+			}
+
+			.list-item-label {
+				padding-left: 0;
+				margin-top: 10px;
+			}
+		}
+	}
+}

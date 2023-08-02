@@ -1,0 +1,22 @@
+@import "../quickresearch";
+
+.quick-research-title {
+    font-size: 19px;
+}
+
+.quick-research-list {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    .quick-research-item {
+        min-width: 144px;
+        margin-right: 16px;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,46 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+.recSubmission{position:fixed;top:0px;right:0px;bottom:0px;left:0px;background-color:#fff;;overflow-y:scroll;z-index:9999999999;}
+.rec_SubTitle{ font-size: 20px; display: block; padding: 30px 0; color: #1c1f37; padding-left: 16px; background: #f6f6f6; font-family: Muli-Semibold;} 
+.rec_text{font-size:12px;color:#676979;display:block;padding-top:5px;}
+.base_rec{ overflow: hidden; padding: 7px 16px 0 16px; overflow-y: scroll;} 
+.sel_all_rec{padding-bottom:10px;overflow:hidden;}
+.left_rec{float:left;}
+.big_rec_ttl{display:block;font-size:18px;font-family:Muli-Semibold; color:#484848;}
+.sml_txt_rec{display:block;overflow:hidden;font-size:13px;color:#484848;padding-top:4px;font-family:Muli-Regular;}
+.right_rec{float:right;padding-right:9px;}
+.select_rec{color:#636769;font-size:13px;float:left;padding:6px 15px 0 0;}
+
+.make_chekc_Rec span{width:20px;height:20px;display:block;background:url(#{$cloudfront-img-cdn-path}/images-mobiles/checkbox_unselected.svg) 0 0 no-repeat;cursor:pointer;position:relative;top:-15px;background-size:20px; transition: none;}  
+.make_chekc_Rec input[type="checkbox"]{display:none;}
+.make_chekc_Rec input:checked + span{background:url(#{$cloudfront-img-cdn-path}/images-mobiles/checkbox_selected.svg) 0 0 no-repeat;background-size:20px;}
+.mla_btn-submt{position:fixed;top:auto;right:0px;bottom:0px;left:0px;box-shadow:0px 0px 2px 2px rgba(45,45,45,.2);padding:20px 10px 0;background:#fff;}
+.rec_btn-submt .skip{color:#cc1315;font-size:14px;display:block;text-align:center;padding:13px 0;font-family:Muli-Semibold;cursor: pointer;}
+.rec_submt{width:calc(100% - 4px);text-align:center;border-radius:4px;display:block;font-size:15px;background:#d02326;color:#fff;padding:12px;transition:all 0.3s;text-transform:uppercase;border:none;box-sizing:border-box;height:calc(100% - 4px);margin:2px auto;text-decoration:none;border-radius:50px;cursor: pointer;}
+.make_Rec{font-size:18px;color:#1c1f37;font-family:Muli-Semibold;float:left;}
+.make_are_rec{display:table;width:calc(100% - 21px);padding:10px;border:1px solid #d7d6da;margin:5px 0 8px 0;border-radius:3px;overflow:hidden;}
+.make_are_rec .loca{font-size:12px;color:#777b7d;display:block;padding-top:5px;background-size:10%;}
+.rec_img {display:table-cell; }
+.rec_data_text {display: table-cell; vertical-align: top; padding-left:6px;}
+.make_chekc_Rec{ display: table-cell; vertical-align: middle;}
+.rec_mm { display: block; font-family: Muli-Semibold; font-size: 16px; color: #484848; margin-bottom:7px;}
+.rec_prc {font-size: 13px; font-family: Muli-Regular; color: #545568; margin-bottom:5px;}
+.rec_data_text div:nth-child(3)  {font-size: 13px; font-family: Muli-Regular; color: #777b7d;}
+
+.make_are_rec > .make_chekc_Rec {display: table-cell; vertical-align: middle; position: relative; top: 7px; left: 1px; width:20px;}    
+.dealer_checks_rec > .btm_padding{padding-bottom:80px !important;border:0 !important;}
+
+.rec_btn-submt{position:fixed;top:auto;right:0px;bottom:0px;left:0px;box-shadow:0px 0px 2px 2px rgba(45,45,45,.2);padding:20px 10px 0;background:#fff}
+
+.thank_hdng {      /* display: block; */
+    /* overflow: hidden; */
+    border: 0px solid red;
+    width: 87%;
+    text-align: left;
+    margin: initial;}  
+
+@media screen and (min-device-width: 300px) and (max-device-width: 325px) { 
+ 
+ .right_rec { float: right; padding-right: 6px;}
+ 
+}

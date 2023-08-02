@@ -1,0 +1,132 @@
+@import "../../base/index";
+@import "../../mixins/index";
+
+.version-selection {
+	&-popup {
+		width: 100vw;
+		height: 100vh;
+		background-color: map-get($color-map, "white");
+		z-index: 99999;
+		position: fixed;
+		top: 0;
+	}
+
+	&-header {
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(space-between);
+		padding: 12px 16px;
+		background-color: map-get($color-map, "white-smoke");
+	}
+
+	&-header-txt {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: map-get($color-map, "valhalla");
+	}
+
+	&-close-btn {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background-color: map-get($color-map, "white");
+		background-image: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/blk_clos.png");
+		background-size: 10px;
+		background-position: center;
+		background-repeat: no-repeat;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	&-search-wrapper {
+		display: -webkit-box;
+		border-bottom: 1px solid map-get($color-map, "whisper");
+	}
+
+	&-search-icon {
+		width: 16px;
+		height: 16px;
+	}
+
+	&-search {
+		width: 100%;
+	}
+
+	&-filter-tabs {
+		@include flexbox;
+		@include hide-horizontal-scroll;
+		overflow-x: scroll;
+	}
+
+	&-filter-tab {
+		margin-right: 8px;
+		padding: 6px 12px;
+		color: map-get($color-map, "comet");
+		background-color: map-get($color-map, "white");
+		font-size: 13px;
+		border: 1px solid map-get($color-map, "white-smoke-3");
+		border-radius: 4px;
+		white-space: nowrap;
+		text-transform: uppercase;
+	}
+
+	&-filter-tab.active {
+		color: map-get($color-map, "fire-red");
+		border: 1px solid map-get($color-map, "fire-red");
+	}
+
+	&-filter-tab.tab-divider {
+		margin-right: 25px;
+		position: relative;
+	}
+
+	&-filter-tab.tab-divider::after {
+		content: "";
+		width: 1px;
+		height: 100%;
+		background-color: map-get($color-map, "ghost");
+		position: absolute;
+		top: 0;
+		right: -13px;
+	}
+
+	&-car-list.version-list {
+		height: 74%;
+		overflow-y: scroll;
+	}
+
+	&-car-list-item {
+		margin-top: 12px;
+		padding-bottom: 12px;
+		border-bottom: 1px solid map-get($color-map, "whisper");
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	&-car-list-item:first-child {
+		margin-top: 0;
+	}
+
+	&-car-list-item .car-name {
+		font-size: 14px;
+		letter-spacing: 0;
+		color: map-get($color-map, "pacific-blue");
+		float: left;
+	}
+
+	&-car-list-item .car-price {
+		font-family: $font-muli-semibold;
+		text-align: right;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0;
+		color: map-get($color-map, "comet");
+	}
+
+	&-car-list-item .car-specs {
+		margin-top: 4px;
+		font-size: 11px;
+		letter-spacing: 0;
+		color: map-get($color-map, "manatee");
+	}
+}

@@ -1,0 +1,22 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/price-in-other-cities";
+
+.user-review__carousel {
+    padding: 24px 0px 20px 16px;
+}
+
+.user-carousel__header {
+    padding-bottom: 16px;
+    font-size: 19px;
+    color: map-get($color-map, "valhalla" );
+    font-family: $font-muli-semibold;
+}
+
+.breadcrumb__conatiner {
+    @include flexbox;
+    @include align-items(center);
+    padding-left: 16px;
+    background-color: map-get($color-map, "white-smoke-2" );
+    height: 48px;
+}

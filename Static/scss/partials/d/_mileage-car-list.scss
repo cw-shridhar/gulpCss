@@ -1,0 +1,44 @@
+.make-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.plus {
+  @include plus-icon;
+  float: left;
+  height: 18px;
+  margin-right: 10px;
+  width: 18px;
+  pointer-events: none;
+}
+
+.make-name {
+  font-size: 16px;
+  color: map-get($color-map, "valhalla");
+  pointer-events: none;
+}
+
+.model-url {
+  color: map-get($color-map, "valhalla");
+  font-size: 14px;
+}
+
+.model-list {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.model-item {
+  padding: 10px 15px 0 29px;
+  line-height: 22px;
+}
+
+.active .plus {
+  @include minus-icon;
+}
+
+.view-more {
+  background: none;
+  border: none;
+}

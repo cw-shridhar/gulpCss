@@ -1,0 +1,23 @@
+@import "../../base/index";
+@import "../../mixins/index";
+
+.img-overlay {
+    height: 100px;
+    background: linear-gradient(0deg,#21222e,rgba(5,119,156,.07));
+}
+
+.hero {
+    height: 380px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active-btn {
+    color: map-get($color-map, "persian-green");
+    border-bottom: 4px solid map-get($color-map, "persian-green");
+}
+
+.top-ad {
+    min-height: 100px;
+}

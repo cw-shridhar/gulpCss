@@ -1,0 +1,25 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/all-brands-colllapsible";
+@import "../../../partials/m/mmv-dropdown";
+@import "../../../partials/m/make-city-selector";
+@import "../../../partials/m/accordion";
+
+.top-ad {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  min-height: 150px;
+}
+
+.find-dealer {
+  margin-bottom: 20px;
+  color: map-get($color-map, "white");
+  background-color: map-get($color-map, "fire-red");
+  border: 1px solid map-get($color-map, "fire-red");
+  border-radius: 3px;
+  width: 100%;
+  font-size: 15px;
+  min-height: 40px;
+  font-family: $font-muli-semibold;
+}

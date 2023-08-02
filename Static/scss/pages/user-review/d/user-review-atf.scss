@@ -1,0 +1,114 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/d/read-write-review";
+@import "../../../partials/m/contest-card";
+@import "../../../partials/d/latest-review-card";
+
+body {
+    background-color: map-get($color-map, "white");
+}
+
+.container {
+    background-color: map-get($color-map, "white");
+}
+
+.ad-block__container {
+    padding: 16px 90px;
+}
+
+.ad-block {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+}
+
+.user-review__description {
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 23px;
+    div {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    b {
+        display: block;
+        padding-top: 8px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    b:first-child {
+        padding-top: 0px;
+    }
+}
+
+.read-write__container {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+}
+.aside__content {
+    width: 33.33333%;
+    float: right;
+    padding-left: 26px
+}
+.contest__container{
+    margin: 24px 0px;
+    padding: 24px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+p {
+    margin: 0px;
+}
+
+.body__container {
+    padding-bottom: 24px;
+    width: 66.66666%;
+    float:left;
+}
+
+.latest-review__container {    
+    padding:20px;
+    border: 1px solid map-get($color-map, "whisper");
+}
+
+.review__header {
+    font-family: $font-muli-semibold;
+    font-size: 21px;
+}
+
+.card-info__review-count {
+    padding-left: 20px;
+}
+
+.read-more-btn,
+.read-less-btn {
+    text-align: right;
+    font-size: 13px;
+    font-weight: $font-bold;
+    color: map-get($color-map, "pacific-blue");
+    padding-top: 4px;
+}
+
+.left-ad {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+    background-color: map-get($color-map, "whisper");
+}
+
+.read-review__container,
+.write-review__container {
+    width: 100%;
+}
+.read-review__container {
+    border: 1px solid #e8e8e8;
+}
+.separator{
+    height: 24px;
+}

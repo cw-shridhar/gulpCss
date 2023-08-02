@@ -1,0 +1,71 @@
+.input {
+  width: fit-content;
+  background: none !important;
+  box-shadow: none;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+.modal-box {
+  width: 100%;
+  text-align: unset;
+  z-index: 1000;
+}
+
+#modalPopUp p {
+  margin-bottom: 10px;
+}
+
+.radio-button {
+  width: fit-content;
+}
+
+.feedback-text-input {
+  border: 1px solid #d5d5d5 !important;
+  border-radius: 3px !important;
+  height: 44px;
+  width: 100%;
+  font-size: 15px !important;
+  padding-left: 16px !important;
+}
+
+.stop-showing-ad-popup-container .stop-ad-btn-unit input {
+  padding: 10px !important;
+  margin: 5px 10px !important;
+}
+
+.btn-orange {
+  font-size: 16px !important;
+  font-family: LatoWeb, sans-serif, Arial;
+  background: #d11901 !important;
+  color: rgb(255, 255, 255);
+  border-color: #f04031 !important;
+  border-radius: 2px !important;
+  display: inline-block;
+  border-width: 1px !important;
+  border-style: solid !important;
+  text-align: center;
+  white-space: nowrap;
+  outline: 0;
+  vertical-align: middle !important;
+  touch-action: manipulation;
+  user-select: none;
+  line-height: 22px !important;
+  margin-right: 10px !important;
+  border: 1px solid rgb(240, 64, 49);
+  width: 172px;
+}
+
+.btn-white {
+  width: 100px;
+  border: 1px solid #f04130 !important;
+}
+
+#loadingScreen {
+  z-index: 1001;
+}

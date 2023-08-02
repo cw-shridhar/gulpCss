@@ -1,0 +1,8 @@
+.choose_brand {
+    background-color: map-get($color-map, "silver-sand");
+}
+
+.swiper-slide-item {
+    width: 105px;
+    border: 1px solid map-get($color-map, "medium-gray");
+}

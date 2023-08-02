@@ -1,0 +1,46 @@
+.accordion-title {
+    font-size: 17px;
+    font-family: $font-muli-semibold;
+    color: map-get($color-map, "valhalla");
+    @include down-arrow;
+    background-position: 95%;
+    padding: 16px 0 16px 20px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    border-right: 1px solid map-get($color-map, "whisper");
+    border-left: 1px solid map-get($color-map, "whisper");
+    cursor: pointer;
+}
+
+.accordion-title:first-child {
+    border-top: 1px solid map-get($color-map, "whisper");
+}
+
+.accordion-title.active {
+    @include up-arrow;
+    background-position: 95%;
+}
+
+.accordion-content {
+    @include vendor-prefix(transition, (max-height .4s linear));
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+    max-height: 0;
+    background-color: map-get($color-map, "white-smoke-2");
+    border-right: 1px solid map-get($color-map, "whisper");
+    border-left: 1px solid map-get($color-map, "whisper");
+
+    p {
+        font-size: 15px;
+        line-height: 23px;
+        color: map-get($color-map, "valhalla");
+        text-align: left !important;
+    }
+}
+
+.accordion-content > *:first-child {
+    margin-top: 16px;
+}
+.accordion-content > * {
+    margin-bottom: 16px;
+}

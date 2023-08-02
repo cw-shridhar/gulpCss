@@ -1,0 +1,193 @@
+.swiper-container {
+    overflow: hidden;
+}
+
+
+.compare-colors-img-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 62.5%;
+}
+
+.compare-colors-img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.compare-color-name {
+    color: map-get($color-map, "comet");
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.compare-color-model-name {
+    position: absolute;
+    z-index: 1;
+    color: map-get($color-map, "comet");
+    padding: 4px 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 4px;
+}
+
+.compare-color-block-container {
+    position: relative;
+}
+
+.color-block {
+    height: 32px;
+    width: 32px;
+    border: 1px solid map-get($color-map, "ghost");
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dynamic-thumbs-slide-active,
+.fixed-thumbs-slide-active {
+	.color-block {
+		&::before {
+			background-image: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/icons/svg/fff/tick-outline.svg");
+			content: "";
+			background-position: center;
+            background-repeat: no-repeat;
+			position: absolute;
+			left: 0;
+			right: 0;
+			width: 32px;
+			height: 32px;
+			display: block;
+			background-size: 20px;
+		}
+	}
+}
+
+.compare-color-swiper-nav,
+.compare-color-card-nav {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    height: 40px;
+    width: 20px;
+    opacity: .8;
+    background-color: map-get($color-map, "white");
+    border: 1px solid map-get($color-map, "whisper");
+    position: absolute;
+    top: 50%;
+    @include vendor-prefix(transform, translateY(-50%));
+    z-index: 1;
+    cursor: pointer;
+
+    &--prev {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        left: -1px;
+    }
+
+    &--next {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        right: -1px;
+    }
+
+    &-icon {
+        width: 6px;
+        height: 12px;
+
+        &--prev {
+            @include vendor-prefix(transform, rotate(180deg));
+        }
+    }
+}
+
+
+.compare-color-name-link {
+    color: map-get($color-map, "comet");
+}
+
+@media screen and (max-width: 800px) {
+    .compare-colors-wrapper {
+        margin: 0 15px 15px;
+        border: 1px solid map-get($color-map, "whisper");
+        border-radius: 4px;
+
+        .compare-color-block-container {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .fixed-color-carousel,
+        .dynamic-color-carousel {
+            padding-bottom: 20px;
+        }
+
+        .dynamic-color-carousel {
+            border-top: 1px solid map-get($color-map, "gainsboro");
+        }
+
+        .compare-color-model-name {
+            font-size: 10px;
+            bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .compare-colors-wrapper {
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(flex-start);
+
+        .fixed-color-carousel {
+            margin-right: 16px;
+        }
+    
+        .fixed-color-carousel,
+        .dynamic-color-carousel {
+            width: 552px;
+            height: 100%;
+        }
+
+        .compare-colors-card {
+            border-radius: 4px;
+            border: 1px solid map-get($color-map , "whisper");
+            background-color: map-get($color-map, "white");
+            overflow: hidden;
+        }
+
+        .compare-color-model-name {
+            bottom: 4px;
+            font-size: 12px;
+        }
+
+        .compare-colors-bottom-border {
+            position: relative;
+            width: 100%;
+            height: 4px;
+            box-sizing: content-box;
+        }
+
+        .compare-color-block-container {
+            padding-left: 12px;
+            padding-right: 12px;
+    
+            .swiper-wrapper {
+                @include flex-wrap(wrap);
+            }
+    
+            .swiper-slide {
+                display: inline-block;
+                width: 32px;
+                margin-right: 16px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .compare-color-name {
+            font-family: $font-muli-semibold;
+        }
+    }
+}

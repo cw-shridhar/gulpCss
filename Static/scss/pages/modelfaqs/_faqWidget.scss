@@ -1,0 +1,112 @@
+.faq-widget-container {
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.faq-widget-heading {
+    padding: 24px 20px 16px;
+    color: map-get($color-map, "valhalla");
+    font-size: 22px;
+    font-family: $font-muli-semibold;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.faq-question {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(space-between);
+    padding: 16px 20px;
+    font-size: 17px;
+    font-family: $font-muli-semibold;
+    cursor: pointer;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.faq-question-text {
+    color: map-get($color-map, "valhalla");
+}
+
+.faq-answer {
+    background-color: map-get($color-map, "white-smoke-2");
+    padding-bottom: 16px;
+}
+
+.faq-answer-text {
+    padding: 16px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 23px;
+    color: map-get($color-map, "comet");
+}
+
+.faq-table {
+    margin: 0 16px;
+    width: auto;
+  border-left: 1px solid map-get($color-map, "whisper");
+}
+
+.faq-table th {
+    padding: 16px;
+    margin: 0;
+    color: map-get($color-map, "comet");
+    font-size: 15px;
+    text-align: left;
+    border-right: 1px solid map-get($color-map, "whisper");
+}
+
+.faq-table td {
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 13px;
+    text-align: left;
+    border-right: 1px solid map-get($color-map, "whisper");
+    color: map-get($color-map, "valhalla");
+}
+
+.faq-answer a {
+    color: map-get($color-map, "pacific-blue");
+}
+
+.faq-answer-text ol {
+  list-style: decimal;
+  padding-left: 16px;
+  padding-bottom: 12px;
+}
+
+.faq-table-values {
+  border-bottom: 1px solid map-get($color-map, "whisper");
+  background-color: map-get($color-map, "white");
+}
+
+@media (max-width: 425px) {
+  .faq-widget-container {
+    margin-top: 0;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-table-heading {
+    border: 1px solid map-get($color-map, "whisper");
+  }
+
+  .faq-table th {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .faq-table td {
+    padding: 8px;
+  }
+
+  .faq-table {
+    display: block;
+    overflow-x: scroll;
+  }
+}
+
+.rotate-upside-down {
+    pointer-events: none;
+}

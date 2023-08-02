@@ -1,0 +1,55 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/read-write-review";
+@import "../../../partials/m/contest-card";
+
+.contest__container{
+    padding: 24px 16px;
+}
+.promotional-content {
+    @include flexbox;
+@include justify-content(center);
+    @include align-items(center);
+	margin: 16px;
+}
+
+.heading {
+    padding: 0 16px 20px;
+}
+
+.heading__content {
+    font-size: 21px;
+    color:  map-get($color-map, "valhalla" );
+    font-weight: $font-normal;
+}
+
+.heading__description {
+    font-size: 13px;
+    line-height: 20px;
+    color: map-get($color-map, "comet" );
+    padding-top: 4px;
+}
+
+.text-truncate {
+    @include text-truncate('',2);
+    height: 44px;
+}
+
+// TODO : Create mixn of readmore btn
+.read-more-btn, .read-less-btn {
+    text-align: right;
+    font-size: 13px;
+    font-weight: $font-bold;  
+    color: map-get($color-map, "pacific-blue" );
+    padding-top: 4px; 
+}
+
+.hide {
+    display: none;
+}
+
+.separator {
+    height: 16px;
+    background-color: map-get($color-map,"white-smoke");
+}
+

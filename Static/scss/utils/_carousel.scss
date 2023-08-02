@@ -1,0 +1,51 @@
+@import "../mixins/index";
+@import "../base/index";
+
+.jcarousel-wrapper {
+	position: relative;
+	padding: 20px 20px 0;
+}
+
+.jcarousel {
+	overflow: hidden;
+}
+
+.jcarousel-control {
+	width: 40px;
+	height: 40px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	top: 50%;
+	padding: 0;
+	background-color: map-get($color-map, "white");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jcarousel-control-prev {
+	left: 0;
+	background-image: url("https://d5x4wettsjecf.cloudfront.net/images4/previous_active-new1.svg");
+}
+
+.jcarousel-control-prev.inactive {
+	background-image: url("https://d5x4wettsjecf.cloudfront.net/images4/previous-new1.svg");
+}
+
+.jcarousel-control-next {
+	right: 0;
+	background-image: url("https://d5x4wettsjecf.cloudfront.net/images4/next_active-new1.svg");
+}
+
+.jcarousel-control-next.inactive {
+	background-image: url("https://d5x4wettsjecf.cloudfront.net/images4/next-new1.svg");
+}
+
+.jcarousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,68 @@
+@import "../../../base/index";
+@import "../../../mixins/flexbox";
+@import "../../../mixins/hide-scrollbar";
+@import "../../../partials/m/modelKeySpecsSlug";
+@import "../../modelpage/m/version-table.scss";
+@import "../../../partials/m/_similar-cars-carousel.scss";
+@import "../../../partials/m/version-comparison-widget";
+@import "../../../partials/m/versionHeader";
+@import "../../../../Css/NewCar/m/SocialMedia.scss";
+
+.breadcrumb__container {
+    @include flexbox;
+    @include align-items(center);
+    background-color: map-get($color-map, "white-smoke-2");
+    padding: 16px;
+}
+
+/* News section header */
+.news-header-container {
+    display: table;
+    width: 100%;
+    padding-bottom: 10px;
+
+    .heading-h2 {
+        display: table-cell;
+        padding: 20px 20px 10px 20px;
+        vertical-align: middle;
+        width: 70%;
+    }
+
+    .view-all {
+        display: table-cell;
+        color: map-get($color-map, "fire-red");
+        font-size: 15px;
+        padding: 20px 20px 10px 10px;
+        vertical-align: middle;
+        text-align: right;
+    }
+}
+
+/* News section ends here */
+
+.near-cities .nearby-city-icon {
+    width: 54px;
+    height: 20px;
+}
+
+.top_ad {
+    padding-top: 16px ;
+    background-color: map-get($color-map, "white-smoke");
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.ad-container {
+    background: map-get($color-map, "white-smoke");
+    text-align: center;
+    padding: 20px 0;
+}
+
+.share_icon {
+    transform: translateY(-50px);
+}
+
+#socialIconsListid, .socialIconsList {
+    left: -6px;
+}

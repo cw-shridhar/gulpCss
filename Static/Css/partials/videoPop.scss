@@ -1,0 +1,80 @@
+.video-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
+  min-height: 175px;
+  justify-content: left;
+  padding-left: 10px;
+}
+.video-box:hover {
+  cursor: pointer;
+}
+.video-box {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+.vframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.play_icn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  margin: -15px 0 0 -21px;
+}
+#video-pane {
+  width: 100%;
+  display: none;
+}
+.video-popup {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  z-index: 2;
+}
+
+.video-popup-content {
+  position: relative;
+  width: 640px;
+  height: 320px;
+  top: 50%;
+  left: 50%;
+  margin: -160px 0 0 -320px;
+}
+
+.video-popup a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  display: block;
+}
+
+.video-popup a:hover,
+.video-popup a:focus {
+  color: black;
+}
+
+.video-popup .closebtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 45px;
+  margin: -190px 0 0 321px;
+}

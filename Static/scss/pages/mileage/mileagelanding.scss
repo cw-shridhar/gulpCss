@@ -1,0 +1,48 @@
+@import "../../base/index";
+@import "../../mixins/icons";
+@import "../../partials/d/mileagelandingquicklink";
+@import "../../partials/d/mileagelandingwritereview";
+@import "../../partials/d/mileage-car-list";
+@import "../../partials/d/top-mileage-cars";
+
+.content-are {
+  width: 1156px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+body {
+  background-color: map-get($color-map, "white") !important;
+}
+
+.heading-h1 {
+  font-family: $font-muli-semibold;
+}
+
+.left-sec {
+  width: 764px;
+  float: left;
+  padding-right: 52px;
+}
+
+.right-sec {
+  width: 340px;
+  float: left;
+}
+
+.content-sec {
+  color: map-get($color-map, "valhalla");
+  overflow: hidden;
+}
+
+.block-boundary {
+  border: 1px solid map-get($color-map, "white-smoke");
+}
+
+.ad-top-height {
+  min-height: 90px;
+}
+
+.ad-height {
+  min-height: 250px;
+}

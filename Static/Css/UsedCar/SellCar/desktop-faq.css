@@ -1,0 +1,79 @@
+.faq-section .card-desc-wrapper {
+    cursor: pointer;
+    padding-left: 0;
+    border-bottom: 0
+}
+
+.faq-section .answer {
+    cursor: pointer;
+    padding: 16px 24px;
+    border-top: 1px solid #e2e2e2;
+    color: #56586a
+}
+
+.faq-section a {
+    color: #d02326
+}
+
+.faq-section {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #e5e5e5;
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+    border-top: 0;
+    clear: both;
+    margin-bottom: 24px
+}
+
+.faq-section .faq-title {
+    padding: 24px;
+    color: #272a41;
+    font-size: 22px;
+    margin-bottom: 0
+}
+
+.faq-section .question {
+    padding: 20px 24px 40px 24px;
+    border-top: 1px solid #e2e2e2;
+    color: #272a41;
+    font-size: 17px;
+}
+
+.faq-section .view-more {
+    font-size: 15px;
+    color: #d02326;
+    cursor: pointer
+}
+
+.faq-section .view-more-wrapper {
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e2e2e2
+}
+
+.rotate-faq-arrow90 {
+    float: right;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -webkit-transition: transform .5;
+    transition: transform .5
+}
+
+.rotate-faq-arrow270 {
+    float: right;
+    -webkit-transform: rotateZ(270deg);
+    transform: rotateZ(270deg)
+}
+
+.view-more svg {
+    margin-top: 30px
+}
+
+.question-text {
+    float: left;
+    margin-bottom: 0;
+    line-height: 18px;
+}

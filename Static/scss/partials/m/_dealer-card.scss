@@ -1,0 +1,23 @@
+.dealer-card-container {
+  margin-bottom: 12px;
+  border: 1px solid map-get($color-map, "whisper");
+  padding: 16px 12px;
+}
+
+.dealer-name {
+  font-size: 15px;
+  font-weight: $font-bold;
+  color: map-get($color-map, "valhalla");
+}
+
+.dealer-address {
+  font-size: 13px;
+  line-height: 20px;
+  color: map-get($color-map, "comet");
+}
+
+.dealer-mobile {
+  font-size: 13px;
+  color: map-get($color-map, "pacific-blue");
+  font-weight: $font-bold;
+}

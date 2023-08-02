@@ -1,0 +1,19 @@
+@import "../../base/index";
+
+.one-liner-blk {
+  padding-top: 25px;
+  padding-bottom: 21px;
+}
+
+.one-liner-text {
+  font-size: 15px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.one-liner-ref {
+  display: table-cell;
+  width: 220px;
+  vertical-align: middle;
+  padding-left: 15px;
+}

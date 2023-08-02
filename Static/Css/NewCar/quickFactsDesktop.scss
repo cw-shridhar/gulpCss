@@ -1,0 +1,40 @@
+.quick-facts-about {
+  position: relative;
+  clear: both;
+}
+
+.quick-facts-inner-div {
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  padding: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h2.section-primary-title {
+  font-size: 19px;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 19px;
+  margin: 0;
+}
+
+.quick_facts_text_desktop {
+  padding-left: 0;
+}
+
+.section-primary-title-quickfacts {
+  color: #272a41;
+  font-size: 19px;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 19px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.version-link {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}

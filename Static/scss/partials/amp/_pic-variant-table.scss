@@ -1,0 +1,403 @@
+.on-road-price {
+    padding-top: 16px;
+    background: #ffffff;
+  }
+  .on-road-price h1 {
+    font-size: 16px;
+    color: #272a41;
+    padding: 0 16px;
+  }
+  .on-road-price .car-details {
+    margin: 20px 0 10px 0;
+    display: flex;
+    padding: 0 16px;
+  }
+  .on-road-price .car-title {
+    font-size: 13px;
+    color: #56586a;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .textleft {
+    text-align: left;
+  }
+  .textright {
+    text-align: right;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  .on-road-price .filter-gray-block {
+    margin-top: 10px;
+  }
+  .on-road-price .flter-gary-innerblock {
+    background: #f5f5f5;
+    padding: 16px 0 5px 16px;
+  }
+  .on-road-price .filter-title {
+    font-size: 13px;
+    color: #56586a;
+  }
+  .on-road-price .filter-title span {
+    font-size: 11px;
+    color: #92939e;
+    display: inline-block;
+  }
+  .on-road-price .filter-title amp-img {
+    float: left;
+    margin-right: 8px;
+  }
+  .filter-list-block {
+    margin-top: 10px;
+  }
+  .filter-list-block amp-selector[role="tablist"].tabs-with-selector {
+    display: inherit;
+    width: auto;
+  }
+  .filter-list-block .tabs-bg {
+    overflow-x: scroll;
+    height: 40px;
+  }
+  .filter-list-block .tabs-sctn {
+    display: flex;
+    white-space: nowrap;
+  }
+  .filter-list-block
+    amp-selector[role="tablist"].tabs-with-selector
+    [role="tab"]
+    span {
+    width: auto;
+    padding: 0 12px;
+    border-radius: 4px;
+  }
+  .filter-list-block .tabs-list span {
+    background: #ffffff;
+    border: 1px solid #b2b3ba;
+    border-radius: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 8px;
+    color: #56586a;
+    display: block;
+  }
+  .dvdr {
+    border-right: 1px solid #d2d2d5;
+    margin-left: 6px;
+    margin-right: 14px;
+  }
+  .filter-list-block
+    amp-selector[role="tablist"].tabs-with-selector
+    [role="tab"][selected]
+    span {
+    border: 1px solid #d02326;
+    color: #d02326;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+  }
+  .version-section .accordion-hdr {
+    background: #ffffff;
+    border: 0;
+    padding: 12px 28px 12px 0;
+    font-size: 16px;
+    position: relative;
+    border-top: 1px solid #e8e8e8;
+    outline:none
+  }
+  .version-section .accordion-hdr::after {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/downarrow.svg)
+      no-repeat 7px;
+    background-size: 15px;
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    right: 0;
+  }
+  .version-section section:first-child .accordion-hdr {
+    border-top: 0;
+  }
+  .version-section section[expanded] .accordion-hdr::after {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/uparrow.svg)
+      no-repeat 7px;
+    background-size: 15px;
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    right: 0;
+  }
+  
+  .width-60 {
+    width: 60%;
+  }
+  .width-40 {
+    width: 40%;
+  }
+  
+  .border-b {
+    border-bottom: 1px solid #272a41;
+  }
+  .version-section .turn {
+    background: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/uparrow.svg")
+      no-repeat 99% 17px;
+    background-size: 15px;
+  }
+  .version-section .current {
+    background: url("https://d5x4wettsjecf.cloudfront.net/images-mobiles/downarrow.svg")
+      no-repeat 99% 17px;
+    background-size: 15px;
+  }
+  .version-section .panel {
+    padding: 0 0;
+    background: #ffffff;
+  }
+  .version-section .panel table tr th {
+    padding: 0 0 12px 0;
+    color: #272a41;
+  }
+  .version-section .gray_bg {
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+  .version-section .panel table.key-spcs {
+    margin-bottom: 12px;
+  }
+  .version-section .panel table.key-spcs tr td {
+    padding-bottom: 10px;
+  }
+  .version-section .panel table.key-spcs tr td.py-0 {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .version-section .panel table.key-spcs tr th {
+    padding-top: 12px;
+  }
+  .version-section .panel table.key-spcs tr:first-child td {
+    border-radius: 2px 2px 0 0;
+  }
+  .version-section .panel table.key-spcs tr:last-child td {
+    border-radius: 0 0 2px 2px;
+  }
+  .brdr-radius-tleft {
+    border-radius: 4px 0 0 0;
+  }
+  .brdr-radius-tright {
+    border-radius: 0 4px 0 0;
+  }
+  
+  .hdr-top {
+    color: #92939e;
+    font-size: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 12px 0 8px 0;
+  }
+  .hdr-top .vrsns {
+    float: left;
+  }
+  .hdr-top .priceincity {
+    padding-right: 28px;
+    float: right;
+  }
+  .version-section {
+    padding: 0 16px;
+  }
+  .version-section .vesrion-list {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .version-section .panel table tr td {
+    font-size: 14px;
+    color: #272a41;
+    padding-bottom: 0;
+  }
+  .version-section .panel table tr td .border-b {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 10;
+  }
+  .version-section .panel table tr td:first-child {
+    padding-left: 15px;
+  }
+  .version-section .panel table tr td:last-child {
+    padding-right: 15px;
+  }
+  .version-section .panel table tr:last-child td {
+    padding-bottom: 10px;
+  }
+  .version-section .panel .bold-text td {
+    font-size: 16px;
+    color: #272a41;
+  }
+  .version-section .get-offer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0288d1;
+    display: block;
+    width: 200px;
+  }
+  .version-section .get-offer::before {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/price_tag_icon.svg)
+      no-repeat;
+    background-size: 20px;
+    width: 24px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+  .version-section .vrsn-info {
+    position: relative;
+    margin-left: 2px;
+    top: 3px;
+  }
+  .version-section .vrsn-info:hover .tool-tip-block {
+    display: block;
+  }
+  .version-section .tool-tip-block {
+    position: absolute;
+    display: none;
+    right: -20px;
+    top: 20px;
+  }
+  .version-section .tool-tip {
+    width: 232px;
+    background: #56586a;
+    border-radius: 3px;
+    padding: 8px 12px;
+    position: relative;
+    z-index: 1;
+  }
+  .version-section .tool-tip::after {
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/tltp-arrow.png)
+      no-repeat;
+    content: "";
+    width: 14px;
+    height: 7px;
+    position: absolute;
+    right: 20px;
+    top: -6px;
+  }
+  .left_tool.tool-tip::after {
+    left: 20px;
+  }
+  .version-section .tool-tip-text {
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .version-section .ex-showroom-tltp {
+    right: -122px;
+  }
+  .version-section .ex-showroom-tltp .tool-tip::after {
+    right: 122px;
+  }
+  .version-section .rto-tltp {
+    right: -208px;
+  }
+  .version-section .rto-tltp .tool-tip::after {
+    right: 209px;
+  }
+  .version-section .insrnc-tltp {
+    right: -172px;
+  }
+  .version-section .insrnc-tltp .tool-tip::after {
+    right: 172px;
+  }
+  .version-section .onroadprice-tltp {
+    right: -128px;
+  }
+  .version-section .onroadprice-tltp .tool-tip::after {
+    right: 128px;
+  }
+  .version-section .emi-tltp.emi_ful_txt {
+    top: -115px;
+  }
+  .version-section .emi-tltp {
+    right: -210px;
+    top: -80px;
+  }
+  .version-section .emi-tltp .tool-tip::after {
+    right: 210px;
+    top: inherit;
+    bottom: -6px;
+    transform: rotate(180deg);
+  }
+  .version-section .keyspecs-tltp {
+    right: -24px;
+    top: -222px;
+    left: 0;
+  }
+  .version-section .keyspecs-tltp .tool-tip::after {
+    right: 24px;
+    top: inherit;
+    left: 3px;
+    bottom: -6px;
+    transform: rotate(180deg);
+  }
+  
+  .tool-tip-block.insrnc-tltp .tool-tip,
+  .tool-tip-block.keyspecs-tltp .tool-tip {
+    padding-right: 0;
+  }
+  .tool-tip-block.insrnc-tltp .tool-tip .tool-tip-text,
+  .tool-tip-block.keyspecs-tltp .tool-tip .tool-tip-text {
+    height: 200;
+    overflow-x: scroll;
+    padding-right: 12px;
+  }
+  .tool-tip-block.keyspecs-tltp .tool-tip .tool-tip-text {
+    height: 196px;
+  }
+  .tabpanels .accordList {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  
+  .filter-gray-block amp-selector.tabpanels [role=tabpanel] {
+      display: none;
+  }
+  
+  .filter-gray-block amp-selector[role=tablist].tabs-with-selector [role=tab][selected] {
+      outline: none;
+  }
+  
+  .filter-gray-block amp-selector.tabpanels [role=tabpanel][selected] {
+      outline: none;
+      display: block;
+  }
+  
+  .filter-gray-block .pull-left {
+      float: left;
+  }
+  
+  .filter-gray-block .pull-right {
+      float: right;
+  }
+  
+  .filter-gray-block table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      margin:0;
+  }
+  
+  .filter-gray-block table tbody td,.filter-gray-block table tbody th {
+      border: none;
+  }
+  
+  .filter-gray-block .speclink {
+      float: right;
+      font-size: 13px;
+      color: #0288d1;
+      margin-bottom: 12px;
+  }
+  .filter-image-size{
+    width: 16px;
+    height: 16px;
+  }
+  .display-block{
+    display: block;
+  }

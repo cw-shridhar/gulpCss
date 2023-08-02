@@ -1,0 +1,41 @@
+.summary {
+  padding: 24px 24px 34px;
+  border: 1px solid #f0f0f0;
+  margin: 24px 0;
+}
+
+.summary h2 {
+  margin-bottom: 19px;
+  color: #272a41;
+  font-size: 21px;
+  font-family: "Muli-Bold";
+  margin-top: 0px;
+}
+
+.min_synopsis {
+  height: 95px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.summary p {
+  color: #56586a;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.summary strong {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-Semibold;
+}
+
+.about-read-more {
+  color: #e16363;
+  font-weight: bold;
+  position: relative;
+  font-size: 15px;
+  text-align: right;
+  cursor: pointer;
+}

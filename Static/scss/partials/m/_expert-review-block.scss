@@ -1,0 +1,42 @@
+.expert-reviews-heading {
+    padding: 12px 16px;
+    font-weight: $font-bold;
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+    background-color: map-get($color-map, "white-smoke-2");
+}
+
+.article-container {
+    padding: 12px 16px;
+    border-bottom: 1px solid map-get($color-map, "gainsboro");
+    display: block;
+    color: map-get($color-map, "valhalla");
+}
+
+.article-title {
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-regular;
+}
+
+.article-footer {
+    @include flexbox;
+    @include justify-content(space-between);
+    padding-top: 8px;
+}
+
+.author-name {
+    font-size: 12px;
+}
+
+.publish-date {
+    font-size: 12px;
+    color: map-get($color-map, "manatee");    
+}
+
+.expert-reviews-content {
+    max-height: 0;
+    overflow: hidden;
+    @include vendor-prefix(transition, (max-height .6s linear));
+}

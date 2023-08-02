@@ -1,0 +1,82 @@
+
+
+.up-car__conatiner {
+    margin: 24px 0;
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+    
+
+    .up-car__heading {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 21px;
+        padding: 24px 12px 1px;
+    }
+
+    .up-car__content {
+        width: 100%;
+    }
+}
+
+
+.up-car__card {
+    @include flexbox;
+    padding: 16px 14px;
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .car-card__img {
+        @include flexbox;
+        @include align-items(center);
+        margin-right: 24px;
+        max-width: 100px;
+    }
+
+    .card-head__image {
+        max-width: 100px;
+    }
+
+    .car-card__right {
+        width: 100%;
+    }
+    .car-card__name {
+        font-size: 15px;
+        padding-bottom: 8px;
+        color: map-get($color-map, "valhalla");
+    }
+
+    .car-card__avg-price {
+        padding-bottom: 5px;
+        font-size: 19px;
+        color: map-get($color-map, "valhalla");
+    }
+
+    .car-card__exp-date {
+        font-size: 12px;
+        color: map-get($color-map, "manatee");
+    }
+}
+
+.up-car__all {
+    display: block;
+    margin: 16px;
+
+    .arrow_right {
+        @include border-arrow(8,"pacific-blue",1,"right");
+        margin: 1px 0;
+    }
+
+    .location__text {
+        color: map-get($color-map, "pacific-blue" );
+        font-size: 15px;
+        font-family: $font-muli-semibold;
+    }
+}
+
+
+
+
+
+
+
+
+

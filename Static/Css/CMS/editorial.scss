@@ -1,0 +1,328 @@
+body {
+  background-color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.m-content {
+  position: relative;
+}
+
+.main-block {
+  padding: 16px 16px 0;
+  background: #fff;
+}
+
+.page_title {
+  overflow: auto;
+}
+
+.page_title h1 {
+  font-size: 21px;
+  color: #272a41;
+  line-height: 1.5em;
+  width: 100%;
+  font-weight: normal;
+  margin: 0 0 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50% 50%;
+  border: 1px solid #d5d5d5;
+  overflow: hidden;
+}
+
+.info-img img {
+  border-radius: 50%;
+}
+
+.info-txt {
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 4px;
+}
+
+.info-txt-a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #56586a;
+}
+
+.info-text-name {
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.info-txt-time {
+  font-size: 13px;
+  color: #92939e;
+}
+
+.lazy {
+  width: 100%;
+}
+
+.main-text {
+  width: 100% !important;
+}
+
+.main-img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.main-text a {
+  color: #0288d1;
+  text-decoration: none;
+}
+
+.main-text img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  min-height: 190px;
+}
+
+.box_editorial {
+  padding: 10px 0 10px 15px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.box_editorial h1 {
+  color: #272a41;
+  font-size: 19px;
+  margin-bottom: 17px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0 -5px;
+}
+
+.tag {
+  margin: 0 5px;
+  color: #6f6f6f;
+  font-size: 13px;
+}
+
+.tag-span {
+  background: #aaa;
+  width: 1px;
+}
+
+.tag-span:nth-child(1) {
+  background: #fff;
+  width: 0;
+}
+
+.share-box {
+  margin-top: 15px;
+}
+
+.page_top {
+  margin-bottom: 16px;
+}
+
+.btm_nav {
+  height: 90px;
+  margin-bottom: -2px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 16px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.btm_nav a {
+  width: 50%;
+}
+
+.nxt_pre_btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.prev {
+  border-right: 1px solid #e8e8e8;
+}
+
+.btn_name {
+  display: block;
+  color: #0288d1;
+  width: 100%;
+  font-size: 13px;
+  margin: 12px 0 5px;
+}
+
+.btn_name span {
+  font-size: 16px;
+}
+
+.next .btn_name {
+  text-align: right;
+}
+
+.nxt_pre_btn p {
+  overflow: hidden;
+  height: 45%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #484848;
+  margin: 0;
+}
+
+.prev p {
+  margin-right: 10px;
+}
+
+.next p {
+  margin-left: 10px;
+}
+
+.btm_nav hr {
+  height: 97%;
+  margin: 0;
+  width: 0;
+  border: 1px solid #f0f0f0;
+}
+
+.pg_break {
+  background: #f0f0f0;
+  height: 16px;
+  border: none;
+  margin: 0;
+}
+
+.footer_navi {
+  background: #f0f0f0;
+  padding: 0 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.footer_navi > .breadcrumbs > ul > li {
+  margin-right: 5px;
+}
+
+.article-title {
+  height: auto;
+  width: 65%;
+  font-weight: normal;
+  font-size: 25px;
+  letter-spacing: 0;
+  color: #272a41;
+}
+
+.arrow_nav {
+  border: solid #0288d1;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3.5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.main-img img {
+  width: 100%;
+  margin: 0;
+}
+
+.main-text div {
+  margin: 16px 0;
+  width: 100%;
+}
+
+.main-text h2 {
+  font-size: 19px;
+  margin: 20px 0 16px;
+}
+
+.main-text p {
+  color: #272a41;
+  font-size: 16px;
+  text-align: unset !important;
+  line-height: 24px;
+  margin: 0 0 16px;
+}
+
+.btm_share div {
+  border-bottom: 0 solid black;
+}
+
+.vl {
+  display: block;
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.top-container .ad-block {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 16px auto;
+  z-index: 1;
+  max-width: 100%;
+  min-height: 90px;
+  color: #d8d8d8;
+}
+
+.right-block .ad-block:first-child {
+  margin: 24px auto 24px;
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  min-height: 250px;
+  color: #d8d8d8;
+}
+
+.right-block .ad-block:last-child {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: 24px auto;
+  z-index: 1;
+  width: 300px;
+  min-height: 523px;
+  color: #d8d8d8;
+}
+
+.carousel__viewport .editorial_page_width {
+  width: 288px;
+}

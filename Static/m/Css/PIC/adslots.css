@@ -1,0 +1,63 @@
+.top_ad {
+  text-align: center;
+  position: relative;
+  background: #f0f0f0;
+  padding: 10px 0;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.adsbygoogle {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.top_ad .top_gap_cls {
+  padding: 0;
+}
+
+.secondad {
+  padding: 10px 0;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+}
+
+.adplac {
+  background: #f0f0f0;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.ad_block {
+  width: 100%;
+}
+
+.btm_ad {
+  text-align: center;
+  position: relative;
+  background: #f0f0f0;
+  padding: 10px 0;
+}
+
+.ad_grid {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  width: 320px;
+}

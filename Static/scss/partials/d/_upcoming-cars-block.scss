@@ -1,0 +1,32 @@
+.upcomingmodel-updates-wrapper {
+    color: map-get($color-map, "valhalla");
+}
+
+.upcomingmodel-pricerange {
+    font-weight: $font-bold;
+    font-size: 21px;
+}
+
+.upcomingmodel-detail {
+    font-family: $font-muli-semibold;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.upcomingmodel-rupeesymbol {
+    letter-spacing: 2.38px;
+}
+
+.upcomingmodel-emirupeesymbol {
+    letter-spacing: 2px;
+}
+
+.upcomingmodel-label {
+    color: map-get($color-map, "comet");
+    font-size: 15px;
+}
+
+.upcomingmodel-sublabel {
+    color: map-get($color-map, "comet");
+    font-size: 13px;
+}

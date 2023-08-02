@@ -1,0 +1,97 @@
+.happy-customers-slug {
+    background-color: white;
+    margin: 0 -20px;
+}
+
+.happy-customers-slug__container {
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.happy-customers-slug .title {
+    font-size: 19px;
+    color: #272a41;
+    font-family: Muli-SemiBold;
+    padding: 0 20px;
+}
+
+.happy-customers-slug .scrolling-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 16px;
+}
+
+.happy-customers-slug .card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: auto;
+    width: 286px;
+    border: hsl(0, 0%, 94%) solid 1px;
+    padding: 16px 12px;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.happy-customers-slug .card:not(:last-child) {
+    margin-right: 14px;
+}
+
+.happy-customers-slug .card:first-child {
+    margin-left: 20px;
+}
+
+.happy-customers-slug .card:last-child {
+    margin-right: 20px;
+}
+
+.happy-customers-slug .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.happy-customers-slug .byline-text {
+    margin-top: 32px;
+    font-size: 13px;
+    color: #56586a;
+    font-family: Muli-Regular;
+}
+
+.happy-customers-slug .review-text {
+    font-family: Muli-Regular;
+    font-size: 15px;
+    color: #56586a;
+    line-height: 1.51;
+}
+
+.happy-customers-slug .name-text {
+    font-family: Muli-Bold;
+    font-weight: bold;
+    color: #272a41;
+}
+
+.happy-customers-slug .city-text {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #56586a;
+    font-family: Muli-Regular;
+}
+
+.happy-customers-slug .down-quotation {
+    float: right;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

@@ -1,0 +1,206 @@
+
+/* carousel css starts here*/
+.upcoming-car::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .upcoming-car .carousel {
+    position: relative;
+    height: auto;
+    padding-top: 3px;
+    background-color: #ffffff;
+  }
+    
+  .carousel__viewport {
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+    
+  .upcoming-car .carousel__slide {
+      position: relative;
+  }
+  
+  .upcoming-car .carousel__slide:first-child {
+    margin-left: 20px
+  }
+  
+  
+  .carousel__snapper a:link {
+    text-decoration: none !important;
+  }
+    
+
+/*used car slider */
+.upcoming-car .siwper-inner {
+  width: 258px;
+  display: inline-block;
+  position: relative;
+  border: 0px solid #e2e2e2;
+  box-shadow: 0 1px 3px 0 rgba(53,39,42,0.25);
+  margin: 2px 16px 2px 0px;
+}
+
+.upcoming-car .siwper-inner img{max-width: none;  position: absolute;}
+.upcoming-car .swip-img {
+    padding: 15px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.upcoming-car .swip-img a {
+    width: 250px;
+    border: 0px solid #eaeaea;
+    display: block;
+    width: auto;
+}
+.upcoming-car .siwper-inner img {
+  width: 224px;
+  position: inherit;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  height: 126px;
+}
+
+.siwper-inner {
+  min-height: 262px;
+}
+
+.populr {
+  padding: 0 15px 20px 15px;
+}
+
+.populr ul {
+  list-style: none;
+}
+
+.upcoming-car .populr ul li {
+  display: block;
+  text-align: left;
+}
+
+
+.populr ul li .pop_title a {
+  color: #272a41;
+  background: none;
+  padding: 4px 0;
+  width: 100%;
+  font-family: 'Muli-Regular';
+  font-weight: normal;
+  font-size: 15px;
+  display: block;
+}
+
+.upcoming-car .car_price {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-Regular;
+}
+
+.upcoming-car .rupee_font {
+  font-family: Sans-Serif !important;
+  letter-spacing: normal;
+  font-weight: normal !important;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.upcoming-car .ex_show {
+  font-size: 12px;
+  color: #b2b3ba;
+  margin-top: 6px;
+  padding-bottom: 5px !important;
+}
+
+.upcoming-car .minhTDv_upcmng {
+  min-height: 12px;
+}
+
+.popular_header {
+  display: table;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.popular_header .pop_title {
+  display: table-cell;
+  padding: 25px 10px 12px 17px !important;
+  font-size: 19px !important;
+  color: #272a41;
+  font-family: Muli-Bold;
+  vertical-align: middle;
+  width: 77%;
+}
+
+.popular_header .viewLL {
+  display: table-cell;
+  color: rgb(208, 35, 38);
+  font-size: 13px;
+  padding: 22px 17px 8px 8px;
+  vertical-align: middle;
+  text-align: right;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.view_link {
+  padding: 0 20px 20px;
+}
+
+.view_link a {
+  color: #e16363;
+  display: block;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.chk_prc_btn {
+  border: 1px solid #d02326;
+  min-width: 196px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-family: Muli-SemiBold;
+  display: block;
+  font-size: 15px;
+  color: #d02326;
+  padding: 10px 0;
+  transition: all 0.3s;
+}
+
+.pop_title h3 {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.upcoming-car {
+  margin-bottom: 20px;
+}
+
+.carousel__viewport::-webkit-scrollbar {
+  display: none;
+}

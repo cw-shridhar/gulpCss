@@ -1,0 +1,42 @@
+.pic__conatiner {
+  margin: 24px 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.pic__conatiner .pic__heading {
+  color: #272a41;
+  font-size: 21px;
+  padding: 0 12px;
+  margin: 17px 0;
+}
+
+.pic__conatiner .pic__table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.pic-table__content {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pic-table__content .pic-table__name {
+  padding: 12px;
+  border-top: 1px solid rgb(221, 221, 221);
+  line-height: normal;
+}
+
+.pic-table__content .pic-table__name a {
+  color: #0288d1;
+  font-size: 15px;
+  font-family: Muli-Regular, sans-serif;
+}
+
+.pic-table__content .pic-table__price {
+  padding: 12px;
+  color: #272a41;
+  font-size: 15px;
+  text-align: right;
+  border-top: 1px solid rgb(221, 221, 221);
+  line-height: normal;
+}

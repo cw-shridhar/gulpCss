@@ -1,0 +1,16 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/all-brands-colllapsible";
+@import "../../../partials/m/mmv-dropdown";
+@import "../../../partials/m/make-city-selector";
+
+.top-ad {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  min-height: 150px;
+}
+
+.description {
+  margin-bottom: 36px;
+}

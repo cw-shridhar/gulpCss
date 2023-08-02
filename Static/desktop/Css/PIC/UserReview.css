@@ -1,0 +1,193 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content_are {
+    width: 940px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content_are,
+  .content_are .priceListByVer,
+  .content_are .similarCarsSlider .popularNewCarsGallery {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content_are {
+    width: 1156px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .content_are {
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.review-title {
+  color: #272a41;
+  font-size: 22px;
+  font-family: Muli-SemiBold;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+
+.gray-block {
+  background: #f5f5f5;
+  padding: 16px 16px 10px 16px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  margin: 16px 0;
+}
+
+.circle-block {
+  width: 14%;
+  text-align: center;
+  margin: 0;
+}
+
+svg.radial-progress {
+  height: auto;
+  max-width: 44px;
+  padding: 0em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+.circle-block .text {
+	font-size: 13px;
+	color: #56586a;
+	width: 100%;
+	display: inline;
+	position: relative;
+	top: -18px;
+	left: 6px;
+}
+
+svg.radial-progress circle {
+	fill: #fff;
+	stroke-dashoffset: 219.91148575129;
+	stroke-width: 4;
+}
+
+svg.radial-progress circle.partial1 {
+	stroke: #272a41;
+}
+
+svg.radial-progress circle.partial2 {
+	stroke: #00afa0;
+}
+
+svg.radial-progress text {
+	fill: #272a41;
+	font-size: 20px;
+	font-weight: bold;
+	text-anchor: middle;
+}
+
+.usr-reviews {
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+.max_cls {
+	transition: height 0.3s linear;
+}
+
+.rvw-hdng {
+	font-size: 17px;
+	color: #272a41;
+	line-height: 24px;
+}
+
+.star-block {
+	width: 38px;
+	height: 20px;
+	background: #00afa0;
+	border-radius: 2px;
+	font-size: 10px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	margin-right: 8px;
+	line-height: 20px;
+}
+
+.date-name {
+	font-size: 13px;
+	color: #56586a;
+	line-height: 16px;
+	margin: 7px 0;
+}
+
+.usr-reviews p {
+	padding: 0;
+	line-height: 20px;
+	font-size: 15px;
+	color: #272a41;
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+
+.max_cls {
+	transition: height 0.3s;
+	height: auto;
+}
+
+.inner-content {
+	height: 20px;
+	overflow: hidden;
+}
+
+.usr-reviews .read-more {
+	color: #0288d1;
+	font-size: 15px;
+	font-family: Muli-SemiBold;
+	float: right;
+}
+
+.view-all-reviews {
+	font-size: 15px;
+	color: #d02326;
+	font-family: Muli-SemiBold;
+	border: 1px solid #d02326;
+	border-radius: 3px;
+	padding: 11px 58px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 22%;
+}
+
+.write-review {
+	color: #0288d1;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	margin: 20px 0 0 0;
+	font-family: Muli-SemiBold;
+}
+
+.rvw-hdng .star-block img {
+	float: left;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+circle.full {
+	stroke: #d2d2d5;
+}

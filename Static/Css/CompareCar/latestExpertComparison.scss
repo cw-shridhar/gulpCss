@@ -1,0 +1,142 @@
+/* 
+.pecBlk_full {
+    width: auto;
+    box-shadow: rgb(0 0 0 / 10%) 0 1px 2px 1px;
+    padding: 15px;
+    overflow: hidden;
+    margin: 12px 0;
+}
+
+.pecBlk_left {
+    width: 40%;
+    float: left;
+}
+
+.pecBlk_right {
+    width: 60%;
+    float: left;
+}
+
+.redcolor {
+    color: rgb(217, 26, 41) !important;
+}
+
+.pecImg {
+    display: inline-block;
+    width: 39.029%;
+    vertical-align: middle;
+}
+
+.imgUploadBlk .vs, .pecBlk_left .vs {
+    display: inline-block;
+}
+
+.vs {
+    vertical-align: middle;
+}
+
+.pecBlk_right h3 {
+    color: #56586a;
+    font-size: 17px;
+    display: block;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+.pecBlk_right h3 a {
+    color: #56586a !important;
+    font-size: 17px;
+}
+
+.pecBlk_right h3 a:hover {
+    color: #f07e7c !important;
+}
+
+.pecBlk_right a {
+    color: #f07e7c;
+    font-size: 15px;
+    display: block;
+    padding-top: 10px;
+}
+
+.pecBlk_right p {
+    color: #92939e;
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+.persn_art {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    position: relative;
+    top: 29px;
+    left: 15px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.persn_art img {
+    width: 85%;
+} */
+
+.expert-review-container {
+  display: flex;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 2px 1px;
+  padding: 15px;
+  margin: 12px 0;
+}
+
+.expert-review-container img {
+  width: 90%;
+}
+
+.expert-review-title {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.expert-review-desc {
+  color: #92939e;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  margin: 0;
+}
+.expert-review-more {
+  color: #f07e7c;
+  font-size: 15px;
+  display: block;
+  padding-top: 10px;
+}
+
+.expert-review-desc-container {
+  width: 100%;
+  padding-left: 50px;
+}
+
+.expert-review-desc-container h3 {
+  margin-bottom: 15px;
+}
+
+.persn_art {
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  position: relative;
+  top: 29px;
+  left: 15px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.persn_art img {
+  width: 85%;
+}

@@ -1,0 +1,100 @@
+@import "./m/browsecars.scss";
+
+.browse-cars-wrapper {
+	background-color: map-get($color-map, "white-smoke-4");
+}
+
+.browse-cars-heading {
+	font-size: 21px;
+	font-family: $font-muli-bold;
+	border-bottom: 1px solid map-get($color-map, "whisper");
+	color: map-get($color-map, "valhalla");
+}
+
+.browse-cars-list {
+	border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.browse-cars-list-item {
+	@include vendor-prefix("transition", "border-bottom .3s linear");
+	height: 60px;
+	border-bottom: 1px solid map-get($color-map, "white-smoke-4");
+	padding-left: 24px;
+	padding-right: 24px;
+
+	&::after {
+		@include vendor-prefix("transition", (width .2s linear, left .2s linear));
+		background-color: map-get($color-map, "white-smoke-4");
+	}
+}
+
+.browse-cars-tab-name {
+	font-size: 16px;
+	line-height: 60px;
+}
+
+.browse-cars-list-item.active {
+	&::after {
+		background-color: map-get($color-map, "fire-red-3");
+	}
+
+	.browse-cars-tab-name {
+		font-family: $font-muli-regular;
+	}
+}
+
+.price-range-list {
+	text-align: left;
+}
+
+.price-range-item {
+	padding: 8px 20px;
+}
+
+.browse-car-list-link {
+	font-size: 13px;
+}
+
+.fuel-type-list {
+	@include justify-content;
+}
+
+.fuel-type-item {
+	margin-right: 12px;
+}
+
+.body-type-list {
+	@include justify-content;
+}
+
+.body-type-item {
+	margin-right: 12px;
+}
+
+.more-body-type-item {
+	display: block;
+}
+
+.expand-body-type-btn {
+	display: none;
+}
+
+.brand-list {
+	text-align: left;
+}
+
+.brand-list-item {
+	padding: 8px 20px;
+}
+
+.browse-car-list-link {
+	font-size: 13px;
+}
+
+.more-list {
+	text-align: left;
+}
+
+.more-list-item {
+	padding: 8px 20px;
+}

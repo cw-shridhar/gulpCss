@@ -1,0 +1,65 @@
+
+
+.pic__conatiner {
+    margin: 24px 0;
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+
+    .pic__heading {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 21px;
+        padding: 24px 12px 16px;
+        margin: 0;
+    }
+
+    .pic__table {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+.pic-table__content {
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .pic-table__price {
+        padding: 12px;
+        color: map-get($color-map, "valhalla" );
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .pic-table__name {
+        padding: 12px;
+    
+        a {
+            color: map-get($color-map, "pacific-blue" );
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+.pic__location {
+    @include flexbox;
+    @include align-items(center);
+    margin: 16px 12px;
+    padding: 12px 16px;
+
+    border: 1px solid map-get($color-map, "ghost" );
+    border-radius: 4px;
+
+    .location__icon {
+        @include location-icon;
+        display: inline-block;
+        width: 28px;
+        height: 22px;
+    }
+
+    .location__text {
+        color: map-get($color-map, "manatee" );
+        font-size: 14px; 
+        line-height: 20px;
+    }
+}

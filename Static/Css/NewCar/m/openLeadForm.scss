@@ -1,0 +1,218 @@
+@import "../../../scss/mixins/icons";
+
+.bg_gry_full {
+    padding: 0px 10px 20px 10px;
+}
+
+.city_blk {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 10%) 0 1px 0 0;
+  position: relative;
+}
+
+.city_blk .dealer_ttle {
+    font-size: 15px;
+    color: #92939e;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: Muli-Regular;
+}
+
+.form-control {
+    width: 100%;
+    color: #b2b3ba;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    outline: none;
+    vertical-align: middle;
+    margin-left: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+  background:
+    url("https://images.cartrade.com/images-mobiles/locationfilled.svg")
+    15px 11px no-repeat;
+    background-size: 11px auto;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pos_relv {
+    position: relative;
+}
+
+.nxtarw {
+  background:
+    url("#{$img-cdn-path}0x0/cw/static/icons/svg/565a5c/arrow-right.svg")
+    right 0 no-repeat;
+  width: 10px;
+  height: 14px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+
+.dlr_art {
+    position: absolute;
+    right: 15px;
+    top: -27px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.act_city {
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.defaultVal {
+    display: block;
+    overflow: hidden;
+    padding-left: 28px;
+}
+
+.sec_blk_ttl {
+    font-size: 17px;
+    color: #56586a;
+    font-weight: normal;
+    font-family: Muli-Semibold;
+}
+
+.sec_blk_cnt {
+    font-size: 12px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: #999999;
+    line-height: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.openleadform-input {
+    margin-bottom: 20px;
+    position: relative;
+    padding-top: 19px;
+    padding-bottom: 2px;
+}
+
+.openleadform-input input[type="text"] {
+    border-bottom: 1px #92939e solid;
+}
+
+.openleadform-input input[type="text"],
+.openleadform-input input[type="number"],
+.openleadform-input input[type="tel"] {
+    font: 15px/24px Arial;
+    color: #272a41;
+    width: 100%!important;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.openleadform-input label {
+    color: #92939e;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .25s ease;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+input:valid ~ label,
+textarea:valid ~ label,
+.sngl_input input:focus ~ label,
+.openleadform-input input:focus ~ label {
+    font-size: .8em;
+    color: #92939e;
+    top: -12px;
+    -webkit-transition: all .125s ease;
+    transition: all .125s ease;
+    box-shadow: none;
+}
+
+.effect-17 ~ label {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 3px;
+    color: #aaa!important;
+    transition: 0.3s;
+    z-index: 0;
+    /* letter-spacing: 0.5px; */
+}
+
+.effect-17:focus ~ .focus-border, .has-content.effect-17 ~ .focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.effect-17~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #1A1A1A;
+    transition: .4s;
+    z-index: 99;
+}
+
+textarea ~ span,
+.openleadform-input input ~ span {
+    display: none;
+    width: 0;
+    height: 0px;
+    background: #56586a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all .125s ease;
+    transition: all .125s ease;
+}
+
+.popupBlock_fld input, .pandindia_popup input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.effect-17 {
+    border: 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #8e8e8c!important;
+    background-color: transparent;
+}
+
+.cnct_btn {
+    width: 100%!important;
+    height: 40px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #d11900;
+    text-align: center;
+    color: #D11900;
+    font-size: 15px;
+    top: 0px;
+    border-radius: 0px!important;
+    margin-top: 20px;
+    border-radius: 20px !important;
+    font-family: Muli-semibold;
+}

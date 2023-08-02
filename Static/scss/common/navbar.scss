@@ -1,0 +1,71 @@
+@import "../base/index";
+@import "../mixins/index";
+
+.height-12 {
+    height: 48px;
+}
+
+.global-header {
+    @include vendor-prefix("box-shadow", 0 2px 4px 0 rgba(0, 0, 0, 0.21));
+    height: 48px;
+}
+
+.width-210 {
+    width: 210px;
+}
+
+.width-272 {
+    width: 272px;
+}
+
+.sub-nav-container {
+    @include vendor-prefix("box-shadow", 0 2px 4px 0 rgba(0, 0, 0, 0.5));
+    display: none;
+}
+
+.nav-expand:hover {
+    & > .sub-nav-container {
+        display: block;
+    }
+}
+
+.nav-main-tab {
+    @include vendor-prefix("transition", (color 300ms linear, background-color 300ms linear));
+}
+
+.nav-main-tab:hover {
+    color: map-get($color-map, "white");
+    background-color: map-get($color-map, "light-coral");
+
+    .nav-main-tab-arrow {
+        fill: map-get($color-map, "white");
+    }
+
+    & > .nav-tab-link {
+        color: map-get($color-map, "white");
+    }
+}
+
+.nav-sub-tab-primary {
+    min-height: 48px;
+}
+
+.nav-sub-tab-secondary {
+    min-height: 40px;
+}
+
+.nav-sub-tab-primary, .nav-sub-tab-secondary {
+    @include vendor-prefix("transition", (background-color 300ms linear));
+}
+
+.nav-sub-tab-primary:hover {
+    background-color: map-get($color-map, "white-smoke-2");
+
+    .nav-tab-link {
+        color: map-get($color-map, "comet");
+    }
+}
+
+.nav-sub-tab-secondary:hover {
+    background-color: map-get($color-map, "whisper");
+}

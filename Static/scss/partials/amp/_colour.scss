@@ -1,0 +1,58 @@
+.color_blk {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 15px;
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(152, 152, 152) 0px 1px 6px;
+	position: relative;
+}
+
+.heding_h3 {
+	padding: 10px;
+	background: rgb(255, 255, 255);
+	color: rgb(87, 87, 86);
+	width: auto;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	margin-top: 5px;
+}
+
+.cntr {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden
+}
+
+.colorwrap {
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 15px;
+	text-align: center;
+	width: 40%;
+	min-height: 85px;
+	line-height: normal;
+}
+
+.colorinfo {
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 5px;
+	box-shadow: rgb(221, 221, 221) 0px 0px 5px;
+	margin-bottom: 4px;
+	padding: 4px;
+}
+
+.colorblk {
+	background: rgb(61, 61, 61);
+}
+
+.full {
+	height: 40px
+}
+
+.half {
+	height: 20px
+}

@@ -1,0 +1,85 @@
+.content_are .colors {
+  border: 1px solid #f0f0f0;
+  padding: 24px 0;
+  margin: 0px 0px 24px;
+}
+
+.colors h2 {
+  color: #272a41;
+  font-size: 21px;
+  font-family: "Muli-Bold";
+  display: block;
+  padding: 0px 20px 32px 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.colors .colorwrap {
+  float: none;
+  font-size: 12px;
+  margin-left: 0px;
+  margin-top: 0px;
+  text-align: center;
+  width: 160px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 15px;
+}
+
+.colors .colorinfo {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.colors .circleclr {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 0px auto;
+  border: 1px solid #e8e8e8;
+}
+
+.colors .halfCircleTop {
+  border-radius: 90px 90px 0 0;
+  height: 35px;
+  width: 70px;
+  border: 1px solid #e8e8e8;
+  margin: 0 auto;
+  border-bottom: none;
+}
+
+.colors .halfCircleBottom {
+  border-radius: 0px 0px 90px 90px;
+  position: relative;
+  box-shadow: rgb(0 0 0 / 13%) 0px 0px 1px 1px;
+  height: 35px;
+  width: 70px;
+  margin: 0 auto;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+}
+
+.colors .extra_gap {
+  color: #272a41;
+  font-size: 15px;
+  font-family: "Muli-Regular";
+  width: 122px;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: normal;
+  word-break: break-word;
+  min-height: 10px;
+  line-height: normal;
+  margin: 0px auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content_are .colors .colorwrap {
+    width: 16.3%;
+  }
+}

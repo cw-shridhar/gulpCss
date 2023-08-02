@@ -1,0 +1,71 @@
+
+.read-review__container, .write-review__container {
+    padding: 24px 16px 20px;
+}
+
+.read-review__text, .write-review__text {
+    font-size: 19px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-semibold;
+    padding-bottom: 4px;
+}
+
+.read-review__description, .write-review__description {
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    padding-bottom: 16px;
+}
+
+.content-search__block {
+    position: relative;
+}
+
+.content-search__wrapper {
+    position: relative;
+}
+
+.content-serach__icon {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+}
+
+.search-icon {
+    @include search-icon;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.content-search__input-block {
+    width: 100%;
+    padding: 12px 12px 12px 44px;
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+    border: 1px solid map-get($color-map, "manatee");
+    border-radius: 4px;
+}
+
+.drop-down {
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid map-get($color-map, "manatee" );
+    border-radius: 4px;
+    background-color: map-get($color-map, "white" );
+
+    .drop-down__menu-item {
+        font-size: 14px;
+        padding: 12px 16px;
+        border-bottom: 1px solid map-get($color-map, "whisper" );
+
+        a {
+            color: map-get($color-map, "valhalla");
+        } 
+
+        :last-child {
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.colors-carousel-color-name {
+    color: map-get($color-map, "comet" );
+    font-size: 13px;
+    display: none;
+    font-family: $font-lato-bold;
+}
+
+.color-carousel-bottom-border{
+    height: 4px;
+}
+
+.color-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.color-info {
+    height: 32px;
+    width: 32px;
+    border: 1px solid map-get($color-map, "ghost");
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.tick-container {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: none;
+}
+
+amp-selector [option][selected] {
+    outline: none;
+}
+
+amp-selector [option][selected] .tick-container,
+amp-selector [option][selected].colors-carousel-color-name {
+    display: block;
+}
+
+.blackout-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+
+.view-all-imgs-link {
+    padding: 8px 20px;
+    color: map-get($color-map, "white");
+    border: 1px solid map-get($color-map, "white");
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,33 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../upcomingcar/m/upcomingpopularbrands.scss";
+@import "../../../partials/browsecars/m/browsecars.scss";
+@import "./carscarousel";
+@import "./quickresearch";
+
+.ad-block {
+	@include flexbox;
+	@include justify-content(center);
+	@include align-items(center);
+	min-height: 120px;
+	background-color: map-get($color-map, "white-smoke");
+}
+
+.page-header {
+	color: map-get($color-map, "valhalla");
+	font-size: 21px;
+	font-family: $font-muli-regular;
+	font-weight: normal;
+}
+
+.compareCarWrapper {
+    padding: 16px;
+}
+
+.compareTitle {
+	padding-bottom: 12px;
+	padding-top: 7px;
+	color: map-get($color-map, "valhalla");
+	font-size: 19px;
+	font-family: $font-muli-semibold;
+}

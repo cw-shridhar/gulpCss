@@ -1,0 +1,96 @@
+
+
+
+.carousel__wrapper {
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+    padding: 24px 10px 20px; 
+    margin: 24px 0;   
+
+    .review__header {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 21px;
+        padding-bottom: 17px;
+    }
+}
+.user-review__card {
+    max-width: 342px;
+    min-width: 272px;
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+    margin-right: 18px;
+    
+
+    .review-card__img {
+        max-height: 190px;
+    }
+
+    .card-head__image {
+        width: 100%;
+    }
+}
+
+
+.review-card__details {
+    padding: 16px 11px;
+    background-color: map-get($color-map, "whisper");
+
+    .review-card__name {
+        font-size: 16px;
+        padding-bottom: 8px;
+        color: map-get($color-map, "valhalla");
+    }
+
+    .review-card__reviews {
+        @include flexbox;
+        @include align-items(center);
+        padding-bottom: 8px;
+    }
+
+    .total-reviews {
+        padding-left: 8px;
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+    }
+
+    .review-card__car-price {
+        font-size: 16px;
+        font-family: $font-muli-semibold;
+        line-height: 20px;
+        color: map-get($color-map, "valhalla");
+    }
+
+    .review-card__car-price-detail {
+        padding-left: 8px;
+        font-size: 12px;
+        font-weight: $font-light;
+        color: map-get($color-map, "manatee");
+    }
+}
+
+.up-car__all {
+    display: block;
+    margin: 16px;
+
+    .arrow_right {
+        @include border-arrow(8,"pacific-blue",1,"right");
+        margin: 1px 0;
+    }
+
+    .location__text {
+        color: map-get($color-map, "pacific-blue" );
+        font-size: 15px;
+        font-family: $font-muli-semibold;
+    }
+}
+
+
+
+
+
+
+
+
+

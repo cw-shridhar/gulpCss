@@ -1,0 +1,44 @@
+.sell-car-online-slug {
+    background-color: white;
+    margin: -20px -20px 20px -20px;
+}
+
+.sell-car-online-slug__container {
+    margin: 20px 0;
+    padding: 20px 16px;
+}
+
+.sell-car-online-slug .title {
+    font-size: 19px;
+    color: #272a41;
+    font-family: Muli-SemiBold;
+}
+
+.sell-car-online-slug .instructions-body {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    padding: 12px 16px;
+    margin-top: 16px;
+    border: #e8e8e8 solid 1px;
+}
+
+.sell-car-online-slug .sub-title {
+    font-size: 16px;
+    color: #56586a;
+    line-height: 1.51;
+    font-family: Muli-Regular;
+}
+
+.sell-car-online-slug .instruction {
+    font-size: 16px;
+    color: #56586a;
+    margin-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Muli-Regular;
+}
+
+.sell-car-online-slug .instruction__bullet {
+    margin-right: 8px;
+}

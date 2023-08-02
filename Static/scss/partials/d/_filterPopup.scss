@@ -1,0 +1,387 @@
+.inside_wrapper {
+    border: 1px solid map-get($color-map, "white-smoke");
+}
+
+.fltrtitle_fst {
+    color:  map-get($color-map, "comet");
+    padding: 10px 20px 10px 18px;
+    font-size: 15px;
+    font-family: Muli-Semibold;
+    text-transform: uppercase;
+    background: map-get($color-map, "white-smoke-6");
+    margin: 4px;
+}
+
+.reset {
+    color: map-get($color-map, "fire-red");
+    font-family: Muli-Semibold;
+    font-size: 15px;
+    text-align: right;
+    text-transform: capitalize;
+    float: right;
+}
+
+.refineCatagory {
+    border-top: 1px solid map-get($color-map, "white-smoke");
+}
+
+.ct_fltrtitle {
+    display: block;
+    color: map-get($color-map, "comet");
+    font-size: 15px;
+    font-family: Muli-Regular;
+    padding: 18px 0 16px 21px;
+    border-bottom: 1px solid map-get($color-map, "white-smoke");
+}
+
+.refDownArrow {
+    background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/57596b/up-arrow.svg") no-repeat
+      scroll 94% 24px;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+.price_range {
+    overflow: hidden;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    background: map-get($color-map, "gray99");
+
+    .label_p {
+        font-size: 14px;
+        text-align: left;
+        bottom: 0px;
+        padding-left: 32px;
+        top: 5px !important;
+    }
+
+    ul {
+        padding: 0 15px;
+        list-style: none;
+        margin: 0;
+
+        li {
+            float: left;
+            height: 30px;
+            position: relative;
+            width: 139px;
+            border-radius: 2px;
+            margin-bottom: 5px;
+            background-color: map-get($color-map, "white") !important;
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+
+            input[type="checkbox"] {
+                display: none;
+            }
+
+            span {
+                width: 20px;
+                height: 20px;
+                display: block;
+                background:
+                  url("#{$img-cdn-path}/0x0/cw/static/icons/fff/checkbox-16x16.png")
+                  0 0 no-repeat;
+                cursor: pointer;
+                position: relative;
+                top: -13px;
+                left: 7px;
+            }
+        }
+
+        li > label p {
+            font-size: 15px;
+            color: map-get($color-map, "comet");
+            display: block;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            bottom: -64px;
+            font-family: Muli-Regular;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.price_range ul li input:checked + span {
+    background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/e16363/checkbox-selected.svg") 0
+      0 no-repeat;
+}
+
+.label_p {
+    font-size: 15px;
+    color: map-get($color-map, "comet");
+    display: block;
+    text-align: center;
+    width: 100% !important;
+    position: relative;
+    bottom: -65px;
+    font-family: Muli-Regular;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    top: inherit !important;
+    left: inherit !important;
+    background: none !important;
+}
+
+.refUpArrow {
+    background:
+      url("#{$img-cdn-path}/0x0/cw/static/icons/svg/6f6f6f/arrow-down.svg") no-repeat
+      scroll 94% 24px;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+.pull-right {
+    float: right;
+}
+
+.other_features ul {
+    list-style: none;
+    margin: 0;
+    padding: 18px 24px 0 22px;
+    overflow: hidden;
+    background: map-get($color-map, "white");
+
+    li {
+        display: block;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding-bottom: 2.1em;
+        margin: 0 !important;
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        span {
+            width: 95%;
+            height: auto;
+            display: block;
+            background:
+              url("#{$img-cdn-path}/0x0/cw/static/icons/fff/checkbox-16x16.png")
+              0 0 no-repeat;
+            cursor: pointer;
+            float: none !important;
+            padding-left: 28px;
+            font-size: 14px;
+            color: map-get($color-map, "valhalla");
+            font-family: Muli-Regular;
+        }
+    }
+}
+
+.other_features ul li input:checked + span {
+    background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/e16363/checkbox-selected.svg") 0
+      0 no-repeat;
+}
+
+.pull-left {
+    float: left;
+}
+
+.chk_all {
+    color: map-get($color-map, "floral");
+    display: block;
+    padding: 0px 0 15px 22px;
+    font-size: 15px;
+}
+
+.body_type {
+    overflow: hidden;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    background: map-get($color-map, "gray99");
+
+    ul {
+        padding: 0 15px;
+        list-style: none;
+        margin: 0;
+
+        li:nth-child(1) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/hatchback.svg") 42px 22px
+              no-repeat;
+        }
+
+        li:nth-child(2) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/sedan.svg") 30px 22px
+              no-repeat;
+        }
+
+        li:nth-child(3) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/suv.svg") 30px 20px
+              no-repeat;
+        }
+
+        li:nth-child(4) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/van.svg") 30px 17px
+              no-repeat;
+        }
+
+        li:nth-child(5) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/muv.svg") 30px 22px
+              no-repeat;
+        }
+
+        li:nth-child(6) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/coupe.svg") 30px 25px
+              no-repeat;
+        }
+
+        li:nth-child(7) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/convertible.svg") 31px
+              27px no-repeat;
+        }
+
+        li {
+            float: left;
+            height: 94px;
+            position: relative;
+            width: 139px;
+            border-radius: 2px;
+            margin-bottom: 5px;
+            background-color: map-get($color-map, "white") !important;
+
+            input[type="checkbox"] {
+                display: none;
+            }
+
+            span {
+                width: 20px;
+                height: 20px;
+                display: block;
+                background:
+                  url("#{$img-cdn-path}/0x0/cw/static/icons/fff/checkbox-16x16.png")
+                  0 0 no-repeat;
+                cursor: pointer;
+                position: relative;
+                top: -14px;
+                left: 6px;
+            }
+        }
+
+        li > label p {
+            font-size: 15px;
+            color: map-get($color-map, "comet");
+            display: block;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            bottom: -64px;
+            font-family: Muli-Regular;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.body_type ul li input:checked + span {
+    background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/e16363/checkbox-selected.svg") 0
+      0 no-repeat;
+}  
+  
+.fuel_list {
+    overflow: hidden;
+    display: block;
+    background: map-get($color-map, "gray99");
+    padding: 17px 0 12px 0;
+
+    ul {
+        padding: 0 15px;
+        list-style: none;
+        margin: 0;
+
+        li:nth-child(1) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/f07e7c/petrol.svg") 28px 20px
+              no-repeat;
+        }
+
+        li:nth-child(2) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            margin-right: 3px;
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/f07e7c/diesel.svg") 28px 20px
+              no-repeat;
+        }
+
+        li:nth-child(3) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/f07e7c/cng.svg") 18px 14px
+              no-repeat;
+            background-size: 62%;
+        }
+
+        li:nth-child(4) {
+            border: 1px solid map-get($color-map, "white-smoke-6");
+            background: url("https://images.cartrade.com/images4/electric1.svg") 17px 8px
+              no-repeat;
+            background-size: 60%;
+        }
+
+        li {
+            float: left;
+            height: 92px;
+            position: relative;
+            width: 92px;
+            border-radius: 2px;
+            background-color: map-get($color-map, "white") !important;
+
+            input[type="checkbox"] {
+                display: none;
+            }
+
+            span {
+                width: 20px;
+                height: 20px;
+                display: block;
+                background:
+                  url("#{$img-cdn-path}/0x0/cw/static/icons/fff/checkbox-16x16.png")
+                  0 0 no-repeat;
+                cursor: pointer;
+                position: relative;
+                top: -14px;
+                left: 6px;
+            }
+        }
+
+        li > label p {
+            font-size: 15px;
+            color: map-get($color-map, "comet");
+            display: block;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            bottom: -65px;
+            font-family: Muli-Regular;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+  
+.fuel_list ul li input:checked + span {
+    background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/e16363/checkbox-selected.svg") 0
+      0 no-repeat;
+}

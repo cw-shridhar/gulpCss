@@ -1,0 +1,444 @@
+/* Swiper css start */
+.model-image-swiper-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.model-image-swiper__navigation {
+    color: #565a5c;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.model-image-swiper__navigation--prev {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    left: 0;
+    opacity: .8;
+}
+
+.model-image-swiper__navigation--next {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    right: 0;
+    opacity: .8;
+}
+
+.model-image-swiper__navigation-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.model-image-swiper__navigation-icon--prev {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.model-img-swiper__img-wrapper {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 62.5%;
+}
+
+.model-image-swiper__image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    aspect-ratio: 1.6;
+}
+
+.model-image-info-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background: #f5f5f5;
+}
+
+.model-image-info__details,
+.model-image-info__icons {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.model-image-count {
+    font-size: 13px;
+    margin-right: 12px;
+}
+
+.active-image-count {
+    font-size: 16px;
+    color: #272a41;
+    font-weight: bold;
+}
+
+.total-image-count {
+    color: #56586a;
+}
+
+.model-image-name {
+    margin-right: 12px;
+    color: #56586a;
+    font-size: 13px;
+}
+
+.model-image-download-icon {
+    height: 24px;
+    width: 24px;
+    color: #56586a;
+    cursor: pointer;
+}
+
+/* Swiper css end */
+
+/* Colors swiper css start */
+
+.colors-swiper-bottom-border {
+    position: relative;
+    width: 100%;
+    height: 4px;
+}
+
+.color-name-wrapper {
+    padding: 8px 16px;
+}
+
+.model-colors-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+}
+
+.color-wrap {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.color-info {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #d2d2d5;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tick-container {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: none;
+}
+
+.colors-swiper-active-color .tick-container {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Colors swiper css end */
+
+/* Colors swiper desk start */
+@media only screen and (min-width: 800px) {
+    .active-image-count {
+        font-size: 18px;
+    }
+
+    .model-image-swiper-container {
+        overflow: unset;
+    }
+
+    .model-image-name {
+        font-size: 15px;
+    }
+
+    .colour-carousel .model-image-info-container {
+        padding: 12px 20px;
+    }
+
+    .swiper-container-wrapper {
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+    }
+
+    .colour-carousel .model-image-swiper__navigation {
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .colour-carousel .model-image-swiper__navigation--prev {
+        left: -16px;
+    }
+
+    .colour-carousel .model-image-swiper__navigation--next {
+        right: -16px;
+    }
+
+    .model-image-swiper__navigation-icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .model-image-swiper__navigation:hover {
+        color: #f07e7c;
+    }
+
+    .colour-carousel .model-img-swiper__img-wrapper {
+        width: 800px;
+        padding-top: 43.5%;
+        margin: 0 auto;
+    }
+}
+
+/* Colors swiper css end */
+
+/* model page specific css */
+
+.swiper-slide-width-adjustment.swiper-slide {
+    width: 100vw !important;
+    max-width: 100vw !important;
+}
+
+/* Image swiper css starts */
+.image-swiper-container-wrapper {
+    margin-bottom: 12px;
+}
+
+.swiper-image__anchor {
+    padding: 8px 20px;
+    line-height: 16px;
+    font-size: 13px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    font-weight: bold;
+}
+
+.swiper-image__anchor:hover {
+    color: white;
+}
+
+.imgs-blackout-window {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Image swiper css end */
+
+/* Images page desk */
+
+.model-img-thumbs-container {
+    display: none;
+}
+
+.swiper-container-img,
+.model-img-thumbs-swiper {
+    overflow: hidden;
+}
+
+.model-img-thumbs-swiper {
+    height: 100%;
+}
+
+.thumbs-swiper-slide {
+    width: 160px;
+    cursor: pointer;
+}
+
+.thumbs-blackout-window {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .5;
+}
+
+.model-img-thumbs-slide-active .thumbs-blackout-window {
+    display: none;
+}
+
+.model-thumbs-img {
+    height: 100%;
+    width: 100%;
+}
+
+.thumbs-navigation {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    width: 40px;
+    height: 20px;
+}
+
+.thumbs-swiper-prev {
+    top: 8px;
+    opacity: .8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.thumbs-swiper-next {
+    opacity: .8;
+    bottom: 8px;
+    top: unset;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.thumbs-swiper-nav-icon:focus {
+    outline: none;
+}
+
+.thumbs-swiper-prev-icon {
+    transform: rotate(-90deg);
+}
+
+.thumbs-swiper-next-icon {
+    transform: rotate(90deg);
+}
+
+.model-label {
+    z-index: 1;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+.model-label.upcoming {
+    background-color: #ef9526;
+}
+.model-label.discontinued {
+    background-color: #92939e;
+}
+
+@media only screen and (min-width: 800px) {
+    .model-image-swiper-container {
+        overflow: unset;
+    }
+
+    .model-image-swiper__navigation:hover,
+    .thumbs-navigation:hover,
+    .model-image-download-icon:hover {
+        cursor: pointer;
+        color: #f07e7c;
+    }
+
+    .model-image-swiper__navigation-icon,
+    .thumbs-swiper-nav-icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .model-image-swiper__navigation-icon:focus {
+        outline: none;
+    }
+
+    .model-img-carousel-wrapper {
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .swiper-img-container-wrapper {
+        width: 69.4%;
+    }
+
+    .model-image-info-container {
+        padding: 10px 16px;
+    }
+
+    .model-image-count,
+    .model-image-name {
+        font-size: 15px;
+    }
+
+    .active-image-count {
+        font-size: 18px;
+    }
+
+    .model-img-thumbs-container {
+        display: block;
+        width: 28.5%;
+        height: 532px;
+        position: relative;
+        padding: 8px 12px;
+    }
+}
+
+/* Images swiper desk css end */

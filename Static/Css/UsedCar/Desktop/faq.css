@@ -1,0 +1,81 @@
+.faqSection .question {
+    color: #272a41;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.faqSection p {
+    margin-bottom: 0px;
+}
+
+.faqSection .carDescWrapper {
+    cursor: pointer;
+    padding-left: 0px;
+    border-bottom: 0px;
+}
+
+.faqSection .answer {
+    cursor: pointer;
+    padding: 16px 24px;
+    border-top: 1px solid #e2e2e2;
+    color: #56586a;
+}
+
+.faqSection a {
+    color: #d02326;
+}
+
+.faqSection {
+    font-size: 15px;
+    color: #82888b;
+    line-height: 22px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #e5e5e5;
+    border: 1px solid #e2e2e2;
+    border-bottom: 0px;
+    border-top: 0px;
+    clear: both;
+    margin-bottom: 24px;
+}
+
+.faqSection .faqTitle {
+    padding: 24px;
+    color: #272a41;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.faqSection .question {
+    padding: 20px 24px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.faqSection .viewMore {
+    font-size: 15px;
+    color: #d02326;
+    cursor: pointer;
+}
+
+.faqSection .viewMoreWrapper {
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0px 20px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.rotateFaqArrow90 {
+    float: right;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -webkit-transition: transform .5;
+    transition: transform .5;
+}
+
+.rotateFaqArrow {
+    -webkit-transform: rotateZ(270deg);
+    transform: rotateZ(270deg);
+}
+
+.viewMore svg {
+    margin-top: 30px;
+}

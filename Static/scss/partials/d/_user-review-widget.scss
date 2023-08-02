@@ -1,0 +1,274 @@
+@include rating-circle-list("horizontal");
+
+.rating-circle-list {
+    @include justify-content(flex-start);
+
+    li{
+        @include flex-direction(row);
+        padding-left: 26px;
+    }
+
+    .list-item-label {
+        padding-left: 10px;
+    }
+}
+.rate-count-value {
+    padding-left: 5px;
+}
+
+.rate-count-total {
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: $font-bold;
+    color: map-get($color-map, "dark-gray" );;
+}
+
+.more-review__container {
+    border: 1px solid  map-get($color-map, "whisper" );
+    border-radius: 4px;
+    margin: 24px 0;
+    padding: 24px 20px 20px;
+
+    .review__header {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 21px;
+        padding-bottom: 4px;
+    }
+
+    ::before, ::after {
+        box-sizing: border-box;
+    }
+}
+
+.user-review__content {
+    padding: 12px 0;
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .user-review__title-container {
+        @include flexbox;
+        @include align-items(center);
+        padding-bottom: 8px;
+    }    
+    
+    .user-review__title {
+        @include text-truncate('',1);
+        padding-left: 8px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 19px;
+    }
+
+    .user-review__author-days {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+
+    .user-review__description {
+        padding-top: 8px;
+        font-size: 15px;
+        color: map-get($color-map, "valhalla" );
+        line-height: 23px;
+        margin-bottom: 12px;
+    }
+    .text-truncate {
+        @include text-truncate('',2);
+        margin-bottom: 0px;
+        height: 54px;
+    }
+
+    .expand-collapse {
+        @include flexbox;
+        @include justify-content(flex-end);
+        padding-top: 4px;
+    }
+
+    .expand-review {
+        font-size: 13px;
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        cursor: pointer;
+    }  
+}
+
+.user-review__description {
+    div {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    b {
+        display: block;
+        padding-top: 8px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    b:first-child {
+        padding-top: 0px;
+    }
+}
+
+@for $i from 1 through 5 {
+    @include  rating-badge($i);
+}
+
+.view-more-reviews {
+    @include flexbox;
+    @include justify-content(center);
+    margin-top: 16px;
+
+    .all-user-reviews-link {
+        color: map-get($color-map, "pacific-blue" );
+        text-decoration: none;
+        font-weight: $font-bold;
+        font-size: 15px;
+    }
+
+    .arrow-down {
+        @include border-arrow(8, "pacific-blue", 1,"down");
+        margin: 3px;
+    }
+}
+
+.milage-details, .user-rating {
+    .milage-details__heading, .user-rating__heading {
+        font-size: 15px;
+        color: map-get($color-map, "valhalla" );
+        font-weight: $font-bold;
+    }
+}
+
+
+.milage-details__table, .user-rating__table {
+    margin: 8px 0 16px;
+    background-color: map-get($color-map, "white-smoke-2" );
+    border: 1px solid map-get($color-map, "whisper" );
+    border-radius: 4px;
+
+    .milage-details__value,
+    .user-rating__value {
+        font-weight: $font-bold;
+        color: map-get($color-map, "valhalla" );
+    }
+
+    span {
+        font-size: 13px;
+        color: map-get($color-map, "comet" );
+    }
+}
+
+.milage-details__table {
+    @include flexbox;
+    @include align-items(center);
+        
+    > li {
+        @include flexbox;
+        @include justify-content(center);
+        padding: 16px 12px;
+        border-right: 1px solid map-get($color-map, "whisper" );
+
+        .milage-details__value {
+            padding-left: 16px;
+        }
+
+    }
+
+    > li:last-child {
+        border: none;
+    }
+}
+
+.user-rating__table {
+    .user-rating__info {
+        @include flexbox;
+        @include flex-wrap(wrap);
+        border-top: 1px solid map-get($color-map, "whisper" );
+
+        li {
+            padding: 16px 12px;
+        }
+
+        span {
+            width: 50%;
+        }
+
+        >:nth-child(odd) {
+            border-right: 1px solid map-get($color-map, "whisper" );  
+        }
+        
+        :last-child {
+            border-bottom: none;
+        }
+    }
+
+    .rating-circle-list {
+        padding: 16px 12px;
+    }
+
+    .user-rating__content {
+        @include flexbox;
+        width: 50%;
+        border-bottom: 1px solid map-get($color-map, "whisper" );  
+    }
+}
+
+.user-review__footer {
+    @include flexbox;
+    @include align-items(center);
+    .like-dislike__wrapper {
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+        padding-top: 2px;
+        padding-left: 16px;
+    }
+
+    .review__question {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+
+    .like-icon {
+        @include like-icon;
+        margin-right: 8px;
+    }
+
+    .like-icon-highlight {
+        @include like-active-icon;
+        margin-right: 8px;
+    }
+
+    .dislike-icon {
+        @include like-icon;
+        @include vendor-prefix('transform', rotate(180deg));
+        margin-right: 8px;
+    }
+
+    .dislike-icon-highlight {
+        @include like-active-icon;
+        @include vendor-prefix('transform', rotate(180deg));
+        margin-right: 8px;
+    }
+
+    .like-dislike__seperator {
+        color: map-get($color-map, "whisper");
+        padding: 0 12px;
+    }
+    
+    .like-dislike-count {
+        font-size: 12px;
+        color: map-get($color-map, "comet");
+    }
+
+    .like-dislike-count-highlight {
+        font-size:12px;
+        color: map-get($color-map,"persian-green");
+    }
+}

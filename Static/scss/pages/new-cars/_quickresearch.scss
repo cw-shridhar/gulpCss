@@ -1,0 +1,72 @@
+.quick-research-title {
+    font-size: 22px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-semibold;
+}
+
+.quick-research-list {
+    @include flexbox;
+
+    .quick-research-item {
+        width: 144px;
+        height: 155px;
+        border: 1px solid map-get($color-map, "white-smoke");
+        margin-left: 16px;
+
+        &:nth-child(1) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-on-road-price.svg") no-repeat 41px 26px;
+            background-size: 41%;
+            margin-left: 0;
+        }
+
+        &:nth-child(2) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-car-recommender.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        &:nth-child(3) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-compare-cars.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        &:nth-child(4) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-expert-reviews.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        &:nth-child(5) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-car-brochure.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        &:nth-child(6) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-emi-calculator.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        &:nth-child(7) {
+            background: url("https://imgd-ct.aeplcdn.com/0x0/cw/static/ct/q-image-gallery.svg") no-repeat 41px 26px;
+            background-size: 41%;
+        }
+
+        .quick-research-text {
+            display: block;
+            color: map-get($color-map, "valhalla");
+            font-size: 15px;
+            width: 67%;
+            padding-top: 96px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &:hover {
+            @include vendor-prefix(transition, (border .8s));
+            border: 1px solid map-get($color-map, "light-coral");
+
+            .quick-research-text {
+                @include vendor-prefix(transition, (color .8s));
+                color: map-get($color-map, "light-coral");
+            }
+        }
+    }
+}

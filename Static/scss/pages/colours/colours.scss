@@ -1,0 +1,111 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../partials/d/model-card";
+@import "../../mixins/icons";
+@import "../../partials/m/cmp-car-colors-imgs-carousel";
+@import "../../partials/m/compare-colors";
+@import "../../partials/d/price-in-other-cities";
+
+.breadcrumbs {
+    margin-bottom: 14px !important;
+}
+
+.description {
+    margin-top: 4px;
+    font-size: 15px;
+    color: map-get($color-map, "comet");
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-family: Muli-Regular, Muli-Regular-Fallback;
+}
+
+.description .seo-text-colour-links {
+    color: map-get($color-map, "comet");
+}
+
+.description .seo-text-colour-links:hover {
+    color: map-get($color-map, "fire-red");
+}
+
+.colour-top-ad {
+    @include flexbox;
+    @include justify-content(center);
+    
+    position: relative;
+    margin: 16px auto 14px;
+    z-index: 1;
+    max-width: 970px;
+    min-width: 100px;
+    height: 90px;
+}
+
+.cars-faqs {
+	margin-top: 24px;
+}
+
+.text-truncate {
+    @include text-truncate;
+}
+
+.compare-colors {
+    max-width: 1156px;
+    margin: 24px auto 0;
+    border: 1px solid map-get($color-map , "whisper");
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+
+    p {
+        line-height: 1.25;
+    }
+
+    * {
+        box-sizing: border-box;
+
+        &:before {
+            box-sizing: border-box;
+        }
+    }
+}
+
+.compare-colors-heading {
+    margin-bottom: 16px;
+    color: map-get($color-map, "valhalla");
+    font-size: 21px;
+    font-family: $font-muli-semibold;
+}
+.content_are {
+  width: 1156px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.content_are .left-content {
+    margin-right: 52px;
+    width: 65.9%;
+    float: left;
+}
+
+.content_are .right-content {
+    float: right;
+	margin-top: 17px;
+	width: 29%;
+
+	@include flexbox;
+	@include flex-direction(column);
+}
+
+.inpad-right {
+    margin-bottom: 24px;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
+}
+
+.three-sixty-link {
+    padding: 10px 20px;
+    border: 1px solid map-get($color-map, "ghost");
+    margin-left: 20px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,150 @@
+.sellcar-edit-list-container {
+  list-style: none;
+}
+
+.sellcar-edit-list {
+  border: 1px solid #efefef;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.content-detail-wrapper {
+  padding: 0 12px;
+}
+
+.edit-sell-detail-unit {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.sellcar-ad-unit {
+  margin-bottom: 10px;
+}
+
+.buyer-detail-unit {
+  font-size: 13px;
+  color: #5b6b75;
+  margin-bottom: 10px;
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sellcar-edit-card-links {
+  border-top: 1px solid #efefef;
+  padding: 12px 10px;
+}
+
+.sellcar-edit-card-links a {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  color: #3fbfff;
+  font-size: 14px;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+.img-wrapper .listing-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+}
+
+.mylistingContainer .listing-image {
+  max-width: 100%;
+}
+
+.mylistingContainer .sellcar-edit-list-container .sellcar-edit-list {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+
+.grid-12.alpha.omega {
+  padding: 0 17px;
+}
+
+.edit-detail-label {
+  color: #92939e;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.edit-detail-value {
+  font-size: 13px;
+  color: #272a41;
+  margin-top: 4px;
+}
+
+.ad-status {
+  font-size: 16px;
+  color: #00afa0;
+  font-weight: 400;
+}
+
+.ad-expiry-date {
+  color: #56586a;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.sellcar-show-ad-link a {
+  color: #0288d1;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.edit-sell-listing-title {
+  margin-top: 16px;
+  color: #272a41;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.image-pending {
+  position: absolute;
+  bottom: 8px;
+  margin: auto;
+  width: 100%;
+}
+
+.no-image-container {
+  background-color: #f5f5f5;
+  padding-bottom: 10px;
+}
+
+.upload-photo-button {
+  border: #b5b5b5;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 126px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6f6f6f;
+  text-align: center;
+  line-height: 32px;
+  background-color: white;
+}
+
+.no-image-container .no-image {
+  height: 220px;
+  width: 300px;
+  margin-top: 20px;
+}

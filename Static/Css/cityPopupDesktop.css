@@ -1,0 +1,91 @@
+#pl_city_popup  .cityBand.newcitypop{border:2px solid #d31900;display:none;height:292px;width:665px;margin:-140px 0 0 -320px!important;padding:0!important;background:url(https://d5x4wettsjecf.cloudfront.net/images3/city-popup-img.jpg) 50% 85% no-repeat #f4f3f3!important;text-align:center;position:fixed;left:50%;top:50%;z-index:100000834;border-radius:5px;box-shadow:#222 0 0 10px}.cityBand .closebtn{cursor:pointer!important;float:right!important;font-size:0!important;height:40px!important;padding:0!important;position:absolute!important;right:-16px!important;top:-16px!important;width:40px!important;background:url(https://d5x4wettsjecf.cloudfront.net/images4/close_red_btn.png) no-repeat!important}.cityBand .newcityselct{padding:40px 30px}.cityBand .newcityselct .h2style{text-transform:uppercase;margin-right:20px;width:300px;border:none!important;text-align:left!important;font-size:22px!important;font-weight:700!important;color:#c90925!important;margin-bottom:20px;padding:0 0 6px;font-family:Arial,sans-serif!important}.cityBand .newcityselct .selectcity{width:280px;border:2px solid #c90925;border-radius:4px;height:35px;line-height:35px;padding:6px;margin-top:6px;color:#c90925;font-weight:normal}.cityBand .selectcity optgroup,.cityBand .selectcity option{color:grey}
+#pl_city_popup .pl_cityoverlay {
+    background: transparent url(https://d5x4wettsjecf.cloudfront.net/images4/transp-bg.png) repeat center center;
+    height: 1000%;
+    left: 0;
+    opacity: 0.55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000;
+}
+#selectcityfilm {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10000083;
+    margin-left: -230px;
+    margin-top: -120px;
+    border-radius: 5px;
+    box-shadow: rgb(34, 34, 34) 0px 0px 10px;
+    padding: 20px;
+    background: none 0px 0px repeat scroll rgb(255, 255, 255);
+  }
+  #selectcityfilm label {
+    width: 150px;
+    font-size: 15px;
+  }
+  
+  #selectcityfilm label span {
+    color: rgb(255, 0, 0);
+  }
+  
+  .newcitypop {
+    border: 2px solid rgb(211, 25, 0);
+    display: none;
+    height: 292px;
+    width: 665px;
+    margin: -140px 0px 0px -320px !important;
+    padding: 0px !important;
+    background: url("https://d5x4wettsjecf.cloudfront.net/images3/city-popup-img.jpg-version201608301436.jpg")
+      50% 85% no-repeat scroll rgb(244, 243, 243) !important;
+  }  
+  .closebtnpopup#citybandclose {
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    height: 40px;
+    padding: 0px;
+    position: absolute;
+    left: 14px;
+    top: auto;
+    bottom: -16px;
+    width: 40px;
+    background: none;
+    text-decoration: underline;
+    color: #0054a6 !important;
+}
+#selectcityfilm h2, #selectcityfilm .h2style {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(217, 217, 149);
+    color: rgb(210, 25, 0);
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0px 0px 6px;
+    font-family: QuestrialRegular, sans-serif;
+}
+.newcityselct .h2style {
+    text-transform: uppercase;
+    margin-right: 20px;
+    width: 300px;
+    border: none !important;
+    text-align: left !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: rgb(201, 9, 37) !important;
+}
+.newcityselct .selectcity {
+    width: 280px;
+    border: 2px solid rgb(201, 9, 37);
+    height: 35px;
+    line-height: 35px;
+    padding: 6px;
+    margin-top: 6px;
+    color: rgb(201, 9, 37);
+    font-weight: bold;
+}
+.newcityselct {
+    padding: 40px 30px;
+}

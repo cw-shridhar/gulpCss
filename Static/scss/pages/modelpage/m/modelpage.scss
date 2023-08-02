@@ -1,0 +1,160 @@
+@import "../../../base/index";
+@import "../../../mixins/flexbox";
+@import "../../../mixins/vendor-prefix";
+@import "../../../mixins/icons";
+@import "../../../mixins/loader";
+@import "../../../utils/accordion";
+@import "./../../../partials/m/version-city-selection";
+@import "../../../partials/m/modelRating";
+@import "../../../partials/m/price-block";
+@import "../../../partials/m/emi-calculator";
+@import "../../../partials/m/upcoming-cars-block";
+@import "../../../partials/m/discontinued-cars-block";
+@import "../../../partials/m/modelKeySpecsSlug";
+@import "../../../partials/m/pros-cons-card";
+@import "../../../partials/m/expert-review-rating-score";
+@import "../../../partials/m/user-rating-widget";
+@import "../../../common/m/version-selection-popup";
+@import "../../../partials/m/_similar-cars-carousel.scss";
+@import "../../../partials/m/comparison-table";
+@import "../../../partials/m/seo-table";
+@import "../../../partials/m/offer-widget";
+@import "../../../partials/m/model-card";
+@import "../../modelfaqs/faqWidget";
+
+@include loader-gif();
+
+.priceblock-price {
+	font-size: 19px;
+	font-family: $font-muli-semibold;
+	letter-spacing: 0;
+	color: map-get($color-map, "valhalla");
+	margin-bottom: 4px;
+	margin-right: 12px;
+}
+
+.priceblock-price-label {
+	font-family: $font-muli-regular;
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+	margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.get-best-price-btn {
+    font-family: $font-muli-regular;
+    font-weight: bold;
+    font-size: 13px;
+    color: map-get($color-map, "pacific-blue");
+}
+
+.dealer-call-text {
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+}
+
+.dealer-call-cta {
+    margin-bottom: 20px;
+    color: map-get($color-map, "white");
+    background-color: map-get($color-map, "fire-red");
+    border: map-get($color-map, "fire-red") solid 1px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 15px;
+    font-family: $font-muli-semibold;
+    min-height: 40px;
+}
+
+.expert-review-tabs-container {
+    @include flexbox;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.tab-name {
+    font-size: 13px;
+    color: map-get($color-map, "comet");
+    line-height: 20px;
+    padding: 10px 16px;
+    min-width: fit-content;
+    margin: 0;
+}
+
+.tab-name.active {
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-semibold;
+    border-bottom: 4px solid map-get($color-map, "light-coral");
+}
+
+.content-video iframe {
+    width: 100%;
+    height: 213px;
+}
+
+.seo-text {
+    font-size: 13px;
+    line-height: 20px;
+    color: map-get($color-map, "comet");
+    margin-bottom: 12px;
+}
+
+.border-top-gainsboro {
+    border-top: 1px solid map-get($color-map, "gainsboro");
+}
+
+.min-width-92 {
+    min-width: 92px;
+}
+
+.more-button-position {
+    top: 21px;
+    right: 6px;
+}
+
+.text-truncate-2 {
+    @include text-truncate("", 2);
+}
+
+.faq-table {
+    margin: 0;
+}
+
+.accordion-content img {
+    min-height: 210px;
+}
+
+// .border-ghost {
+//     border: 1px solid map-get($color-map, "ghost");
+// }
+
+// .height-40 {
+//     height: 40px;
+// }
+
+// .width-40 {
+//     width: 40px;
+// }
+
+// .colours-widget {
+//     .model-image-swiper__navigation {
+//         top: 30%;
+//     }
+
+//     .tick-container {
+//         top: 12px;
+//         left: 12px;
+//     }
+// }
+
+// .height-4 {
+//     height: 4px;
+// }
+
+// .min-height-240 {
+//     min-height: 240px;
+// }

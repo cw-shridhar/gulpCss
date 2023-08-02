@@ -1,0 +1,83 @@
+.version-comparison-container {
+    margin: 0 16px 16px;
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+}
+
+.current-version-container {
+    @include flexbox;
+    padding: 12px;
+}
+
+.current-version {
+    &-make-name {
+        font-size: 12px;
+        color: map-get($color-map, "comet");
+        margin-bottom: 2px;
+    }
+
+    &-name {
+        font-size: 13px;
+        font-weight: bold;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 8px;
+    }
+
+    &-price {
+        font-size: 15px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 2px;
+    }
+
+    &-price-label {
+        font-size: 12px;
+        color: map-get($color-map, "manatee");
+    }
+}
+
+.vs-container {
+    border-top: 1px solid map-get($color-map, "whisper");
+    position: relative;
+}
+
+.vs-image {
+    position: absolute;
+    top: -10px;
+    left: 40%;
+}
+
+.compare-version-container {
+    background-color: map-get($color-map, "white-smoke-2");
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    padding: 12px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.compare-version {
+    &-name {
+        font-size: 13px;
+        font-weight: bold;
+        color: map-get($color-map, "valhalla");
+        margin-bottom: 4px;
+    }
+
+    &-price {
+        font-size: 15px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla");
+        margin-right: 9px;
+    }
+
+    &-price-label {
+        font-size: 12px;
+        color: map-get($color-map, "manatee");
+    }
+}
+
+.right-arrow-image {
+    float: right;
+}

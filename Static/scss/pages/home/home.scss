@@ -1,0 +1,853 @@
+/* CSS Document */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, sans-serif !important;
+  background: #ffffff !important;
+}
+
+.filmy {
+  position: absolute;
+  top: 0;
+  width: 940px;
+  margin: 0px auto;
+  height: 556px;
+  overflow: hidden;
+  left: 5%;
+  right: 5%;
+}
+
+.ver-tabout {
+  width: 840px;
+  position: absolute;
+  border: 0px solid red;
+  left: 0%;
+  top: 60% !important;
+}
+
+.ver_main {
+  width: 940px;
+  margin: 0px auto;
+  clear: both;
+}
+/*banner section start*/
+.ver_bannerout {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/top-banner2.jpg-version201909181239.jpg")
+    no-repeat center center;
+  min-width: 985px;
+  margin-top: 0px;
+  overflow: hidden;
+  min-height: 512px;
+}
+
+/*.ver-tabout{width: 840px;margin: 273px 0 0 0px;float:left; position:relative;}*/
+ul.ver_tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.ver_tabs li {
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 40px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.ver_tab-content,
+.ver_tab-content1 {
+  display: none;
+}
+/*.ver-tabout .ver_tab-link a:hover{ color:#000000;}*/
+.ver_tab-link .ver_reviewBtn4.active {
+  background: rgba(255, 255, 255, 0.8);
+  border-top: 3px #d91a29 solid;
+  color: #000000;
+  display: block;
+}
+.ver_tab-content.ver_current,
+.ver_tab-content1.ver_current1 {
+  display: inherit;
+}
+.ver_tab-link a {
+  color: #ffffff;
+  display: block;
+}
+/*.ver_tab-link a:hover{ color:#000000;}*/
+.ver_tab-link a.active {
+  color: #000000;
+}
+.ver_srch {
+  display: block;
+}
+.ver_fndurcar {
+  float: left;
+  width: 515px;
+  margin-right: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  height: 86px;
+}
+.ver_sechrt {
+  float: left;
+  width: 240px;
+  margin-right: 3px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  height: 86px;
+}
+.ver_slct-btn {
+  display: table;
+}
+.ver_inpselt {
+  float: left;
+  width: 310px;
+  margin-right: 3px;
+}
+.ver_serbtn {
+  float: left;
+  width: 200px;
+}
+/*.tp_ad {text-align:right; font-size:12px; color:#969696; margin-right:-5px;}*/
+.ver_fndct-title {
+  font-size: 16px;
+  color: #16221f;
+  margin-bottom: 17px;
+}
+.ver_slct {
+  width: 310px;
+  height: 46px;
+  border: none;
+  padding: 10px 10px 10px 30px;
+  font-size: 16px !important;
+  color: #16221f !important;
+}
+.plain-select {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 310px;
+}
+.plain-select select.ver_slct {
+  line-height: normal;
+  height: 46px;
+  width: 310px;
+  display: block;
+  background: #fff
+    url("https://d5x4wettsjecf.cloudfront.net/images4/map.png-version201909181239.png")
+    no-repeat 10px 15px;
+  color: #16221f;
+  padding: 8px 25px 7px 30px;
+  margin: 0;
+}
+.ie8 .plain-select select.ver_slct {
+  padding-right: 3px;
+}
+.plain-select select.ver_slct:focus {
+  outline: none;
+  border-color: #00c0f3;
+}
+.plain-select ::-ms-expand {
+  display: none;
+}
+.plain-select:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  top: 50%;
+  margin-top: -3px;
+  height: 0;
+  width: 0;
+  border-top: 7px solid #b3b3b3;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  pointer-events: none;
+}
+
+.plain-select_2 select.ver_slct_2 {
+  line-height: normal;
+  border: none;
+  height: 46px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  width: 200px;
+  display: block;
+  background: #fff;
+  color: #16221f;
+  padding: 8px 25px 7px 10px;
+  margin: 0;
+  font-size: 16px !important;
+}
+
+.ver_btn {
+  background: #fa2837;
+  display: block;
+  width: 100%;
+  height: 46px;
+  border: none;
+  font-size: 16px !important;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.ver_btn:hover {
+  background: #d11901;
+}
+.ver_fndurcar_1 {
+  float: left;
+  width: 460px;
+  margin-right: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  height: 86px;
+}
+.ver_sechrt_1 {
+  float: left;
+  width: 295px;
+  margin-right: 3px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  height: 86px;
+}
+.ver_inpselt_1 {
+  float: left;
+  width: 160px;
+  margin-right: 3px;
+}
+.ver_inpselt_2 {
+  float: left;
+  width: 200px;
+  margin-right: 3px;
+}
+.plain-select_1 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 160px;
+}
+.plain-select_1 div.ver_slct_1 {
+  line-height: normal;
+  border: none;
+  height: 46px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  width: 160px;
+  display: block;
+  background: #fff;
+  color: #16221f;
+  margin: 0;
+  font-size: 16px !important;
+}
+.ie8 .plain-select_1 div.ver_slct_1 {
+  padding-right: 3px;
+  font-size: 16px;
+}
+.plain-select_1 div.ver_slct_1:focus {
+  outline: none;
+  border-color: #00c0f3;
+}
+.plain-select_1 ::-ms-expand {
+  display: none;
+}
+.plain-select_1:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  top: 50%;
+  margin-top: -3px;
+  height: 0;
+  width: 0;
+  border-top: 7px solid #b3b3b3;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  pointer-events: none;
+}
+.plain-select_2 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 200px;
+}
+.plain-select_2 div.ver_slct_2 {
+  line-height: normal;
+  border: none;
+  height: 46px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  width: 200px;
+  display: block;
+  background: #fff;
+  color: #16221f;
+  margin: 0;
+  font-size: 16px !important;
+}
+.ie8 .plain-select_2 div.ver_slct_2 {
+  padding-right: 3px;
+  font-size: 16px;
+}
+.plain-select_2 div.ver_slct_2:focus {
+  outline: none;
+  border-color: #00c0f3;
+}
+.plain-select_2 ::-ms-expand {
+  display: none;
+}
+.plain-select_2:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  top: 50%;
+  margin-top: -3px;
+  height: 0;
+  width: 0;
+  border-top: 7px solid #b3b3b3;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  pointer-events: none;
+}
+.ver_serbtn_1 {
+  float: left;
+  width: 90px;
+}
+.ver_bnr-ctfy {
+  float: right;
+  width: 288px;
+  margin-top: 254px;
+}
+.ver_c-title {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 7px 0;
+}
+.ver_c-dis {
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.ver_gost-btn {
+  clear: both;
+  margin-top: 20px;
+}
+.ver_gost-btn a {
+  border: 1px #ffffff solid;
+  border-radius: 6px;
+  padding: 8px 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ver_gost-btn a:hover {
+  color: #f1f1f1;
+  border: 1px #f1f1f1 solid;
+}
+@media only screen and (max-width: 900px), (max-width: 1050px) {
+  .ver_bnr-ctfy {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 1051px), (max-width: 1151px) {
+  .ver_bnr-ctfy {
+    width: 230px;
+  }
+}
+/*banner section end*/
+
+input[type="button"],
+input[type="submit"],
+.plain-select select.ver_slct {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.sel_make {
+  padding: 14px;
+}
+
+.sel_model {
+  padding: 14px;
+}
+
+.makeModelSelection .makeModelTitle,
+.makeModelTitle {
+  font-family: unset !important;
+}
+
+/** sell your car starts **/
+
+.ver_gray-bg {
+  background: #f4f4f4;
+  padding-top: 30px;
+  padding-bottom: 0;
+  min-width: 979px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.ver_vnt-out {
+  overflow: hidden;
+  border: 1px #d7d7d7 solid;
+  height: 288px;
+  margin-bottom: 0;
+}
+
+.ver_vnt-left {
+  float: left;
+  width: 532px;
+  border-right: 1px #d7d7d7 solid;
+  height: 234px;
+  padding: 24px 34px 30px 34px;
+  color: #262626;
+}
+
+.ver_vnt-titl {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ver_vnt-dis {
+  color: #999898;
+}
+
+.ver_wnt-ul {
+  display: table;
+}
+
+.ver_vnt-li {
+  float: left;
+  font-size: 14px;
+  width: 235px;
+  margin-top: 20px;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+.ver_icon1 span {
+  background: url("https://d2vm9gqgqf65ux.cloudfront.net/images4/icons.png-version201909181239.png")
+    no-repeat 0px 0px;
+  width: 30px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.ver_icon2 span {
+  background: url("https://d5x4wettsjecf.cloudfront.net/images4/icons.png-version201909181239.png")
+    no-repeat -53px 3px;
+  width: 30px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.ver_icon3 span {
+  background: url("https://d2vm9gqgqf65ux.cloudfront.net/images4/icons.png-version201909181239.png")
+    no-repeat 0px -53px;
+  width: 30px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.ver_icon4 span {
+  background: url("https://d2vm9gqgqf65ux.cloudfront.net/images4/icons.png-version201909181239.png")
+    no-repeat -53px -53px;
+  width: 30px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.ver_buy-btn a {
+  background: #565a5c;
+  width: 264px;
+  height: 46px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  display: block;
+  margin-top: 20px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.ver_vnt-right {
+  float: left;
+  width: 336px;
+  text-align: center;
+  padding: 20px 18px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ver_main .ver_vnt-out .ver_vnt-right div,
+.ver_main .adbanner,
+.ver_main .adbanner div {
+  z-index: 1 !important;
+}
+
+.ver_buy-btn a:hover {
+  background: #d21a00;
+  color: #ffffff;
+}
+
+#blackOutWindow {
+  display: none;
+  background: #000;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  opacity: 0.8;
+}
+
+/** sell your car ends **/
+
+/** car recommender block starts **/
+
+.ver_rcmd-out {
+  display: table;
+}
+
+.ver_rcmd-left {
+  float: left;
+  width: 262px;
+  height: 140px;
+  background: #4d4d4d;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 18px;
+  padding: 20px;
+}
+
+.ver_car-gft {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ver_car-gft span {
+  float: left;
+  display: block;
+  width: 66px;
+  height: 22px;
+  padding-right: 10px;
+}
+
+.ver_h1rec {
+  color: #fff;
+}
+
+.ver_viall {
+  background-color: #fc1325;
+  border: 1px solid #fc1325;
+  box-shadow: 0 0 4px 0 #121212;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3px;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  width: 135px;
+  display: block;
+}
+
+.ver_padd {
+  width: 190px !important;
+}
+
+.ver_rcmd-right {
+  width: 620px;
+  height: 180px;
+  float: right;
+  margin-left: 16px;
+  padding: 20px;
+  border: 1px #cbcbcb solid;
+  position: relative;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.ver_rcmd-right,
+.ver_vnt-right {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.ver_tth2 {
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+  margin-top: -2px;
+}
+
+.ver_rcmd-right p.rec_para {
+  height: 56px;
+}
+
+.ver_rcmd-right p {
+  font-size: 15px;
+  color: #2e2e2e;
+  margin: 0;
+}
+
+.ver_loan_quote_btn {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.ver_loan_quote_btn a {
+  width: 98%;
+  text-align: center;
+}
+
+.ver_btn-11 {
+  background: #fff;
+  font-weight: 100;
+}
+
+.ver_btnt1_loan_quote {
+  color: red;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 40px;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.ver_btn-11:hover {
+  background: rgba(0, 0, 0, 0.07);
+  font-weight: 600;
+}
+
+.ver_btnt1_loan_quote:hover {
+  text-decoration: none;
+}
+
+.ver_btn-11 svg {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ver_btn-11 rect {
+  fill: none;
+  stroke: red;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+}
+
+.ver_btnt1_loan_quote rect {
+  fill: none;
+  stroke: red;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+}
+
+.ver_btn-11:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 30, 410;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ver_btn-1:hover rect {
+  stroke-width: 3;
+  stroke-dasharray: 30, 450;
+  stroke-dashoffset: 58;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ver_ter {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  color: #999898;
+}
+
+.ver_Ad {
+  color: #bdbdbd;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.ver_viall:hover {
+  border: 1px solid #fc1325;
+  color: #000;
+  text-decoration: none;
+}
+
+.animation {
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+/** car recommender block ends **/
+
+/** ad starts **/
+
+.sellcarsidead {
+  position: relative;
+  margin-left: -13px;
+  z-index: 999;
+  min-width: 300px;
+  height: auto;
+}
+/** ad ends **/
+
+/** Browse Car section starts **/
+
+.find-the-cars-block .h2 {
+  border-left: 5px solid #fc1325;
+  font-weight: 600 !important;
+  border-left: 5px solid #fc1325 !important;
+  margin-bottom: 20px;
+  padding: 0px 10px !important;
+  text-transform: uppercase !important;
+  font-family: revert !important;
+}
+
+.find-the-cars-block .expertUser {
+  border: 1px #dfdfdf solid;
+  margin-bottom: 30px;
+}
+
+.find-the-cars-block ul.ver_popuc {
+  border-top: 0 !important;
+}
+
+.find-the-cars-block ul.ver_popuc li a.ver_reviewBtn1 {
+  padding: 0px 30px !important;
+}
+
+.find-the-cars-block .tab-contnet {
+  padding: 20px 10px 10px 10px !important;
+}
+
+.find-the-cars-block .price-range li {
+  text-transform: uppercase;
+}
+
+.find-the-cars-block .price-range li a {
+  font-family: revert !important;
+}
+
+.inpad_left {
+  margin-bottom: 24px;
+}
+
+/** Browse Car section ends **/
+
+.ver_white-out {
+  padding: 30px 0px;
+  background: #ffffff;
+  clear: both;
+}
+
+.ver_ttl {
+  padding: 0px 10px;
+  border-left: 5px solid #fc1325;
+  font-size: 22px;
+  line-height: 24px;
+  color: #262626;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.adbanner {
+  min-width: 940px;
+  position: relative;
+  z-index: 99;
+  min-height: 90px;
+  height: auto;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  margin-left: 0;
+}
+
+.middle_ad {
+  min-height: 90px;
+  margin: 0 auto 30px;
+  display: table;
+}
+
+.ver_pad {
+  padding: 10px 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.scroller,
+.scrollerstop,
+.scrollerstopsellcar {
+  position: fixed;
+  bottom: 47px;
+  z-index: 9999;
+  right: 2px;
+  margin-right: 18px;
+  display: none;
+}
+
+#toTop {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  right: 11px;
+  z-index: 9999;
+}
+
+.scrollerstop {
+  bottom: 320px;
+}
+
+.max-width-840 {
+  max-width: 840px;
+}

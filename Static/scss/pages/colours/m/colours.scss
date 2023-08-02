@@ -1,0 +1,86 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/compare-colors";
+@import "../../../partials/m/cmp-car-colors-imgs-carousel";
+@import "../../../partials/m/_model-card";
+@import "../../../partials/m/price-in-other-cities";
+
+.heading-container {
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 20px;
+    color: map-get($color-map, "comet");
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.description .seo-text-colour-links {
+    line-height: 20px;
+    color: map-get($color-map, "comet");
+}
+
+.description-expand {
+    display: block;
+}
+
+.read-more {
+    display: block;
+    margin: 4px 0 16px auto;
+    font-weight: bold;
+    color: map-get($color-map, "pacific-blue");
+    font-size: 13px;
+}
+
+.heading-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Compare colors css */
+
+.compare-colors-heading {
+    padding: 16px;
+    margin-top: 8px;
+    color: map-get($color-map, "valhalla");
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.text-truncate {
+    @include text-truncate;
+}
+
+.arrow_right {
+    @include border-arrow(8,"blackish-gray",1,"right");
+    margin: 1px 0;
+}
+
+.colors-ad {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    min-height: 150px;
+  }
+
+.border-radius-20 {
+    border-radius: 20px;
+}
+
+.three-sixty-link {
+    padding: 4px 16px;
+    background-color: map-get($color-map, "white-smoke-2");
+    border: 1px solid map-get($color-map, "ghost");
+    margin-left: 4px;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,28 @@
+.remarks-container {
+  padding: 24px 16px 0;
+  background-color: white;
+}
+
+.remarks-title {
+  font-size: 19px;
+  font-family: "Muli-SemiBold";
+  color: #272a41;
+  margin-bottom: 4px;
+}
+
+.remarks-text {
+  line-height: 20px;
+  font-size: 13px;
+  font-family: "Muli-Regular";
+  color: #56586a;
+}
+
+.horizontalDivider {
+  height: 16px;
+  background-color: #ededed;
+}
+
+.remarks-overview-divider {
+  height: 20px;
+  background-color: white;
+}

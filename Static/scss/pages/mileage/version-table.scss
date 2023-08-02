@@ -1,0 +1,188 @@
+@import "../../base/index";
+
+.version-filter-block {
+	border: 1px solid map-get($color-map, "whisper");
+	padding: 24px 20px 20px;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.version-filter-block .title {
+	font-size: 21px;
+	font-family: Muli-SemiBold, sans-serif;
+	color: map-get($color-map, "valhalla");
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.filter-gray-block {
+	background: map-get($color-map, "white-smoke-2");
+	padding: 16px 0 16px 16px;
+}
+
+.filter-title {
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+	font-family: Muli-SemiBold, sans-serif;
+}
+
+.filter-icon {
+	float: left;
+	margin-right: 8px;
+}
+
+.filter-text {
+	color: map-get($color-map, "manatee");
+	font-family: Muli-Regular, sans-serif;
+	margin-left: 5px;
+}
+
+.version-ul-block {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 52px;
+}
+
+.filter-list-block {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.filter-list {
+	margin: 16px 0 0;
+	padding: 0;
+	display: flex;
+	overflow-x: scroll;
+
+	.filter-list-divider {
+		border: none;
+		border-left: 1px solid map-get($color-map, "ghost");
+		margin: 0 14px 0 6px;
+		background: no-repeat;
+		border-radius: 0;
+		padding: 0;
+		cursor: auto;
+	}
+}
+
+.filter-list-item {
+	list-style: none;
+	font-size: 13px;
+	background: map-get($color-map, "white");
+	color: map-get($color-map, "comet");
+	border: 1px solid map-get($color-map, "white-smoke-3");
+	border-radius: 4px;
+	padding: 8px 12px;
+	display: inline-block;
+	margin-right: 8px;
+	margin-left: 0;
+	white-space: nowrap;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.filter-list-item.active {
+	border: 1px solid map-get($color-map, "fire-red");
+	color: map-get($color-map, "fire-red");
+}
+
+.header-row-data {
+	padding-bottom: 0;
+	border-top: none;
+}
+
+.header-row .col-1 {
+	padding-left: 0;
+}
+
+.vrsn-table-hdr-container {
+	margin-bottom: 0;
+	border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.hrzntl-line {
+	border-bottom: 1px solid map-get($color-map, "whisper");
+	padding: 8px;
+	border-top: none;
+}
+
+.vrsn-table-hdr-hdng {
+	font-family: Muli-Regular, sans-serif;
+	font-size: 15px;
+	letter-spacing: 0;
+	color: map-get($color-map, "manatee");
+	border-top: none;
+}
+
+.filter-content-block {
+	.col-2,
+	.col-3 {
+		width: 160px;
+	}
+}
+
+.version-table-content {
+	margin-bottom: 16px;
+}
+
+.table-content {
+	padding: 0;
+	border-top: none;
+}
+
+.vrsn-info-block {
+	margin-bottom: 0;
+
+	.col-1,
+	.col-2,
+	.col-3 {
+	   font-family: Muli-Regular, sans-serif;
+	   font-size: 16px;
+   }
+
+   .col-1 {
+		color: map-get($color-map, "valhalla");
+		text-decoration: underline;
+		text-underline-offset: 1px;
+		text-decoration-color: map-get($color-map, "valhalla");
+	}
+
+	.col-2,
+	.col-3 {
+		color: map-get($color-map, "comet");
+	}
+}
+
+.version-table-values {
+	padding-top: 12px;
+	border-top: none;
+}
+
+.specs-summary-text {
+	font-family: Muli-Regular, sans-serif;
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+	padding: 0 6px;
+	border-top: none;
+}
+
+.view-more-versions {
+	background: none;
+	padding: 0;
+	border: none;
+	font-family: Muli-Regular, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: map-get($color-map, "pacific-blue");
+
+	&::after {
+		content: "";
+		background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/0288d1/down-arrow-blue.svg") no-repeat;
+		width: 14px;
+		height: 8px;
+		display: inline-block;
+	}
+}

@@ -1,0 +1,44 @@
+.priceblock-price-label {
+    text-transform: capitalize;
+}
+
+.get-best-price-btn {
+    font-family: $font-muli-regular;
+    font-weight: bold;
+    font-size: 13px;
+    color: map-get($color-map, "pacific-blue");
+}
+
+.vrsn-info {
+    position: relative;
+    margin-left: 1px;
+    top: 3px
+}
+
+.vrsn-info:hover .tool-tip-block {
+    display: block
+}
+
+.tool-tip-block {
+    position: absolute;
+    display: none;
+    top: 20px
+}
+
+.tool-tip {
+    width: 232px;
+    background: #56586a;
+    border-radius: 3px;
+    padding: 8px 12px;
+    position: relative;
+    z-index: 1
+}
+
+.left_tool.tool-tip::after {
+    left: 20px !important
+}
+
+.tool-tip-text {
+    font-size: 13px;
+    color: #ffffff
+}

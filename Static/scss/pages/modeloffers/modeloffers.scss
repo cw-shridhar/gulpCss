@@ -1,0 +1,28 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../partials/d/model-card";
+@import "../../partials/d/price-in-other-cities";
+@import "../../partials/m/offer-widget";
+@import "../../partials/m/similar-cars-carousel";
+
+.left-content {
+    margin-right: 52px;
+    width: 65.9%;
+    float: left;
+}
+
+.right-content {
+    float: right;
+    width: 29%;
+}
+
+.pic__conatiner {
+    margin: 0 0 24px;
+}
+
+.best-deal-button {
+    @include vendor-prefix(transform, translateY(-50%));
+    width: 250px;
+    right: 20px;
+    top: 50%;
+}

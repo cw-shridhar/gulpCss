@@ -1,0 +1,350 @@
+@import "../../../scss/mixins/icons";
+@import "../../../scss/base/typography";
+
+.no-records-class {
+  padding-top: 10px;
+}
+
+.version_accordion {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  border-top: 1px solid #f0f0f0;
+  display: block;
+  font-size: 15px;
+  color: #56586a;
+  font-family: Muli-Regular, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.version-section {
+  padding: 0 16px 16px 16px;
+}
+
+.hdr-top {
+  color: #92939e;
+  font-size: 15px;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  padding: 12px 0 8px 0;
+  justify-content: space-between;
+}
+
+.hdr-top .vrsns {
+  margin-left: initial;
+}
+
+.hdr-top .priceincity {
+  margin-right: initial;
+}
+
+.version-section .turn {
+  background: url("#{$img-cdn-path}/0x0/cw/static/icons/svg/6f6f6f/arrow-down.svg") no-repeat 99% 17px;
+  background-size: 15px;
+}
+
+.version-section .current {
+  background: url(https://images.cartrade.com/images-mobiles/uparrow.svg) no-repeat 99% 17px;
+  background-size: 15px;
+}
+
+.version-section .version_accordion {
+  display: flex;
+  padding: 12px 30px 12px 0;
+  border: 0;
+  font-size: 16px;
+  text-transform: inherit;
+  justify-content: space-between;
+}
+
+table tbody td {
+  border-top: 0 solid rgb(240, 240, 240);
+  vertical-align: top;
+  padding: 10px 5px 9px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .version-section .version_accordion {
+    font-size: 13px;
+    padding-right: 24px;
+  }
+}
+
+.version-section .vesrion-list {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.version-section .get-offer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0288d1;
+  width: 200px;
+  margin-right: initial;
+}
+
+.version-section .get-offer::before {
+  background: url("#{$img-cdn-path}/0x0/ct/static/icons/svg/6f7070/price-tag-icon.svg") no-repeat;
+  background-size: 20px;
+  width: 24px;
+  height: 20px;
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.CC_gbo {
+	display: none;
+}
+
+.version-section .gray_bg {
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.version-section .panel table tr th {
+  padding: 0 0 12px 0;
+  color: #272a41;
+}
+
+.version-section .panel table tr td {
+  font-size: 14px;
+  color: #272a41;
+}
+
+.version-section .panel .bold-text td {
+  font-size: 15px;
+  color: #272a41;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.version-section .panel table tr td:first-child {
+  padding-left: 15px;
+}
+
+.brdr-radius-tleft {
+  border-radius: 4px 0 0 0;
+}
+
+.version-section .panel table tr td:last-child {
+  padding-right: 15px;
+}
+
+.brdr-radius-tright {
+  border-radius: 0 4px 0 0;
+}
+
+.version-section .vrsn-info {
+  position: relative;
+  margin-left: 2px;
+  top: 3px;
+}
+
+.version-section .tool-tip-block {
+  position: absolute;
+  display: none;
+  right: -20px;
+  top: 20px;
+}
+
+.version-section .ex-showroom-tltp {
+  right: -122px;
+}
+
+.version-section .tool-tip {
+  width: 232px;
+  background: #56586a;
+  border-radius: 3px;
+  padding: 8px 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.tool-tip-block.insrnc-tltp .tool-tip,
+.tool-tip-block.keyspecs-tltp .tool-tip {
+  padding-right: 0;
+}
+
+.version-section .tool-tip-text {
+  font-size: 13px;
+  color: #fff;
+  line-height: 18px;
+}
+
+.tool-tip-block.insrnc-tltp .tool-tip .tool-tip-text,
+.tool-tip-block.keyspecs-tltp .tool-tip .tool-tip-text {
+  height: 200px;
+  overflow-y: scroll;
+  padding-right: 12px;
+}
+
+.tool-tip .tool-tip-text::-webkit-scrollbar {
+  width: 3px;
+}
+
+.tool-tip .tool-tip-text::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background-color: #c1c1c1;
+}
+
+.tool-tip .tool-tip-text::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+.version-section .tool-tip::after {
+  background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/tltp-arrow.png) no-repeat;
+  content: '';
+  width: 14px;
+  height: 7px;
+  position: absolute;
+  right: 20px;
+  top: -6px;
+}
+
+.version-section .ex-showroom-tltp .tool-tip::after {
+  right: 122px;
+}
+
+.version-section .insrnc-tltp .tool-tip::after {
+  right: 172px;
+}
+
+.version-section .onroadprice-tltp .tool-tip::after {
+  right: 128px;
+}
+
+.version-section .rto-tltp .tool-tip::after {
+  right: 209px;
+}
+
+.version-section .vrsn-info:hover .tool-tip-block {
+  display: block;
+}
+
+.version-section .insrnc-tltp {
+  right: -172px;
+}
+
+.version-section .rto-tltp {
+  right: -208px;
+}
+
+.version-section .emi-tltp {
+  right: -210px;
+  top: -78px;
+}
+
+.version-section .keyspecs-tltp {
+  right: -24px;
+  top: -222px;
+}
+
+@media only screen and (min-width: 348px) and (max-width: 370px) {
+  .version-section .keyspecs-tltp {
+    left: 0;
+  }
+
+  .version-section .keyspecs-tltp .tool-tip::after {
+    left: 3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .version-section .accordion {
+    padding-right: 24px;
+    font-size: 13px;
+  }
+
+  .version-section .keyspecs-tltp {
+    left: -36px;
+  }
+
+  .version-section .keyspecs-tltp .tool-tip::after {
+    left: 37px;
+  }
+
+  .hdr-top .priceincity {
+    padding-right: 24px;
+  }
+}
+
+.version-section .onroadprice-tltp {
+  right: -128px;
+}
+
+.version-section .keyspecs-tltp .tool-tip::after {
+  right: 24px;
+  top: inherit;
+  bottom: -6px;
+  transform: rotate(180deg);
+}
+.version-section .keyspecs-tltp .right-tool-tip::after {
+  right: var(--right);
+}
+
+.version-section .keyspecs-tltp .left-tool-tip::after {
+  left: var(--left);
+}
+
+.version-section .emi-tltp .tool-tip::after {
+  right: 210px;
+  top: inherit;
+  bottom: -6px;
+  transform: rotate(180deg);
+}
+
+.version-section .panel table tr td .border-b {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 396px) and (min-width: 371px) {
+  .version-section .panel table tr td {
+    font-size: 13px;
+  }
+}
+
+.version-section .panel table.key-spcs {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.version-section .panel table.key-spcs tr th {
+  padding-top: 12px;
+}
+
+.version-section .panel table.key-spcs tr:first-child td {
+  border-radius: 2px 2px 0 0;
+}
+
+.version-section .panel {
+  padding: 0 18px;
+  background-color: #fbfbfb;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.CC_EmiBtn_blank {
+  margin-left: 4px;
+}
+
+.emi_amt {
+  display: flex;
+  justify-content: end;
+}
+
+.speclink {
+  float: right;
+  font-size: 13px;
+  color: #0288d1;
+  margin-bottom: 15px;
+}

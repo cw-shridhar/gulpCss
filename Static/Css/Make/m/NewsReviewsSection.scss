@@ -1,0 +1,48 @@
+
+/*news, expert/user reviews blocks related css starts here*/
+
+.news_blks ul li {
+    padding: 20px 17px;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+.news_blks ul li .left {
+    display: block;
+    float: left;
+    width: 40%;
+    border: 1px solid #f0f0f0;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.news_blks ul li .left img {
+    width: 100%;
+}
+.news_blks ul li .right {
+    display: block;
+    float: left;
+    width: 56%;
+    border: 0px solid #f0f0f0;
+}
+
+.car_name a {
+    font-size: 15px;
+    font-family: Muli-semibold;
+    color: #272a41;
+}
+.dat_tim {
+    font-size: 12px;
+    color: #92939e;
+    padding-top: 8px;
+    overflow: hidden;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+.opening_txt{
+    font-size: 14px;
+    color: #56586a;
+    font-family: Muli-Regular;
+    text-align: justify;	
+}
+/*news, expert/user reviews blocks related css ends here*/

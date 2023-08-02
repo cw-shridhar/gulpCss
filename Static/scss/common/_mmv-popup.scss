@@ -1,0 +1,156 @@
+@import "../base/index";
+@import "../mixins/index";
+
+.mmv-popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    inset: 0;
+    background: map-get($color-map, "white");
+    @include hide-vertical-scroll;
+}
+
+.cars-container {
+    @include hide-vertical-scroll;
+    height: 700px;
+}
+
+.mmv-popup-header {
+    padding: 16px;
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(space-between);
+    background-color: map-get($color-map, "white-smoke");
+    font-size: 19px;
+    font-weight: 700;
+    color: map-get($color-map, "valhalla");
+    position: sticky;
+    top: 0;
+}
+
+.mmv-popup-header-text {
+    margin: 0;
+    font-size: 19px;
+}
+
+.mmv-search {
+    padding: 20px 0 12px;
+    border-bottom: 1px solid map-get($color-map, "manatee");
+    @include flexbox;
+    @include align-items(center);
+    position: sticky;
+    top: 64px;
+    background: map-get($color-map, "white");
+    font-size: 15px;
+}
+
+.popup-close-button {
+    width: 32px;
+    height: 32px;
+    padding-top: 3px;
+    padding-left: 11px;
+    background-color: map-get($color-map, "white");
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mmv-popup-details {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.selected-car {
+    padding: 4px 8px;
+    background-color: map-get($color-map, "white-smoke");
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+    @include flexbox;
+    @include align-items(center);
+    margin-right: 12px;
+    margin-left: 0;
+    margin-bottom: 0px;
+}
+
+.area-search {
+    display: none;
+}
+
+.city-search,
+.area-search {
+    border: 0;
+    outline: none;
+}
+
+.mmv-popup-make {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(space-between);
+    padding: 12px 0;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    cursor: pointer;
+}
+
+.make-name {
+    width: 100%;
+    font-size: 15px;
+    color: map-get($color-map, "comet");
+    margin-bottom: 0;
+}
+
+.mmv-popup-model-name {
+    padding: 12px 0 12px 59px;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    font-size: 15px;
+    color: map-get($color-map, "comet");
+    background-color: map-get($color-map, "white-2");
+    cursor: pointer;
+}
+
+.make-model-search {
+    border: 0;
+}
+
+.make-model-search:focus {
+    outline: none;
+}
+
+.make-model-search::placeholder {
+    color: map-get($color-map, "manatee");
+    font-size: 15px;
+    font-family: $font-muli-regular;
+}
+
+.down-arrow {
+    z-index: -1;
+}
+
+@media only screen and (min-width: 800px) {
+    .mmv-popup {
+        top: 50%;
+        left: 50%;
+        width: 612px;
+        height: 522px;
+        @include vendor-prefix("transform", translate(-50%, -50%));
+        border-radius: 6px;
+        z-index: 100000;
+    }
+
+    .popup-close-button {
+        padding: 0;
+    }
+
+    .close-image {
+        padding: 11px;
+    }
+
+    .mmv-popup-details {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .mmv-popup-model-name {
+        padding-left: 66px;
+    }
+}

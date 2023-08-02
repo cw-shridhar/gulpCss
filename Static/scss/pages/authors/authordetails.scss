@@ -1,0 +1,37 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../partials/d/cmslisting";
+
+.content_are {
+	width: 1156px;
+	margin: 0 auto;
+	overflow: visible;
+}
+
+.ad-block {
+	&-top {
+		@include flexbox;
+		@include justify-content(center);
+		min-height: 90px;
+	}
+}
+
+.border-duchess-rose{
+	border: 1px solid map-get($color-map, "duchess-rose");
+}
+
+.background-color-snow-1 {
+	background-color: map-get($color-map, "snow-1");
+}
+
+.width-206 {
+	width: 206px;
+}
+
+.line-height-normal {
+	line-height: normal;
+}
+
+.vertical-align {
+	@include vendor-prefix(transform, translateY(50%))
+}

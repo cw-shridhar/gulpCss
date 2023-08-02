@@ -1,0 +1,27 @@
+.three-car-comparison-container {
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+    min-width: 286px;
+    height: fit-content;
+}
+
+.compare-car-image {
+    max-width: 100%;
+    min-height: 84px;
+}
+
+.three-car-compare-link {
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+}
+
+.similar-car-versus {
+    position: absolute;
+    left: 47%;
+    z-index: 1;
+    top: 30%;
+
+    &:nth-child(2) {
+        top: 63%;
+    }
+}

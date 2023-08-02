@@ -1,0 +1,11 @@
+.discontinued-info {
+	font-family: $font-muli-regular;
+	font-size: 13px;
+	color: map-get($color-map, "comet");
+	line-height: 20px;
+	padding: 12px;
+	margin-bottom: 0;
+	background-color: map-get($color-map, "faint-coral");
+	border: 1px solid map-get($color-map, "light-coral");
+	border-radius: 4px;
+}

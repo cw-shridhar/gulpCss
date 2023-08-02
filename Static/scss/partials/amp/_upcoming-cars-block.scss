@@ -1,0 +1,23 @@
+.upcomingmodel-updates-wrapper {
+    color: map-get($color-map, "valhalla");
+}
+
+.upcomingmodel-pricerange {
+    font-family: $font-lato-bold;
+    font-size: 19px;
+}
+
+.upcomingmodel-detail {
+    font-family: $font-lato-bold;
+    font-size: 16px;
+}
+
+.upcomingmodel-label {
+    color: map-get($color-map, "comet");
+    font-size: 13px;
+}
+
+.upcomingmodel-sublabel {
+    color: map-get($color-map, "comet");
+    font-size: 12px;
+}

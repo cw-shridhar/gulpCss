@@ -1,0 +1,28 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../common/mmv-popup";
+@import "../../../common/version-selection-popup";
+@import "../../../partials/m/emi-calculator";
+@import "../../modelemi/emiGraph";
+@import "../../../partials/m/similar-cars-carousel";
+
+@include loader-gif();
+
+.ad-slot {
+    min-height: 250px;
+    min-width: 300px;
+}
+
+.select-your-car {
+    padding: 10px 0;
+    border-bottom: 1px solid map-get($color-map, "manatee");
+}
+
+.emi-text .emi-value,
+.emi-text .rupee {
+    font-size: 25px;
+}
+
+.emi-page-mt-2 {
+    margin-top: 8px;
+}

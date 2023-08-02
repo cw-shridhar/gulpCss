@@ -1,0 +1,67 @@
+.model-links li {
+  display: inline-block;
+  border: 1px solid map-get($color-map, "ghost");
+  padding: 8px 12px 10px;
+  border-radius: 20px;
+}
+
+#version_pric_blok {
+  margin-top: 6px;
+}
+
+ .model-links li a {
+  color: map-get($color-map, "comet");
+  font-size: 12px;
+}
+
+ .model-links li a .icon {
+  position: relative;
+  top: 3px;
+}
+
+.thin_line {
+  color: #d2d2d5;
+  height: 1px;
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+
+#lead_emi_val {
+  display: block;
+  float: right;
+  font-size: 18px;
+  color: #272a41;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.payable_container {
+  margin-top: 10px;
+}
+
+.back_arow {
+  z-index: 9999;
+  position: relative;
+}
+
+#back_arrow_image {
+  width: 24px;
+  position: relative;
+  cursor: pointer;
+  top: 12px;
+  left: 20px;
+  transform: rotateZ(-180deg);
+}
+
+.cust_emititle {
+  font-size: 19px;
+  color: #272a41;
+  background: #fff;
+  font-family: Muli-SemiBold, sans-serif;
+  display: block;
+  z-index: 99;
+  text-align: center;
+  position: relative;
+  padding-bottom: 4px;
+  top: -14px;
+  left: 90px;
+}

@@ -1,0 +1,82 @@
+.quick_facts {
+  background-size: 116px;
+}
+
+.quick_facts {
+  background: #f7f7f7 url(https://images.cartrade.com/images4/quickfacts.svg) no-repeat 0 0;
+  background-size: auto 104%;
+  margin-top: 0;
+}
+
+.quick_inside {
+  padding: 20px;
+  margin-left: 73px;
+}
+
+.block_heading {
+  color: #272a41;
+  font-size: 22px;
+}
+
+.quick_inside .block_heading {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-Semibold, sans-serif;
+  font-weight: normal;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.quick_inside .para {
+  color: #56586a;
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+  line-height: 25px;
+}
+
+.min_cls {
+  height: 73px;
+  overflow-y: hidden;
+  transition: height 0.3s linear;
+}
+
+.para p {
+  color: #56586a;
+  font-size: 15px;
+  font-family: 'Muli-Regular';
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+#read_more_des_version_desktop_quickfacts p {
+  margin-top: 0;
+  color: #272a41;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.para p a {
+  color: #d02326;
+}
+
+.quick_facts .quick_inside .para p a {
+  color: #e16363;
+}
+
+.des_read_more {
+  color: #e16363;
+  font-weight: bold;
+  position: relative;
+  font-size: 15px;
+  float: right;
+  margin-right: 5px;
+}
+
+.read_less {
+  color: #e16363;
+  font-weight: bold;
+  position: relative;
+  display: none;
+}

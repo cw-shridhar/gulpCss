@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* top banner */
+.usedcars-banner-div {
+  background:  #161209 url('https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/m/used-cars-banner.jpg?v1=19082015') center no-repeat;
+  background-size: cover;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 36px;
+}
+
+.used-search-wrapper {
+  margin-top: -30px;
+}
+
+.used-welcome-box {
+  margin-top: 20px;
+}
+/* major cities classes */
+.major-cities li {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  border-radius: 2px;
+  margin: 0 5px 10px;
+}
+
+.major-cities li .city-name {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 58px;
+}
+
+.major-cities .mumbai {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/mumbai.jpg) no-repeat center top;
+}
+
+.major-cities .banglore {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/banglore.jpg) no-repeat center top;
+}
+
+.major-cities .chennai {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/chennai.jpg) no-repeat center top;
+}
+
+.major-cities .delhi {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/delhi.jpg) no-repeat center top;
+}
+
+.major-cities .pune {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/pune.jpg?v1.0) no-repeat center top;
+}
+
+.major-cities .hyderabad {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/hyderabad.jpg) no-repeat center top;
+}
+
+.major-cities .kolkata {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/kolkata.jpg) no-repeat center top;
+}
+
+.major-cities .chandigarh {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/chandigarh.jpg) no-repeat center top;
+}
+
+.major-cities .coimbatore {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/coimbatore.jpg) no-repeat center top;
+}
+
+.major-cities .ahmedabad {
+  background: url(https://imgd.aeplcdn.com/0x0/cw/design15/m/ahmedabad.jpg) no-repeat center top;
+}
+/* tools you might need classes*/
+.tools-need-container ul li a {
+  display: table;
+  text-decoration: none;
+}
+
+.tools-need-container ul li a span.tools-need-logo {
+  display: table-cell;
+  height: 92px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 92px;
+}
+
+.tools-need-container ul li a span.tools-need-desc {
+  color: #565a5c;
+  display: table-cell;
+  padding-left: 20px;
+}
+
+.tools-need-container ul li a span.tools-need-text {
+  display: block;
+  margin-top: 20px;
+}
+/* popular searches carousel classes */
+.popular-search-bg {
+  background: #fafafa;
+}
+
+.popular-searchs li {
+  height: auto;
+}
+
+.font60 {
+  font-size: 60px;
+}
+.lang-change-container.hide {
+  display: none;
+}

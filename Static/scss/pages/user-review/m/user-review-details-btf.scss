@@ -1,0 +1,116 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/price-in-other-cities";
+
+.more-review__container {
+    padding: 24px 16px 20px;
+
+    .review__header {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 19px;
+        padding-bottom: 2px;
+    }
+
+    .user-review__content {
+        padding: 12px 0;
+        border-bottom: 1px solid map-get($color-map, "whisper" );
+    }
+
+    .user-review__title-container {
+        @include flexbox;
+        padding-bottom: 8px;
+    }    
+    
+    .user-review__title {
+        padding-left: 8px;
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 15px;
+    }
+
+    .user-review__author-days {
+        color: map-get($color-map, "comet" );
+        font-size: 13px;
+    }
+
+    .user-review__description {
+        padding-top: 8px;
+        font-size: 13px;
+        color: map-get($color-map, "valhalla" );
+        line-height: 20px;
+        margin-bottom: 12px;
+        div {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        b {
+            display: block;
+            padding-top: 8px;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        b:first-child {
+            padding-top: 0px;
+        }
+    }
+    .text-truncate {
+        @include text-truncate('',2);
+        margin-bottom: 0px;
+        height: 48px;
+    }
+
+    .expand-collapse {
+        @include flexbox;
+        @include justify-content(flex-end);
+        padding-top: 2px;
+    }
+
+    .expand-review {
+        font-size: 13px;
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        cursor: pointer;
+    }   
+}
+
+.view-more-reviews {
+    @include flexbox;
+    @include justify-content(center);
+    margin-top: 16px;
+
+    .all-user-reviews-link {
+        color: map-get($color-map, "pacific-blue" );
+        text-decoration: none;
+        font-weight: $font-bold;
+        font-size: 15px;
+    }
+    .arrow-down {
+        @include border-arrow(8, "pacific-blue", 1,"down");
+        margin: 3px;
+
+    }
+}
+
+.user-review__carousel {
+    padding: 24px 0px 20px 16px;
+}
+
+.user-carousel__header {
+    padding-bottom: 16px;
+    font-size: 19px;
+    color: map-get($color-map, "valhalla" );
+    font-family: $font-muli-semibold;
+}
+
+.breadcrumb__conatiner {
+    @include flexbox;
+    @include align-items(center);
+    padding-left: 16px;
+    background-color: map-get($color-map, "white-smoke-2" );
+    height: 48px;
+}

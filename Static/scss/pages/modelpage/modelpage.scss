@@ -1,0 +1,305 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../utils/accordion";
+@import "../../partials/m/version-city-selection";
+@import "../../partials/m/price-block";
+@import "../../partials/m/emi-calculator";
+@import "../../partials/d/upcoming-cars-block";
+@import "../../partials/m/discontinued-cars-block";
+@import "../../partials/d/modelKeySpecsSlug";
+@import "../../partials/d/user-rating-widget";
+@import "../../partials/d/pros-cons-card";
+@import "../../partials/m/expert-review-rating-score";
+@import "../../partials/m/comparison-table";
+@import "../../partials/m/seo-table";
+@import "../../partials/m/offer-widget";
+@import "../../partials/d/model-card";
+@import "../../common/version-selection-popup";
+@import "../../pages/modelfaqs/faqWidget";
+
+@include loader-gif();
+
+.model-overview-title {
+    font-size: 25px;
+    font-weight: $font-bold;
+    color: map-get($color-map, "valhalla");
+    margin-right: 32px;
+}
+
+.review-count ,.write-review-text {
+    font-size: 15px;
+    color: map-get($color-map, "pacific-blue");
+}
+
+.hrzntl-line {
+    color: map-get($color-map, "whisper");
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.model-overview-container {
+    @include flexbox;
+
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 20px;
+    min-height: 491px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.images-colours-conatiner {
+    float: left;
+    max-width: 720px;
+}
+
+.images-colours-tab {
+    max-width: fit-content;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    .tab {
+        width: 132px;
+        padding: 6px 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tab::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 1px;
+        height: 16px;
+        background: map-get($color-map, "whisper");
+    }
+
+    .tab.active::after,
+    .tab:last-child::after {
+        content: none;
+    }
+}
+
+.price-emi-container {
+    float: right;
+    margin-left: 16px;
+    min-width: 400px;
+}
+
+.priceblock-price {
+	font-size: 21px;
+	font-weight: $font-bold;
+	color: map-get($color-map, "valhalla");
+	margin-bottom: 0;
+	margin-right: 24px;
+}
+
+.priceblock-price-label {
+	font-family: $font-muli-regular;
+	font-size: 15px;
+	color: map-get($color-map, "comet");
+	margin-bottom: 16px;
+    margin-top: 4px;
+    text-transform: capitalize;
+}
+
+.get-best-price-btn {
+    font-family: $font-muli-regular;
+    font-weight: bold;
+    font-size: 15px;
+    color: map-get($color-map, "pacific-blue");
+    border: none;
+    background: none;
+    padding-left: 0;
+}
+
+.dealer-call-text {
+    font-size: 12px;
+    color: map-get($color-map, "comet");
+}
+
+.dealer-call-cta {
+    margin-bottom: 20px;
+    color: map-get($color-map, "white");
+    background-color: map-get($color-map, "fire-red");
+    border: map-get($color-map, "fire-red") solid 1px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 15px;
+    font-family: $font-muli-semibold;
+    min-height: 40px;
+}
+
+.model-overview-review-container {
+    .rating-badge {
+        padding: 2px 8px 2px 4px;
+        margin-right: 16px;
+    }
+    .rating-badge__star {
+        padding: 0;
+    }
+    .rating-value {
+        padding: 2px 0 2px 4px;
+    }
+}
+
+.images-colours-conatiner {
+    .model-image-name {
+        font-family: $font-muli-semibold;
+    }
+    .model-image-swiper__image {
+        left: 0;
+    }
+
+    .swiper-img-container-wrapper {
+        width: 700px;
+    }
+    
+    .model-img-swiper__img-wrapper {
+        max-width:720px;
+        padding-top: 62.5%;
+    }
+
+    .model-image-swiper__navigation {
+        right: 0;
+        border-radius: 0;
+        width: 20px;
+    }
+
+    .model-image-swiper__navigation--prev {
+        left: 0;
+    }
+}
+
+.left-content {
+    float: left;
+    width: 65.9%;
+    margin-right: 52px;   
+}
+
+.right-content {
+    float: right;
+    width: 29%;
+    
+    @include flexbox;
+    @include flex-direction(column);
+}
+
+.ad-banner {
+    min-width: 300px;
+    min-height: 250px;
+    border: 1px solid #e8e8e8
+}
+
+.expert-review {
+    &-container {
+        border: 1px solid map-get($color-map, "whisper");
+        background-color: map-get($color-map, "white");
+        border-radius: 4px;
+    }
+
+    &-tabs-container {
+        @include flexbox;
+        border-bottom: 1px solid map-get($color-map, "whisper");
+
+        .tab-name {
+            font-size: 15px;
+            line-height: 20px;
+            color:  map-get($color-map, "comet");
+            padding: 12px 16px;
+            cursor: pointer;
+        }
+        
+        .tab-name.active {
+            color: map-get($color-map, "valhalla");
+            font-family: $font-muli-semibold;
+            border-bottom: 4px solid map-get($color-map, "light-coral");
+        }
+    }
+}
+
+.expert-review-accordion-container {
+    padding: 0 16px 16px;
+}
+
+.model-overview-top-container {
+    @include flexbox;
+    @include align-items(center);
+    margin-bottom: 8px;
+}
+
+.seo-text {
+    font-size: 15px;
+    line-height: 23px;
+    color: map-get($color-map, "comet");
+    margin-bottom: 8px;
+}
+
+.best-deal-button {
+    @include vendor-prefix(transform, translateY(-50%));
+    width: 250px;
+    right: 20px;
+    top: 50%;
+}
+
+.three-sixty-btn-overlay {
+    background-color: rgba(map-get($color-map, "black"), 0.7);
+}
+
+.three-sixty-link {
+    min-width: 102px;
+}
+
+.more-button-position {
+    top: 0;
+    right: 6px;
+}
+
+.text-truncate-1 {
+    @include text-truncate("", 1);
+}
+
+.faq-table {
+    margin: 0;
+}
+
+.accordion-content img {
+    min-height: 360px;
+}
+
+.left-content .margin-top-6 {
+    margin-top: 24px;
+}
+
+// .border-ghost {
+//     border: 1px solid map-get($color-map, "ghost");
+// }
+
+// .height-40 {
+//     height: 40px;
+// }
+
+// .width-40 {
+//     width: 40px;
+// }
+
+// .colours-widget {
+//     .model-image-swiper__navigation {
+//         top: 40%;
+//         z-index: 1;
+//     }
+
+//     .tick-container {
+//         top: 12px;
+//         left: 12px;
+//     }
+// }
+
+// .height-4 {
+//     height: 4px;
+// }
+
+// .min-height-415 {
+//     min-height: 415px;
+// }

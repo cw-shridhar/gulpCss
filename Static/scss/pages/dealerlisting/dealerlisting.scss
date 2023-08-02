@@ -1,0 +1,41 @@
+@import "../../base/index";
+@import "../../mixins/index";
+@import "../../partials/d/make-city-selector";
+@import "../../partials/m/mmv-dropdown";
+@import "../../partials/d/all-brands-collapsible";
+@import "../../partials/d/accordion";
+
+.top-ad {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  min-height: 90px;
+}
+
+.content_are {
+  width: 1156px;
+  margin: auto;
+  overflow: visible;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 23px;
+  color: map-get($color-map, "comet");
+}
+
+.left-side {
+  width: 66%;
+  float: left;
+  margin-right: 52px;
+}
+
+.right-side {
+  float: right;
+  width: 29%;
+}
+
+.dealercitylinks-container {
+  border: solid 1px map-get($color-map, "whisper");
+  border-radius: 4px;
+}

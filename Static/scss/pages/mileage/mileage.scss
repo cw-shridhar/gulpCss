@@ -1,0 +1,416 @@
+@import "../../base/index";
+@import "../../mixins/flexbox";
+@import "../../mixins/icons";
+@import "../../partials/d/price-in-other-cities";
+@import "../../partials/d/modelKeySpecsSlug";
+@import "../../partials/d/model-card";
+@import "fuelCostCalculator.scss";
+@import "user-reported-mileage-table.scss";
+@import "similar-car-block.scss";
+@import "m/similar-model-card.scss";
+@import "version-table.scss";
+@import "mileage-form-v1.scss";
+
+/* copied css */
+body {
+    font-family: 'Muli-Regular';
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+}
+.mileage-content_are.nearestCities {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    padding: 24px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 1156px;
+    margin: auto;
+}
+.content_are.nearestCities ul {
+    width: 100%;
+    display: table
+}
+.mileage-blockHeading {
+    color: #272a41;
+    font-size: 22px;
+    font-family: 'Muli-SemiBold';
+    margin: 0px 0px 24px 0px;
+}
+.nearestCities p {
+    color: #56586a;
+    font-size: 15px;
+    font-family: Muli-SemiBold;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+.mileage_table {
+    margin-right: 45px;
+    width: 64.9%;
+    border: 1px solid #f6f6f6;
+    float: left;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.mileage_table th {
+    background: #fbfbfb;
+    padding: 0px 20px 20px 20px;
+    text-align: left;
+    border: 0;
+}
+table th, table td {
+    border-top: 1px solid rgb(221, 221, 221);
+    padding: 6px;
+    line-height: normal;
+}
+.no_styles th {
+    padding: 8px 0 5px 20px;
+}
+.mileage_table th {
+    background: #fbfbfb;
+    padding: 0px 20px 20px 20px;
+    text-align: left;
+    border: 0;
+}
+.mileage_table th:first-child {
+    width: 30%;
+}
+.mileage_table th span {
+    display: block;
+    background: #ffefea;
+    color: #272a41;
+    font-size: 15px;
+    font-family: Muli-SemiBold;
+    padding: 6px;
+}
+.mileage_table tr td {
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    color: #56586a;
+    font-size: 13px;
+    font-family: Muli-Regular;
+}
+.mileage_form {
+    width: 30.8%;
+    float: left;
+}
+.mileage_bG {
+    display: block;
+    border-radius: 6px;
+    padding-bottom: 15px !important;
+    background: rgba(241,128,126,1);
+    background: -moz-linear-gradient(top, rgba(241,128,126,1) 0%, rgba(250,185,164,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,128,126,1)), color-stop(100%, rgba(250,185,164,1)));
+    background: -webkit-linear-gradient(top, rgba(241,128,126,1) 0%, rgba(250,185,164,1) 100%);
+    background: -o-linear-gradient(top, rgba(241,128,126,1) 0%, rgba(250,185,164,1) 100%);
+    background: -ms-linear-gradient(top, rgba(241,128,126,1) 0%, rgba(250,185,164,1) 100%);
+    background: linear-gradient(to bottom, rgba(241,128,126,1) 0%, rgba(250,185,164,1) 100%);
+}
+.inpad_right {
+    border: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+}
+.inpad {
+    border: 1px solid #f0f0f0;
+    padding: 5px;
+    position: relative;
+}
+.mileage-frm_txt {
+    font-size: 19px;
+    color: #fff;
+    font-family: Muli-semibold;
+    padding: 10px 17px 0 20px;
+    text-align: center;
+}
+.mileage_form-content {
+    background: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.car_head {
+    color: #272a41;
+    text-align: left;
+    font-family: Muli-Semibold;
+    padding: 20px 15px;
+    width: 100%;
+    border-bottom: 1px solid #f07e7c;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.content_are.nearestCities ul {
+    width: 100%;
+    display: table
+}
+.exp_rev ul {
+    list-style: none;
+    padding: 0
+}
+
+.exp_rev ul li {
+    color: #272a41;
+    padding: 10px 20px
+}
+
+.exp_rev ul li:last-child {
+    padding-bottom: 18px
+}
+
+.exp_rev ul li:first-child {
+    padding-top: 18px
+}
+
+.exp_rev ul li a {
+    color: #272a41;
+    font-size: 15px
+}
+
+.exp_rev ul li a:hover {
+    color: #e16363
+}
+.mileage-similar-container .inpad_right{
+    margin-bottom: 0px;
+}
+.mileage_form .car_dtlsblk {
+    padding: 0 20px 15px 20px;
+    display: block;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.mileage_form-content img {
+    width: 42%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    padding-top: 20px;
+    max-width: 100%;
+}
+.mileage_form .hed_txt {
+    font-size: 15px;
+    color: #56586a;
+    font-family: Muli-Semibold;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding: 10px 0 0px 0;
+    overflow: hidden;
+}
+.dvdr {
+    border-top: 1px solid #f07e7c;
+    display: block;
+    margin: 15px 0 0 0;
+}
+.js-mileage-submit {
+    background-color: #d02326;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 79px;
+    border-radius: 50px;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Muli-Semibold;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-top: 10px;
+    outline: none !important;
+    font-size: 15px;
+}
+
+
+/* form css */
+
+
+.mileage-form_input {
+    position: relative;
+    margin: 17px 0;
+    min-height: 40px;
+}
+.mileage-form_input:first-child {
+    margin-top: 34px;
+}
+.mileage-form_input input, textarea {
+    padding: 10px 0px;
+    border-radius: 0;
+    border-width: 0px 0px 1px;
+    width: auto;
+    font-size: 14px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(206, 206, 206);
+}
+.mileage-form_input select.inpbox {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(146, 147, 158);
+    -webkit-appearance: none;
+    border-radius: 0;
+    outline:none;
+    background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/down_arrow_18.svg) 98.5% 12px / 12px no-repeat transparent;
+}
+.mileage-form_input .inpbox {
+    width: 100% !important;
+    font-size: 14px !important;
+    padding: 5px 0px 5px;
+}
+.mileage-form_input .inpbox:focus {
+    outline: none;
+}
+.mileage-form_input label {
+    color: rgb(146, 147, 158);
+    padding: 4px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 0.25s ease 0s;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+.er_msg_ri {
+    float: left;
+    display: block;
+    padding: 7px 0px 0 0px;
+    font-size: 12px;
+}
+
+.disp_block {display:block !important;}
+.disp_blk {display:block !important;}
+.disp_none {display:none !important;}
+
+.mileage-er_msg {
+    position: relative;
+    display: none;
+    width: 100%;
+    color: rgb(225, 99, 99);
+    overflow: hidden;
+    font-size: 12px;
+    padding: 4px 0px 0px;
+}
+.mileage-er_msg.error-active {
+    display: inline-block;
+}
+.mileage-er_msg span{
+    display: none;
+}
+.mileage-er_msg span.active{
+    display: inline-block;
+}
+.mileage-form__input-unit {
+    color:#272a41;
+    font-size: 15px;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+.ad-container {
+    max-width: 970px;
+    height: 90px;
+    margin: 0 auto;
+    border: 0px solid #ddd;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+.pull-right {
+    float: right;
+}
+.adbanner {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 250px;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 1001;
+    margin-left: 18px;
+    width: 300px;
+}
+
+.price_block {
+    margin-top: 0 !important;
+}
+
+.content_are .left_content {
+    margin-right: 52px;
+    width: 65.9%;
+    float: left;
+}
+
+.mileage-seotext {
+  font-family: "Muli-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  color: map-get($color-map, "valhalla");
+  padding-top: 8px;
+}
+
+.seotext_read_less {
+  height: 46px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.seotext-read-more {
+  color: map-get($color-map, "pacific-blue");
+  font-size: 13px;
+  font-weight: $font-bold;
+  text-align: right;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+.line-separator {
+  margin-top: 20px;
+  background: map-get($color-map, "white-smoke");
+  height: 1px;
+}
+
+.seotext-read-more:hover{
+  color: map-get($color-map, "blue");
+}
+
+.content_are .right-content {
+    float: right;
+	margin-top: 17px;
+	width: 29%;
+
+	@include flexbox;
+	@include flex-direction(column);
+}
+
+.inpad-right {
+	margin-bottom: 24px;
+}
+
+.pic__conatiner {
+    margin: 0;
+}
+
+.breadcrumbs {
+	margin-top: 16px !important;
+}
+
+.model-card-title {
+    font-size: 21px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-muli-semibold;
+}
+
+.content_are {
+    width: 1156px;
+    margin: auto;
+    overflow: visible;
+}

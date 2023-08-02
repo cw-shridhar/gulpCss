@@ -1,0 +1,53 @@
+@import "../../../scss/base/index";
+@import "../../../scss/mixins/flexbox";
+@import "../../../scss/mixins/hide-scrollbar";
+
+.image-category-tab-container {
+    @include flexbox;
+    @include hide-horizontal-scroll;
+    padding: 8px 16px;
+    border-top: 1px solid map-get($color-map, "whisper");
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.gallery-heading {
+    font-family: $font-muli-semibold;
+    font-size: 19px;
+    color: map-get($color-map, "valhalla");
+    margin: 0 0 16px 16px;
+}
+
+.image-category-tab {
+    padding: 8px 20px;
+    font-size: 13px;
+    font-family: $font-muli-regular;
+    border-radius: 4px;
+    margin-right: 8px;
+    @include flexbox;
+    @include align-items(center);
+    border: 1px solid map-get($color-map, "comet");
+    color: map-get($color-map, "comet");
+}
+
+.gallery-image-url {
+    width: 49.4%;
+}
+
+.load-more {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 15px;
+    font-family: $font-muli-semibold;
+    border: 1px solid map-get($color-map, "fire-red");
+    color: map-get($color-map, "fire-red");
+    border-radius: 3px;
+    display: block;
+    width: 90%;
+    margin: 16px auto auto;
+}
+
+.image-row {
+    @include flexbox;
+    @include justify-content(space-between);
+    margin-bottom: 4px;
+}

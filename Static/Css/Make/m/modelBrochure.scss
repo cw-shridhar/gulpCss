@@ -1,0 +1,256 @@
+/*common css starts here*/
+@import "../../../../ui/style/scss/partials/_variables.scss";
+@import "../../NewCar/m/SocialMedia.scss";
+
+* {
+  transition-duration: inherit;
+}
+* {
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Muli-Regular" !important;
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+}
+
+h2 {
+  color: rgb(209, 24, 3);
+  font-size: 16px;
+  padding: 10px 0px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+p {
+  color: rgb(64, 64, 64);
+  font-size: 14px;
+  margin: 0px 0px 10px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.chk_prc_btn_pln {
+  font-family: "Muli-SemiBold";
+  display: block;
+  font-size: 15px;
+  color: #d02326;
+  padding: 10px 0;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.chk_prc_btn {
+  border: 1px solid #d02326;
+  min-width: 196px;
+  margin: 17px 28px;
+  text-align: center;
+  border-radius: 50px;
+  font-family: "Muli-SemiBold";
+  display: block;
+  font-size: 15px;
+  color: #d02326;
+  padding: 10px 0;
+  transition: all 0.3s;
+}
+
+.separator {
+  width: 100%;
+  height: 16px;
+  background: #f0f0f0;
+}
+.model-broucher-link{
+  display: block;
+}
+
+.img_download {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 2px;
+}
+.card_wrapper_overview {  
+  text-align: center;
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+.downloadBrchr {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 3px;
+}
+.overview-model-widget{
+  display: block;
+  text-align: center;  
+  margin: 0 auto;
+  min-height: 174px;
+}
+
+.fxd_btn {
+  background: rgb(255, 255, 255);
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  margin: 0px auto;
+  left: 0px;
+  z-index: 10;
+}
+.fxd_btn a {
+  font-family: Muli-Semibold;
+  display: block;
+  background: rgb(208, 35, 38);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 17px;
+  text-align: center;
+  width: auto;
+  margin: 2px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.head_title{
+  padding: 21px 20px 20px 17px;
+  font-size: 21px;
+  color: #272a41;
+  font-family: "Muli-SemiBold";  
+}
+.right h3 {
+  font-size: 17px;
+}
+
+.car_name {
+  padding-top: 0;
+  font-size: 17px;
+  color: #272a41;
+  font-family: "Muli-SemiBold";
+  display: block;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.slid_title {
+  font-size: 19px;
+  color: #272a41;
+  margin: 10px 0px 25px;
+  font-family: "Muli-SemiBold";
+}
+.slid_title h2 {
+  padding: 0;
+  font-size: inherit;
+  color: #272a41;
+}
+
+.make_price_label {
+  font-size: 12px;
+  color: #92939e;
+  padding-top: 8px;
+  overflow: hidden;
+  display: block;
+}
+.make_price {
+  font-size: 15px;
+  color: #56586a;
+  font-family: Muli-Regular;
+}
+/*Make list css ends here*/
+
+/*Ad css starts here*/
+.firsttpad {
+  text-align: center;
+  position: relative;
+  background: #f0f0f0;
+  padding: 10px 0;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+}
+.adsbygoogle {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.adbanner1 {
+  background: #f0f0f0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.secondad {
+  padding: 2px 0;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  background: #f0f0f0 !important;
+  width: 100%;
+}
+.top_gap_cls {
+  padding-top: 2px 0;
+}
+.ad_grid {
+  display: block;
+  padding: 15px 20px;
+  width: 320px;
+  margin: 0 auto;
+  width: 320px;
+}
+/*Ad css ends here*/
+
+/*About css starts here*/
+
+.aboutSect {
+  padding: 15px;
+}
+.aboutSect .about_title {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-Semibold;
+  margin-bottom: 10px;
+}
+
+/* BreadCrumb css starts here */
+.footer_navi {  
+  padding: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.share_icon {
+  right: 3px !important; 
+  top: -19px !important;  
+  position: absolute !important;
+}
+
+.footer_navi ul {
+  list-style: none;
+  overflow: hidden;
+}
+.footer_navi ul li {
+  float: left;
+}
+/* BreadCrumb css ends here */

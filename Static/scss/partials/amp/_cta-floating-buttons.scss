@@ -1,0 +1,69 @@
+@import "../../../base/index";
+
+.btn-check {
+	background: map-get($color-map, "fire-red");
+	width: 100%;
+	height: 56px;
+	font-size: 16px;
+	text-align: center;
+	color: map-get($color-map, "white");
+	box-shadow: 0 0 3px map-get($color-map, "light-gray");
+	position: fixed;
+	bottom: 0;
+	z-index: 9;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-position-fixed {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	bottom: 0;
+	height: 56px;
+	z-index: 10;
+}
+
+.pq_check-price {
+	background: map-get($color-map, "white");
+	width: 57%;
+	height: 56px;
+	font-size: 16px;
+	text-align: center;
+	color: map-get($color-map, "fire-red");
+	box-shadow: 0 0 3px map-get($color-map, "light-gray");
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pq_offer {
+	width: 100%;
+	background: map-get($color-map, "fire-red");
+	font-size: 16px;
+	color: map-get($color-map, "white");
+	display: block;
+	right: 0;
+	bottom: 0;
+}
+
+.offer-active .pq_offer {
+	transform: scaleX(.43);
+	transform-origin: right top;
+	transition: all .5s ease-in-out 0s;
+	position: absolute;
+	height: 56px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.offer-active .pq_offer span {
+	transform: scaleX(2.2);
+	transition: all .5s ease-in-out 0s;
+	display: block;
+}

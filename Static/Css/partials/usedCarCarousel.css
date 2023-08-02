@@ -1,0 +1,82 @@
+/*used car slider */
+.used-car .inn-box-4 {
+    margin: 0px 5px 0px 4px;
+    width: auto;
+}
+
+.usedPopularCars {
+    border: 1px solid #f0f0f0;
+    margin: 0px 0px 24px;
+    position: relative;
+}
+
+.used-car .ver_pp-bkh {
+    width: 252px;
+    margin: 0px;
+    margin: 2px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px 1px 2px 0px rgb(148 148 148 / 25%);
+}
+
+.used-car .ver_img_blk {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.used-car .ver_crimg img {
+    width:250px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.used-car .ver_cr-tit1, .used-car .var_upc_tit {
+    color: #272a41;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+}
+.used-car .ver_cr-tit1 {
+    min-height: 35px;
+    padding-left: 15px;
+}
+
+.used-car .ver_onlakd1 {
+    padding-left: 15px;
+    min-height: 40px;
+}
+
+.used-car .ver_onlakd1 span {
+    font-size: 19px;
+    font-weight: normal;
+    color: #2a2a2a;
+}
+
+.used-car .ver_onlakd1 .upcm {
+    color: #b2b3ba;
+    font-size: 12px;
+    font-family: 'Muli-Regular';
+    padding: 2px 0 10px 10px;
+}
+
+.v_allBrands a {
+    color: #d02326;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    clear: both;
+}
+
+.v_allBrands img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.blkttl {
+    padding: 32px 0 20px 24px;
+    display: block;
+    overflow: hidden;
+    font-size: 22px;
+    font-family: Muli-Semibold;
+    color: #272a41;
+    margin: 0;
+}

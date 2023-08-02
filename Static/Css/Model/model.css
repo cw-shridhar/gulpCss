@@ -1,0 +1,743 @@
+body {
+    font-family: 'Muli-Regular';
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    background:#ffffff;
+}
+
+.content_are {
+    width: 1156px !important;
+    margin: 0 auto;
+    overflow: visible;
+}
+.separator {
+    width: 100%;
+    height: 16px;
+}
+/* User review style starts */
+.more-review__container *,.more-review__container *:before,*:after{
+    box-sizing: border-box;
+}
+
+.more-review__container {
+    padding: 0 !important;
+}
+
+.more-review__container p {
+    margin-bottom: 0 !important;
+}
+
+.user-reviews-block {
+    padding: 10px 24px 0 24px;
+    margin-bottom: 24px;
+}
+.review-title {
+    color: #272a41;
+    font-size: 21px;
+    font-family: Muli-Bold;
+    padding: 15px 0px 0px 0px;
+    margin: 0;
+    position: relative;
+}
+.gray-block {
+    background: #f5f5f5;
+    padding: 16px 16px 10px 16px;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    margin: 16px 0;
+}
+.circle-block {
+    width: 14%;
+    text-align: center;
+}
+.circle-block .text {
+    font-size: 13px;
+    color: #56586a;
+    width: 100%;
+    display: inline;
+    position: relative;
+    top: -18px;
+    left: 6px;
+}
+.text {
+    display: block;
+    float: left;
+    width: 56%;
+    border: 0px solid #f0f0f0;
+}
+.user-reviews-block .view-all-reviews {
+    font-size: 15px;
+    color: #d02326;
+    font-family: Muli-SemiBold;
+    border: 1px solid #d02326;
+    border-radius: 3px;
+    padding: 11px 58px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 35%;
+}
+.write-review {
+    color: #0288d1;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    font-family: Muli-SemiBold;
+}
+.more-review__container .user-review__title-container .user-review__title{
+    line-height: 21px;
+}
+/*  User review style ends */
+
+/* QuickFacts style starts */
+.quick_facts {
+    background-size: 116px !important;
+}
+.quick_facts {
+    background: #f7f7f7 url(https://images.cartrade.com/images4/quickfacts.svg) no-repeat 0 0;
+    background-size: auto 104%;
+    margin-top: 0px;
+}
+.quick_inside {
+    padding: 20px;
+    margin-left: 73px;
+}
+.quick_inside .block_heading {
+    padding-bottom: 0px;
+    font-size: 22px;
+}
+.quick_inside .block_heading {
+    font-size: 21px;
+    color: #272a41;
+    font-family: Muli-Bold;
+    font-weight: normal;
+    display: block;
+    padding-bottom: 25px;
+}
+.block_heading {
+    color: #272a41;
+    font-size: 22px;
+}
+.quick_inside .para {
+    color: #56586a;
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    line-height: 25px;
+}
+.min_cls {
+    height: 73px;
+    overflow-y: hidden;
+    transition: height 0.3s linear;
+}
+#read_more_des p {
+    margin-top: 0;
+    color: #272a41;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.para p {
+    color: #56586a;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.quick_facts .quick_inside .para p a {
+    color: blue;
+}
+.para p a {
+    color: #d02326;
+}
+.des_read_more {
+    color: #e16363;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    float: right;
+    margin-right: 5px;
+}
+.read_less {
+    color: #e16363;
+    font-weight: bold;
+    position: relative;
+    display: none;
+}
+
+.max_read{
+    float: left; 
+    text-align: left;
+}
+
+/* Quick Facts style ends */
+
+/* Model overview style starts */
+.model_top_blk {
+    background: none;
+}
+.model_top_blk {
+    width: 100%;
+    background: #fff;
+}
+.model_top_blk .content_are.foldout {
+    border-radius: 0px;
+    overflow: visible;
+}
+.foldout {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px 1px;
+}
+.foldout {
+    border: 1px solid #f0f0f0;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    min-height: 340px;
+    max-height: 100%;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 4px;
+    padding: 0px 20px 0px 20px;
+    background: #ffffff;
+}
+.model_top_blk .content_are .colm300, .model_top_blk .content_are .colm620 {
+    display: table-cell;
+    vertical-align: top;
+}
+.content_are.foldout .colm300 {
+    width: 30% !important;
+}
+.model_top_blk .content_are .colm620 {
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+}
+.model_top_blk .content_are .colm620 {
+    padding-top: 68px;
+    vertical-align: top;
+}
+.bottom-0 {
+    bottom: 0px;
+}
+.w_ato {
+    width: 345px;
+    text-align: center;
+    margin-right: 2px;
+    bottom: -34px;
+    position: relative;
+}
+.w_ato .model_counts {
+    left: auto;
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    margin: 12px auto 0px;
+    float: none;
+}
+.model_counts {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+}
+.model_counts ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.model_counts ul li {
+    display: table-cell;
+    padding-right: 10px;
+}
+.model_counts ul li a {
+    font-size: 12px;
+    font-family: 'Muli-SemiBold' !important;
+    text-align: center;
+    border: 1px solid #d2d2d5;
+    border-radius: 24px;
+    margin-right: auto;
+    width: 56px;
+    padding: 7px 5px 6px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    background: none !important;
+    color: #333;
+    transition: 0.2s;
+}
+.model_counts ul li img {
+    width: 15px;
+    position: relative;
+    top: 1px;
+    padding-right: 5px;
+}
+.model_counts ul li:nth-child(2) img {
+    width: 14px;
+}
+.foldout .model_top_left {
+    background: none !important;
+    margin-bottom: 30px;
+}
+.pos_rel {
+    position: relative;
+}
+.foldout .model_top_left .title_model_top {
+    color: #56586a !important;
+    font-size: 25px;
+    font-family: 'Muli-Semibold';
+    font-weight: normal;
+    padding-top: 0px !important;
+}
+.foldout .title_model_top {
+    background: none !important;
+    font-size: 34px;
+    height: auto !important;
+    padding: 30px 0 0 0 !important;
+    padding-top: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    color: #000000 !important;
+    width: 100% !important;
+    text-transform: inherit !important;
+}
+.title_model_top {
+    background: #d11900;
+    color: #fff;
+    display: table-cell;
+    font-size: 26px;
+    font-weight: 700;
+    height: 90px;
+    line-height: 32px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 300px;
+    padding: 0 25px;
+}
+.model_top_left ul {
+    padding-bottom: 0px;
+}
+.foldout .model_top_left ul li {
+    border: none !important;
+    color: #333333 !important;
+    padding: 7px 0px !important;
+    font-size: 14px;
+    line-height: 18px;
+    list-style: none;
+}
+.model_top_left ul li {
+    font-family: 'Muli-Regular';
+}
+.btmMrghalf {
+    margin-bottom: 10px !important;
+}
+.pull-left {
+    float: left;
+}
+.div_star {
+    width: 100%;
+    margin: 0px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.foldout .model_top_left ul li.exprc {
+    font-weight: normal !important;
+    color: #272a41 !important;
+}
+.foldout .model_top_left ul li.exprc .blk {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    padding-bottom: 8px;
+}
+.foldout .model_top_left ul li strong {
+    font-family: Muli-Semibold;
+    font-weight: normal;
+}
+.foldout .model_top_left ul li.exprc .rupee_font1, .foldout .model_top_left ul li strong {
+    color: #272a41 !important;
+    font-size: 19px !important;
+}
+.model_top_left ul li span {
+    min-width: 60px;
+}
+.exshrmPrcText, .blk .txt, .blk .lineblock.txt strong {
+    color: #92939e;
+    font-size: 12px !important;
+    padding-top: 5px;
+}
+.foldout .model_top_left ul li.exprc .blk.emi {
+    margin-right: 90px;
+}
+.dis_tbl {
+    display: table;
+}
+.emi_dsn {
+    display: block;
+    background: #f6f6f6;
+    padding: 10px 17px 5px 18px;
+    position: relative;
+    top: -15px;
+}
+.blk.emi .cont {
+    font-size: 17px;
+}
+.blk.emi .cont, .blk.emi .emiOffersBlk {
+    vertical-align: middle;
+}
+.new_emi .txt_emi {
+    float: right;
+    display: block;
+    color: #92939e;
+    font-size: 12px !important;
+    padding-left: 5px;
+}
+.qs_mar {
+    top: 0px;
+}
+.qs_mar {
+    position: relative;
+    float: right !important;
+    margin-left: 5px;
+}
+.qs_mar img {
+    border: 1px solid #d2d2d5;
+    border-radius: 24px;
+    padding: 2px 3.5px 2px 3.5px;
+}
+.qs_mar:hover .qs_tol {
+    display: block;
+}
+.auth_dealer {
+    color: #cf2225 !important;
+    font-size: 12px !important;
+}
+.auth_dealer {
+    text-decoration: underline;
+}
+
+.qs_tol {
+    font-size: 12px;
+    width: 312px;
+    padding: 14px;
+    background: #fff;
+    border: 1px solid #f07e7c;
+    position: absolute;
+    top: -13px;
+    left: 23px;
+    box-shadow: 1px 2px 4px #ccc;
+    display: none;
+    z-index: 1;
+}
+.aro_tol_qs {
+    position: absolute;
+    left: -7px;
+    top: 12px;
+}
+.aro_tol_qs .cssArrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 7px 0;
+    border-color: transparent #f07e7c transparent transparent;
+    position: relative;
+}
+.aro_tol_qs .cssArrow.whiteTri {
+    border-color: transparent #ffffff transparent transparent;
+    left: 2px;
+    top: 0px;
+    position: absolute;
+}
+#price_btn_cta_cust_emi {
+    color: #d02326;
+    display: block;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+    text-align: left;
+}
+.emiOffersBlk {
+    overflow: hidden;
+}
+.blk.emi .emiOffersBlk .txt {
+    text-transform: unset;
+}
+.blk.emi .emiOffersBlk .getEMIOffers {
+    font-weight: normal !important;
+    min-width: 132px;
+    max-width: 300px;
+    height: 30px;
+    border: 1px solid rgba(245, 160, 148,0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-right: 22px;
+    padding-left: 20px;
+    background: transparent url(https://images.cartrade.com/images4/emioffers.svg) no-repeat left center;
+    background-size: 36px 32px;
+    position: relative;
+}
+.blk.emi .emiOffersBlk .txt {
+    color: #d02326;
+    font-size: 13px !important;
+    font-family: 'Muli-Regular';
+    display: table-cell;
+    padding: 1px 0px 1px 30px;
+    position: relative;
+    height: 100%;
+    vertical-align: middle;
+    line-height: normal;
+    margin-bottom: 10px;
+    background-size: 30px 32px !important;
+    padding-right: 0 !important;
+    text-transform: capitalize;
+}
+.new_emi .getEMIOffers {
+    font-weight: normal !important;
+    min-width: 132px !important;
+    max-width: 300px !important;
+    height: auto !important;
+    border: 1px solid #f5a094 !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    cursor: pointer !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+    background: transparent url(https://images.cartrade.com/images4/emioffers.svg) no-repeat left center !important;
+    background-size: 27px 24px !important;
+    position: relative !important;
+}
+.cta_plain {
+    border-radius: 24px;
+    background-color: #fff;
+    border: 1px solid #cf2225;
+    box-shadow: none;
+    padding: 10px 0;
+    font-size: 15px !important;
+    width: 233px;
+    line-height: normal;
+    margin-top: 8px;
+    color: #cf2225 !important;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center !important;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.cta_fill {
+    border-radius: 24px;
+    background-color: #cf2225;
+    border: 1px solid #cf2225;
+    box-shadow: none;
+    padding: 10px 0;
+    font-size: 15px !important;
+    width: 210px;
+    margin-left: 20px;
+    line-height: normal;
+    margin-top: 8px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center !important;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.foldout .model_top_left ul li.exprc .blk_milge_wrapper {
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    bottom: 0;
+    left: auto;
+    width: 130px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+.model_top_blk .foldout .shareAnchor {
+    width: 40px;
+    top: 8px;
+    right: 15px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.foldout .model_top_left ul li.exprc .blk.milge {
+    margin-top: 84%;
+    width: 90px;
+    height: 97px;
+    border: 1px solid rgba(210, 210, 213,0.65);
+    margin-right: 0px;
+    position: relative;
+    right: 0px;
+    top: auto;
+    text-align: center;
+    padding-top: 0px;
+    background-color: #fff;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.foldout .model_top_left ul li.exprc .blk.milge .iconMileage {
+    position: relative;
+    top: -15px;
+}
+.foldout .model_top_left ul li.exprc .blk.milge .m_txt {
+    color: #b2b3ba;
+    font-size: 13px;
+}
+.foldout .model_top_left ul li.exprc .blk.milge .lineblock {
+    color: #56586a;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.lazy-slider {
+    margin-top: 45px;
+    min-height: 200px;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiper-container {
+    margin-top: 0 !important;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}  
+.connected-carousels .stage {
+    background-color: white;
+    position: relative;
+}
+  
+.connected-carousels .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: 0.66;
+}
+  
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+  
+/** Shared carousel styles **/
+  
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+  
+.connected-carousels .carousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 0;
+    min-height: 210px;
+}
+  
+.connected-carousels .carousel li {
+    float: left;
+    min-height: 60px;
+}
+.connected-carousels .carousel li img{
+    max-width: 340px;
+    max-height: 192px;
+}
+/** Stage carousel specific styles **/
+  
+.connected-carousels .carousel-stage {
+    min-height: 210px;
+    margin: 0px 10px;
+    z-index: 3;
+}
+  
+/** Stage carousel controls **/
+  
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 40%;
+    height: 44px;
+    color: #fff;
+}
+  
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    position: absolute;
+    top: 40%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 0 0 1px #fff;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    opacity: 0.8;
+    z-index: 6;
+}
+  
+.srchanthrcar {
+    color: #e51e20;
+    font-size: 11px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    line-height: normal;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 11px;
+    position: absolute;
+    z-index: 1;
+}
+.carousel_img_wrapper{
+    width: 345px;
+}
+/*  Model Overview style ends here */
+
+.car_model_blk {
+    color: #272a41;
+    font-size: 21px;
+    font-family: 'Muli-SemiBold';
+    font-weight: 700;
+    margin: 0px;
+    padding: 24px;
+  }
+  
+  .rupee_font {
+    font-family: Sans-Serif !important;
+    letter-spacing: normal;
+    font-weight: normal !important;
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0;
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .content_are {
+      width: 940px;
+    }
+  }
+  

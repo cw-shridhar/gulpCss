@@ -1,0 +1,130 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+.title_gap {
+  font-size: 22px;
+  line-height: 24px;
+  color: #262626;
+  font-family: 'Muli-SemiBold', sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  padding: 32px 24px 18px 24px;
+  margin: 0;
+}
+
+.specifications .title {
+  color: #272a41;
+  font-size: 22px;
+  font-family: 'Muli-SemiBold', sans-serif;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.specifications .block {
+  width: 100%;
+  height: auto;
+  border: 1px solid #fcfcfc;
+  background-color: #fcfcfc;
+  padding: 24px 24px 0;
+  margin: 35px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.specifications .block.keyFeatures {
+  margin-bottom: 14px;
+}
+
+.specifications .block .tagBanner {
+  top: -12px;
+  left: 20px;
+  position: absolute;
+  width: auto;
+  height: 30px;
+  padding-left: 16px;
+  padding-right: 24px;
+  background-color: #ffefea;
+  border-radius: 2px 0 0 2px;
+}
+
+.specifications .block .tagBanner:before {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 12px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  z-index: 1;
+}
+
+.specifications .block .tagBanner .txt {
+  color: #56586a;
+  font-size: 12px;
+  font-family: 'Muli-Regular';
+  text-transform: uppercase;
+  text-transform: uppercase;
+  top: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.specifications .category {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.specifications .category .spec-details {
+  width: 50%;
+  display: flex;
+  padding: 12px 0;
+}
+
+.specifications .category .spec-details .text {
+  color: #92939e;
+  vertical-align: text-top;
+  width: 46%;
+  font-size: 13px;
+}
+
+.specifications .category .spec-details .val {
+  color: #272a41;
+  vertical-align: text-top;
+  width: 52%;
+  font-size: 13px;
+}
+
+.specifications .val img {
+  width: 14px !important;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.specifications .block.keyFeatures .rowCol .row img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: middle
+}
+
+.specifications .notavailable {
+  background: url("#{$cloudfront-img-cdn-path}/images-mobiles/notavailable.svg") 0 0 no-repeat;
+  display: block;
+  height: 19px;
+  margin: 0 auto;
+  width: 18px;
+  float: right;
+  margin-left: 4px;
+}
+
+.available {
+  background: url("#{$cloudfront-img-cdn-path}/images-mobiles/available.svg") 0 0 no-repeat;
+  display: block;
+  height: 19px;
+  margin: 0 auto;
+  width: 21px;
+  float: right;
+  margin-left: 4px;
+}

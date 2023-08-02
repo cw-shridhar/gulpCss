@@ -1,0 +1,577 @@
+.resultblk li.certftitlebar {
+  width: 100% !important;
+  background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/listing-shadow-strip.png)
+    center 33px repeat-x #373737 !important;
+  box-shadow: none;
+  text-shadow: none !important;
+  color: #fff !important;
+  border: 0 !important;
+  padding: 0 !important;
+  right: 0;
+  left: 0;
+  height: 38px;
+  position: relative;
+  font-weight: 700;
+  text-align: left;
+  font-size: 11px;
+}
+
+.resultblk li {
+  line-height: 21px !important;
+  list-style: none;
+  padding: 7px 0 2px !important;
+  background: #fff !important;
+  border-bottom: 1px solid #f8f8f8;
+  width: 100%;
+  padding-top: 0 !important;
+}
+
+.list li {
+  float: none;
+  width: auto;
+  background: #ffffff;
+}
+
+.ui-bar-b {
+  background-color: #fff !important;
+  background: none;
+  box-shadow: 0 1px 6px #989898;
+}
+
+.sel_star {
+  width: 28px;
+  height: 28px;
+  float: right;
+  display: block;
+  right: 9px;
+  position: absolute;
+  border-radius: 50%;
+  top: 8px;
+  padding: 10px !important;
+  box-sizing: border-box;
+  z-index: 10;
+  position: inherit;
+}
+
+.share_linnk_icn {
+  position: absolute;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 9;
+  top: 12px;
+}
+
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #fff !important;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  line-height: 12px;
+  z-index: 9;
+}
+
+.new {
+  background-color: #e53012;
+  font-size: 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  line-height: 12px;
+}
+
+.featured__tag {
+  background-color: #ef9526;
+}
+
+.absure__tag {
+  background-color: #0e3a50;
+}
+
+.absure-filter {
+  width: auto !important;
+  padding-right: 4.5px;
+}
+
+.shortlist-icon--active,
+.shortlist-icon--inactive {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.shortlist-icon--inactive {
+  background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/used/icons/shortlist.svg);
+  background-repeat: no-repeat;
+}
+
+.shortlist-icon--active {
+  background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/used/icons/shortlist-fill.svg);
+  background-repeat: no-repeat;
+}
+
+.shortlisting {
+  background-color: #e6e6e6;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 12px;
+  display: inline;
+  z-index: 9;
+}
+
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.swiper-container,
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  height: auto !important;
+}
+
+.resultblk .ui-bar-b .sel_star a {
+  width: 22px !important;
+  height: 19px;
+  background: url(https://d5x4wettsjecf.cloudfront.net/images/star-rating.png) center top
+    no-repeat;
+  background-size: 19px;
+  display: block;
+  border: 0 solid red;
+  top: -6px;
+  left: -10px;
+  padding: 10px 14px !important;
+  position: relative;
+}
+
+.buyUsedCarNew .resultblk li a {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: normal;
+}
+
+.detspginfo {
+  padding: 5px 0 0 0 !important;
+}
+
+.detspginfo {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  padding: 0 !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.pull-left {
+  float: left;
+}
+
+.details_out {
+  width: calc(100% - 10px);
+  padding: 0 5px;
+}
+
+.pri_Crp {
+  width: 100%;
+  float: left;
+  padding-bottom: 8px;
+}
+
+.h2heading {
+  width: 100%;
+  font-family: arial;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+
+.price_out {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.price_out .price_new,
+.price_out .negotiate {
+  display: block;
+}
+
+.detspginfo span {
+  vertical-align: top;
+}
+
+.price_out .negotiate {
+  color: #e51e20 !important;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.crp_gila {
+  padding: 8px 10px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rtprs_sts {
+  float: left;
+  margin-left: 0px;
+}
+
+.buyUsedCarNew .resultblk li .rtprs_sts a {
+  color: #e51e20 !important;
+  font-size: 12px !important;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 4px !important;
+  line-height: 23px !important;
+}
+
+.buyUsedCarNew .resultblk li .getInstantLoan a {
+  color: #e51e20 !important;
+  font-weight: bold;
+  display: inline;
+  padding-left: 0px !important;
+  font-family: arial;
+}
+.color-grey {
+  color: #5b5b5b;
+}
+
+.getInstantLoan {
+  line-height: 23px !important;
+}
+.detspginfo .info {
+  color: #5b5b5b;
+  font-size: 12px;
+  padding: 0;
+  line-height: 22px;
+  overflow: hidden;
+  display: block;
+  float: none;
+  clear: both;
+}
+.detspginfo .info .pull-left {
+  width: 100%;
+  text-align: left;
+  float: none;
+  display: block;
+}
+
+.kms {
+  padding-left: 0px !important;
+}
+
+.dividerPipe {
+  width: auto;
+  float: left;
+}
+
+.usedcarlistpg .list li span {
+  color: #555;
+  line-height: 18px;
+}
+
+.price_new a {
+  font-size: 18px !important;
+  font-family: arial !important;
+  letter-spacing: 0.0002em;
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.buttons_newblk {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.chtot {
+  width: calc(33.333% - 6px) !important;
+  text-align: left;
+  float: left;
+  vertical-align: bottom;
+  display: inline-block !important;
+}
+
+.chtot span.chat-lead-btn.resultsChatbtn.nojshide,
+.cntclrfull a.cntcSllrnewBtn.nojshide.contact-seller-btn {
+  width: 100% !important;
+  border-radius: 4px;
+}
+
+.chtot span span.whatsapp {
+  background: url(https://d5x4wettsjecf.cloudfront.net/images-mobiles/WhatsApp.png) left
+    center no-repeat;
+  padding-left: 24px;
+  background-size: 20px;
+}
+.chtot span span {
+  line-height: 34px !important;
+}
+.cell .red,
+.cell span,
+.chtot span span,
+.cntclr a span {
+  font-family: arial !important;
+  font-size: 13px;
+}
+
+.detspginfo span {
+  vertical-align: top;
+}
+
+.buyUsedCarNew .resultblk li span.cntcSllrbtn_New {
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  box-sizing: border-box;
+  /* box-shadow: rgb(181, 180, 180) 1px 3px 3px; */
+  display: block;
+  vertical-align: middle;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255) !important;
+  font-size: 14px !important;
+  text-align: center !important;
+  background-color: rgb(229, 30, 32);
+  font-family: arial !important;
+  padding: 11px 0px !important;
+  width: 100%;
+  float: right !important;
+  border-radius: 4px;
+}
+.viwctlrdet {
+  margin: 3px -1px 0px;
+  padding: 2px 0px 0;
+  box-shadow: 0px 0px 4px 0px rgb(26 0 0 / 0.2);
+}
+
+.filter-blk {
+  background-color: #fff;
+}
+
+.filter-title {
+  color: #272141;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 20px 16px 12px;
+  font-family: arial !important;
+}
+
+.f-blk.text-cont {
+  color: #d02326;
+  text-align: center;
+  padding: 10.5px 19.55px;
+  border: 1px solid #d02326;
+  border-radius: 24px;
+  line-height: normal;
+  min-width: 66px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.f-blk {
+  /*justify-content:center;align-items:center;flex-direction:column;*/
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.quickfilters ul {
+  display: flex;
+  overflow-x: auto;
+}
+
+.quickfilters ul li {
+  list-style: none;
+  display: list-item;
+  margin-right: 3%;
+  padding-bottom: 8px;
+  min-width: min-content;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.quickfilters ul li:first-child {
+  padding-left: 16px !important;
+}
+
+.certif_out {
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.certi_R {
+  background: url(https://d5x4wettsjecf.cloudfront.net/images4/bg_certified_R.jpg)
+    no-repeat bottom right;
+  float: right;
+  width: 116px;
+  height: 41px;
+  text-align: right;
+}
+.certi_R img {
+  padding-top: 17px;
+  padding-right: 7px;
+}
+.certi_L img {
+  padding-top: 20px;
+  padding-left: 7px;
+  width: 85px;
+}
+.certi_L {
+  background: url(https://d5x4wettsjecf.cloudfront.net/images4/bg_certified_L.jpg)
+    no-repeat bottom left;
+  float: left;
+  width: 116px;
+  height: 41px;
+  text-align: left;
+}
+
+.absure4s-logo__container {
+  width: 100px;
+  height: 28px;
+  background-color: #0e3a50;
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  z-index: 2;
+}
+
+.absure4s-logo-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-height: 100%;
+  width: 100%;
+  border: 0;
+  top: -24px;
+}
+
+.absure4s-logo__container::before {
+  background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/logos/absure/logo-bg-curve.svg");
+  background-repeat: no-repeat;
+  content: "";
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 98%;
+  background-size: 28px;
+  background-position: 100% 0;
+}
+
+.absure4s-logo-image__container {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: absolute;
+  overflow: hidden;
+  right: 4px;
+}
+
+.stock-image__container {
+  width: 100%;
+  padding-bottom: 75%;
+  position: relative;
+  overflow: hidden;
+}
+
+.stock-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.absure4s-card__border {
+  border-color: #0e3a50;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+}
+
+.swiper-slide a {
+  padding: 0 !important;
+}
+
+.share-icon {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+
+.card-detail-block {
+  min-height: 200px;
+}
+
+.float-right {
+  float: right;
+}
+
+.arrow {
+  position: absolute;
+  transform: translate3d(150px, 0, 0) rotate(-135deg);
+  top: -4px;
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+}
+
+.right-56 {
+  right: 56px;
+}
+
+.right-10 {
+  right: 10px;
+}
+
+.additional-tag-container {
+  background-color: #efefef;
+  padding: 0 8px 0 4px;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.additional-tag-icon {
+  margin-top: 2px;
+}
+
+
+.additional-tag-container .additional-tag-text {
+  font-size: 10px;
+  color: #666666;
+  font-family: 'arial';
+  padding-top: 4px;
+  margin-left: 2px;
+  text-transform: uppercase;
+  margin-top: -2px;
+  vertical-align: middle;
+}

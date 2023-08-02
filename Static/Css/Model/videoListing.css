@@ -1,0 +1,87 @@
+.content_are .carVideos {
+    border: 1px solid #f0f0f0;
+    padding: 24px;
+    margin: 0px 0px 24px;
+}
+
+.content_are .carVideos .title {
+    color: #272a41;
+    font-size: 21px;
+    font-family: 'Muli-Bold';
+    padding-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carVideos .leftBlock{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_are .carVideos .videosContent .leftBlock iframe {
+    border: none;
+}
+
+.content_are .carVideos .videosContent .rightBlock {
+    width: 46% !important;
+    padding-left: 2.5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails:nth-child(1) {
+    padding-top: 0px;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails:not(:first-child) {
+    border-top: 1px solid #f0f0f0;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails .thumb {
+    width: 140px;
+    height: 105px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails img {
+    width: 100%;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails .details {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails .details .link {
+    color: #272a41;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Muli-Regular';
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 13px;
+    display: block;
+    word-break: break-word;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails .current {
+    color: #92939e !important;
+}
+
+.content_are .carVideos .videosContent .rightBlock .videoDetails .details .date {
+    padding: 5px 0px;
+    display: inline-block;
+}

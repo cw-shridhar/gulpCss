@@ -1,0 +1,180 @@
+@media (max-width: 360px) {
+  .footer_ct,
+  .footer_carwale,
+  .footer_bikewale {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+}
+.footer {
+  background: #272a41;
+  font-family: Muli-Regular;
+}
+.footer_logos a img {
+  width: 100%;
+}
+.ct-footer-hide {
+  display: none;
+}
+.row {
+  text-align: center;
+  padding-bottom: 6%;
+}
+.column {
+  float: left;
+  width: 25%;
+  display: block;
+  box-sizing: border-box;
+}
+.footer_logos {
+  width: auto;
+  display: block;
+  padding: 27px 15px;
+  background: #232642;
+}
+.footer_logos a {
+  display: block;
+}
+
+.b_topbrds {
+  overflow: hidden;
+  padding: 15px;
+  border-top: 1px solid #4f5163;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+.b_topbrds ul {
+  margin: 0;
+  padding: 0;
+}
+.b_topbrds ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 3%;
+  padding: 8px 0;
+  float: left;
+}
+.b_topbrds ul li a {
+  cursor: pointer;
+  padding: 0;
+  font-size: 13px;
+  display: inline-block;
+  color: #bbbcc3;
+  line-height: normal;
+  text-decoration: none;
+  font-family: Muli-Regular;
+  font-weight: normal;
+}
+.b_topbrds ul li a:hover {
+  color: #fff;
+  transition: all 0.3s;
+}
+.b_topbrds ul li span {
+  display: inline-block;
+  height: 11px;
+  width: 1px;
+  background: #474a5c;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+footer {
+  background: #272a41;
+}
+.footercolm {
+  text-align: left;
+  text-decoration: none;
+  color: #bebfc6;
+}
+.footer_tbl {
+  width: auto;
+  display: block;
+  border-top: 1px solid #4f5163;
+  padding: 15px;
+  text-align: left;
+  text-decoration: none;
+}
+.footer_tbl .rights {
+  color: #717381;
+  display: block;
+  overflow: hidden;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+.line {
+  width: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.line strong {
+  padding: 10px 0;
+  text-align: left;
+  font-size: 13px;
+  font-family: Muli-SemiBold;
+  color: #bebfc6;
+}
+
+#toTop {
+  position: fixed;
+  bottom: 100px;
+  z-index: 9999;
+  right: 16px;
+  color: #e16363;
+  display: none;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 40px;
+  background: aquamarine;
+  display: block;
+  height: 40px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.logos_tray {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logos-bottom-tray {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  -webkit-column-gap: 32px;
+  -moz-column-gap: 32px;
+  -o-column-gap: 32px;
+  column-gap: 32px;
+  margin-top: 32px;
+}
+
+.absure-logo {
+  opacity: .7;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 0;
+  margin-right: 0;
+}

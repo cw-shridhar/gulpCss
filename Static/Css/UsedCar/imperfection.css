@@ -1,0 +1,13 @@
+.dent-map-container {
+    padding: 24px 16px 0;
+    position: relative;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.dent-map-heading {
+    color: #484848;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0;
+}

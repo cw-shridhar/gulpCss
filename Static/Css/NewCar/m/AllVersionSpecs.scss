@@ -1,0 +1,146 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+.summary .accordion {
+  text-transform: none;
+}
+
+.summary h2 {
+  display: table-cell;
+  padding: 20px 20px 10px;
+  font-size: 19px;
+  color: rgb(39, 42, 65);
+  font-family: Muli-Semibold, sans-serif;
+  vertical-align: middle;
+  width: 70%;
+}
+
+.summary h3.accordion {
+  padding: 18px 0 18px 18px;
+  color: rgb(39, 42, 65);
+  font-size: 17px;
+  display: block;
+  border-top: 1px solid rgb(226, 226, 226);
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-image: initial;
+  font-family: Muli-SemiBold, sans-serif;
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/downarrow.svg) 94%
+    27px / 12px no-repeat;
+}
+
+.newcarpgM15 h3 {
+  text-transform: inherit;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.turn {
+  background: url("#{$cloudfront-img-cdn-path}/images-mobiles/downarrow.svg")
+    95% 27px / 12px no-repeat;
+  transition: inherit;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fbfbfb;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .2s ease-out;
+}
+
+.panel table {
+  border-collapse: collapse;
+}
+
+.panel table tbody tr {
+  border: 0;
+}
+
+.panel table tbody tr:first-child {
+  border-top: 0;
+}
+
+.carTechSpec {
+  border-spacing: 0;
+  border: 0;
+  width: 100%;
+}
+
+.carTechSpec tr td {
+  color: #747588;
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+.panel table tbody td {
+  border-top: 1px solid #efefef;
+  vertical-align: top;
+  line-height: 18px;
+}
+
+.specrslt {
+  width: 33.9%;
+  font-size: 15px;
+  color: #56596a;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.flt_none {
+  float: none;
+}
+
+.summary h3.accordion.current {
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/uparrow.svg)
+    no-repeat 94% 27px / 12px;
+}
+
+.current {
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/uparrow.svg)
+    no-repeat 94% 27px / 12px;
+  transition: inherit;
+}
+
+.notavailable {
+  background: url("#{$cloudfront-img-cdn-path}/images-mobiles/notavailable.svg")
+    0 0 no-repeat;
+  display: block;
+  height: 19px;
+  margin: 0 auto;
+  width: 18px;
+  float: right;
+}
+
+.feature_steering {
+  display: block;
+  float: right;
+}
+
+.feature_steering img {
+  float: left;
+  width: 18px;
+}
+
+.sep_bar {
+  width: 1px;
+  height: 27px;
+  background: #333;
+  display: block;
+  float: left;
+  margin: 0 12px;
+  transform: rotate(20deg);
+  margin-top: -5px;
+}
+
+.available {
+  background: url("#{$cloudfront-img-cdn-path}/images-mobiles/available.svg") 0
+    0 no-repeat;
+  display: block;
+  height: 19px;
+  margin: 0 auto;
+  width: 21px;
+  float: right;
+}

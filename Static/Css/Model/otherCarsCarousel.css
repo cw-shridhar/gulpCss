@@ -1,0 +1,132 @@
+.content_are .otherCars {
+    border: 1px solid #f0f0f0;
+    padding: 31px 24px 24px 24px;
+    margin: 0px 0px 24px;
+    position: relative;
+}
+
+.otherCars h2 {
+    color: #272a41;
+    font-size: 21px;
+    font-family: 'Muli-Bold';
+    padding-bottom: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.otherCars .viewAll {
+    color: #d02326;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.jcarousel-wrapper {
+    position: relative;
+    padding: 0 10px;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.jcarousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel .swiper-slide {
+    width: 252px;
+    height: 273px;
+    box-shadow: 0px 1px 4px 0px rgb(53 39 42 / 25%);
+    position: relative;
+    display: inline-block;
+}
+
+.swiper-slide .load_img {
+    padding: 16px 0 0;
+    position: relative;
+    float: none;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.swiper-slide .otherCar_name {
+    height: 40px;
+    padding-bottom: 4px;
+    color: #56586a;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    padding: 8px 2px 16px 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.swiper-slide .car_price {
+    color: #272a41;
+    font-size: 19px;
+    font-family: 'Muli-Regular';
+    line-height: 20px;
+    padding-left: 14px;
+}
+
+.swiper-slide .ex_show {
+    color: #b2b3ba;
+    font-size: 12px;
+    font-family: 'Muli-Regular';
+    padding-left: 14px;
+    padding-top: 2px;
+}
+
+.jcarousel-control-prev span {
+    left: -10px;
+}
+  
+.jcarousel-control-next span {
+    right: -10px;
+}
+  
+.jcarousel-control span {
+    position: absolute;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 0 0 1px #fff;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    background: white;
+    z-index: 1;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.jcarousel-control > span > img {
+    height: 80%;
+    width: 80%;
+    padding: 5px 1px 0 0;
+}

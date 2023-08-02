@@ -1,0 +1,252 @@
+.content_are .similarCarsSlider .popularNewCarsGallery {
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+.content_are .similarCarsSlider .popularNewCarsGallery {
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+.content_are .similarCarsSlider .popularNewCarsGallery {
+  width: 100%;
+}
+.popularNewCarsGallery,
+.recentLaunchCarsGallery {
+  width: 940px;
+  margin: 24px auto 0px;
+}
+.title_gap {
+  font-size: 21px;
+  line-height: 24px;
+  color: #272a41;
+  font-family: "Muli-Bold";
+  text-transform: capitalize;
+  position: relative;
+  padding: 32px 24px 18px 24px;
+  margin: 0;
+}
+.ver_pp-bkh {
+  height: auto;
+  margin: 2px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 2px 0px rgb(148 148 148 / 25%);
+  margin-right: 9px;
+}
+.ver_shimg-out {
+  width: 252px;
+  max-height: 365px;
+  min-height: 330px;
+}
+.ver_crimg {
+  text-align: center;
+}
+.ver_img_blk {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+.ver_crimg img {
+  max-width: 100%;
+  width: 200px;
+  height: 112px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.ver_rcar-det {
+  padding: 0;
+  margin: 15px auto 0px 0px;
+  font-size: 18px;
+  width: 100%;
+}
+.ver_cr-tit1 {
+  min-height: 40px;
+  padding-left: 15px;
+  padding-bottom: 4px;
+}
+.ver_cr-tit1 .var_upc_tit {
+  color: #56586a;
+  font-size: 15px;
+  font-family: "Muli-Regular";
+}
+.var_upc_tit {
+  display: block;
+  margin-bottom: 0px;
+}
+.ver_img_sldr4 .ver_onlakd1 {
+  min-height: 40px;
+  padding-bottom: 4px;
+}
+.ver_onlakd1 {
+  padding-bottom: 4px;
+  padding-left: 15px;
+}
+.ver_onlakd1 {
+  padding-left: 15px;
+}
+.ver_exShowroom {
+  color: #b2b3ba;
+  font-size: 12px;
+  font-family: "Muli-Regular";
+  padding: 4px 0 7px 15px;
+}
+.ver_btnt1 {
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+.ver_rc-rt-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ver_btnt1_picpage {
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+.ver_btnt1 {
+  border: 1px solid #d02326;
+  position: relative;
+  color: #d02326;
+  text-align: center;
+  font-size: 15px;
+  font-family: Muli-Semibold !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 38px;
+  margin: 10px auto 0px auto;
+  position: relative;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 198px;
+  max-width: 100%;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+
+.ver_btnt1_picpage {
+  border: 1px solid #d02326;
+  position: relative;
+  color: #d02326;
+  text-align: center;
+  font-size: 13px;
+  font-family: Muli-Semibold !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 38px;
+  margin: 10px auto 0px auto;
+  position: relative;
+  text-decoration: none;
+  vertical-align: middle;
+  max-width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.hover_span {
+  background: #d02326 none repeat scroll 0 0;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.05s linear 0s;
+  width: 100%;
+}
+.ver_btnt1 .btn_txt {
+  color: #d02326;
+  text-align: center;
+  font-size: 15px;
+  font-family: Muli-Semibold !important;
+  font-weight: normal;
+}
+
+.ver_btnt1_picpage .btn_txt {
+  color: #d02326;
+  text-align: center;
+  font-size: 15px;
+  font-family: Muli-Semibold !important;
+  font-weight: normal;
+}
+
+.btn_txt {
+  position: relative;
+  transition-duration: 0s;
+  z-index: 10;
+}
+.compare_with {
+  display: table;
+  padding: 10px 0 0 30px;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 5px;
+}
+.compare_with .left {
+  display: table-cell;
+  vertical-align: middle;
+}
+.compare_with .right {
+  display: table-cell;
+  width: 86%;
+  vertical-align: middle;
+}
+.compare_with .left img {
+  width: 20px !important;
+  position: relative;
+  top: 2px;
+}
+.compare_with .right a {
+  color: #e16363;
+  display: block;
+  font-size: 15px;
+}
+
+div.keyspecs {
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 0 24px 24px;
+}
+
+div.jcarousel .ver_pp-bkh {
+  padding: 0;
+}
+
+div.MMtabsCont > div.popularNewCarsGallery {
+  width: 100%;
+  margin: 0 0 24px 0;
+}
+
+.ver_btnt1 {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #fff 50%, #e51e20 50%);
+  transition: background-position 0.05s linear, color 0.05s linear;
+}
+
+.ver_btnt1_picpage {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #fff 50%, #e51e20 50%);
+  transition: background-position 0.05s linear, color 0.05s linear;
+}
+
+.ver_btnt1:hover,
+.ver_btnt1:focus {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.ver_btnt1_picpage:hover,
+.ver_btnt1_picpage:focus {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.ver_btnt1:hover .btn_txt {
+  color: white;
+}
+
+.ver_btnt1_picpage:hover .btn_txt {
+  color: white;
+}

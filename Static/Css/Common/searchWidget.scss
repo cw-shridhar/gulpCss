@@ -1,0 +1,221 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+
+.video-form {
+  border: 1px solid #f0f0f0;
+  box-shadow: none !important;
+  box-sizing: border-box;
+  min-height: 88px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 4px;
+  padding: 27px 26px 10px;
+  background: #f6f6f6;
+  margin-bottom: 24px;
+}
+
+.form-title {
+  float: left;
+  font-size: 15px;
+  color: #92939e;
+  line-height: 24px;
+  margin: 5px 15px 0 5px;
+}
+
+.input-box {
+  float: left;
+}
+
+.input-inner {
+  width: 256px;
+  color: #56586a;
+  font-size: 15px !important;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  vertical-align: middle;
+  margin-left: 0;
+  display: inline-block;
+  padding-left: 0;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  appearance: none;
+  background: transparent url("#{$cloudfront-img-cdn-path}/images4/down_arrow_18.svg") no-repeat 238px 10px;
+  background-size: 12px auto;
+  margin-right: 25px;
+}
+
+.input-inner:hover {
+  cursor: pointer;
+}
+
+.search_model {
+  border: 1px solid #d02326;
+  width: 104px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+  display: block;
+  font-size: 15px;
+  color: #d02326;
+  padding: 8px 0;
+  transition: all .3s;
+  text-transform: uppercase;
+  background: #f6f6f6;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+.loc_selc {
+  padding: 0;
+  text-align: center;
+  background: #fff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.customSelectbox {
+  color: #56586a;
+  font-size: 15px;
+  width: 91%;
+  border: 1px solid #d2d2d5;
+  border-radius: 4px;
+  text-align: left;
+  padding: 11px 20px 13px;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+#m-videoform input.red_btn_new_v {
+  background: #db1700 none repeat scroll 0 0 !important;
+  border: medium none;
+  border-radius: 22px !important;
+  color: #fff !important;
+  cursor: pointer;
+  display: block;
+  height: 46px !important;
+  margin: 26px auto 32px !important;
+  width: 90%;
+  padding: 10px 0;
+  text-shadow: none !important;
+  text-transform: uppercase !important;
+  outline: none;
+  font-size: 15px;
+}
+
+.customSelectbox>span {
+  float: right;
+}
+
+#videoform {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  user-select: none;
+}
+
+.custom-select__trigger {
+  width: 256px;
+  color: #56586a;
+  font-size: 15px !important;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 2px solid #ccc;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  vertical-align: middle;
+  margin-left: 0;
+  display: inline-block;
+  padding-left: 0;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background: transparent url("#{$cloudfront-img-cdn-path}/images4/down_arrow_18.svg") no-repeat 238px 10px;
+  background-size: auto;
+  background-size: 12px auto;
+  margin-right: 25px;
+}
+
+.custom-options {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  right: 0;
+  border-top: 0;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  max-height: 258px;
+  overflow-y: auto;
+  line-height: normal;
+  padding: 12px 12px;
+  cursor: pointer;
+  transition: ease-in-out .1s;
+}
+
+.custom-select.open .custom-options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.custom-option {
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+  color: #56586a;
+  font-size: 15px;
+  line-height: normal;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-bottom: 0 solid #e2e2e2;
+}
+
+.custom-option:not(#make-selected, #model-selected):hover {
+  background-color: #f0f0f0;
+  border-bottom: 0 solid #e2e2e2;
+}
+
+.m-article-title {
+  position: relative;
+  height: 4.8em;
+  overflow: hidden;
+  margin-bottom: 13px;
+}
+
+.m-truncate {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 1.2em;
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1) 50%);
+}
+
+.custom-options .optionLabel {
+  font-weight: bold;
+  padding: 10px;
+  color: #56586a;
+  font-size: 15px !important;
+}

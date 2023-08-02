@@ -1,0 +1,63 @@
+/* Remove below css once normalise css added.  */
+
+* {
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* ------ */
+#cust_emi_popup *, #cust_emi_popup :before, #cust_emi_popup ::after {
+    box-sizing: content-box;
+}
+
+.compareCarWrapper {
+    padding: 16px;
+    font-family: Muli-Regular;
+}
+
+.compareTitle {
+    color: #272a41;
+    font-size: 19px;
+    font-family: Muli-SemiBold;
+    padding: 16px 0px 22px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.blkGap {
+    width: 100%;
+    height: 16px;
+    background-color: #f0f0f0;
+}
+
+img {
+    border: 0px;
+}
+
+input[type="submit"], input[type="button"], a {
+    -webkit-appearance: none;
+}
+
+.imgUploadBlk .vs, .pecBlk .vs {
+    margin: 0px 15px;
+}
+
+.vs {
+    display: table-cell !important;
+    vertical-align: middle;
+}
+
+.ad_block {
+    background: #f9f9f9;
+    width: 100%;
+}
+
+.ad_grid {
+    min-height: 120px;
+    padding: 2px 0;
+    align-items: center;
+    display: flex;
+}

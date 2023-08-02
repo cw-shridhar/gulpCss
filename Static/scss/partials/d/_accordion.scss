@@ -1,0 +1,50 @@
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    font-size: 15px;
+    color: map-get($color-map, "valhalla");
+    cursor: pointer;
+}
+
+.accordion-content {
+    transition: max-height 0.3s linear;
+    background-color: map-get($color-map, "white-smoke-2");
+    font-size: 13px;
+    font-weight: 700;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accordion-title.active .accordion-arrow {
+    transform: rotate(-180deg);
+}
+
+.outer-list-item {
+    border-bottom: 1px solid map-get($color-map, "whisper");
+}
+
+.outer-list-item:last-child {
+    border-bottom: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    width: 30.57%;
+    border-bottom: 1px solid map-get($color-map, "whisper");
+    border-right: 1px solid map-get($color-map, "whisper");
+    padding: 12px 0 12px 20px;
+}
+
+.link {
+    color: map-get($color-map, "pacific-blue");
+}
+
+.common-css-override {
+    margin-bottom: 0;
+    line-height: normal;
+}

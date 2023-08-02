@@ -1,0 +1,99 @@
+.footer_logos {
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  padding: 10px 0;
+  max-width: 360px;
+}
+.footer_logos a {
+  display: inline-block;
+}
+.footer_logos a img {
+  width: 85%;
+}
+.footer_ct,
+.footer_carwale,
+.footer_bikewale {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 33.3%;
+}
+.footerblk {
+  display: block !important;
+  height: auto !important;
+}
+.footer_tbl {
+  width: 100%;
+  display: table;
+  border-top: 1px solid #585858;
+  padding-top: 10px;
+}
+@media (max-width: 360px) {
+  .footer_ct,
+  .footer_carwale,
+  .footer_bikewale {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  .footer_logos a img {
+    width: 90px;
+  }
+}
+.buyUsedCarNew #footer {
+  margin-bottom: 0 !important;
+  width: 100%;
+}
+#footer {
+  position: inherit !important;
+  width: 100%;
+  left: 0;
+  position: relative;
+  bottom: 0;
+}
+.b_topbrds {
+  padding: 10px 10px 0;
+  border-top: 1px solid #585858;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+.line {
+  width: auto;
+  margin: 0 auto;
+}
+.b_topbrds ul {
+  list-style: none;
+  padding: 12px 0;
+}
+.b_topbrds ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 3%;
+  padding-bottom: 8px;
+}
+#footer a {
+  font-family: Verdana !important;
+  font: normal normal 11px Verdana, Geneva, sans-serif;
+  color: #fff;
+  text-decoration: underline;
+}
+.b_topbrds ul li a {
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+  display: inline-block;
+  border-bottom: 1px solid #ddd;
+  color: #bbb !important;
+  line-height: normal !important;
+  text-decoration: none !important;
+  font-family: arial !important;
+}
+
+.absure-logo-container {
+  margin-bottom: 16px;
+}
+
+.absure-logo {
+  opacity: 0.7;
+}

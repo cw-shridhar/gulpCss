@@ -1,0 +1,32 @@
+.selection-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.selection-pill {
+  margin-right: 16px;
+  padding: 8px 20px;
+  border: #565a5c 1px solid;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: capitalize;
+}
+
+.selection-pill--inactive {
+  color: #565a5c;
+  background-color: #fff;
+}
+
+.selection-pill--active {
+  background-color: #565a5c;
+  color: #fff;
+}
+
+.selection-label {
+  font-size: 11px;
+  color: #82888b;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,102 @@
+.contWrap {
+    border: 1px solid #f0f0f0;
+    width: 1156px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+.contWrap .vehicleDetails .imgBlock {
+    width: 468px;
+    height: 263px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+}
+.imgBlock {
+    margin: 30px 24px;
+}
+.contWrap .vehicleDetails .vDetailsCont {
+    width: 540px;
+    height: 100%;
+    margin-left: 40px;
+    margin-top: 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+.contWrap .vehicleDetails .vDetailsCont .contTitle {
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 16px;
+}
+.contWrap .contTitle {
+    color: #272a41;
+    font-size: 22px;
+    font-family: 'Muli-SemiBold';
+    margin: 35px 30px 20px 24px;
+}
+.contWrap .vehicleDetails .vDetailsCont .estPrc.pull-left {
+    width: 38.4%;
+    border-right: 1px solid #e8e8e8;
+    padding-right: 12px;
+}
+.contWrap .vehicleDetails .vDetailsCont .estPrc {
+    color: #272a41;
+    font-size: 22px;
+}
+.contWrap .vehicleDetails .vDetailsCont .subTitle {
+    color: #92939e;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.contWrap .vehicleDetails .vDetailsCont .price {
+    font-family: Muli-SemiBold;
+}
+.rupee_font {
+    letter-spacing: normal;
+    padding: 0px;
+    font-family: sans-serif !important;
+    font-weight: normal !important;
+    display: inline !important;
+    margin: 0px !important;
+}
+.contWrap .vehicleDetails .vDetailsCont .exShowrprc {
+    color: #b2b3ba;
+    font-size: 12px;
+}
+.contWrap .vehicleDetails .vDetailsCont .fuelLine {
+    margin: 37px 0px 20px 0px;
+}
+.contWrap .vehicleDetails .vDetailsCont .fuelTxt1 {
+    color: #b2b3ba;
+    font-size: 12px;
+}
+.contWrap .vehicleDetails .vDetailsCont .fuelLine img {
+    vertical-align: middle;
+    margin: 0px 8.5px 0px 16px;
+}
+.contWrap .vehicleDetails .vDetailsCont .fuelTxt2 {
+    color: #56586a;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.contWrap .vehicleDetails .vDetailsCont .alertMe_Btn {
+    color: #fff ;
+    font-size: 15px;
+    font-family: Muli-SemiBold;
+    width: 247px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #d02326;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.contWrap .vehicleDetails .vDetailsCont .alertMe_Btn a{
+    color:#fff;
+}
+.contWrap .vehicleDetails .vDetailsCont .estPrc.pull-left:nth-child(2) {
+    padding-left: 32px;
+    border-right: none;
+}

@@ -1,0 +1,22 @@
+@mixin border-arrow($dimension: 10, $arrow-color: 'comet', $opacity: 1, $direction: right, $translate: null){
+    width: $dimension * 1px;
+    height: $dimension * 1px;
+    background-color: transparent;
+    border-top: 1px solid map-get($color-map, $arrow-color);
+    border-right: 1px solid map-get($color-map, $arrow-color);
+    display: inline-block;
+    opacity: $opacity;
+  
+    @if $direction == right {
+      @include vendor-prefix('transform', $translate rotate(45deg))
+    }
+    @else if $direction == down {
+      @include vendor-prefix('transform', $translate rotate(135deg))
+    }
+    @else if $direction == left {
+      @include vendor-prefix('transform', $translate rotate(-135deg))
+    }
+    @else if $direction == top {
+      @include vendor-prefix('transform', $translate rotate(-45deg))
+    }
+  }

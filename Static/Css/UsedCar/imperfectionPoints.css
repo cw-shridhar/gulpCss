@@ -1,0 +1,52 @@
+.dent-map-wrapper {
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    margin-top: 16px;
+}
+
+.dent-map-body{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dent-map-image-container {
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+}
+
+.imperfection-circle {
+    border-radius: 50%;
+    border: 2px solid;
+    height: 16px;
+    width: 16px;
+    z-index: 1;
+    position: absolute;
+}
+
+.active-imperfection-area {
+    border-color: #ffefe8;
+    background-color: #f07e7c;
+}
+
+.inactive-imperfection-area {
+    border-color: #e8e8e8;
+    background-color: #56586a;
+}
+
+.image-container {
+    padding-bottom: 75%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.imperfection-count {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+
+.dent-map-image {
+    position: absolute;
+}

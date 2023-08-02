@@ -1,0 +1,98 @@
+/* Widget specific classes */
+
+.padding-15 {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.no_margin {
+  margin-right: 0 !important;
+}
+
+.pcblk {
+  width: 31%;
+  min-height: 205px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0,0.1) 0 1px 2px 1px;
+  border-radius: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+}
+
+.heading {
+  background: #f9f9f9;
+  display: block;
+  overflow: hidden;
+  font-size: 19px;
+  border-top: 3px solid #f7d5d3;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.pcTabl {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.pcTabl tr td {
+  border: 0;
+  padding: 10px;
+}
+
+.pcTabl tr td a {
+  color: #56586a;
+  font-size: 14px;
+  display: block;
+}
+
+.pcTabl tr td a:hover {
+  color: #f07e7c;
+}
+
+.three-cc {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px 1px;
+  border-radius: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+}
+
+.three-cc-table {
+  width: 40%;
+  margin: 0 auto;
+  float: left;
+}
+
+.three-cc-table tr td:nth-child(odd) {
+  padding-left: 0;
+}
+
+.three-cc-table tr td a {
+  color: #56586a;
+  font-size: 14px;
+  display: block;
+}
+
+.three-cc-table tr td a:hover {
+  color: #f07e7c;
+}
+
+.three-cc-table tr td {
+  border: 0;
+  padding: 10px;
+}
+
+.pcblk:last-child {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1300px) and (max-width: 1580px) {
+  .pcblk {
+    width: 30%;
+  }
+}

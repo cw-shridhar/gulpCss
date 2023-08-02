@@ -1,0 +1,873 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+/* MLA Form CSS */
+
+.mla_SubTitle {
+  font-size: 19px;
+  display: block;
+  padding: 30px 0;
+  color: #00001a;
+  padding-left: 16px;
+  background: #f6f6f6;
+}
+.mla_text {
+  font-size: 12px;
+  color: #676979;
+  display: block;
+  padding-top: 5px;
+}
+.mlaSubmission {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fff;
+  overflow-y: scroll;
+  z-index: 9999999999;
+}
+.mla_btn-submt {
+  position: fixed;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 2px 2px rgba(45, 45, 45, 0.2);
+  padding: 20px 10px 0;
+  background: #fff;
+  cursor: pointer;
+}
+.checkmark {
+  position: relative;
+  top: 10px;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #92939e;
+  border-radius: 2px;
+  padding: 0 !important;
+}
+.selected_cls {
+  border: 1px solid rgb(240, 126, 124) !important;
+  background: #f07e7c;
+}
+.base {
+  overflow: hidden;
+  padding: 16px;
+  overflow-y: scroll;
+}
+.left_mla {
+  float: left;
+}
+.big_mla_ttl {
+  display: block;
+  font-size: 19px;
+  font-family: Muli-Semibold;
+}
+.right_mla {
+  float: right;
+  padding-right: 24px;
+}
+.sml_txt {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  color: #545568;
+  padding-top: 4px;
+  font-family: Muli-Regular;
+}
+.select {
+  color: #636769;
+  font-size: 12px;
+  float: left;
+  padding: 10px 15px 0 0;
+}
+.clr {
+  clear: both;
+}
+.make_are {
+  display: block;
+  width: 87%;
+  padding: 22px 20px;
+  border: 1px solid #d7d6da;
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.sel_all {
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.make_Mla {
+  font-size: 18px;
+  color: #1c1f37;
+  font-family: Muli-Semibold;
+  float: left;
+}
+.make_are .loca {
+  font-size: 12px;
+  color: #777b7d;
+  display: block;
+  padding-top: 5px;
+  background-size: 10%;
+}
+.loca img {
+  width: 13px;
+  display: block;
+  float: left;
+  padding-right: 2px;
+}
+.make_chekc_Mla {
+  display: block;
+  float: right;
+}
+.make_chekc_Mla span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/checkbox_unselected.svg)
+    0 0 no-repeat;
+  cursor: pointer;
+  position: relative;
+  top: -15px;
+  background-size: 20px;
+  transition: none;
+}
+.label_p {
+  background: none !important;
+}
+.make_chekc_Mla input[type="checkbox"] {
+  display: none;
+}
+.make_chekc_Mla input:checked + span {
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/checkbox_selected.svg)
+    0 0 no-repeat;
+  background-size: 20px;
+}
+.mla_submt {
+  width: calc(100% - 4px);
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  font-size: 15px;
+  background: #d02326;
+  color: #fff;
+  padding: 12px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  border: none;
+  box-sizing: border-box;
+  height: calc(100% - 4px);
+  margin: 2px auto;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.mla_btn-submt .skip {
+  color: #cc1315;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 13px 0;
+  font-family: Muli-Semibold;
+}
+.disab {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.btm_padding {
+  padding-bottom: 60px;
+  border: 0;
+}
+.top_text {
+  font-size: 13px;
+  display: block;
+  padding: 0 20px 20px 20px;
+  color: #565a5c;
+  font-family: Muli-Regular;
+}
+.clicktoSell {
+  text-align: center;
+}
+.clicktoSell a span {
+  font-size: 14px;
+  border: 1px solid #d02326;
+  border-radius: 50px;
+  padding: 10px;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  color: #d02326;
+  margin-top: 15px;
+}
+.txt_p {
+  display: block;
+  font-size: 14px;
+  font-family: Muli-regular;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#dealer_pop_name,
+#dealer_pop_name_pan {
+  color: #282a41;
+}
+.Thnk_over {
+  background-color: #fff;
+  position: fixed;
+  width: 320px;
+  z-index: 9999999;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}
+.thnk_head {
+  font-size: 24px;
+  color: #57586a;
+  text-align: center;
+  display: block;
+}
+.thank_txt {
+  font-size: 16px;
+  font-family: Muli-Regular;
+  display: block;
+  padding: 20px 0;
+  width: 300px;
+}
+.Thnk_over img {
+  width: 170px;
+  display: block;
+  padding-bottom: 30px;
+}
+.nfloatsub {
+  width: calc(100% - 4px);
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  font-size: 15px;
+  background: #d02326;
+  color: #fff;
+  padding: 13px 15px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  border: none;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 2px auto;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.submit_lead {
+  width: calc(100% - 4px);
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  font-size: 15px;
+  background: #d02326;
+  color: #fff;
+  padding: 12px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  border: none;
+  box-sizing: border-box;
+  height: calc(100% - 4px);
+  margin: 2px auto;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.dlr_title {
+  font-size: 19px;
+  text-align: left;
+  padding: 6px 15px 5px 20px !important;
+}
+.btn_base {
+  padding-top: 28px;
+  display: block;
+}
+.cust_text {
+  padding-top: 50px !important;
+}
+
+.text_block {
+  text-align: center;
+  font-size: 10px;
+  color: #5f6172;
+  line-height: normal;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.agree_txt {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 84%;
+}
+
+.text_block a {
+  text-decoration: underline;
+  color: #5f6172;
+}
+.blockSubTitle_mla {
+  font-size: 19px;
+  color: #272a41;
+  font-size: 15px;
+  font-family: Muli-SemiBold;
+  text-align: center;
+  padding: 15px 0px 14px;
+}
+#pan_popup2 .sngl_input {
+  padding-bottom: 30px;
+}
+
+#popup2 .sngl_input {
+  padding-bottom: 30px;
+}
+
+/* MLA Form CSS */
+
+/*CSS for get the best deal starts here*/
+.leadSubmission {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fff;
+  z-index: 99999910;
+  overflow-y: scroll;
+}
+.close-btn {
+  width: 16px;
+  height: 16px;
+  background: transparent
+    url(#{$cloudfront-img-cdn-path}/images-mobiles/close_blk.svg) no-repeat
+    center center;
+  top: 4px;
+  right: 16px;
+  position: absolute;
+  cursor: pointer;
+
+  &.top-16 {
+    top: 16px;
+  }
+
+  &.pp_cls {
+    top: 17px;
+  }
+}
+.blockTitle,
+.blockSubTitle {
+  color: #272a41;
+  font-size: 15px;
+  font-family: Muli-SemiBold;
+  text-align: center;
+  padding: 15px 0px 14px;
+}
+.blockSubTitle {
+  font-size: 19px;
+  background-color: #fbfbfb;
+}
+
+.leadImage {
+  text-align: center;
+  padding: 22px;
+  box-sizing: border-box;
+}
+.leadImage .image {
+  width: 100%;
+  height: auto;
+}
+.leadPoints {
+  padding: 15px 0px;
+}
+.leadPoints li {
+  color: #272a41;
+  font-size: 12px;
+}
+.leadPoints .leftSec,
+.leadPoints .rightSec {
+  text-align: right;
+  list-style: none;
+  width: 48%;
+  display: inline-block;
+}
+.leadPoints .rightSec {
+  text-align: left;
+}
+.leadPoints .rightSec .dot {
+  color: #f07e7c;
+}
+.leadForm {
+  padding: 0px 17px;
+}
+.sngl_input {
+  position: relative;
+  margin-top: 12px;
+  min-height: 40px;
+}
+.sngl_input input:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.8em;
+  color: #92939e;
+  top: -20px;
+  -webkit-transition: all 0.125s ease;
+  transition: all 0.125s ease;
+  box-shadow: none;
+}
+.sngl_input input,
+textarea {
+  padding: 10px 0 10px 0;
+  border: 0;
+  width: auto;
+  font-size: 14px;
+  border-bottom: 1px #cecece solid;
+}
+.sngl_input input ~ span,
+textarea ~ span {
+  display: none;
+  width: 0;
+  height: 0px;
+  background: #56586a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.125s ease;
+  transition: all 0.125s ease;
+}
+.sngl_input input:focus ~ span,
+textarea:focus ~ span {
+  display: none;
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+.sngl_input label {
+  color: #92939e;
+  padding: 15px 0px 0px 0;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 14px;
+}
+.sngl_input input[type="text"] {
+  border-bottom: 1px #92939e solid;
+}
+.sngl_input {
+  position: relative;
+  margin-top: 20px;
+}
+.sngl_input .inpbox {
+  width: 100% !important;
+  font-size: 14px !important;
+  padding: 15px 0 8px 0 !important;
+  border-radius: 0;
+}
+.sngl_input input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 1px #92939e solid !important;
+}
+.sngl_input select.inpbox {
+  border: none;
+  border-bottom: 1px solid #92939e;
+  background: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent
+    url(#{$cloudfront-img-cdn-path}/images-mobiles/down_arrow_18.svg) no-repeat
+    98.5% 24px;
+  background-size: 16px auto;
+}
+.sngl_input .inpbox {
+  width: 100% !important;
+  font-size: 14px !important;
+  padding: 15px 0 8px 0 !important;
+}
+.er_msg {
+  position: absolute;
+}
+.certi_blk {
+  display: table;
+  padding: 44px 0;
+  margin: 0px auto 40px 0px;
+}
+.certi_blk input[type="checkbox"] {
+  display: none;
+}
+.certi_blk input[type="checkbox"],
+.certi_blk input[type="radio"] {
+  border: none;
+  height: auto;
+  line-height: normal;
+  margin: 15px 0;
+  padding: 0;
+  vertical-align: middle;
+  width: auto !important;
+  margin-left: 22px;
+  margin-right: 12px;
+}
+.certi_blk input[type="checkbox"] + label {
+  color: #92939e;
+  font-size: 13px;
+  cursor: pointer;
+}
+.certi_blk input[type="checkbox"]:checked + label span {
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/checked.png-version201810121228.png)
+    0 0 no-repeat;
+}
+.certi_blk input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -5px 10px 0 0;
+  vertical-align: middle;
+  border: 0px solid #82888b;
+  cursor: pointer;
+  border-radius: 0px;
+  background: url(#{$cloudfront-img-cdn-path}/images-mobiles/not_checked.png-version201810121228.png)
+    0 0 no-repeat;
+}
+.certi_blk input[type="checkbox"] + label a {
+  text-decoration: underline;
+  color: #82888b;
+}
+.submt {
+  width: calc(100% - 4px);
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  font-size: 15px;
+  background: #d02326;
+  color: #fff;
+  padding-top: 17px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  border: none;
+  box-sizing: border-box;
+  height: calc(100% - 4px);
+  margin: 2px auto;
+  text-decoration: none;
+}
+.btn-submt {
+  height: 54px;
+  position: fixed;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 1px 1px #b1b0b0;
+}
+.cmbin {
+  display: block;
+  width: auto;
+  overflow: hidden;
+  padding: 50px 30px;
+}
+
+.cmbin span {
+  padding: 0 !important;
+  font-size: 14px;
+}
+.big_ttl {
+  color: #000;
+  font-size: 18px !important;
+  padding-bottom: 20px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/*CSS for get the best deal ends here*/
+
+.er_msg {
+  display: block;
+  width: 100%;
+  color: #e16363;
+  overflow: hidden;
+  position: relative;
+}
+.cont_de .er_msg {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.er_msg_le {
+  float: left;
+}
+.er_msg_ri {
+  float: left;
+  display: block;
+  padding: 4px 0px 0 0px;
+  font-size: 12px;
+}
+
+.dealer_dropdown {
+  margin-top: 24px;
+  height: 36px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px #92939e solid;
+  background-color: white;
+  font-size: 14px;
+  width: 100%;
+}
+#exp_pr_er,
+.lead_forms #exp_kms_er,
+.lead_forms #exp_lead_name_er,
+.lead_forms #exp_lead_email_updated_er,
+.lead_forms #exp_lead_dealer_er,
+.lead_forms #exp_lead_email_er,
+.lead_forms #exp_lead_city_er,
+.lead_forms #exp_lead_auth_er,
+.lead_forms #exp_lead_mob_er {
+  display: none;
+}
+#exp_lead_name_er,
+.lead_forms #exp_lead_email_updated_er,
+.lead_forms #exp_lead_dealer_er,
+.lead_forms #exp_lead_email_er,
+.lead_forms #exp_lead_city_er,
+.lead_forms #exp_lead_auth_er,
+.lead_forms #exp_lead_mob_er {
+  position: absolute;
+}
+#exp_lead_name_er .er_msg_le,
+.lead_forms #exp_lead_email_updated_er .er_msg_le,
+.lead_forms #exp_lead_dealer_er .er_msg_le,
+.lead_forms #exp_lead_email_er .er_msg_le,
+.lead_forms #exp_lead_city_er .er_msg_le,
+.lead_forms #exp_lead_mob_er .er_msg_le,
+.lead_forms #exp_lead_auth_er .er_msg_le {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+  float: none;
+}
+#exp_lead_name_er .er_msg_ri,
+.lead_forms #exp_lead_email_updated_er .er_msg_ri,
+.lead_forms #exp_lead_dealer_er .er_msg_ri,
+.lead_forms #exp_lead_email_er .er_msg_ri,
+.lead_forms #exp_lead_city_er .er_msg_ri,
+.lead_forms #exp_lead_mob_er .er_msg_ri,
+.lead_forms #exp_lead_auth_er .er_msg_ri {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+.er_msg_le img {
+  width: 100% !important;
+}
+.er_msg {
+  position: relative !important;
+}
+.uncheck {
+  width: 17px !important;
+  height: 17px !important;
+  background: none !important;
+  border: 1px solid #e16363 !important;
+}
+.effect-17 ~ .focus-border {
+  top: 32px !important;
+  background: none;
+}
+.dealerBlkFinal {
+  top: 26.5%;
+  position: relative;
+}
+
+/*Thank you popup */
+.dealerBlkFinal .withDealer {
+  background-color: #f9f9f9;
+  padding: 0px 0px 20px;
+  border: 1px solid #ccc;
+  border-width: 1px 0px;
+}
+.dealerBlkFinal .newTitleLine {
+  width: 100%;
+  display: block;
+}
+.dealerBlkFinal .newTitleLine {
+  width: 100%;
+  display: block;
+  background-color: transparent;
+}
+.blockSubTitle {
+  font-size: 19px;
+  background-color: #fbfbfb;
+}
+.blockTitle,
+.blockSubTitle {
+  color: #272a41;
+  font-size: 15px;
+  font-family: Muli-SemiBold;
+  text-align: center;
+  padding: 0;
+}
+.dealerBlkFinal .sellDtlsLink {
+  color: #d11900;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid #d11900;
+  box-sizing: border-box;
+  border-radius: 32px;
+  display: block;
+  max-width: 300px;
+  margin: 0px auto;
+  left: 0px;
+  right: 0px;
+  padding: 9px 0px 9px;
+  line-height: normal;
+}
+.dealerBlkFinal .sellDtlsLink span {
+  color: #d11900;
+}
+.dealerBlkFinal .withoutDealer {
+  width: 100%;
+  padding: 5px 22px;
+  box-sizing: border-box;
+  margin: 16px auto;
+}
+.dealerBlkFinal .withoutDealer .blockSubTitle {
+  font-family: Muli-Regular;
+  font-size: 17px;
+  text-align: left;
+  padding: 12px 0px;
+  background-color: transparent;
+}
+.blockSubTitle {
+  font-size: 19px;
+  background-color: #fbfbfb;
+}
+.blockTitle,
+.blockSubTitle {
+  color: #272a41;
+  font-size: 15px;
+  font-family: Muli-SemiBold;
+  text-align: center;
+  padding: 15px 0px 14px;
+}
+.dealerBlkFinal .sellDtlsLink {
+  color: #d11900;
+}
+.blockSubTitle {
+  font-size: 19px;
+  background-color: #fbfbfb;
+}
+.newTitleLine > .big_ttl {
+  padding: 0;
+  font-size: 19px !important;
+  margin-top: 0 !important;
+}
+#camp_step2 .leadForm > .sngl_input {
+  margin-top: 12px;
+}
+
+.bottom_btn_cls {
+  display: block;
+  background-color: #fff;
+  border: none;
+  overflow: hidden;
+  width: 99%;
+  padding-bottom: 14px;
+}
+.bottom_btn_cls .btn_base,
+.bottom_btn_cls .text_block,
+.bottom_btn_cls .custm_emiBtn {
+  position: relative;
+  bottom: auto;
+}
+.bottom_btn_cls .btn_base {
+  padding-top: 0px;
+}
+.custm_emiBtn {
+  display: block;
+  background: #d02326;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+  width: auto;
+  border-radius: 3px;
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 45px;
+  box-shadow: #a09a9a57 0px -2px 2px 0px;
+}
+
+.btn_desktop_lead-form:disabled {
+  background: #e16363;
+  border: 1px solid #e16363;
+}
+
+.sell-car-container {
+  border: 1px solid map-get($color-map, "mercury");
+  margin: 12px 16px 0;
+  padding: 12px;
+
+  .sell-slug-heading {
+    font-size: 16px;
+    color: map-get($color-map, "charcoal");
+    font-weight: bold;
+    margin-bottom: 4px;
+    height: 20px;
+  }
+
+  .sell-slug-sub-heading {
+    font-size: 13px;
+    color: map-get($color-map, "black-coral");
+    padding-bottom: 12px;
+  }
+
+  .sell-slug-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+  .sell-slug-list-icon {
+    margin-right: 12px;
+  }
+
+  .sell-slug-list-highlight {
+    color: map-get($color-map, "tundora");
+  }
+
+  .sell-button {
+    height: 40px;
+    background-color: map-get($color-map, "lipstick");
+    border-radius: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+.cross-sell-checkbox {
+  transition: all 0.1s ease 0s;
+  border: 1px solid map-get($color-map, "light-gray-2");
+  height: 16px;
+  width: 16px;
+}
+
+.cross-sell-tick {
+  top: 2px;
+  left: 2px;
+}

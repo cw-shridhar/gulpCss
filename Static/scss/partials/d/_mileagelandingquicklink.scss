@@ -1,0 +1,27 @@
+@import "../../base/index";
+
+.quick-head {
+  font-family: $font-muli-semibold;
+  border-bottom: 1px solid map-get($color-map, "light-coral");
+  box-sizing: border-box;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.link-item {
+  padding: 6px 23px;
+  cursor: pointer;
+}
+
+.link-item:first-child {
+  padding-top: 12px;
+}
+
+.link-url {
+  color: map-get($color-map, "valhalla");
+  font-size: 15px;
+}
+
+.link-url:hover {
+  color: map-get($color-map, "floral");
+}

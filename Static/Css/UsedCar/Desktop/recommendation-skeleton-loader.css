@@ -1,0 +1,19 @@
+.recommendation-skeleton-loader__color {
+    fill: #f0f0f0;
+    height: 100%;
+    width: 100%;
+}
+
+.recommendation-skeleton-loader {
+    display: none;
+    height: 144px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.recommendation-skeleton-loader-template {
+    display: none;
+}

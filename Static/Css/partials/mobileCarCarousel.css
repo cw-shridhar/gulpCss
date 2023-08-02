@@ -1,0 +1,111 @@
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel_wrapper > .carousel {
+  position: relative;
+  padding-top: 60%;
+  background-color: #ffffff;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 80%;
+  width: 100%;
+}
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+.carousel_img_car {
+  width: 100%;
+  height: auto;
+}
+
+.carousel_wrapper > .title {
+  padding-left: 12px;
+  font-weight: 500;
+}
+
+.carousel_wrapper {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.card_wrapper {
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 2px 0px rgb(148 148 148 0.2549019607843137);
+  padding-bottom: 15px;
+  min-height: 185px;
+}
+
+.card_wrapper > .similar-txt {
+  min-height: 40px;
+  padding-left: 15px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.carousel_wrapper {
+  margin-top: 5px;
+}
+.car_name {
+  text-decoration: none;
+  color: #272a41;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.carousel__snapper a:link {
+  text-decoration: none !important;
+}
+
+.img_wrapper {
+  padding: 15px;
+}
+
+.img_wrapper > img {
+  min-height: 140px;
+}

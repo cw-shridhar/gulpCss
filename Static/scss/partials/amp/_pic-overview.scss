@@ -1,0 +1,94 @@
+.car-details {
+	margin: 20px 0 10px;
+	display: flex;
+	padding: 0 16px
+}
+
+.car-title {
+	font-size: 13px;
+	color: #56586a;
+	display: block;
+	margin-bottom: 5px
+}
+
+.car-price,
+.car-version {
+	font-size: 16px;
+	color: #272a41;
+	font-weight: 700;
+	margin-bottom: 5px
+}
+
+.car-version {
+	display: block;
+	position: relative
+}
+
+.car-version a {
+	display: inline-block;
+	background: url(#{$img-cdn-path}0x0/cw/static/icons/svg/565a5c/arrow-right.svg) 100% center no-repeat;
+	background-size: 10px;
+	padding-right: 32px
+}
+
+.car-price {
+	display: block
+}
+
+.description {
+	margin-top: 0;
+	padding: 0 16px;
+	color: #56586a
+}
+
+.min_cls {
+	height: 38px;
+	overflow-y: hidden;
+	transition: height .3s linear
+}
+
+.rupee_font {
+	font-family: Sans-Serif;
+	letter-spacing: normal;
+	font-weight: 400;
+	display: inline;
+	margin: 0;
+	padding: 0
+}
+
+.min_read {
+	position: relative;
+	margin-top: 0;
+	background: #fff;
+	padding-left: 5px;
+	margin-right: 0
+}
+
+.max_read {
+	float: none;
+	display: inline-block;
+	margin-top: 10px
+}
+
+.des_read_more {
+	cursor: pointer;
+	color: #0288d1;
+	text-align: right;
+	font-weight: 700;
+	padding-top: 2px;
+	margin-bottom: 10px;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000
+}
+
+div.heading>h1 {
+	font-size: 21px;
+	color: #272a41;
+	font-weight: 400;
+	margin-top: 5px;
+}

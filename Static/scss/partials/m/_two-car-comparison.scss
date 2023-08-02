@@ -1,0 +1,34 @@
+.two-car-comparsion-carousel {
+    @include flexbox;
+    @include hide-horizontal-scroll;
+}
+
+.two-car-comparison-container {
+    border: 1px solid map-get($color-map, "whisper");
+    border-radius: 3px;
+    min-width: 286px;
+    height: fit-content;
+}
+
+.base-car-container, .similar-car-container{
+    width: 50%;
+    @include flex(1);
+}
+
+.compare-car-image {
+    max-width: 100%;
+    min-height: 80px;
+}
+
+.two-car-compare-link {
+    border: 1px solid map-get($color-map, "fire-red");
+    border-radius: 3px;
+    margin: 12px 8px 16px;
+    display: block;
+}
+
+.car-grid-versus {
+    left: 47%;
+    z-index: 1;
+    top: 30%;
+}

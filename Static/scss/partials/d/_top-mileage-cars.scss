@@ -1,0 +1,17 @@
+.top-mileages-heading {
+  font-family: $font-muli-semibold;
+  font-size: 22px;
+  color: map-get($color-map, "valhalla");
+  margin: 24px;
+}
+
+.top-mileage-models {
+  padding-left: 24px;
+  display: table;
+}
+
+.model-url {
+  float: left;
+  width: 240px;
+  padding-bottom: 20px;
+}

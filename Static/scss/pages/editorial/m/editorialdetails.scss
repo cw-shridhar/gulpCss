@@ -1,0 +1,8 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/_similar-cars-carousel.scss";
+
+.content-video iframe {
+    width: 100%;
+    height: 213px;
+}

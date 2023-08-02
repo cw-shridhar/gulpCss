@@ -1,0 +1,45 @@
+.version-city-wrapper {
+	@include flexbox;
+	width: 100%;
+	border: 1px solid map-get($color-map, "whisper");
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+.version-city-container {
+	width: 50%;
+	padding: 12px;
+	height: 63px;
+}
+
+.version-city-container.city-container {
+	border-left: 1px solid map-get($color-map, "whisper");
+}
+
+.version-city-heading {
+	font-family: $font-muli-regular;
+	font-size: 13px;
+	letter-spacing: 0;
+	color: map-get($color-map, "manatee");
+	margin-bottom: 4px;
+}
+
+.version-city-selected {
+	font-family: $font-muli-regular;
+	font-size: 15px;
+	letter-spacing: 0;
+	color: map-get($color-map, "valhalla");
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 4px;
+}
+
+@media only screen and (min-width: 800px) {
+	.version-city-container {
+		height: auto;
+		padding: 12px 20px;
+	}
+	.version-city-selected {
+		font-weight: $font-bold;
+	}
+}

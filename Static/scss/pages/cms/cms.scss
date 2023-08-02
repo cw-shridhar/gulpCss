@@ -1,0 +1,48 @@
+@import "../../mixins/index";
+@import "../../base/index";
+
+.specs-tabs-wrapper {
+    border-bottom: 1px solid map-get($color-map, "light-coral");
+
+    .active {
+        border-bottom: 5px solid map-get($color-map, "light-coral");
+    }
+}
+
+.listing-search {
+    width: 330px;
+}
+
+.li_border {
+    @include flex-basis(45%);
+}
+
+.search-drop-down {
+    outline: 1px solid map-get($color-map, "dark-gray");
+}
+
+.search-drop-down-item {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid map-get($color-map, "dark-gray");
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.ad-top {
+    min-height: 100px;
+}
+
+.ad-side {
+    min-height: 260px;
+}
+
+.content_list a:hover {
+    color: initial;
+}

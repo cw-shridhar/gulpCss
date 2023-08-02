@@ -1,0 +1,175 @@
+.location-popup-overlay {
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:999999;
+    background: rgba(0, 0, 0, 0.7);
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.location-popup-container {
+    width: 445px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -222px;
+    z-index: 999999;
+}
+
+.location-popup {
+    height: 360px;
+    width: 445px;
+}
+
+
+.location-popup-close {
+    display: block;
+    float: right;
+    width: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+ 
+.location-popup-close img {
+    height: 18px;
+    width: 18px;
+}
+
+.location-popup-background {
+    height: 200px;
+    width: 445px;
+    background: #F5F5F5 url(https://d5x4wettsjecf.cloudfront.net/images4/city.svg) 94px 91px no-repeat;
+    background-size: 24em;
+}
+
+.location-popup-background p {
+    font-size: 19px;
+    color: #272a41;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 38px;
+    left: 120px;
+}
+
+.location-popup-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: 445px;
+    position: relative;
+}
+
+.location-container {
+    margin-top: 50px;
+}
+
+.location-details-container {
+    width: 355px;
+    height: 25px;
+    border-bottom: 1px solid rgb(130, 136, 139);
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.location-details-container input {
+    text-align: left;
+    font-size: 14px !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+#location-error-text {
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 15px;
+    width: 355px;
+    position: absolute;
+    bottom: 25px;
+    display: none;
+}
+
+.input-has-content {
+    margin-left: 0% !important;
+}
+
+#city-location-icon {
+    transition: all .6s ease-in-out;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+
+.location-icon {
+    width: 12px;
+    height: 15px;
+}
+
+.location-list-container {
+    max-height: 150px;
+    width: 355px;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.location-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location-list-container ul li {
+    padding: 10px 10px 10px 25px;
+    cursor: pointer;
+    color: #272a41;
+    font-size: 14px;
+}
+
+.location-list-container ul li:hover {
+    background-color: rgb(255, 239, 234);
+}
+
+.location-chip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: auto;
+    padding: 0 5px 0 5px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-right: 5px;
+}
+
+#selected-city {
+    color: rgb(130, 136, 139);
+    margin: 0 10px 0 10px;
+}
+
+#area-container {
+    display: none;
+}
+
+#location-chip-close {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}

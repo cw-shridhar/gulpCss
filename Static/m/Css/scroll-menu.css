@@ -1,0 +1,57 @@
+.overall-specs-tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+#makeOverallTabsWrapper {
+  height: 44px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-top: 1px;
+}
+
+.overall-specs-tabs-container {
+  width: 100%;
+  display: block;
+  background: rgb(255, 255, 255);
+  overflow-x: scroll;
+  box-shadow: rgb(225 225 225) 0 3px 3px;
+  z-index: 100;
+}
+
+.overall-specs-tabs-wrapper {
+  width: 100%;
+  display: table;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.overall-specs-tabs-wrapper li {
+  font-size: 13px;
+  padding: 15px 10px;
+  display: table-cell;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.overall-specs-tabs-wrapper li a {
+  color: #56586a;
+}
+
+.overall-specs-tabs-wrapper li.active a {
+  color: #272a41;
+  font-family: Muli-SemiBold, sans-serif;
+}
+
+.overall-specs-tabs-wrapper li.active {
+  border-bottom: 4px solid rgb(240, 126, 124);
+}

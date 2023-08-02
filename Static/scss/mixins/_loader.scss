@@ -1,0 +1,16 @@
+@mixin loader-gif($top: 45%, $left: 45%) {
+    .loader-gif {
+        position: fixed;
+        top: $top;
+        left: $left;
+        z-index: 100000;
+    }
+
+    .black-out-window-loader {
+        background: map-get($color-map, "black");
+        position: fixed;
+        inset: 0;
+        z-index: 100000;
+        opacity: 0.1;
+    }
+}

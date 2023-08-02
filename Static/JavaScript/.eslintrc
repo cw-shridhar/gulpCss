@@ -1,0 +1,11 @@
+{
+    "env": {
+      "es6": false
+    },
+    "rules": {
+      "prefer-destructuring": "off",
+      // no variable declaration
+      "no-var": "off",
+      "no-undef": "off"
+    }
+  }

@@ -1,0 +1,63 @@
+.inspection-tooltip-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 9px;
+    margin-right: 16px;
+}
+
+.inspection-tooltip-text {
+    font-family: 'Muli-Regular';
+    font-size: 11px;
+    color: #56586a;
+}
+
+.inspection-report-tooltip {
+    position: relative;
+    margin-left: 1px;
+    top: 3px;
+}
+
+.inspection-tool-tip-block {
+    position: absolute;
+    display: none;
+    top: 20px;
+    right: 0px;
+}
+
+.inspection-tool-tip-wrapper {
+    width: 260px;
+    background: #56586a;
+    border-radius: 3px;
+    padding: 8px 12px;
+    position: relative;
+    z-index: 18
+}
+
+.inspection-tool-tip-text {
+    font-family: 'Muli-Regular';
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.inspection-tool-tip-list li{
+    font-family: 'Muli-Regular';
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 16px;
+}
+
+.top-inspection-tool-tip-wrapper {
+    top: -430px;
+}
+
+.bottom-inspection-tool-tip-wrapper {
+    top: 5px;
+}

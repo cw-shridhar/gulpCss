@@ -1,0 +1,122 @@
+.shd_mr {
+	box-shadow: rgb(152, 152, 152) 0px 1px 4px;
+	margin: 5px 0px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.vido_thumb {
+	border: 1px solid rgb(221, 221, 221);
+	width: 130px;
+	height: 80px;
+	margin-left: 6px;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.no_aro li {
+	padding-top: 6px;
+}
+
+.vid_list li:first-child,
+.list li:first-child {
+	border-top: 1px solid rgb(205, 205, 205);
+}
+
+.no_aro li {
+	border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+.vid_list li {
+	background-image: none;
+	background-color: rgb(255, 255, 255);
+	list-style: none;
+	border-bottom: 1px solid rgb(205, 205, 205);
+	overflow: hidden;
+	line-height: 25px;
+}
+
+.videoplbk {
+	padding: 0px 10px 0px 5px;
+}
+
+.vido_ttl {
+	width: 97%;
+	margin: 5px 0px 0px 5px;
+}
+
+.v-title-h3 {
+    font-size: 19px;
+    color: map-get($color-map, "valhalla");
+    font-family: $font-lato-bold;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.dat {
+	font-size: 14px;
+	font-family: arial;
+	margin-right: 85px;
+}
+
+.ply_pik {
+	background: url("#{$img-cdn-path}0x0/cw/static/360icons/video-icon-72x53.png") center 0px no-repeat scrolltransparent;
+	position: absolute;
+	top: 27px;
+	right: 48px;
+	width: 39px;
+	height: 26px;
+	z-index: 1;
+}
+
+.advertiseblk {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	margin: auto;
+	height: 250px;
+	z-index: 100000001;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #222222;
+	background: #fff;
+}
+
+.advertcont {
+	padding: 15px 15px 10px 15px;
+	color: #333;
+}
+
+.adclose {
+	background: url("#{$img-cdn-path}/0x0/ct/static/icons/popup-cross-btn.png") no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	float: right;
+	font-size: 0;
+	height: 28px;
+	padding: 0;
+	position: absolute;
+	right: -8px;
+	top: -11px;
+	width: 28px;
+}
+
+.advertcont amp-iframe {
+	width: 100%;
+	height: 217px;
+	border: 0px;
+}
+
+.advertisebg {
+	position: fixed;
+	width: 100%;
+	height: 1000%;
+	background-color: black;
+	top: 0px;
+	left: 0px;
+	z-index: 100000000;
+	opacity: 0.30;
+	filter: alpha(opacity=30);
+}

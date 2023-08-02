@@ -1,0 +1,25 @@
+.version-comparison-container {
+	border: 1px solid map-get($color-map, "whisper");
+	border-radius: 3px;
+}
+
+.current-version-container {
+	@include flex-grow(1);
+}
+
+.version-compare-vs {
+	@include vendor-prefix(transform, translateX(50%));
+	right: 0;
+	z-index: 5;
+}
+
+.compare-version-container {
+	background-color: map-get($color-map, "white-smoke-2");
+	width: 192px;
+
+	.right-arrow-image {
+		@include vendor-prefix(transform, translateY(-50%));
+		right: 12px;
+		top: 50%;
+	}
+}

@@ -1,0 +1,198 @@
+@import "../../../../ui/style/scss/partials/_variables.scss";
+@import "../../scss/base/typography";
+
+/* FAQ styles*/
+
+.cars-faqs {
+  width: auto;
+}
+
+.cars-faqs .content_are {
+  width: auto;
+}
+
+.content_are .cars-faq {
+  border: 1px solid #f0f0f0;
+  padding: 24px 24px 8px 24px;
+  margin: 0 0 0;
+}
+.content_are .carNews {
+  border: 1px solid #f0f0f0;
+  padding: 24px 24px 8px 24px;
+  margin: 0 0 24px;
+}
+
+.content_are .cars-faq .title {
+  color: #272a41;
+  font-size: 21px;
+  font-family: $font-muli-bold;
+  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cars-faq {
+  padding: 0 0 0 0 !important;
+}
+
+.cars-faq .title {
+  margin: 24px 24px 24px 24px !important;
+  padding-bottom: 0 !important;
+}
+
+.cars-faq .faq-button {
+  text-align: center;
+  border-top: 1px solid #e2e2e2;
+}
+
+.cars-faq .viewAll {
+  color: #d02326;
+  display: inline-block;
+  padding: 2em 0;
+  font-size: 16px;
+}
+
+.cars-faq .viewAll:hover {
+  color: #272a41;
+}
+
+.cars-faq a {
+  color: #d02326;
+}
+
+.cars-faq a:hover {
+  color: #272a41;
+}
+
+.faq-check {
+  display: none;
+}
+
+.cars-faq .tabs {
+  border-radius: 0;
+  overflow: hidden;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 0;
+  width: 100% !important;
+  padding: 0 !important;
+  height: auto;
+}
+
+.cars-faq .faq .faq-button {
+  border-top: 1px solid #e2e2e2;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+.cars-faq .tab-label {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  cursor: pointer;
+  font-family: "Muli-SemiBold";
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: #272a41 !important;
+  padding: 20px 24px !important;
+  text-transform: initial;
+}
+
+.cars-faq .tab-label:hover {
+  background: #fff;
+}
+
+.cars-faq .tab-label::after {
+  content: "";
+  background: 
+    url(#{$cloudfront-img-cdn-path}/images4/downarrow.svg)
+    no-repeat scroll 94% 6px;
+  width: 14px;
+  text-align: center;
+  *transition: all 0.35s;
+}
+
+.cars-faq .tab-content {
+  max-height: 0;
+  color: #56586a;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.cars-faq .tab-content p {
+  margin: 0 0 20px;
+  text-transform: initial;
+}
+
+.cars-faq .tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+
+.cars-faq .tab-close:hover {
+  background: #fff;
+}
+
+.cars-faq input:checked + .tab-label {
+  background: #fff;
+}
+
+.cars-faq input:checked + .tab-label::after {
+  background: 
+    url(#{$cloudfront-img-cdn-path}/images4/uparrow.svg)
+    no-repeat scroll 94% 6px;
+}
+
+.cars-faq input:checked ~ .tab-content {
+  max-height: fit-content;
+  border-top: 1px solid #e2e2e2;
+}
+
+.cars-faq .tab-content-text {
+  padding: 16px 24px;
+}
+
+.explore-used-cars-hdng {
+  font-size: 21px;
+  margin: 2px 0;
+}
+
+.explore-used-cars-txt {
+  font-size: 16px;
+  margin: 2px 0;
+}
+
+.cars-faq h3.sub-title {
+  color: #272a41;
+  font-size: 19px;
+  font-family: Muli-Semibold;
+}
+
+.cars-faq .tab-label h4 {
+  margin: 0;
+}
+
+.cars-faq input:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.8em;
+  color: #656565;
+  top: -20px;
+  -webkit-transition: all 0.125s ease;
+  transition: all 0.125s ease;
+  box-shadow: none;
+}
+
+.cars-faq input[type="checkbox"] + label:before {
+  opacity: 0 !important;
+  display: none;
+}
+
+.cars-faq input[type="checkbox"]:checked + label:before {
+  opacity: 0 !important;
+  display: none;
+}

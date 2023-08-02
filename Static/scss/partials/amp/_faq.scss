@@ -1,0 +1,84 @@
+.faq-section .heding_h3 {
+	padding: 10px 14px;
+	font-size: 19px;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	font-family: $font-lato-bold;
+	color: #272a41;
+}
+
+.faq-section amp-accordion .faq-question:focus {
+	outline: 0px;
+}
+
+.faq-section amp-accordion .faq-question {
+	color: #272a41;
+	font-size: 17px;
+	font-family: $font-lato-bold;
+	background: #ffffff;
+	border: 0;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 20px 40px 20px 16px;
+}
+
+.faq-section amp-accordion .content-faq {
+	color: #56586a;
+	font-size: 15px;
+	font-weight: normal;
+	background: #fbfbfb;
+	border: 0;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 16px;
+	line-height: 23px;
+}
+
+.faq-section amp-accordion .content-faq p {
+	line-height: inherit;
+	background: transparent;
+	color: #56586a;
+	font-size: inherit;
+	padding: 0px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.faq-section .faq-question::after {
+	content: '';
+	background: url('#{$img-cdn-path}0x0/cw/static/icons/svg/6f6f6f/arrow-down.svg') no-repeat 95% 4px;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: -16px;
+	position: absolute;
+	top: 24px;
+	right: 34px;
+}
+
+.faq-section section[expanded] .faq-question::after {
+	background: url('#{$img-cdn-path}0x0/ct/static/icons/svg/57596b/up-arrow.svg') no-repeat 95% 4px;
+}
+
+.faq-section .faq-button {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.faq-section .view {
+	border: 1px solid #d11900;
+	border-radius: 30px;
+	padding: 12px 78px;
+	float: none;
+	display: inline-block;
+	font-size: 15px;
+	color: #d02326;
+	text-decoration: none;
+}
+
+.faq-section .view:hover {
+	background: #d02326;
+	color: #ffffff;
+}
+
+.content-faq a {
+	color: #D11803;
+	font-size: 14px;
+}

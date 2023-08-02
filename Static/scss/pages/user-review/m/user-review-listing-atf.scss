@@ -1,0 +1,152 @@
+@import "../../../base/index";
+@import "../../../mixins/index";
+@import "../../../partials/m/latest-review-card";
+@import "../../../partials/m/user-milage-rating-details";
+@import "../../../partials/m/user-review-widget";
+
+.promotional-content {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+	margin: 16px;
+    background: #fff;
+}   
+.separator{
+    background-color: #e8e8e8; 
+    width: 100%; 
+    height: 16px;
+}
+.contest-slug__container{
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+	margin: 24px 16px;
+    background: #fff;
+}
+.heading {
+    padding: 0 16px 16px;
+}
+
+.heading__content {
+    font-size: 21px;
+    color:  map-get($color-map, "valhalla" );
+    font-weight: $font-normal;
+    margin-top: 12px;
+}
+
+.make-overall__tabs-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.overall-specs__tabs-container {
+    overflow-x: scroll;
+    z-index: 6;
+    background-color: map-get($color-map, "white" );
+    border-top: 1px solid  map-get($color-map, "whisper" );
+    box-shadow: 0px 2px 4px  map-get($color-map, "whisper" );
+
+}
+
+.overall-specs__tabs-container::-webkit-scrollbar,
+.overall-specs__tabs-container::-webkit-scrollbar-thumb,
+.overall-specs__tabs-container::-webkit-scrollbar-track {
+    display: none;
+}
+
+.overall-specs__tabs-wrapper {
+    li {
+        font-size: 13px;
+        padding: 16px;
+        display: table-cell;
+        text-align: center;
+        white-space: nowrap;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        a{
+            color: map-get($color-map, "comet" );
+        }
+    }
+
+    li.active {
+        padding-bottom: 12px;
+        border-bottom: 4px solid map-get($color-map, "light-coral" );
+
+        a {
+            color: map-get($color-map, "valhalla" );
+            font-family: $font-muli-semibold;
+        }
+    }
+}
+
+.car-details__container {
+    border-bottom: 1px solid map-get($color-map, "whisper" );
+
+    .march-offers {
+        padding-top: 8px;
+        color: map-get($color-map, "pacific-blue" );
+        font-weight: $font-bold;
+        font-size: 13px;
+    }
+}
+
+.user-review__rating {
+    padding: 16px 16px 20px;
+
+    .user-rating__header {
+        font-family: $font-muli-semibold;
+        color: map-get($color-map, "valhalla" );
+        font-size: 16px;
+    }
+
+    .user-rating__container {
+        margin: 12px 0;
+        background-color: map-get($color-map, "white-smoke-2" );
+        border: 1px solid map-get($color-map, "whisper" );
+        border-radius: 4px;
+    }
+}
+
+.write-review__btn {
+    color: #d02326;
+    padding: 10px;
+    border: 1px solid #d02326;
+    border-radius: 3px;
+
+    .write-btn__text {
+        text-align: center;
+    }
+}
+
+@include rate-star-icon(5, "normal",.6, 18px, $font-bold);
+
+.rate-count-value {
+    padding-left: 5px;
+}
+
+.rate-count-total {
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: $font-bold;
+    color: map-get($color-map, "dark-gray" );;
+}
+
+.no-user-review__container {
+    @include flexbox;
+    @include flex-direction(column);
+    @include align-items(center);
+    padding: 20px 20px 4px;
+
+    .no-review__card {
+        @include no-results;
+        height: 130px;
+        width: 245px;
+    }
+}
+
+.circle-block li p{
+  margin-bottom: 0 !important;
+}

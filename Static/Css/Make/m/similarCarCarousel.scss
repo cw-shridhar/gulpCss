@@ -1,0 +1,94 @@
+.carousel__viewport {
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  list-style: none;
+}
+
+.carousel__slide {
+  position: relative;
+  list-style: none;
+}
+
+.card_wrapper {
+  width: 290px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.similar-car-img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.similar-car-detail {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.card-btn__container {
+  color: #d02326;
+  padding: 12px;
+  margin-top: 12px;
+  margin-right: 12px;
+  border: 1px solid #d02326;
+}
+.card-btn {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  color: #d02326;
+}
+
+.inner_img {
+  display: block;
+  overflow: hidden;
+  padding: 28px 0 20px 0;
+  margin-left: 8px;
+}
+
+.car_name {
+  color: #272a41;
+  font-family: "Muli-Regular";
+  background: none;
+  padding: 4px 0px;
+  word-break: break-all;
+  width: 100%;
+  min-height: 38px;
+  font-weight: normal;
+}
+.car_price {
+  font-size: 19px;
+  color: #272a41;
+  font-family: Muli-Regular;
+  min-height: auto;
+  padding-top: 4px;
+}
+.price_suffix {
+  font-size: 12px;
+  color: rgb(178, 179, 186);
+  padding: 4px 0px;
+}
+.price_label {
+  font-size: 12px;
+  color: rgb(178, 179, 186);
+  padding-top: 4px;
+}
+
+.car_details_wrapper {
+  padding: 0px 15px 20px;
+}
+.box {
+  padding: 20px 20px 20px 17px;
+  overflow: hidden !important;
+  display: block !important;
+  margin: 0px;
+}
+.slid_title {
+  display: block;
+  overflow: visible;
+}

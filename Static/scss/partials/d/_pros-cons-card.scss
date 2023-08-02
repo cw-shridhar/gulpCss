@@ -1,0 +1,59 @@
+.pros-cons {
+	&-container {
+		@include flexbox;
+	}
+
+	&-card {
+		width: 50%;
+		border: 1px solid map-get($color-map, "whisper");
+		background-color: map-get($color-map, "white-smoke-2");
+		margin-right: 12px;
+	}
+
+	&-card:last-child {
+		margin-right: 0;
+	}
+
+	&-title {
+		@include flexbox;
+		font-family: $font-muli-semibold;
+		font-size: 16px;
+		fill: map-get($color-map, "valhalla");
+	}
+
+	&-icon {
+		width: 20px;
+		height: 20px;
+		fill: map-get($color-map, "persian-green");
+	}
+	
+	&-icon.cons {
+		transform: scaleY(-1);
+		fill: map-get($color-map, "coral");
+	}
+	
+	&-container li {
+		font-family: $font-muli-regular;
+		font-size: 15px;
+		color: map-get($color-map, "comet");
+		position: relative;
+		padding-left: 12px;
+		margin-bottom: 12px;
+	}
+
+	&-container li:last-child {
+		margin-bottom: 0;
+	}
+
+	&-container li::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 4px;
+		height: 4px;
+		border-radius: 4px;
+		transform: translateY(8px);
+		background-color: map-get($color-map, "manatee");
+	}
+}
